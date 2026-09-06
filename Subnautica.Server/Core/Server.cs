@@ -192,9 +192,12 @@ namespace Subnautica.Server.Core
          */
         public Server(string serverId, GameModePresetId gameModeId, int port, byte maxPlayer, string ownerId, string version)
         {
-            Instance = this;
+            if (Instance != null && Instance != this)
+            {
+                Instance.Dispose();
+            }
 
-            this.Dispose();
+            Instance = this;
 
             this.Port      = port;
             this.MaxPlayer = maxPlayer;
@@ -205,12 +208,11 @@ namespace Subnautica.Server.Core
             this.SavePath  = Paths.GetMultiplayerServerSavePath(this.ServerId);
             this.Players   = new Dictionary<string, AuthorizationProfile>();
 
-            this.ServerGameObject = new GameObject(serverId);
-
-            this.Logices = this.ServerGameObject.AddComponent<Logices>();
-
             this.Storages = new Storages();
             this.Storages.Start(this.ServerId);
+
+            this.ServerGameObject = new GameObject(serverId);
+            this.Logices = this.ServerGameObject.AddComponent<Logices>();
 
             this.RegisterEvents();
         }

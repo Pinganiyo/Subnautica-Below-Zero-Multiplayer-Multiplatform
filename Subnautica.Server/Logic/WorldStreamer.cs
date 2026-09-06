@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Server.Logic
+namespace Subnautica.Server.Logic
 {
     using System.Collections.Generic;
     using System.Linq;
@@ -48,7 +48,7 @@
          */
         public void OnEntityDistributionLoaded()
         {
-            if (!Core.Server.Instance.Storages.World.Storage.IsWorldGenerated)
+            if (Core.Server.Instance?.Storages?.World?.Storage != null && !Core.Server.Instance.Storages.World.Storage.IsWorldGenerated)
             {
                 this.IsWorldGenerateStarting = true;
                 this.OnUnscaledFixedUpdate(0f);
@@ -70,7 +70,7 @@
 
                 Task.Run(this.GenerateWorld);
             }
-            else if (Core.Server.Instance.Storages.World.Storage.IsWorldGenerated && !this._IsGeneratedWorld && Network.WorldStreamer.IsSpawnPointContainerInitialized())
+            else if (Core.Server.Instance?.Storages?.World?.Storage != null && Core.Server.Instance.Storages.World.Storage.IsWorldGenerated && !this._IsGeneratedWorld && Network.WorldStreamer.IsSpawnPointContainerInitialized())
             {
                 this.OnWorldGenerated();
             }

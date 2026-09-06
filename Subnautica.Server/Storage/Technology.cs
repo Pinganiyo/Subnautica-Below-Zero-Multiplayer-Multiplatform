@@ -59,7 +59,8 @@ namespace Subnautica.Server.Storage
                     }
                 }
             }
-            else
+
+            if (this.Storage == null)
             {
                 this.Storage = new TechnologyStorage.Technology();
                 this.SaveToDisk();

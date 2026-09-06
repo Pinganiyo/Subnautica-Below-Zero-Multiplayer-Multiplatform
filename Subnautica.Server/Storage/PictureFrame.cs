@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Server.Storage
+namespace Subnautica.Server.Storage
 {
     using System;
     using System.IO;
@@ -55,7 +55,8 @@
                     Log.Error($"PictureFrame.Load: {e}");
                 }
             }
-            else
+
+            if (this.Storage == null)
             {
                 this.Storage = new PictureFrameStorage.PictureFrame();
                 this.SaveToDisk();

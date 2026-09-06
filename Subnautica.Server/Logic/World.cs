@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Server.Logic
+namespace Subnautica.Server.Logic
 {
     using System.Collections.Generic;
     using System.Linq;
@@ -72,7 +72,7 @@
          */
         public override void OnUpdate(float deltaTime)
         {
-            if (!Server.Instance.Storages.World.Storage.IsFirstLogin)
+            if (Server.Instance?.Storages?.World?.Storage != null && !Server.Instance.Storages.World.Storage.IsFirstLogin)
             {
                 this.UpdateServerTime((double) deltaTime);
             }
@@ -87,7 +87,7 @@
          */
         public float GetServerTime()
         {
-            return (float) Server.Instance.Storages.World.Storage.ServerTime;
+            return (float) (Server.Instance?.Storages?.World?.Storage?.ServerTime ?? 0);
         }
 
         /**
@@ -99,7 +99,7 @@
          */
         public double GetServerTimeAsDouble()
         {
-            return Server.Instance.Storages.World.Storage.ServerTime;
+            return Server.Instance?.Storages?.World?.Storage?.ServerTime ?? 0;
         }
 
         /**
@@ -111,6 +111,11 @@
          */
         private void UpdateServerTime(double deltaTime)
         {
+            if (Server.Instance?.Storages?.World?.Storage == null)
+            {
+                return;
+            }
+
             Server.Instance.Storages.World.Storage.ServerTime += deltaTime * Server.Instance.Storages.World.Storage.WorldSpeed;
 
             if (Server.Instance.Storages.World.Storage.SkipTimeMode && this.GetServerTime() >= Server.Instance.Storages.World.Storage.SkipModeEndTime)

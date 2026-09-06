@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Server.Storage
+namespace Subnautica.Server.Storage
 {
     using System;
     using System.IO;
@@ -70,7 +70,8 @@
                     }
                 }
             }
-            else
+
+            if (this.Storage == null)
             {
                 this.Storage = new WorldStorage.World();
                 this.SaveToDisk();

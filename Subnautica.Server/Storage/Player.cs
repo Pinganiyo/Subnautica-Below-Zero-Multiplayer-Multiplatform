@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Server.Storage
+namespace Subnautica.Server.Storage
 {
     using System;
     using System.Collections.Generic;
@@ -64,28 +64,30 @@
             }
 
             var filePath = this.GetPlayerFilePath(playerUniqueId);
-            if (!File.Exists(filePath))
+            if (File.Exists(filePath))
             {
-                var profile = new AuthorizationProfile
+                try
                 {
-                    PlayerName = playerName,
-                    UniqueId   = playerUniqueId,
-                };
-
-                profile.SaveToDisk();
-                return profile;
+                    var profile = NetworkTools.Deserialize<AuthorizationProfile>(File.ReadAllBytes(filePath));
+                    if (profile != null)
+                    {
+                        return profile;
+                    }
+                }
+                catch (Exception e)
+                {
+                    Log.Error($"Player.GetPlayerData: {e}");
+                }
             }
 
-            try
+            var fallback = new AuthorizationProfile
             {
-                return NetworkTools.Deserialize<AuthorizationProfile>(File.ReadAllBytes(filePath));
-            }
-            catch (Exception e)
-            {
-                Log.Error($"Player.GetPlayerData: {e}");
-            }
+                PlayerName = playerName,
+                UniqueId   = playerUniqueId,
+            };
 
-            return null;
+            fallback.SaveToDisk();
+            return fallback;
         }
 
         /**

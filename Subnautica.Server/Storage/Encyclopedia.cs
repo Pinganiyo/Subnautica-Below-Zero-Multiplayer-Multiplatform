@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Server.Storage
+namespace Subnautica.Server.Storage
 {
     using System;
     using System.Collections.Generic;
@@ -56,7 +56,8 @@
                     Log.Error($"Encyclopedia.Load: {e}");
                 }
             }
-            else
+
+            if (this.Storage == null)
             {
                 this.Storage = new EncyclopediaStorage.Encyclopedia();
                 this.SaveToDisk();

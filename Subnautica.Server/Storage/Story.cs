@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Server.Storage
+namespace Subnautica.Server.Storage
 {
     using System;
     using System.IO;
@@ -65,7 +65,8 @@
                     }
                 }
             }
-            else
+
+            if (this.Storage == null)
             {
                 this.Storage = new StoryStorage.Story();
                 this.SaveToDisk();
