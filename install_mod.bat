@@ -54,7 +54,7 @@ xcopy /E /I /Y "%~dp0lib\BepInEx\*" "%GAME_DIR%\"
 echo.
 echo [3/4] Deploying compiled multiplayer mod assemblies...
 set "PLUGIN_DIR=%GAME_DIR%\BepInEx\plugins\SubnauticaMultiplayer"
-set "BUILD_DIR=%~dp0bin\Release\netstandard2.0"
+set "BUILD_DIR=%~dp0bin\Release\net472"
 if not exist "%PLUGIN_DIR%" mkdir "%PLUGIN_DIR%"
 
 copy /Y "%BUILD_DIR%\*.dll" "%PLUGIN_DIR%\"

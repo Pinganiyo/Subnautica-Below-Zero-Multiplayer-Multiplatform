@@ -43,7 +43,7 @@ mkdir -p "$GAME_DIR/BepInEx/plugins/SubnauticaMultiplayer"
 echo ""
 echo "[3/4] Deploying compiled multiplayer mod assemblies..."
 PLUGIN_DIR="$GAME_DIR/BepInEx/plugins/SubnauticaMultiplayer"
-BUILD_DIR="$SCRIPT_DIR/bin/Release/netstandard2.0"
+BUILD_DIR="$SCRIPT_DIR/bin/Release/net472"
 
 cp -v "$BUILD_DIR"/*.dll "$PLUGIN_DIR/"
 cp -v "$BUILD_DIR"/*.pdb "$PLUGIN_DIR/" 2>/dev/null || true

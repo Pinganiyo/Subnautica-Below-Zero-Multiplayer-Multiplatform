@@ -18,14 +18,14 @@
           "C:\\Users\\Ruben\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "net472"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
+          "net472": {
+            "targetAlias": "net472",
             "projectReferences": {}
           }
         },
@@ -41,8 +41,8 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
+        "net472": {
+          "targetAlias": "net472",
           "dependencies": {
             "DiscordRichPresence": {
               "target": "Package",
@@ -65,24 +65,12 @@
               "target": "Package",
               "version": "[2.5.187, )"
             },
-            "NETStandard.Library": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
+              "version": "[1.0.3, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
           "runtimeIdentifierGraphPath": "C:\\Users\\Ruben\\AppData\\Local\\Microsoft\\dotnet\\sdk\\8.0.424\\RuntimeIdentifierGraph.json"
         }
       }
