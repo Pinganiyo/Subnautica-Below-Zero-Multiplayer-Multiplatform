@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Server.Core
+namespace Subnautica.Server.Core
 {
     using System;
     using System.Net;
@@ -23,7 +23,8 @@
          */
         public void OnPeerConnected(NetPeer peer)
         {
-            Log.Info($"[{peer}] client connected...");
+            var endPointStr = peer?.EndPoint != null ? peer.EndPoint.ToString() : peer?.ToString();
+            Log.Info($"[{endPointStr}] client connected...");
         }
 
         /**
@@ -63,13 +64,14 @@
          */
         public void OnPeerDisconnected(NetPeer peer, DisconnectInfo disconnectInfo)
         {
-            Log.Info($"[{peer}] client disconnected: {disconnectInfo.Reason}");
+            var endPointStr = peer?.EndPoint != null ? peer.EndPoint.ToString() : peer?.ToString();
+            Log.Info($"[{endPointStr}] client disconnected: {disconnectInfo.Reason}");
 
-            if (Core.Server.Instance.Players.TryGetValue(peer.ToString(), out var profile))
+            if (Core.Server.Instance.Players.TryGetValue(endPointStr, out var profile))
             {
                 profile.OnDisconnected();
 
-                Core.Server.Instance.Players.Remove(peer.ToString());
+                Core.Server.Instance.Players.Remove(endPointStr);
             }
         }
 
@@ -101,7 +103,8 @@
                     }
                     else
                     {
-                        if (Server.Instance.Players.TryGetValue(peer.ToString(), out var authorization))
+                        var endPointStr = peer?.EndPoint != null ? peer.EndPoint.ToString() : peer?.ToString();
+                        if (Server.Instance.Players.TryGetValue(endPointStr, out var authorization))
                         {
                             if (authorization.IsAuthorized)
                             {
@@ -111,13 +114,13 @@
                             }
                             else
                             {
-                                Server.DisconnectToClient(peer.ToString());
+                                Server.DisconnectToClient(peer);
                                 Log.Error($"[{packet.Type}] Player Not Authorized");
                             }
                         }
                         else
                         {
-                            Server.DisconnectToClient(peer.ToString());
+                            Server.DisconnectToClient(peer);
                             Log.Error($"[{packet.Type}] Player Not Found");
                         }
                     }

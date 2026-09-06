@@ -375,7 +375,17 @@ namespace Subnautica.Server.Core
          */
         public static void SendPacket(AuthorizationProfile profile, NetworkPacket packet)
         {
-            SendPacket(profile.IpPortAddress, packet);
+            if (profile?.NetPeer != null && profile.NetPeer.ConnectionState == ConnectionState.Connected)
+            {
+                profile.NetPeer.Send(packet.Serialize(), packet.ChannelId, packet.DeliveryMethod);
+                Server.Instance.NetworkServer?.TriggerUpdate();
+                return;
+            }
+
+            if (profile != null && profile.IpPortAddress.IsNotNull())
+            {
+                SendPacket(profile.IpPortAddress, packet);
+            }
         }
 
         /**
@@ -403,6 +413,22 @@ namespace Subnautica.Server.Core
 
         /**
          *
+         * Belirli bir peer bağlantısını keser.
+         *
+         */
+        public static bool DisconnectToClient(NetPeer peer)
+        {
+            if (peer != null)
+            {
+                peer.Disconnect();
+                return true;
+            }
+
+            return false;
+        }
+
+        /**
+         *
          * Bir kullanıcının bağlantısını keser.
          *
          
@@ -410,7 +436,13 @@ namespace Subnautica.Server.Core
          */
         public static bool DisconnectToClient(AuthorizationProfile authorization)
         {
-            return DisconnectToClient(authorization.IpPortAddress);
+            if (authorization?.NetPeer != null)
+            {
+                authorization.NetPeer.Disconnect();
+                return true;
+            }
+
+            return DisconnectToClient(authorization?.IpPortAddress);
         }
 
         /**
@@ -422,11 +454,17 @@ namespace Subnautica.Server.Core
          */
         public static bool DisconnectToClient(string ipPort)
         {
+            if (ipPort.IsNull())
+            {
+                return false;
+            }
+
             if (Server.Instance.NetworkServer != null)
             {
                 foreach (var peer in Server.Instance.NetworkServer.ConnectedPeerList)
                 {
-                    if (peer.ToString() == ipPort)
+                    var peerEp = peer?.EndPoint != null ? peer.EndPoint.ToString() : peer?.ToString();
+                    if (peerEp == ipPort)
                     {
                         peer.Disconnect();
                         return true;

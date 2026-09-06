@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Server.Core
+namespace Subnautica.Server.Core
 {
     using System;
     using System.Collections.Generic;
@@ -416,7 +416,7 @@
          */
         public AuthorizationProfile(NetPeer netPeer)
         {
-            this.IpPortAddress = netPeer.ToString();
+            this.IpPortAddress = netPeer?.EndPoint != null ? netPeer.EndPoint.ToString() : (netPeer != null ? $"Peer_{netPeer.Id}" : string.Empty);
             this.NetPeer       = netPeer;
             this.PlayerId      = Server.Instance.GetNextPlayerId();
         }

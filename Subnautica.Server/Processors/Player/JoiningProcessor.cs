@@ -1,5 +1,6 @@
 namespace Subnautica.Server.Processors.Player
 {
+    using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
@@ -45,16 +46,20 @@ namespace Subnautica.Server.Processors.Player
             packet.UserName = packet.UserName.Trim();
             packet.UserId   = packet.UserId.Trim();
 
-            if (Server.Instance.Players.Any(q => q.Value.PlayerName.Contains(packet.UserName)))
+            if (Server.Instance.Players.Values.Any(q => string.Equals(q.PlayerName, packet.UserName, StringComparison.OrdinalIgnoreCase)))
             {
-                Log.Info("ALREADY_USERNAME_EXISTS " +  Tools.Base64Encode(Tools.Base64Encode(packet.UserName)));
-                Server.DisconnectToClient(profile);
-                return false;
+                packet.UserName = $"{packet.UserName}_{profile.PlayerId}";
+            }
+
+            var targetUniqueId = Tools.CreateMD5(packet.UserId);
+            if (Server.Instance.Players.Values.Any(q => q.UniqueId == targetUniqueId))
+            {
+                packet.UserId = $"{packet.UserId}_{profile.PlayerId}_{profile.IpPortAddress}";
             }
 
             if (Server.Instance.Players.ContainsKey(profile.IpPortAddress))
             {
-                Log.Info("ALREADY_CONNECTED_ERROR");
+                Log.Info($"ALREADY_CONNECTED_ERROR -> {profile.IpPortAddress}");
                 Server.DisconnectToClient(profile);
                 return false;
             }
@@ -67,9 +72,13 @@ namespace Subnautica.Server.Processors.Player
                 return false;
             }
 
-            if (Server.Instance.OwnerId == player.UniqueId)
+            if (Server.Instance.OwnerId == player.UniqueId && !Server.Instance.Players.Values.Any(q => q.IsHost))
             {
                 player.IsHost = true;
+            }
+            else
+            {
+                player.IsHost = false;
             }
 
             Server.Instance.Players.Add(player.IpPortAddress, player);
