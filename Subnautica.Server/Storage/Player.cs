@@ -7,6 +7,7 @@ namespace Subnautica.Server.Storage
     using Subnautica.API.Extensions;
     using Subnautica.API.Features;
     using Subnautica.Network.Core;
+    using Subnautica.Network.Structures;
     using Subnautica.Server.Abstracts;
     using Subnautica.Server.Core;
 
@@ -84,6 +85,7 @@ namespace Subnautica.Server.Storage
             {
                 PlayerName = playerName,
                 UniqueId   = playerUniqueId,
+                Position   = new ZeroVector3(-304f, 19f, 261f),
             };
 
             fallback.SaveToDisk();

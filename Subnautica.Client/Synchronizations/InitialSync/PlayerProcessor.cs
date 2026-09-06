@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Client.Synchronizations.InitialSync
+namespace Subnautica.Client.Synchronizations.InitialSync
 {
     using System.Collections.Generic;
     using System.Linq;
@@ -85,15 +85,7 @@
 
             if (Vector3.zero == global::Player.main.transform.position)
             {
-                var gameData = Player.main.GetGameData(SaveLoadManager.main.storyVersion);
-                if (Network.Session.Current.GameMode == GameModePresetId.Creative)
-                {
-                    Player.main.SetPosition(gameData.creativeStartLocation.position, Quaternion.Euler(gameData.creativeStartLocation.rotation));
-                }
-                else
-                {
-                    Player.main.SetPosition(gameData.storyStartLocation.position, Quaternion.Euler(gameData.storyStartLocation.rotation));
-                }
+                Player.main.SetPosition(new Vector3(-304f, 19f, 261f), Quaternion.identity);
             }
         }
 

@@ -91,7 +91,7 @@ namespace Subnautica.Client.Synchronizations.Processors.General
             var data = IntroVignette.main.player.GetGameData(SaveLoadManager.main.storyVersion);
             if (data)
             {
-                IntroVignette.main.player.SetPosition(data.storyStartLocation.position, Quaternion.Euler(data.storyStartLocation.rotation));
+                IntroVignette.main.player.SetPosition(new Vector3(-304f, 19f, 261f), Quaternion.Euler(data.storyStartLocation.rotation));
 
                 uGUI.main.intro.coroutine = CoroutineHost.StartCoroutine(IntroProcessor.InitalizeIntroAsync(UnityEngine.Object.Instantiate<ExpansionIntroManager>(data.introManagerPrefab), uGUI.main.intro));
                 InputHandlerStack.main.Push(uGUI.main.intro);
@@ -170,6 +170,8 @@ namespace Subnautica.Client.Synchronizations.Processors.General
             }
 
             yield return introManager.Play(global::Player.main, gui);
+
+            global::Player.main.SetPosition(new Vector3(-304f, 19f, 261f));
 
             IntroVignette.isIntroActive = false;
 
