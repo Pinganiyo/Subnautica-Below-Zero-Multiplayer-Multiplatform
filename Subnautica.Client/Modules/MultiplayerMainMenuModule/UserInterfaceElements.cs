@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Client.Modules.MultiplayerMainMenuModule
+namespace Subnautica.Client.Modules.MultiplayerMainMenuModule
 {
     using TMPro;
 
@@ -114,15 +114,16 @@
             header.SetText(headerText, true);
             header.GetComponent<TranslationLiveUpdate>().translationKey = headerText;
 
-            var loadPanel = groupContent.GetComponent<MainMenuLoadPanel>();
-            loadPanel.transform.localPosition = new Vector3(loadPanel.transform.localPosition.x, loadPanel.transform.localPosition.y, loadPanel.transform.localPosition.z);
-
             DestroyGameObject(groupContent, GameIndex.MAIN_MENU_BUTTON_IN_GROUP);
 
             CreateInviteCodeGroup(groupContent, addServerBtnListener);
 
-            // Add Server Button - OLD (for Hamaci/Radmin/Port Forward)
-            // CreateButtonInGroup(groupContent, 11f, 46f, addServerHeaderText, addServerBtnListener);
+            var scrollView = groupContent.transform.Find("Scroll View")?.GetComponent<RectTransform>();
+            if (scrollView != null)
+            {
+                scrollView.offsetMax = new Vector2(scrollView.offsetMax.x, scrollView.offsetMax.y - 120f);
+            }
+
             return groupContent;
         }
 
@@ -138,9 +139,6 @@
             TextMeshProUGUI header = groupContent.transform.Find("Header").GetComponent<TextMeshProUGUI>();
             header.SetText(ZeroLanguage.Get("GAME_MULTIPLAYER_JOIN_GAME"), true);
             header.GetComponent<TranslationLiveUpdate>().translationKey = ZeroLanguage.Get("GAME_MULTIPLAYER_JOIN_GAME");
-
-            GameObject.Destroy(groupContent.GetComponent<MainMenuLoadPanel>());
-            DestroyGameObject(groupContent, GameIndex.MAIN_MENU_BUTTON_IN_GROUP);
 
             Vector3 currentPosition = groupContent.transform.Find("Header").transform.position;
             currentPosition.x -= 0.022f;
@@ -509,6 +507,25 @@
             {
                 GameObject gameObject = GameObject.Find(MultiplayerMainMenu.MULTIPLAYER_HOST_GROUP_NAME);
                 if(gameObject == null)
+                {
+                    return false;
+                }
+
+                return gameObject.activeSelf;
+            }
+        }
+
+        /**
+         *
+         * Join Game Menüsü aktif mi?
+         *
+         */
+        public static bool IsJoinGroupActive
+        {
+            get
+            {
+                GameObject gameObject = GameObject.Find(MultiplayerMainMenu.MULTIPLAYER_JOIN_GROUP_NAME);
+                if (gameObject == null)
                 {
                     return false;
                 }

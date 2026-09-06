@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Client.Core
+namespace Subnautica.Client.Core
 {
     using System;
     using System.Collections.Generic;
@@ -128,6 +128,8 @@
 
                 Server.Core.Server server = new Server.Core.Server(data.Id, data.GetGameMode(), NetworkServer.DefaultPort, NetworkServer.DefaultMaxPlayer, Tools.CreateMD5(ownerId), Tools.GetLauncherVersion());
                 server.Start();
+
+                LanDiscovery.StartBroadcaster(NetworkServer.DefaultPort, Tools.GetLoggedInName());
             }
             catch (Exception e)
             {
@@ -146,6 +148,7 @@
          */
         public static void AbortServer(bool isEndGame = false)
         {
+            LanDiscovery.StopBroadcaster();
             Network.Session.Dispose();
 
             if (Server.Core.Server.Instance != null)

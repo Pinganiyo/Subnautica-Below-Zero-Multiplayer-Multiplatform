@@ -75,6 +75,7 @@ namespace Subnautica.Client.Modules
          */
         public static void OnSinglePlayerButtonClick()
         {
+            LanDiscovery.StopClientDiscovery();
             SaveLoadManager.main.gameInfoCache.Clear();
 
             foreach (var item in SinglePlayerGameSaves)
@@ -94,6 +95,7 @@ namespace Subnautica.Client.Modules
          */
         public static void OnSidebarMultiplayerButtonClick()
         {
+            LanDiscovery.StopClientDiscovery();
             MainMenuRightSide.main.OpenGroup(MULTIPLAYER_BASE_GROUP_NAME);
         }
 
@@ -106,6 +108,7 @@ namespace Subnautica.Client.Modules
          */
         public static void OnHostGameButtonClick()
         {
+            LanDiscovery.StopClientDiscovery();
             SaveLoadManager.main.gameInfoCache.Clear();
 
             foreach (var item in NetworkServer.GetHostServerList())
@@ -141,12 +144,39 @@ namespace Subnautica.Client.Modules
 
                 UWE.CoroutineHost.StartCoroutine(Network.InviteCode.JoinServerAsync(serverInviteCode, (LobbyJoinServerResponseFormat response) =>
                 {
+                    LanDiscovery.StopClientDiscovery();
                     NetworkClient.Connect(response.ServerIp, response.ServerPort);
                 }));
             }
             else
             {
-                NetworkClient.Connect(serverInviteCode, 666, false);
+                string ip = serverInviteCode;
+                int port = NetworkServer.DefaultPort;
+                if (ip.Contains(":"))
+                {
+                    var parts = ip.Split(':');
+                    ip = parts[0];
+                    if (int.TryParse(parts[1], out int customPort))
+                    {
+                        port = customPort;
+                    }
+                }
+
+                var serverList = NetworkServer.GetLocalServerList();
+                if (!serverList.Any(q => q.IpAddress == ip && q.Port == port))
+                {
+                    serverList.Add(new LocalServerItem()
+                    {
+                        Id = Guid.NewGuid().ToString(),
+                        Name = $"Server ({ip})",
+                        IpAddress = ip,
+                        Port = port
+                    });
+                    NetworkServer.SaveLocalServerList(serverList);
+                }
+
+                LanDiscovery.StopClientDiscovery();
+                NetworkClient.Connect(ip, port, false);
             }
         }
 
@@ -182,6 +212,50 @@ namespace Subnautica.Client.Modules
             };
 
             MainMenuRightSide.main.OpenGroup(MULTIPLAYER_JOIN_GROUP_NAME);
+
+            LanDiscovery.StartClientDiscovery(OnLanServerDiscovered);
+        }
+
+        /**
+         *
+         * LAN sunucusu keşfedildiğinde tetiklenir.
+         *
+         */
+        public static void OnLanServerDiscovered(string ip, int port, string serverName)
+        {
+            var serverList = NetworkServer.GetLocalServerList();
+            var existing = serverList.FirstOrDefault(q => q.IpAddress == ip && q.Port == port);
+            if (existing == null)
+            {
+                existing = new LocalServerItem()
+                {
+                    Id = Guid.NewGuid().ToString(),
+                    Name = string.IsNullOrEmpty(serverName) ? $"LAN ({ip})" : $"{serverName} (LAN)",
+                    IpAddress = ip,
+                    Port = port
+                };
+                serverList.Add(existing);
+                NetworkServer.SaveLocalServerList(serverList);
+            }
+            else if (!string.IsNullOrEmpty(serverName) && existing.Name != $"{serverName} (LAN)")
+            {
+                existing.Name = $"{serverName} (LAN)";
+                NetworkServer.SaveLocalServerList(serverList);
+            }
+
+            if (!SaveLoadManager.main.gameInfoCache.ContainsKey(existing.Id))
+            {
+                SaveLoadManager.GameInfo info = new SaveLoadManager.GameInfo();
+                info.Initialize(0, 0, SaveLoadManager.defaultStoryVersion, existing.Id, null, GameModePresetId.Survival, null);
+                SaveLoadManager.main.gameInfoCache[existing.Id] = info;
+
+                if (UserInterfaceElements.IsJoinGroupActive)
+                {
+                    var group = GameObject.Find(MULTIPLAYER_JOIN_GROUP_NAME);
+                    var panel = group?.GetComponent<MainMenuLoadPanel>();
+                    panel?.OnEnable();
+                }
+            }
         }
 
         /**
@@ -304,6 +378,25 @@ namespace Subnautica.Client.Modules
                     IsClicked = false;
                 }));
             }
+            else if (UserInterfaceElements.IsJoinGroupActive)
+            {
+                var server = NetworkServer.GetLocalServerList().Where(q => q.Id == sessionId).FirstOrDefault();
+                if (server == null)
+                {
+                    ErrorMessage.AddMessage(ZeroLanguage.Get("GAME_NOT_FOUND_SERVER"));
+                    return false;
+                }
+
+                if (NetworkClient.IsConnectingToServer || NetworkClient.IsConnectedToServer)
+                {
+                    ErrorMessage.AddMessage(ZeroLanguage.Get("GAME_SERVER_ALREADY_CONNECTING"));
+                    return false;
+                }
+
+                LanDiscovery.StopClientDiscovery();
+                NetworkClient.Connect(server.IpAddress, server.Port, false);
+                return false;
+            }
             
             return false;
         }
@@ -395,7 +488,7 @@ namespace Subnautica.Client.Modules
                 {
                     lb.saveGameLengthText.text = String.Format("{0}:{1}", server.IpAddress, server.Port);
                     lb.saveGameTimeText.text   = server.Name;
-                    lb.saveGameModeText.text   = "";
+                    lb.saveGameModeText.text   = "LAN";
                 }
             }
         }
