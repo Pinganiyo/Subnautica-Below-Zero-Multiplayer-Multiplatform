@@ -5,6 +5,7 @@ namespace Subnautica.Client.Core
     using System.IO;
     using System.Linq;
 
+    using Subnautica.API.Extensions;
     using Subnautica.API.Features;
 
     public class NetworkServer
@@ -137,6 +138,71 @@ namespace Subnautica.Client.Core
             }
 
             return true;
+        }
+
+        /**
+         *
+         * Sunucuyu ve oyuncu durumunu diske kaydeder.
+         *
+         */
+        public static bool SaveGame()
+        {
+            if (!Network.IsHost || Server.Core.Server.Instance == null)
+            {
+                return false;
+            }
+
+            try
+            {
+                if (ZeroPlayer.CurrentPlayer != null && global::Player.main != null)
+                {
+                    var profile = Server.Core.Server.Instance.GetPlayer(ZeroPlayer.CurrentPlayer.UniqueId);
+                    if (profile != null)
+                    {
+                        var rot = MainCameraControl.main != null
+                            ? MainCameraControl.main.viewModel.transform.rotation.ToZeroQuaternion()
+                            : global::Player.main.transform.rotation.ToZeroQuaternion();
+
+                        profile.SetPosition(global::Player.main.transform.position.ToZeroVector3(), rot);
+
+                        if (global::Player.main.liveMixin != null)
+                        {
+                            profile.SetHealth(global::Player.main.liveMixin.health);
+                        }
+
+                        var survival = global::Player.main.GetComponent<Survival>();
+                        if (survival != null)
+                        {
+                            profile.SetFood(survival.food);
+                            profile.SetWater(survival.water);
+                        }
+                    }
+                }
+
+                string serverConfigPath = Paths.GetMultiplayerServerSavePath(Server.Core.Server.Instance.ServerId, "config.json");
+                if (File.Exists(serverConfigPath))
+                {
+                    var serverItem = Newtonsoft.Json.JsonConvert.DeserializeObject<HostServerItem>(File.ReadAllText(serverConfigPath));
+                    if (serverItem != null)
+                    {
+                        serverItem.LastPlayedDate = Tools.GetUnixTime();
+                        File.WriteAllText(serverConfigPath, Newtonsoft.Json.JsonConvert.SerializeObject(serverItem));
+                    }
+                }
+
+                if (Server.Core.Server.Instance.Logices != null && Server.Core.Server.Instance.Logices.AutoSave != null)
+                {
+                    Server.Core.Server.Instance.Logices.AutoSave.SaveAll();
+                }
+
+                Log.Info($"[NetworkServer] Game successfully saved for server {Server.Core.Server.Instance.ServerId}.");
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Log.Error($"NetworkServer.SaveGame Exception: {ex}\n{ex.StackTrace}");
+                return false;
+            }
         }
 
         /**

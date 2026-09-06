@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Client
+namespace Subnautica.Client
 {
     using Subnautica.Client.Modules;
     using Subnautica.Events.EventArgs;
@@ -47,6 +47,16 @@
         {
             InviteCodeModule.OnInGameMenuOpened(ev);
             ClientServerConnection.OnInGameMenuOpened(ev);
+        }
+
+        /**
+         *
+         * Oyun içi menüde Kaydet tıklandığında tetiklenir.
+         *
+         */
+        public void OnInGameMenuSaveGame(InGameMenuSaveGameEventArgs ev)
+        {
+            ClientServerConnection.OnInGameMenuSaveGame(ev);
         }
 
         /**
@@ -376,7 +386,7 @@
          */
         public void OnQuitting()
         {
-
+            MainProcess.OnQuitting();
         }
 
         /**

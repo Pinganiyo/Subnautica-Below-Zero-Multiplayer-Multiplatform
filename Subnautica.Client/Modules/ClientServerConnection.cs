@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Client.Modules
+namespace Subnautica.Client.Modules
 {
     using Subnautica.API.Enums;
     using Subnautica.API.Extensions;
@@ -26,9 +26,10 @@
         {
             if (Network.IsMultiplayerActive)
             {
-                if (IngameMenu.main.saveButton.gameObject.activeSelf)
+                IngameMenu.main.saveButton.gameObject.SetActive(Network.IsHost);
+                if (Network.IsHost)
                 {
-                    IngameMenu.main.saveButton.gameObject.SetActive(false);
+                    IngameMenu.main.saveButton.interactable = true;
                 }
 
                 if (IngameMenu.main.maxSecondsToBeRecentlySaved != 900000)
@@ -40,6 +41,34 @@
             {
                 IngameMenu.main.saveButton.gameObject.SetActive(true);
                 IngameMenu.main.maxSecondsToBeRecentlySaved = 120f;
+            }
+        }
+
+        /**
+         *
+         * Oyun içi menüde Kaydet tıklandığında tetiklenir.
+         *
+         */
+        public static void OnInGameMenuSaveGame(InGameMenuSaveGameEventArgs ev)
+        {
+            if (Network.IsMultiplayerActive)
+            {
+                ev.IsHandled = true;
+
+                if (Network.IsHost)
+                {
+                    bool saved = Core.NetworkServer.SaveGame();
+                    if (saved)
+                    {
+                        string msg = Language.main != null ? Language.main.Get("GameSaved") : "Game Saved.";
+                        if (string.IsNullOrEmpty(msg))
+                        {
+                            msg = "Game Saved.";
+                        }
+
+                        ErrorMessage.AddMessage(msg);
+                    }
+                }
             }
         }
 

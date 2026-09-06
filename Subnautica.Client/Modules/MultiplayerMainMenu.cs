@@ -478,7 +478,7 @@ namespace Subnautica.Client.Modules
                 if (server != null)
                 {
                     lb.saveGameLengthText.text = Tools.GetSizeByTextFormat(Tools.GetFolderSize(Paths.GetMultiplayerServerSavePath(server.Id)));
-                    lb.saveGameTimeText.text   = Tools.GetDateByTextFormat(server.CreationDate);
+                    lb.saveGameTimeText.text   = Tools.GetDateByTextFormat(server.LastPlayedDate > 0 ? server.LastPlayedDate : server.CreationDate);
                 }
             }
             else

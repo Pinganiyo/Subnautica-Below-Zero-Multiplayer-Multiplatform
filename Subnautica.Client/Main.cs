@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Client
+namespace Subnautica.Client
 {
     using HarmonyLib;
 
@@ -51,6 +51,7 @@
          
             Handlers.Game.InGameMenuClosed                   += this.Router.OnInGameMenuClosed;
             Handlers.Game.InGameMenuOpened                   += this.Router.OnInGameMenuOpened;
+            Handlers.Game.InGameMenuSaveGame                 += this.Router.OnInGameMenuSaveGame;
             Handlers.Game.SceneLoaded                        += this.Router.OnSceneLoaded;
             Handlers.Game.MenuSaveCancelDeleteButtonClicking += this.Router.OnMenuSaveCancelDeleteButtonClicking;
             Handlers.Game.MenuSaveLoadButtonClicking         += this.Router.OnMenuSaveLoadButtonClicking;

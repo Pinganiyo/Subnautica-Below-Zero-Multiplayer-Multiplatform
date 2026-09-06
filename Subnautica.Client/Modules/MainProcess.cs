@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Client.Modules
+namespace Subnautica.Client.Modules
 {
     using System;
 
@@ -30,6 +30,26 @@
          */
         public static void OnQuittingToMainMenu(QuittingToMainMenuEventArgs ev)
         {
+            if (Network.IsHost)
+            {
+                NetworkServer.SaveGame();
+            }
+
+            ClearAllCache();
+        }
+
+        /**
+         *
+         * Oyun kapatılırken tetiklenir.
+         *
+         */
+        public static void OnQuitting()
+        {
+            if (Network.IsHost)
+            {
+                NetworkServer.SaveGame();
+            }
+
             ClearAllCache();
         }
 

@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Events.Handlers
+namespace Subnautica.Events.Handlers
 {
     using Subnautica.Events.EventArgs;
 
@@ -203,6 +203,20 @@
          *
          */
         public static void OnInGameMenuOpening(InGameMenuOpeningEventArgs ev) => InGameMenuOpening.CustomInvoke(ev);
+
+        /**
+         *
+         * InGameMenuSaveGame İşleyicisi
+         *
+         */
+        public static event SubnauticaPluginEventHandler<InGameMenuSaveGameEventArgs> InGameMenuSaveGame;
+
+        /**
+         *
+         * InGameMenuSaveGame Olayı 
+         *
+         */
+        public static void OnInGameMenuSaveGame(InGameMenuSaveGameEventArgs ev) => InGameMenuSaveGame.CustomInvoke(ev);
 
         /**
          *
