@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Events.Patches.Fixes.Game
+namespace Subnautica.Events.Patches.Fixes.Game
 {
     using System;
     using System.Collections.Generic;
@@ -30,27 +30,21 @@
         public static IEnumerable<CodeInstruction> TranspileSerializeGameObject(IEnumerable<CodeInstruction> instructions)
         {
             var codes = instructions.ToList();
-            var index = codes.FindLastIndex(q => q.opcode == OpCodes.Callvirt && q.operand.ToString().Contains("set_Id"));
 
-            if (index > -1)
+            for (int i = 0; i < codes.Count; i++)
             {
-                codes.InsertRange(index, new CodeInstruction[] {
-                    new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(ProtobufSerializer), nameof(ProtobufSerializer.GetSerializeGameObjectId), new Type[] { typeof(global::ProtobufSerializer), typeof(string) }))
-                });
-                
-                codes.InsertRange(index - 2, new CodeInstruction[] {
-                    new CodeInstruction(OpCodes.Ldarg_0)
-                });
-
-                codes.InsertRange(index + 10, new CodeInstruction[] {
-                    new CodeInstruction(OpCodes.Ldarg_0)
-                });
-
-                codes.InsertRange(index + 14, new CodeInstruction[] {
-                    new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(ProtobufSerializer), nameof(ProtobufSerializer.GetSerializeGameObjectParentId), new Type[] { typeof(global::ProtobufSerializer), typeof(global::UniqueIdentifier), typeof(bool), }))
-                });
-
-                codes.RemoveRange(index + 13, 1);
+                if (codes[i].opcode == OpCodes.Callvirt && codes[i].operand != null && codes[i].operand.ToString().Contains("set_Id"))
+                {
+                    codes.Insert(i, new CodeInstruction(OpCodes.Ldarg_0));
+                    codes.Insert(i + 1, new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(ProtobufSerializer), nameof(ProtobufSerializer.GetSerializeGameObjectId), new Type[] { typeof(string), typeof(global::ProtobufSerializer) })));
+                    i += 2;
+                }
+                else if (codes[i].opcode == OpCodes.Call && codes[i].operand != null && codes[i].operand.ToString().Contains("GetParentId"))
+                {
+                    codes.Insert(i, new CodeInstruction(OpCodes.Ldarg_0));
+                    codes[i + 1] = new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(ProtobufSerializer), nameof(ProtobufSerializer.GetSerializeGameObjectParentId), new Type[] { typeof(global::UniqueIdentifier), typeof(bool), typeof(global::ProtobufSerializer) }));
+                    i += 1;
+                }
             }
 
             return codes.AsEnumerable();
@@ -63,7 +57,7 @@
          
          *
          */
-        public static string GetSerializeGameObjectId(global::ProtobufSerializer serializer, string id)
+        public static string GetSerializeGameObjectId(string id, global::ProtobufSerializer serializer)
         {
             if (Network.IsMultiplayerActive && serializer.IsIdIgnoreModeActive())
             {
@@ -87,7 +81,7 @@
          
          *
          */
-        public static string GetSerializeGameObjectParentId(global::ProtobufSerializer serializer, global::UniqueIdentifier uid, bool useParent)
+        public static string GetSerializeGameObjectParentId(global::UniqueIdentifier uid, bool useParent, global::ProtobufSerializer serializer)
         {
             if (!Network.IsMultiplayerActive || !useParent || !serializer.IsIdIgnoreModeActive())
             {

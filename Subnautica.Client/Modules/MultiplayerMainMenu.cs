@@ -477,6 +477,38 @@ namespace Subnautica.Client.Modules
                 var server = NetworkServer.GetHostServerList().Where(q => q.Id == lb.sessionId).FirstOrDefault();
                 if (server != null)
                 {
+                    if (lb.loadButton != null)
+                    {
+                        lb.loadButton.SetActive(true);
+                    }
+
+                    var loadBtn = lb.load?.transform.Find("LoadButton");
+                    if (loadBtn != null)
+                    {
+                        loadBtn.gameObject.SetActive(true);
+                    }
+
+                    if (lb.deleteButton != null)
+                    {
+                        lb.deleteButton.SetActive(true);
+                    }
+
+                    if (lb.saveGameTimeText != null)
+                    {
+                        lb.saveGameTimeText.gameObject.SetActive(true);
+                    }
+
+                    if (lb.saveGameLengthText != null)
+                    {
+                        lb.saveGameLengthText.gameObject.SetActive(true);
+                    }
+
+                    var graphic = lb.load?.GetComponent<UnityEngine.UI.Graphic>();
+                    if (graphic != null)
+                    {
+                        graphic.color = UnityEngine.Color.white;
+                    }
+
                     lb.saveGameLengthText.text = Tools.GetSizeByTextFormat(Tools.GetFolderSize(Paths.GetMultiplayerServerSavePath(server.Id)));
                     lb.saveGameTimeText.text   = Tools.GetDateByTextFormat(server.LastPlayedDate > 0 ? server.LastPlayedDate : server.CreationDate);
                 }
@@ -486,6 +518,38 @@ namespace Subnautica.Client.Modules
                 var server = NetworkServer.GetLocalServerList().Where(q => q.Id == lb.sessionId).FirstOrDefault();
                 if (server != null)
                 {
+                    if (lb.loadButton != null)
+                    {
+                        lb.loadButton.SetActive(true);
+                    }
+
+                    var loadBtn = lb.load?.transform.Find("LoadButton");
+                    if (loadBtn != null)
+                    {
+                        loadBtn.gameObject.SetActive(true);
+                    }
+
+                    if (lb.deleteButton != null)
+                    {
+                        lb.deleteButton.SetActive(true);
+                    }
+
+                    if (lb.saveGameTimeText != null)
+                    {
+                        lb.saveGameTimeText.gameObject.SetActive(true);
+                    }
+
+                    if (lb.saveGameLengthText != null)
+                    {
+                        lb.saveGameLengthText.gameObject.SetActive(true);
+                    }
+
+                    var graphic = lb.load?.GetComponent<UnityEngine.UI.Graphic>();
+                    if (graphic != null)
+                    {
+                        graphic.color = UnityEngine.Color.white;
+                    }
+
                     lb.saveGameLengthText.text = String.Format("{0}:{1}", server.IpAddress, server.Port);
                     lb.saveGameTimeText.text   = server.Name;
                     lb.saveGameModeText.text   = "LAN";
