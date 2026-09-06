@@ -31,7 +31,7 @@ else
     exit 1
 fi
 
-"$DOTNET_CMD" build "$SCRIPT_DIR/Subnautica.Multiplayer.csproj" -c Release
+"$DOTNET_CMD" build "$SCRIPT_DIR/Subnautica.Multiplayer.csproj" -c Release -p:GameManagedPath="$GAME_DIR/SubnauticaZero_Data/Managed"
 
 # 2. Install BepInEx 5 into game directory
 echo ""
