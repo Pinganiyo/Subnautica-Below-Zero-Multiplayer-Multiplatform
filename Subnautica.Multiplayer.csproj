@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Nullable>disable</Nullable>
+    <AssemblyName>Subnautica.Multiplayer</AssemblyName>
+    <RootNamespace>Subnautica</RootNamespace>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <GameManagedPath>/home/rko735/.steam/debian-installation/steamapps/common/SubnauticaZero/SubnauticaZero_Data/Managed</GameManagedPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Krafs.Publicizer" Version="2.3.2" PrivateAssets="all" />
+    <PackageReference Include="Lib.Harmony" Version="2.3.3" />
+    <PackageReference Include="LiteNetLib" Version="1.0.1.1" />
+    <PackageReference Include="MessagePack" Version="2.5.187" />
+    <PackageReference Include="DiscordRichPresence" Version="1.2.1.24" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Publicize Include="Assembly-CSharp" />
+    <Publicize Include="Assembly-CSharp-firstpass" />
+    <Publicize Include="Sentry" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- BepInEx Assembly -->
+    <Reference Include="BepInEx">
+      <HintPath>$(MSBuildThisFileDirectory)lib/BepInEx/BepInEx/core/BepInEx.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+
+    <!-- All Game & Unity Managed Assemblies -->
+    <Reference Include="$(GameManagedPath)/*.dll" Exclude="$(GameManagedPath)/mscorlib.dll;$(GameManagedPath)/System*.dll;$(GameManagedPath)/netstandard.dll;$(GameManagedPath)/Mono*.dll">
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Subnautica.API/**/*.cs" />
+    <Compile Include="Subnautica.Network/**/*.cs" />
+    <Compile Include="Subnautica.Events/**/*.cs" />
+    <Compile Include="Subnautica.Server/**/*.cs" />
+    <Compile Include="Subnautica.Client/**/*.cs" />
+    <Compile Include="Subnautica.Loader/**/*.cs" />
+  </ItemGroup>
+</Project>
