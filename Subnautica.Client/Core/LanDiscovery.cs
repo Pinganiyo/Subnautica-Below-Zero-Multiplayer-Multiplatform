@@ -16,7 +16,7 @@ namespace Subnautica.Client.Core
 
     public static class LanDiscovery
     {
-        private const int DISCOVERY_PORT = 667;
+        private const int DISCOVERY_PORT = 7667;
         private const string DISCOVERY_REQUEST = "SBZ_LAN_DISCOVER";
         private const string DISCOVERY_RESPONSE_PREFIX = "SBZ_LAN_SERVER|";
 

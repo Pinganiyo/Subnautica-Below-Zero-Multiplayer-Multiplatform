@@ -25,7 +25,7 @@ namespace Subnautica.Client.Core
          
          *
          */
-        public const int DefaultPort = 666;
+        public const int DefaultPort = 7666;
 
         /**
          *
