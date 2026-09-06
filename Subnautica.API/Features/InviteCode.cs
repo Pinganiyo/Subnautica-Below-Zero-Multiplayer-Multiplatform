@@ -397,14 +397,14 @@ namespace Subnautica.API.Features
             }
 
             // Direct IP / Local hosting fallback
-            Log.Info("Starting server in direct local mode (127.0.0.1:666)...");
+            Log.Info("Starting server in direct local mode (127.0.0.1:7666)...");
             this.SetInviteCode("DIRECT-IP");
             this.SetAccessToken("DIRECT-IP");
 
             onSuccess?.Invoke(new LobbyCreateServerResponse()
             {
                 ServerIp    = "127.0.0.1",
-                ServerPort  = 666,
+                ServerPort  = 7666,
                 JoinCode    = "DIRECT-IP",
                 AccessToken = "DIRECT-IP",
             });
