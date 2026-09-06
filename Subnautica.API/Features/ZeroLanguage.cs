@@ -1,4 +1,4 @@
-﻿namespace Subnautica.API.Features
+namespace Subnautica.API.Features
 {
     using System;
     using System.Collections.Generic;

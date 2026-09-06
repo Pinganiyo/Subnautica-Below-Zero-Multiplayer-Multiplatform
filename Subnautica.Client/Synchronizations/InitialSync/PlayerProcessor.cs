@@ -76,16 +76,33 @@ namespace Subnautica.Client.Synchronizations.InitialSync
          */
         public static void OnPlayerPositionInitialized()
         {
-            if (Network.Session.Current.PlayerPosition != null)
+            if (Network.Session.Current.PlayerPosition != null && Network.Session.Current.PlayerPosition.ToVector3() != Vector3.zero)
             {
-                global::Player.main.transform.position = Network.Session.Current.PlayerPosition.ToVector3();
-                global::Player.main.lastPosition       = Network.Session.Current.PlayerPosition.ToVector3();
-                global::Player.main.transform.rotation = Network.Session.Current.PlayerRotation.ToQuaternion();
+                global::Player.main.SetPosition(Network.Session.Current.PlayerPosition.ToVector3(), Network.Session.Current.PlayerRotation.ToQuaternion());
             }
-
-            if (Vector3.zero == global::Player.main.transform.position)
+            else
             {
-                Player.main.SetPosition(new Vector3(-304f, 19f, 261f), Quaternion.identity);
+                var storyVer = SaveLoadManager.main != null && (int)SaveLoadManager.main.storyVersion > 0 
+                    ? SaveLoadManager.main.storyVersion 
+                    : (SaveLoadManager.StoryVersion)SaveLoadManager.defaultStoryVersion;
+
+                if (SaveLoadManager.main != null && (int)SaveLoadManager.main.storyVersion == 0)
+                {
+                    SaveLoadManager.main.storyVersion = storyVer;
+                }
+
+                var gameData = Player.main.GetGameData(storyVer);
+                if (gameData != null)
+                {
+                    if (Network.Session.Current.GameMode == GameModePresetId.Creative)
+                    {
+                        Player.main.SetPosition(gameData.creativeStartLocation.position, Quaternion.Euler(gameData.creativeStartLocation.rotation));
+                    }
+                    else
+                    {
+                        Player.main.SetPosition(gameData.storyStartLocation.position, Quaternion.Euler(gameData.storyStartLocation.rotation));
+                    }
+                }
             }
         }
 

@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Events.Patches.Fixes.Game
+namespace Subnautica.Events.Patches.Fixes.Game
 {
     using HarmonyLib;
 
@@ -111,6 +111,18 @@
                 MainGameController.OnGameStarted?.Invoke();
 
                 World.SetLoaded(true);
+
+                IntroCheckingEventArgs introArgs = new IntroCheckingEventArgs();
+                Handlers.Game.OnIntroChecking(introArgs);
+
+                if (!introArgs.IsAllowed && introArgs.WaitingMethod != null)
+                {
+                    yield return introArgs.WaitingMethod;
+                }
+                else
+                {
+                    __instance.OnIntroDone();
+                }
             }
             else
             {

@@ -58,6 +58,12 @@ namespace Subnautica.Client.Synchronizations.Processors.General
          */
         public static void OnIntroChecking(IntroCheckingEventArgs ev)
         {
+            if (IntroVignette.isIntroActive)
+            {
+                ev.IsAllowed = true;
+                return;
+            }
+
             if (Network.Session.Current.IsFirstLogin && GameModeManager.GetOption<bool>(GameOption.Story))
             {
                 ev.IsAllowed     = false;
@@ -88,13 +94,32 @@ namespace Subnautica.Client.Synchronizations.Processors.General
                 yield return null;
             }
 
-            var data = IntroVignette.main.player.GetGameData(SaveLoadManager.main.storyVersion);
-            if (data)
-            {
-                IntroVignette.main.player.SetPosition(new Vector3(-304f, 19f, 261f), Quaternion.Euler(data.storyStartLocation.rotation));
+            var storyVer = SaveLoadManager.main != null && (int)SaveLoadManager.main.storyVersion > 0 
+                ? SaveLoadManager.main.storyVersion 
+                : (SaveLoadManager.StoryVersion)SaveLoadManager.defaultStoryVersion;
 
-                uGUI.main.intro.coroutine = CoroutineHost.StartCoroutine(IntroProcessor.InitalizeIntroAsync(UnityEngine.Object.Instantiate<ExpansionIntroManager>(data.introManagerPrefab), uGUI.main.intro));
+            if (SaveLoadManager.main != null && (int)SaveLoadManager.main.storyVersion == 0)
+            {
+                SaveLoadManager.main.storyVersion = storyVer;
+            }
+
+            var data = IntroVignette.main.player.GetGameData(storyVer);
+            if (data != null && data.introManagerPrefab != null)
+            {
+                IntroVignette.main.player.SetPosition(data.storyStartLocation.position, Quaternion.Euler(data.storyStartLocation.rotation));
+
+                var introManager = UnityEngine.Object.Instantiate<ExpansionIntroManager>(data.introManagerPrefab);
+                uGUI.main.intro.coroutine = CoroutineHost.StartCoroutine(IntroProcessor.InitalizeIntroAsync(introManager, uGUI.main.intro));
                 InputHandlerStack.main.Push(uGUI.main.intro);
+
+                while (IntroVignette.isIntroActive)
+                {
+                    yield return null;
+                }
+            }
+            else
+            {
+                MainGameController.Instance?.OnIntroDone();
             }
         }
 
@@ -171,8 +196,6 @@ namespace Subnautica.Client.Synchronizations.Processors.General
 
             yield return introManager.Play(global::Player.main, gui);
 
-            global::Player.main.SetPosition(new Vector3(-304f, 19f, 261f));
-
             IntroVignette.isIntroActive = false;
 
             gui.ResumeGameTime();
@@ -183,6 +206,8 @@ namespace Subnautica.Client.Synchronizations.Processors.General
             IntroVignette.main.OnDone();
 
             IntroProcessor.SendPacketToServer(true);
+
+            MainGameController.Instance?.OnIntroDone();
         }
 
         /**

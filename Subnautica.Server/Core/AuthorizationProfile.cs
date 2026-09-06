@@ -264,7 +264,7 @@ namespace Subnautica.Server.Core
          *
          */
         [Key(6)]
-        public ZeroVector3 Position { get; set; } = new ZeroVector3(-304f, 19f, 261f);  
+        public ZeroVector3 Position { get; set; } = new ZeroVector3();  
 
         /**
          *
