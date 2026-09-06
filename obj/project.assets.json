@@ -1239,20 +1239,20 @@
     ]
   },
   "packageFolders": {
-    "/home/rko735/.nuget/packages/": {}
+    "C:\\Users\\Ruben\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/rko735/Documentos/Subnautica-Below-Zero-Multiplayer/Subnautica.Multiplayer.csproj",
+      "projectUniqueName": "C:\\Users\\Ruben\\VSProjects\\Subnautica-Below-Zero-Multiplayer\\Subnautica.Multiplayer.csproj",
       "projectName": "Subnautica.Multiplayer",
-      "projectPath": "/home/rko735/Documentos/Subnautica-Below-Zero-Multiplayer/Subnautica.Multiplayer.csproj",
-      "packagesPath": "/home/rko735/.nuget/packages/",
-      "outputPath": "/home/rko735/Documentos/Subnautica-Below-Zero-Multiplayer/obj/",
+      "projectPath": "C:\\Users\\Ruben\\VSProjects\\Subnautica-Below-Zero-Multiplayer\\Subnautica.Multiplayer.csproj",
+      "packagesPath": "C:\\Users\\Ruben\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ruben\\VSProjects\\Subnautica-Below-Zero-Multiplayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/rko735/Documentos/Subnautica-Below-Zero-Multiplayer/nuget.config",
-        "/home/rko735/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Ruben\\VSProjects\\Subnautica-Below-Zero-Multiplayer\\NuGet.Config",
+        "C:\\Users\\Ruben\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -1320,7 +1320,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/home/rko735/.dotnet/sdk/8.0.424/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\Ruben\\AppData\\Local\\Microsoft\\dotnet\\sdk\\8.0.424\\RuntimeIdentifierGraph.json"
       }
     }
   },

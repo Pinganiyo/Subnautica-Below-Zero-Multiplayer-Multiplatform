@@ -8,7 +8,7 @@
     <RootNamespace>Subnautica</RootNamespace>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
-    <GameManagedPath>/home/rko735/.steam/debian-installation/steamapps/common/SubnauticaZero/SubnauticaZero_Data/Managed</GameManagedPath>
+    <GameManagedPath Condition="'$(GameManagedPath)' == ''">C:\Program Files (x86)\Steam\steamapps\common\SubnauticaZero\SubnauticaZero_Data\Managed</GameManagedPath>
   </PropertyGroup>
 
   <ItemGroup>
