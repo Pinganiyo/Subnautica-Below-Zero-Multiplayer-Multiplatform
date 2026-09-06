@@ -19,7 +19,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnExecute(AuthorizationProfile profile, NetworkPacket networkPacket)
@@ -112,7 +112,7 @@
          *
          * Modülü ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool AddModule(List<UpgradeConsoleItem> modules, int slotId, TechType moduleType, string itemId)
@@ -132,7 +132,7 @@
          *
          * Modülü kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool RemoveModule(List<UpgradeConsoleItem> modules, int slotId)
@@ -152,7 +152,7 @@
          *
          * Slot numarasını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private int GetSlotNumber(string slotId)

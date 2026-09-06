@@ -19,7 +19,7 @@ namespace Subnautica.API.Features
          *
          * En son hata mesajı nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static GameObject ErrorMessageObject { get; set; }
@@ -28,7 +28,7 @@ namespace Subnautica.API.Features
          *
          * Ana menüye döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void QuitToMainMenu()
@@ -40,7 +40,7 @@ namespace Subnautica.API.Features
          *
          * Ana menüye döner (ASYNC)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator QuitToMainMenuAsync()
@@ -66,7 +66,7 @@ namespace Subnautica.API.Features
          *
          * Arka planda çalışma ayarını değiştirir
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void RunInBackgroundChange(bool isActive)
@@ -80,7 +80,7 @@ namespace Subnautica.API.Features
          *
          *  Yükleme ekranını açar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ShowLoadingScreen()
@@ -95,7 +95,7 @@ namespace Subnautica.API.Features
          *
          *  Yükleme ekranını durdurur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void StopLoadingScreen()
@@ -110,7 +110,7 @@ namespace Subnautica.API.Features
          *
          *  Oyunu durdurur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void FreezeGame()
@@ -122,7 +122,7 @@ namespace Subnautica.API.Features
          *
          *  Oyunu devam ettirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void UnFreezeGame()
@@ -134,7 +134,7 @@ namespace Subnautica.API.Features
          *
          * Eşya konumu arar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Vector3 FindDropPosition(Vector3 dropPosition)
@@ -146,7 +146,7 @@ namespace Subnautica.API.Features
          *
          * Oyuncunun araç kullanıp/Kullanmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsPlayerPiloting()
@@ -175,7 +175,7 @@ namespace Subnautica.API.Features
          *
          * SeaTruck içindeki colored label id değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetSeaTruckColoredLabelUniqueId(string uniqueId, bool returnToDefaultKey = false)
@@ -192,7 +192,7 @@ namespace Subnautica.API.Features
          *
          * Araç batarya içindeki label değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetVehicleBatteryLabelUniqueId(string uniqueId, bool returnToDefaultKey = false)
@@ -209,7 +209,7 @@ namespace Subnautica.API.Features
          *
          * ToggleClickSwitchOn
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool ToggleClickSwitchOn(ToggleOnClick toggle, bool isSilence = false)
@@ -258,7 +258,7 @@ namespace Subnautica.API.Features
          *
          * ToggleClickSwitchOff
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator DelayedToggleClickSwitchOff(ToggleOnClick toggle, float delayTime)
@@ -275,7 +275,7 @@ namespace Subnautica.API.Features
          *
          * ToggleClickSwitchOff
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool ToggleClickSwitchOff(ToggleOnClick toggle, bool isSilence = false)
@@ -341,7 +341,7 @@ namespace Subnautica.API.Features
          *
          * Fabrikator yapısında eşya üretir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool Craft(global::GhostCrafter ghostCrafter, TechType techType, float startingTime, float duration, bool isMine)
@@ -373,7 +373,7 @@ namespace Subnautica.API.Features
          *
          * Craft süresini ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void LogicCraft(global::GhostCrafter ghostCrafter, TechType techType, float startingTime, float duration)
@@ -391,7 +391,7 @@ namespace Subnautica.API.Features
          *
          * Nesnenin ışıklarını açar/kapatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SetLightsActive(ToggleLights toggleLights, bool isActive, bool infinityEnergy = false)
@@ -416,7 +416,7 @@ namespace Subnautica.API.Features
          *
          * Nesnenin ışıklarını açar/kapatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SetLightsActive(SeaTruckLights seaTruckLights, bool isActive)
@@ -428,7 +428,7 @@ namespace Subnautica.API.Features
          *
          * Kalıcı hata mesajı yazar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void AddScreenErrorMessage(string message)
@@ -454,7 +454,7 @@ namespace Subnautica.API.Features
          *
          * Kalıcı hata mesajını siler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ClearScreenErrorMessage()

@@ -15,7 +15,7 @@
          *
          * UniqueId barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -25,7 +25,7 @@
          *
          * LiveMixin barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -35,7 +35,7 @@
          *
          * EularAngles barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -45,7 +45,7 @@
          *
          * MinFullScale barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -55,7 +55,7 @@
          *
          * MaxFullScale barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -65,7 +65,7 @@
          *
          * FullScale barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -75,7 +75,7 @@
          *
          * StartedTime barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -85,7 +85,7 @@
          *
          * LifeTime barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(7)]
@@ -95,7 +95,7 @@
          *
          * Brinicle oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Brinicle Create(string uniqueId, ZeroVector3 minFullScale, ZeroVector3 maxFullScale)
@@ -113,7 +113,7 @@
          *
          * Durumunu değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void UpdateRandomState(double currentTime)
@@ -126,7 +126,7 @@
          *
          * Öldürme işlemi yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Kill(double currentTime)
@@ -138,7 +138,7 @@
          *
          * Scle oranını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float GetScaleAmount(double currentTime)
@@ -150,7 +150,7 @@
          *
          * Aktiflik durumunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsActive(double currentTime)

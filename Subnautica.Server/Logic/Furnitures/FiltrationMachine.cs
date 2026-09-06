@@ -21,7 +21,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StopwatchItem Timing { get; set; } = new StopwatchItem(1000f);
@@ -30,7 +30,7 @@
          *
          * MaxWater değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private byte MaxWater { get; set; } = 2;
@@ -39,7 +39,7 @@
          *
          * MaxSalt değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private byte MaxSalt { get; set; } = 2;
@@ -48,7 +48,7 @@
          *
          * Saniyede tüketilen enerji miktaını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float EnergyRequiredPerSecond { get; set; } = 0.85f;
@@ -57,7 +57,7 @@
          *
          * ElapsedTime
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float ElapsedTime { get; set; } = 1f;
@@ -66,7 +66,7 @@
          *
          * Zamanlayıcının geri dönüş methodu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate(float deltaTime)
@@ -177,7 +177,7 @@
          *
          * Su üretir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool TryFilterWater(Metadata.FiltrationMachine component)
@@ -195,7 +195,7 @@
          *
          * Tuz üretir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool TryFilterSalt(Metadata.FiltrationMachine component)
@@ -213,7 +213,7 @@
          *
          * Tüm kullanıcılara paketi gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool Spawn(string uniqueId, Metadata.FiltrationMachine component, TechType techType)
@@ -251,7 +251,7 @@
          *
          * Üretim zamanını kullanıcılara iletir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SendTimeRemaining(List<FiltrationMachineTimeItem> timeItems)
@@ -287,7 +287,7 @@
          *
          * Kahve makinelerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<KeyValuePair<string, ConstructionItem>> GetFiltrationMachines()

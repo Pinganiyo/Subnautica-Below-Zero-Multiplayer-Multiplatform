@@ -11,7 +11,7 @@
          *
          * IsActive değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -21,7 +21,7 @@
          *
          * Sınıf ayarlamarlarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public AromatherapyLamp()
@@ -33,7 +33,7 @@
          *
          * Sınıf ayarlamarlarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public AromatherapyLamp(bool isActive)

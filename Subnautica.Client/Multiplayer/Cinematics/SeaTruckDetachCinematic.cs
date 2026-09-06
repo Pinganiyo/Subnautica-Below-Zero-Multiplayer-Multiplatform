@@ -9,7 +9,7 @@
          *
          * Yatağı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::SeaTruckMotor SeaTruckMotor { get; set; }
@@ -18,7 +18,7 @@
          *
          * Animasyonu resetler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnResetAnimations(PlayerCinematicQueueItem item)
@@ -31,7 +31,7 @@
          *
          * Çözme animasyonunu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void DetachSeaTruckCinematic()
@@ -48,7 +48,7 @@
          *
          * Binme bittiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void DetachSeaTruckEndMode()

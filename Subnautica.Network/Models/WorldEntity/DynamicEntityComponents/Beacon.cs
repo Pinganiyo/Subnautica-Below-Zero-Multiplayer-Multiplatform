@@ -11,7 +11,7 @@
          *
          * IsDeployedOnLand Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -21,7 +21,7 @@
          *
          * Text Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -31,7 +31,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Beacon()
@@ -43,7 +43,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Beacon(bool isDeployedOnLand, string text)
@@ -56,7 +56,7 @@
          *
          * Metni değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetText(string text)

@@ -14,7 +14,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::GhostCrafter __instance, GUIHand hand)
@@ -48,7 +48,7 @@
          *
          * Yapı idsini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetUniqueId(GameObject gameObject)
@@ -89,7 +89,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static TechType GetTechType(GameObject gameObject)
@@ -123,7 +123,7 @@
          *
          * Maproom için
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */    
         private static BaseDeconstructable GetBaseMapRoomDeconstructable(MapRoomFunctionality mapRoom)

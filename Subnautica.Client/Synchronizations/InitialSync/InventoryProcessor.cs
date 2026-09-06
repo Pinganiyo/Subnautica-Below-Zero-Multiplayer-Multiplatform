@@ -17,7 +17,7 @@
          *
          * Envanter verilerini yükler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnInventoryInitialized()
@@ -42,7 +42,7 @@
          *
          * Ekipman verilerini yükler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static IEnumerator OnEquipmentInitialized()
@@ -63,7 +63,7 @@
          *
          * Envanter Hızlı slotları ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnInventoryQuickSlotsInitialized()
@@ -90,7 +90,7 @@
          *
          * Ekipman verilerini yükler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator RestoreEquipmentAsync(ProtobufSerializer serializer, byte[] serialItems, Dictionary<string, string> serialSlots, Equipment equipment)

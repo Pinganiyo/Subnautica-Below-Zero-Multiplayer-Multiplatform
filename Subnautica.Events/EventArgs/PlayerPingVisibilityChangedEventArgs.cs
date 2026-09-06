@@ -8,7 +8,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public PlayerPingVisibilityChangedEventArgs(string uniqueId, bool isVisible)
@@ -21,7 +21,7 @@
          *
          * UniqueId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UniqueId { get; private set; }
@@ -30,7 +30,7 @@
          *
          * IsVisible Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsVisible { get; private set; }

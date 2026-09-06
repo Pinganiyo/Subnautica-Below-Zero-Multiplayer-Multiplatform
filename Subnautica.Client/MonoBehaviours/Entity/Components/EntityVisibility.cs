@@ -22,7 +22,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private StopwatchItem Timing { get; set; } = new StopwatchItem(250f);
@@ -31,7 +31,7 @@
          *
          * PlayerPosition nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroVector3 PlayerPosition { get; set; }
@@ -40,7 +40,7 @@
          *
          * PlayerUniqueId nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string PlayerUniqueId { get; set; }
@@ -49,7 +49,7 @@
          *
          * Her sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Update()
@@ -74,7 +74,7 @@
          *
          * Nesne işlemlerini yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool ToggleChangeEntity(string uniqueId)
@@ -97,7 +97,7 @@
          *
          * Nesne görünürlüğünü ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void ToggleChangeEntityVisibility(WorldDynamicEntity entity)
@@ -133,7 +133,7 @@
          *
          * Fizik simülasyonu açar/kapatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool ToggleChangeEntityPhysicsState(WorldDynamicEntity entity)
@@ -151,7 +151,7 @@
          *
          * Nesne görünürlüğünü değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void ChangeEntityVisibility(WorldDynamicEntity entity, bool isActivated)
@@ -179,7 +179,7 @@
          *
          * Nesne görünürlüğünü değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsGlobalEntity(TechType techType)
@@ -191,7 +191,7 @@
          *
          * Oyuncu verilerini önbelleğe alır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void LoadPlayerData()

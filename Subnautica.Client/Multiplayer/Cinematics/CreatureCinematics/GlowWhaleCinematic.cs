@@ -12,7 +12,7 @@ namespace Subnautica.Client.Multiplayer.Cinematics.CreatureCinematics
          *
          * Balina yüzme sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public global::GlowWhaleRide GlowWhaleRide { get; set; }
@@ -21,7 +21,7 @@ namespace Subnautica.Client.Multiplayer.Cinematics.CreatureCinematics
          *
          * Cinematic sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public global::PlayerCinematicController Cinematic { get; set; }
@@ -30,7 +30,7 @@ namespace Subnautica.Client.Multiplayer.Cinematics.CreatureCinematics
          *
          * Animasyonu resetler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnResetAnimations(PlayerCinematicQueueItem item)
@@ -43,7 +43,7 @@ namespace Subnautica.Client.Multiplayer.Cinematics.CreatureCinematics
          *
          * Sürme animasyonunu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void StartRideCinematic()
@@ -66,7 +66,7 @@ namespace Subnautica.Client.Multiplayer.Cinematics.CreatureCinematics
          *
          * Sürme animasyonunu durdurur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void StopRideCinematic()
@@ -90,7 +90,7 @@ namespace Subnautica.Client.Multiplayer.Cinematics.CreatureCinematics
          *
          * Oyuncu bağlantısı kesildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnPlayerDisconnected()
@@ -115,7 +115,7 @@ namespace Subnautica.Client.Multiplayer.Cinematics.CreatureCinematics
          *
          * Göz Etkileşim animasyonunu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void StartEyeInteractCinematic()
@@ -129,7 +129,7 @@ namespace Subnautica.Client.Multiplayer.Cinematics.CreatureCinematics
          *
          * Sinematik sona erdiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void EyeInteractCinematicEndMode()

@@ -14,7 +14,7 @@
          *
          * LiveMixin Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -24,7 +24,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public SeaTruckTeleportationModule Initialize(Action<NetworkDynamicEntityComponent> onEntityComponentInitialized)

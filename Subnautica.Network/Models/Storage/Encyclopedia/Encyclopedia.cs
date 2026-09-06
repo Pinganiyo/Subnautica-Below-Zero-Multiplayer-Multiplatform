@@ -13,7 +13,7 @@
          *
          * Açılmış ansiklopedileri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -23,7 +23,7 @@
          *
          * Oyuncuların okumuş olduğu ansiklopedileri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]

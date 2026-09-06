@@ -19,7 +19,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::Drillable __instance, Vector3 position, Exosuit exo, out GameObject hitObject)
@@ -63,7 +63,7 @@
          *
          * Kazım yapan kol sayısını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool IsMultipleDrill(global::Exosuit exo)
@@ -79,7 +79,7 @@
          *
          * Kalan sağlığı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static float GetLeftHealth(global::Drillable __instance)
@@ -97,7 +97,7 @@
          *
          * Rastgele teknoloji döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static TechType GetRandomTechType(global::Drillable __instance)
@@ -123,7 +123,7 @@
          *
          * Rastgele konumlar döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static List<ZeroVector3> GetDropPositions(global::Drillable __instance, Vector3 centerPosition)

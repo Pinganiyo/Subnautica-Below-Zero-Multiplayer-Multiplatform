@@ -17,7 +17,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::SpyPenguinPlayerTool __instance)
@@ -57,7 +57,7 @@
          *
          * Konumu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string GetName(global::SpyPenguinPlayerTool __instance)
@@ -69,7 +69,7 @@
          *
          * Konumu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Vector3 GetDropPosition(global::SpyPenguinPlayerTool __instance)
@@ -81,7 +81,7 @@
          *
          * Açıyı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Quaternion GetDropRotation()

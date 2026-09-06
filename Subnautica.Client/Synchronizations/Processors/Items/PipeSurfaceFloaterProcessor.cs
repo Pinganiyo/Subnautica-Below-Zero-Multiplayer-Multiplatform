@@ -22,7 +22,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPlayerItemComponent packet, byte playerId)
@@ -63,7 +63,7 @@
          *
          * Nesne doğduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntitySpawned(ItemQueueProcess item, global::Pickupable pickupable, GameObject gameObject)
@@ -79,7 +79,7 @@
          *
          * Boru yüzey yüzdürücü bırakılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPipeSurfaceFloaterDeploying(PipeSurfaceFloaterDeployingEventArgs ev)
@@ -93,7 +93,7 @@
          *
          * Boru bırakılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnOxygenPipePlacing(OxygenPipePlacingEventArgs ev)
@@ -107,7 +107,7 @@
          *
          * Oyuncu yerden eşya aldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPlayerItemPickedUp(PlayerItemPickedUpEventArgs ev)
@@ -127,7 +127,7 @@
          *
          * Sunucuya paket gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SendPacketToServer(string uniqueId, string parentId = null, string pipeId = null, ZeroVector3 position = null, ZeroQuaternion rotation = null, byte processType = 0)

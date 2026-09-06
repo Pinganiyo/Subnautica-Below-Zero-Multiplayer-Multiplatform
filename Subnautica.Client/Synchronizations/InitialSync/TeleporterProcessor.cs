@@ -8,7 +8,7 @@
          *
          * Aktif portalları ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnTeleporterInitialized()

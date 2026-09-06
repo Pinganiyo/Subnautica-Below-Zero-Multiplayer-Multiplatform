@@ -12,7 +12,7 @@
          *
          * Ağ Paket Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -22,7 +22,7 @@
          *
          * IsOpening değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]

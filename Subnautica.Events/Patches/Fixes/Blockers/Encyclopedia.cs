@@ -12,7 +12,7 @@
          *
          * Bloklanmış olayı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static EventBlocker Blocker = null;
@@ -21,7 +21,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void Prefix(PDAData pdaData)
@@ -36,7 +36,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void Postfix(PDAData pdaData)

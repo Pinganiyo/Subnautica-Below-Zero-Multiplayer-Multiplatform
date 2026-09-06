@@ -12,7 +12,7 @@
          *
          * Packeti encode eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static byte[] Serialize(this NetworkPacket packet)
@@ -24,7 +24,7 @@
          *
          * Paketi döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static NetworkPacket GetPacket(this NetPacketReader reader)
@@ -36,7 +36,7 @@
          *
          * Paketi döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static NetworkPacket GetPacket(this NetDataReader reader)

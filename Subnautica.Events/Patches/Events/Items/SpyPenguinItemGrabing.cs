@@ -39,7 +39,7 @@
          *
          * Animasyon adını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string GetAnimationName(SpyPenguin penguin)

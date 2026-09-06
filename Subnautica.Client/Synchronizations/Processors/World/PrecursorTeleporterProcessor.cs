@@ -29,7 +29,7 @@
          *
          * Pasif Işınlayıcıları barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Dictionary<string, string> DisabledTeleporters = new Dictionary<string, string>();
@@ -38,7 +38,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -91,7 +91,7 @@
          *
          * Hedef geçidi aktif eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ActivateTargetTeleporter(string teleporterId, string uniqueId)
@@ -111,7 +111,7 @@
          *
          * Hedef geçidi ASYNC aktif eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public IEnumerator ActivateTargetTeleporterAsync(string targetTeleporterId)
@@ -129,7 +129,7 @@
          *
          * Işınlayıcı başlatılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnTeleporterInitialized(TeleporterInitializedEventArgs ev)
@@ -151,7 +151,7 @@
          *
          * Oyuncu ışınlanma başladıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPrecursorTeleporterUsed()
@@ -163,7 +163,7 @@
          *
          * Oyuncu ışınlanma tamamlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPrecursorTeleportationCompleted()
@@ -175,7 +175,7 @@
          *
          * Işınlayıcı terminali aktif edilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnTeleporterTerminalActivating(TeleporterTerminalActivatingEventArgs ev)
@@ -192,7 +192,7 @@
          *
          * Bir nesne yok edildiğinde içinden başka nesne çıkarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId = null, string teleporterId = null, bool isTerminal = false, bool isTeleportStart = false, bool isTeleportCompleted = false)
@@ -213,7 +213,7 @@
          *
          * Ana menüye dönünce tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnDispose()

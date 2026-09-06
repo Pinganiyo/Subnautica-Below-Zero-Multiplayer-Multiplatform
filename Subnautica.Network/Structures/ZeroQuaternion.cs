@@ -11,7 +11,7 @@
          *
          * Açı (X)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -21,7 +21,7 @@
          *
          * Açı (Y)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -31,7 +31,7 @@
          *
          * Açı (Z)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -41,7 +41,7 @@
          *
          * Açı (W)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -51,7 +51,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroQuaternion()
@@ -62,7 +62,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroQuaternion(float x, float y, float z, float w)
@@ -77,7 +77,7 @@
          *
          * Karşılaştırma işlemi yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool operator ==(ZeroQuaternion u, ZeroQuaternion v)
@@ -94,7 +94,7 @@
          *
          * Karşılaştırma işlemi yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool operator !=(ZeroQuaternion u, ZeroQuaternion v)
@@ -106,7 +106,7 @@
          *
          * Eşitlik işlemi yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Equals(ZeroQuaternion other)
@@ -123,7 +123,7 @@
          *
          * Eşitlik işlemi yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool Equals(object obj)
@@ -135,7 +135,7 @@
          *
          * Sayısal değeri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override int GetHashCode()
@@ -156,7 +156,7 @@
          *
          * Metin olarak bastırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override string ToString()

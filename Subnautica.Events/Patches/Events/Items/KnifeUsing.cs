@@ -16,7 +16,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void Prefix(global::Knife __instance, GUIHand hand)
@@ -64,7 +64,7 @@
          *
          * Hedef Nesneyi döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static GameObject GetTargetObject(float attackDist, ref Vector3 position, out Vector3 normal)

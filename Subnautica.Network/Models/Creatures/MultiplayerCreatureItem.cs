@@ -18,7 +18,7 @@
          *
          * OwnerId Değerini Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -28,7 +28,7 @@
          *
          * Id Değerini Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -38,7 +38,7 @@
          *
          * LeashPosition Değerini Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -48,7 +48,7 @@
          *
          * LeashRotation Değerini Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -58,7 +58,7 @@
          *
          * TechType sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -68,7 +68,7 @@
          *
          * LiveMixin sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -78,7 +78,7 @@
          *
          * Position barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -88,7 +88,7 @@
          *
          * Rotation barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -98,7 +98,7 @@
          *
          * CellId değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -108,7 +108,7 @@
          *
          * WorldStreamerId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -118,7 +118,7 @@
          *
          * BusyOwnerId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -128,7 +128,7 @@
          *
          * IsCreatureBusy Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -138,7 +138,7 @@
          *
          * LastActionPacket Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -148,7 +148,7 @@
          *
          * Data Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -158,7 +158,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public MultiplayerCreatureItem()
@@ -170,7 +170,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public MultiplayerCreatureItem(byte ownerId, ushort id, ZeroVector3 position, ZeroQuaternion rotation, TechType techType)
@@ -188,7 +188,7 @@
          *
          * Yaratık sahibini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetOwnership(byte ownershipId)
@@ -200,7 +200,7 @@
          *
          * WorldStreamerId değerini değiştirir
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetWorldStreamerId(string worldStreamerId)
@@ -212,7 +212,7 @@
          *
          * Son aksiyon paketini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetAction(NetworkPacket lastAction, byte busyOwnerId = 0)
@@ -229,7 +229,7 @@
          *
          * Meşgul eden oyuncu id değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetBusyOwnerId(byte ownerId)
@@ -241,7 +241,7 @@
          *
          * Meşgul durumunu ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetBusy(bool isBusy)
@@ -253,7 +253,7 @@
          *
          * Meşgul eden oyuncu id temizler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ClearBusyOwnerId()
@@ -265,7 +265,7 @@
          *
          * Son aksiyon paketini temizler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ClearAction(bool clearBusyOwner)
@@ -282,7 +282,7 @@
          *
          * Yeni konumu ve açıyı değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetPositionAndRotation(ZeroVector3 position, ZeroQuaternion rotation)
@@ -295,7 +295,7 @@
          *
          * Yeni konumu değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetPosition(ZeroVector3 position)
@@ -307,7 +307,7 @@
          *
          * Yeni açıyı değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetRotation(ZeroQuaternion rotation)
@@ -319,7 +319,7 @@
          *
          * Yeni hücre konumunu değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetCellId(ZeroInt3 cellId)
@@ -331,7 +331,7 @@
          *
          * Son Olayı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public NetworkPacket GetAction()
@@ -343,7 +343,7 @@
          *
          * Son Olay türünü döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ProcessType GetActionType()
@@ -355,7 +355,7 @@
          *
          * Aksiyon mevcut mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsActionExists()
@@ -367,7 +367,7 @@
          *
          * Meşgul mü?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsBusy()
@@ -379,7 +379,7 @@
          *
          * Donmuş mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsFrozen()
@@ -391,7 +391,7 @@
          *
          * Yaratık sahibini kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsNotMine(byte ownershipId = 0)
@@ -403,7 +403,7 @@
          *
          * Yaratık sahibini kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsMine(byte ownershipId = 0)
@@ -420,7 +420,7 @@
          *
          * Yaratık sahibi var mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsExistsOwnership()

@@ -17,7 +17,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::GenericHandTarget __instance)
@@ -55,7 +55,7 @@
          *
          * Slot idsini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string GetBatterySlotId(GameObject gameObject)
@@ -67,7 +67,7 @@
          *
          * Araç idsini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string GetVehicleUniqueId(GameObject gameObject)
@@ -85,7 +85,7 @@
          *
          * Araç türünü döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static TechType GetVehicleType(GameObject gameObject)
@@ -103,7 +103,7 @@
          *
          * Araç nesnesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static GameObject GetVehicleGameObject(GameObject gameObject)

@@ -18,7 +18,7 @@
          *
          * Hava durumlarını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public HashSet<WeatherItem> WeatherTimeLines { get; set; } = new HashSet<WeatherItem>();
@@ -27,7 +27,7 @@
          *
          * Hava durumlarını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<string> ActivatedScripts { get; set; } = new List<string>();
@@ -36,7 +36,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StopwatchItem Timing { get; set; } = new StopwatchItem(1000f);
@@ -45,7 +45,7 @@
          *
          * IsLoaded değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsLoaded { get; set; }
@@ -54,7 +54,7 @@
          *
          * Her sabit tick'den sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnUnscaledFixedUpdate(float fixedDeltaTime)
@@ -84,7 +84,7 @@
          *
          * Profilleri yükler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool LoadAllProfileAndScripts()
@@ -117,7 +117,7 @@
          *
          * Profil için gelişmiş simülasyon yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool AdvanceProfileSimulation(WeatherItem weather)
@@ -145,7 +145,7 @@
          *
          * Hava durumu değişince tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnWeatherChanged(string profileId)
@@ -157,7 +157,7 @@
          *
          * Oyunculara hava durumu bilgilerini gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool SendWeatherToClients(string profileId)
@@ -177,7 +177,7 @@
          *
          * Oyunculara hava durumu bilgilerini gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool SendWeatherToClient(AuthorizationProfile profile)
@@ -196,7 +196,7 @@
          *
          * Hava durumu paketini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private ServerModel.WeatherChangedArgs GetWeatherPacket(WeatherItem item)
@@ -227,7 +227,7 @@
          *
          * Tüm hava durumunu ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool ExtendWeatherTimeline(string profileId)
@@ -251,7 +251,7 @@
          *
          * Hava durumu nesnesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private WeatherItem GetWeatherItem(string profileId)
@@ -266,7 +266,7 @@
          *
          * ProfileId değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string ProfileId { get; set; }
@@ -275,7 +275,7 @@
          *
          * IsProfile değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsProfile { get; set; }
@@ -284,7 +284,7 @@
          *
          * Profile değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WeatherProfile Profile { get; set; }
@@ -293,7 +293,7 @@
          *
          * Timeline değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WeatherTimeline Timeline { get; set; }
@@ -302,7 +302,7 @@
          *
          * CurrentEvent değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WeatherEvent CurrentEvent { get; set; }
@@ -311,7 +311,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WeatherItem(WeatherProfile profile)
@@ -326,7 +326,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WeatherItem(WeatherEventData eventData)

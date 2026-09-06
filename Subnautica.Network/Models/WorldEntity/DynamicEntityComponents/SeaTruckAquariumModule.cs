@@ -16,7 +16,7 @@
          *
          * Lockers Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -30,7 +30,7 @@
          *
          * LeftStorageTime Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -40,7 +40,7 @@
          *
          * RightStorageTime Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -50,7 +50,7 @@
          *
          * LiveMixin Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -60,7 +60,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public SeaTruckAquariumModule Initialize(Action<NetworkDynamicEntityComponent> onEntityComponentInitialized)

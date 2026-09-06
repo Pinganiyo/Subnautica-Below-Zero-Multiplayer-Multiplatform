@@ -15,7 +15,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -41,7 +41,7 @@
          *
          * Radyo kulesi test modülü takılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnRadioTowerTOMUsing(RadioTowerTOMUsingEventArgs ev)
@@ -58,7 +58,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqued, bool isTOMUsing = false)

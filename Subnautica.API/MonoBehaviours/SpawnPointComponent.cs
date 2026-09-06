@@ -13,7 +13,7 @@
          *
          * Coroutine nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Coroutine Coroutine;
@@ -22,7 +22,7 @@
          *
          * Slot'u barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroSpawnPoint SpawnPoint { get; set; }
@@ -31,7 +31,7 @@
          *
          * IsAutoRespawnRunning nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsAutoRespawnRunning { get; set; }
@@ -40,7 +40,7 @@
          *
          * Aktif hale gelince tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetSpawnPoint(ZeroSpawnPoint spawnPoint)
@@ -53,7 +53,7 @@
          *
          * Nesne doğduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Start()
@@ -65,7 +65,7 @@
          *
          * Aktif hale gelince tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEnable()
@@ -88,7 +88,7 @@
          *
          * Pasif hale gelince tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnDisable()
@@ -106,7 +106,7 @@
          *
          * Nesne yokedilince tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnDestroy()
@@ -118,7 +118,7 @@
          *
          * Nesneyi yumurtlar veya pasif hale getirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */ 
         public void SpawnToggle()
@@ -145,7 +145,7 @@
          *
          * Otomatik respawnı başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void StartAutoRespawn()
@@ -163,7 +163,7 @@
          *
          * Otomatik canlandırma işlemini uygular.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public IEnumerator AutoRespawnAsync()
@@ -195,7 +195,7 @@
          *
          * Aktif coroutine nesnesini siler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void DisableCoroutine(bool forceDisable = false)
@@ -212,7 +212,7 @@
          *
          * Canlan durumunun aktif/pasif döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsRespawnActive()
@@ -244,7 +244,7 @@
          *
          * Canlanıp canlanmayacağını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsRespawnable()
@@ -256,7 +256,7 @@
          *
          * Kalan yeniden doğma zamanını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float RespawnLeftTime()
@@ -268,7 +268,7 @@
          *
          * Kaynak takibi için kaydeder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void RegisterResourceTracker()
@@ -283,7 +283,7 @@
          *
          * Kaynak takibi için kaydı siler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void UnRegisterResourceTracker()
@@ -298,7 +298,7 @@
          *
          * Nesnenin mevcut sağlığını max olarak ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void HealthSync()
@@ -313,7 +313,7 @@
          *
          * Delinebilen nesne sağlığını günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void DrillableHealthSync(bool isSpawnFx = false)

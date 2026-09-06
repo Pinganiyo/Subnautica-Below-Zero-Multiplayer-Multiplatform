@@ -16,7 +16,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -28,7 +28,7 @@
          *
          * Termal zambak alanı kontrol edilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnThermalLilyRangeChecking(ThermalLilyRangeCheckingEventArgs ev)
@@ -59,7 +59,7 @@
          *
          * Termal zambak açısı kontrol edilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnThermalLilyAnimationAnglesChecking(ThermalLilyAnimationAnglesCheckingEventArgs ev)
@@ -108,7 +108,7 @@
          *
          * Hesaplanacak aralığı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static double GetPlayerRange(float range)
@@ -120,7 +120,7 @@
          *
          * Oyuncu ile zambak arasındaki mesafeyi döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static double GetPlayerDistanceFromLily(Vector3 playerPosition, Vector3 lilyPosition)

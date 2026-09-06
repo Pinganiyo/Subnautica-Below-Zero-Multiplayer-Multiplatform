@@ -20,7 +20,7 @@
          *
          * Dünya yapılarını ayarlar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static IEnumerator InitialConstructions()
@@ -48,7 +48,7 @@
          *
          * Tamamlanmış yapı parçalarının id'lerini tanımlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static IEnumerator InitialBasePieceIds()
@@ -103,7 +103,7 @@
          *
          * Tamamlanmamış yapıların tamamlanma yüzdesini ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static IEnumerator InitialInCompleteConstructions()
@@ -158,7 +158,7 @@
          *
          * Metadata verilerini ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static IEnumerator InitialMetadatas()
@@ -193,7 +193,7 @@
          *
          * Yapı sağlıklarını senkronlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static IEnumerator InitialHealths()
@@ -229,7 +229,7 @@
          *
          * İnşaa edilmiş base listesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Dictionary<string, Base> GetConstructionBases()

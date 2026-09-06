@@ -25,7 +25,7 @@ namespace Subnautica.Server.Core
          *
          * Debug
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool DEBUG { get; set; } = true;
@@ -34,7 +34,7 @@ namespace Subnautica.Server.Core
          *
          * Singleton nesnesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Server Instance { get; set; }
@@ -43,7 +43,7 @@ namespace Subnautica.Server.Core
          *
          * Sunucu Port
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public int Port { get; set; }
@@ -52,7 +52,7 @@ namespace Subnautica.Server.Core
          *
          * Max Oyuncu Sayısı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public byte MaxPlayer { get; set; }
@@ -61,7 +61,7 @@ namespace Subnautica.Server.Core
          *
          * Oyunun şuanki oluşturulma durumu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsConnecting { get; set; }
@@ -70,7 +70,7 @@ namespace Subnautica.Server.Core
          *
          * Oyunun oluşturulup oluşturulmadığı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsConnected { get; set; }
@@ -79,7 +79,7 @@ namespace Subnautica.Server.Core
          *
          * Sunucunun benzersiz numarası
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string ServerId { get; set; }
@@ -88,7 +88,7 @@ namespace Subnautica.Server.Core
          *
          * Sunucunun sahibi id'si.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string OwnerId { get; set; }
@@ -97,7 +97,7 @@ namespace Subnautica.Server.Core
          *
          * Sunucu kayıt dosya yolu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string SavePath { get; set; }
@@ -106,7 +106,7 @@ namespace Subnautica.Server.Core
          *
          * Mevcut playerId değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public byte CurrentPlayerId { get; set; } = 0;
@@ -115,7 +115,7 @@ namespace Subnautica.Server.Core
          *
          * Version değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string Version { get; set; }
@@ -124,7 +124,7 @@ namespace Subnautica.Server.Core
          *
          * GameMode değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public GameModePresetId GameMode { get; set; }
@@ -133,7 +133,7 @@ namespace Subnautica.Server.Core
          *
          * Bağlı Oyuncular
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Dictionary<string, AuthorizationProfile> Players { get; set; }
@@ -142,7 +142,7 @@ namespace Subnautica.Server.Core
          *
          * Depolama işlemleri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Storages Storages { get; set; }
@@ -151,7 +151,7 @@ namespace Subnautica.Server.Core
          *
          * TCP Server
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private NetManager NetworkServer { get; set; }
@@ -160,7 +160,7 @@ namespace Subnautica.Server.Core
          *
          * Sunucu Nesnesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private GameObject ServerGameObject { get; set; }
@@ -169,7 +169,7 @@ namespace Subnautica.Server.Core
          *
          * IsRegisteredEvents Nesnesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsRegisteredEvents { get; set; } = false;
@@ -178,7 +178,7 @@ namespace Subnautica.Server.Core
          *
          * Mantıksal işlemleri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Logices Logices { get; set; }
@@ -187,7 +187,7 @@ namespace Subnautica.Server.Core
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Server(string serverId, GameModePresetId gameModeId, int port, byte maxPlayer, string ownerId, string version)
@@ -219,7 +219,7 @@ namespace Subnautica.Server.Core
          *
          * Sunucuyu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Start()
@@ -262,7 +262,7 @@ namespace Subnautica.Server.Core
          *
          * Network server nesnesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public NetManager GetNetworkServer()
@@ -274,7 +274,7 @@ namespace Subnautica.Server.Core
          *
          * Bağlı peer sayısını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public int GetConnectedPeerCount()
@@ -286,7 +286,7 @@ namespace Subnautica.Server.Core
          *
          * Sonraki oyuncu id'sini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public byte GetNextPlayerId()
@@ -318,7 +318,7 @@ namespace Subnautica.Server.Core
          *
          * Paketi tüm kullanıcılara gönderir fakat 1 ip'yi görmezden gelir
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToOtherClients(AuthorizationProfile profile, NetworkPacket packet, bool checkConnected = false)
@@ -343,7 +343,7 @@ namespace Subnautica.Server.Core
          *
          * Paketi tüm kullanıcılara gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToAllClient(NetworkPacket packet, bool checkConnected = false)
@@ -368,7 +368,7 @@ namespace Subnautica.Server.Core
          *
          * Paketi 1 kullanıcıya gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacket(AuthorizationProfile profile, NetworkPacket packet)
@@ -380,7 +380,7 @@ namespace Subnautica.Server.Core
          *
          * Paketi 1 kullanıcıya byte halinde gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool SendPacket(string ipPort, NetworkPacket packet)
@@ -403,7 +403,7 @@ namespace Subnautica.Server.Core
          *
          * Bir kullanıcının bağlantısını keser.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool DisconnectToClient(AuthorizationProfile authorization)
@@ -415,7 +415,7 @@ namespace Subnautica.Server.Core
          *
          * Bir kullanıcının bağlantısını keser.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool DisconnectToClient(string ipPort)
@@ -439,7 +439,7 @@ namespace Subnautica.Server.Core
          *
          * Oyuncuları döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<AuthorizationProfile> GetPlayers()
@@ -451,7 +451,7 @@ namespace Subnautica.Server.Core
          *
          * Oyuncu sayısını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public byte GetPlayerCount()
@@ -463,7 +463,7 @@ namespace Subnautica.Server.Core
          *
          * Sunucu sahibini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public AuthorizationProfile GetServerOwner()
@@ -475,7 +475,7 @@ namespace Subnautica.Server.Core
          *
          * Oyuncuyu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public AuthorizationProfile GetPlayer(byte playerId)
@@ -487,7 +487,7 @@ namespace Subnautica.Server.Core
          *
          * Oyuncuyu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public AuthorizationProfile GetPlayer(string uniqueId)
@@ -499,7 +499,7 @@ namespace Subnautica.Server.Core
          *
          * Oyuncunun mevcut olup/olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool HasPlayer(string uniqueId)
@@ -511,7 +511,7 @@ namespace Subnautica.Server.Core
          *
          * Oyuncunun mevcut olup/olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool HasPlayer(byte playerId)
@@ -523,7 +523,7 @@ namespace Subnautica.Server.Core
          *
          * Sunucu olaylarını kaydeder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void RegisterEvents()
@@ -549,7 +549,7 @@ namespace Subnautica.Server.Core
          *
          * Sunucu olaylarını kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void UnRegisterEvents()
@@ -575,7 +575,7 @@ namespace Subnautica.Server.Core
          *
          * Hariç tutulacak paket türleri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsLogablePacket(ProcessType type)
@@ -607,7 +607,7 @@ namespace Subnautica.Server.Core
          *
          * Sınıfı temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Dispose(bool isEndGame = false)

@@ -20,7 +20,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -48,7 +48,7 @@
          *
          * MobileExtractorMachine başlatıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnMobileExtractorMachineInitialized()
@@ -60,7 +60,7 @@
          *
          * Donmuş yaratık hikaye olaylarını senkronlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool FrozenCreatureSync(bool isInitializing, bool isMine = false)
@@ -127,7 +127,7 @@
          *
          * anti virüs örneği eklenirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnMobileExtractorMachineSampleAdding(MobileExtractorMachineSampleAddingEventArgs ev)
@@ -141,7 +141,7 @@
          *
          * Konsola tıklanınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnMobileExtractorConsoleUsing(MobileExtractorConsoleUsingEventArgs ev)
@@ -155,7 +155,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(StoryCinematicType cinematicType = StoryCinematicType.None)

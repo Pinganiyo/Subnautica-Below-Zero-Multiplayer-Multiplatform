@@ -11,7 +11,7 @@
          *
          * ServerHost Anahtarı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const string ServerHost = "[localhost]";
@@ -20,7 +20,7 @@
          *
          * Bloklu listeyi barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Dictionary<string, string> List { get; private set; } = new Dictionary<string, string>();
@@ -29,7 +29,7 @@
          *
          * Bloklu listeyi temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ClearAll()
@@ -41,7 +41,7 @@
          *
          * Bloklu listeyi günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SetList(Dictionary<string, string> list)
@@ -53,7 +53,7 @@
          *
          * Özel interact id döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */      
         public static string GetCustomId(string customId)
@@ -65,7 +65,7 @@
          *
          * Bloklu olup olmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsBlocked(string constructionId, bool isMineIgnore = false)
@@ -93,7 +93,7 @@
          *
          * Bloklu olup olmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsBlocked(string constructionId, string playerId, bool ignoreServer = false)
@@ -121,7 +121,7 @@
          *
          * Benim tarafımdan engellenen bir yapı olup olmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsBlockedByMe(string constructionId = null)
@@ -138,7 +138,7 @@
          *
          * Oyuncuya ekran ortasında kullanımda mesajı gösterir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ShowUseDenyMessage()
@@ -150,7 +150,7 @@
          *
          * Oyuncuya ekran ortasında etkileşim başarısız mesajı gösterir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ShowDenyMessage(string text, bool isLang = true)
@@ -169,7 +169,7 @@
          *
          * Tüm verileri siler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Dispose()

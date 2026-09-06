@@ -19,7 +19,7 @@
         *
         * Gelen veriyi işler
         *
-        * @author Ismail <ismaiil_0234@hotmail.com>
+        
         *
         */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -44,7 +44,7 @@
          *
          * İşlem tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCreatureProcessCompleted(MultiplayerCreature creature, CreatureQueueItem item)
@@ -83,7 +83,7 @@
          *
          * Balık donarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnFreezing(CreatureFreezingEventArgs ev)
@@ -100,7 +100,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SendPacketToServer(ushort creatureId, float lifeTime, string brinicleId)

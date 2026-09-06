@@ -8,7 +8,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public VehicleInteriorToggleEventArgs(string uniqueId, bool isEnter)
@@ -21,7 +21,7 @@
          *
          * UniqueId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UniqueId { get; private set; }
@@ -30,7 +30,7 @@
          *
          * IsEnter Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsEnter { get; private set; }

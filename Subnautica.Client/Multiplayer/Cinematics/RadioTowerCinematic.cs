@@ -8,7 +8,7 @@
          *
          * Yatağı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::RadioTowerController RadioTower { get; set; }
@@ -18,7 +18,7 @@
          *
          * Animasyonu resetler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnResetAnimations(PlayerCinematicQueueItem item)
@@ -31,7 +31,7 @@
          *
          * Binme animasyonunu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void InsertedItemStartCinematic()

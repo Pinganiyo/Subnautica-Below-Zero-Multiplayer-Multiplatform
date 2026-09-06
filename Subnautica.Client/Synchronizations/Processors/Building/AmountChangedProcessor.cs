@@ -16,7 +16,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -42,7 +42,7 @@
          *
          * Yapı inşaa değeri değiştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnConstructingAmountChanged(ConstructionAmountChangedEventArgs ev)

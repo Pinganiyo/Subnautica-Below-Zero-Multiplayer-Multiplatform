@@ -10,7 +10,7 @@
          *
          * Varsayılan değerler önbelleğe alındı mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool isCached = false;
@@ -19,7 +19,7 @@
          *
          * Varsayılan değerler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Vector2 DefaultPanelSizeDelta       = new Vector2();
@@ -39,7 +39,7 @@
          *
          * Modal gözükme işlemini yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Show(string title, string content, ZeroModalSize size = ZeroModalSize.Default)
@@ -54,7 +54,7 @@
          *
          * Modal gözükme işlemini yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void Show(string errorMessage)
@@ -66,7 +66,7 @@
          *
          * Modal gözükme işlemini yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool ResizeModal(ZeroModalSize size)
@@ -116,7 +116,7 @@
          *
          * Varsayılan ayarları uygular.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool ApplyDefaultSettings()
@@ -164,7 +164,7 @@
          *
          * Verileri önbelleğe alır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool InitializeCache()
@@ -218,7 +218,7 @@
          *
          * Genişliği barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float Width { get; private set; }
@@ -227,7 +227,7 @@
          *
          * Yüksekliği barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float Height { get; private set; }
@@ -236,7 +236,7 @@
          *
          * Buton pozisyonunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float ButtonPosition
@@ -251,7 +251,7 @@
          *
          * Metin Min yüksekliği barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float DescriptionMinHeight
@@ -266,7 +266,7 @@
          *
          * Metin Max yüksekliği barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float DescriptionMaxHeight
@@ -281,7 +281,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroModalSizeItem(float width, float height)
@@ -294,7 +294,7 @@
          *
          * Boyut oluşturma işlemini yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ZeroModalSizeItem Create(ZeroModalSize size)

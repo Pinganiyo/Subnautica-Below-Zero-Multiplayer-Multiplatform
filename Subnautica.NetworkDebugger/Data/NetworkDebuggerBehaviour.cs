@@ -19,7 +19,7 @@
          *
          * Instance Nesnesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static NetworkDebuggerBehaviour main;
@@ -28,7 +28,7 @@
          *
          * Instance Nesnesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static NetworkDebuggerBehaviour Instance
@@ -49,7 +49,7 @@
          *
          * IsActive Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsActive { get; set; }
@@ -58,7 +58,7 @@
          *
          * Timing Nesnesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StopwatchItem Timing { get; set; } = new StopwatchItem(1000f);
@@ -67,7 +67,7 @@
          *
          * KeyValues Nesnesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Dictionary<string, object> KeyValues { get; set; } = new Dictionary<string, object>();
@@ -76,7 +76,7 @@
          *
          * PacketLogs Nesnesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<NetworkDebuggerPacketLogItem> PacketLogs = new List<NetworkDebuggerPacketLogItem>();
@@ -85,7 +85,7 @@
          *
          * Basic Butonuna tıklandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Menu_BasicIsActive { get; set; }
@@ -94,7 +94,7 @@
          *
          * General Butonuna tıklandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Menu_GeneralIsActive { get; set; }
@@ -103,7 +103,7 @@
          *
          * Client Butonuna tıklandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Menu_ClientIsActive { get; set; }
@@ -112,7 +112,7 @@
          *
          * Server Butonuna tıklandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Menu_ServerIsActive { get; set; }
@@ -121,7 +121,7 @@
          *
          * Paketi loglar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void AddPacketLog(int size, NetworkChannel chanelType, DeliveryMethod deliveryMethod, bool isDownload, bool isClient)
@@ -140,7 +140,7 @@
          *
          * Gösterme işlemini sağlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Show()
@@ -152,7 +152,7 @@
          *
          * Gizleme işlemini sağlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Hide()
@@ -164,7 +164,7 @@
          *
          * İstatistikleri etkinleştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEnable()
@@ -190,7 +190,7 @@
          *
          * İstatistikleri pasifleştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnDisable()
@@ -214,7 +214,7 @@
          *
          * Üst menüyü oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void CreateTopMenus()
@@ -255,7 +255,7 @@
          *
          * Client içeriğini oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void CreateClientContent(bool isBasic = false)
@@ -293,7 +293,7 @@
          *
          * Server içeriğini oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void CreateServerContent(bool isBasic = false)
@@ -334,7 +334,7 @@
          *
          * İçeriği çizer.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnGUI()
@@ -374,7 +374,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Update()
@@ -410,7 +410,7 @@
          *
          * Client Verilerini önbelleğe alır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void CacheClientChannelPacketLogs()
@@ -440,7 +440,7 @@
          *
          * Server Verilerini önbelleğe alır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void CacheServerChannelPacketLogs()
@@ -470,7 +470,7 @@
          *
          * Aktif tabları sıfırlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void ResetActiveTabs()
@@ -485,7 +485,7 @@
          *
          * Değeri günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetOption(string key, object value)
@@ -497,7 +497,7 @@
          *
          * Değeri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public T GetOption<T>(string key)

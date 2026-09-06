@@ -13,7 +13,7 @@
          *
          * Konum (X)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -23,7 +23,7 @@
          *
          * Konum (Y)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */  
         [Key(1)]
@@ -33,7 +33,7 @@
          *
          * Konum (Z)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */  
         [Key(2)]
@@ -43,7 +43,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroVector3()
@@ -54,7 +54,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroVector3(float x, float y, float z)
@@ -68,7 +68,7 @@
          *
          * Karşılaştırma işlemi yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool operator ==(ZeroVector3 u, ZeroVector3 v)
@@ -85,7 +85,7 @@
          *
          * Karşılaştırma işlemi yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool operator !=(ZeroVector3 u, ZeroVector3 v)
@@ -97,7 +97,7 @@
          *
          * Eşitlik işlemi yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Equals(ZeroVector3 other)
@@ -114,7 +114,7 @@
          *
          * Eşitlik işlemi yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool Equals(object obj)
@@ -126,7 +126,7 @@
          *
          * Sayısal değeri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override int GetHashCode()
@@ -146,7 +146,7 @@
          *
          * Metin olarak bastırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override string ToString()
@@ -158,7 +158,7 @@
          *
          * Lerp işlemi yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ZeroVector3 Lerp(ZeroVector3 a, ZeroVector3 b, float t)
@@ -171,7 +171,7 @@
          *
          * Uzaklığı kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float Distance(ZeroVector3 target)
@@ -187,7 +187,7 @@
          *
          * Uzaklığı kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float Distance(Vector3 target)
@@ -203,7 +203,7 @@
          *
          * Uzaklığı kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static float Distance(Vector3 from, Vector3 target)

@@ -13,7 +13,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Dictionary<string, StopwatchItem> Queue { get; set; } = new Dictionary<string, StopwatchItem>();
@@ -22,7 +22,7 @@
          *
          * Her tick'de tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate(float fixedTime)
@@ -54,7 +54,7 @@
          *
          * Kuyruğa işlem ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string AddQueue(string processId, Action action, float time)
@@ -77,7 +77,7 @@
          *
          * Kuyruğa işlem ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string AddQueue(Action action, float time)
@@ -89,7 +89,7 @@
          *
          * Kuyruktan işlem kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void RemoveFromQueue(string processId)

@@ -14,7 +14,7 @@
          *
          * Sınıfı başlatır
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnStart()
@@ -26,7 +26,7 @@
          *
          * PictureFrameSync dosyasını senkron yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void PictureFramesSync()
@@ -50,7 +50,7 @@
          *
          * Nesneyi bir yer'den başka bir yere de taşır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool TryPickupItem(WorldPickupItem pickupItem, Metadata.StorageContainer targetContainer, Metadata.StorageContainer sourceContainer = null, bool checkTargetContainer = true)
@@ -149,7 +149,7 @@
          *
          * Verilen kaynak türüne göre nesneyi dünya üzerinden alır ve yerine başka nesne koyar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool TryPickupToWorld(WorldPickupItem pickupItem, out WorldDynamicEntity entity)
@@ -161,7 +161,7 @@
          *
          * Verilen kaynak türüne göre nesneyi dünya üzerinden alır ve yerine başka nesne koyar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool TryPickupToWorld(WorldPickupItem pickupItem, Metadata.StorageContainer sourceContainer, out WorldDynamicEntity entity)

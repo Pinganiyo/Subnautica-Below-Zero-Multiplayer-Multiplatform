@@ -14,7 +14,7 @@
          *
          * StopwatchItem nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static StopwatchItem StopwatchItem = new StopwatchItem(BroadcastInterval.ConstructingGhostMoved);
@@ -23,7 +23,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void Postfix()

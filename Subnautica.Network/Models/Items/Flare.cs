@@ -13,7 +13,7 @@
          *
          * TechType değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -23,7 +23,7 @@
          *
          * Position değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -33,7 +33,7 @@
          *
          * Forward değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -42,7 +42,7 @@
          *
          * Rotation değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -51,7 +51,7 @@
          *
          * Intensity değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -61,7 +61,7 @@
          *
          * Range değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -71,7 +71,7 @@
          *
          * Energy değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(7)]
@@ -81,7 +81,7 @@
          *
          * Entity Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(8)]

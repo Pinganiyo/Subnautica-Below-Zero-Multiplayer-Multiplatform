@@ -18,7 +18,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StopwatchItem Timing { get; set; } = new StopwatchItem(1000f);
@@ -27,7 +27,7 @@
          *
          * Zamanlayıcının geri dönüş methodu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnUpdate(float deltaTime)
@@ -78,7 +78,7 @@
          *
          * Tüm kullanıcılara paketi gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SendPacketToAllClient(string uniqueId, string itemId)
@@ -102,7 +102,7 @@
          *
          * Kahve makinelerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<KeyValuePair<string, ConstructionItem>> GetCoffeeVendingMachines()

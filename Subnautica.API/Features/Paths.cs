@@ -11,7 +11,7 @@
          *
          * AppData Önbelleği
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string _AppData { get; set; }
@@ -20,7 +20,7 @@
          *
          * CustomAppData Önbelleği
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string _CustomAppData { get; set; }
@@ -29,7 +29,7 @@
          *
          * App data yolunu döner
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string AppData
@@ -54,7 +54,7 @@
          *
          * Klasör ayracını döner
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static char DS
@@ -69,7 +69,7 @@
          *
          * Özel app data yolunu değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SetCustomAppDataPath(string customAppDataPath)
@@ -81,7 +81,7 @@
          *
          * Launcher api dosyasının linkini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example https://raw.githubusercontent.com/ismail0234/bb-subnautica-coop-mod/main/api.json
          *
          */
@@ -94,7 +94,7 @@
          *
          * Launcherın dil dosyasının sunucudan linkini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example https://raw.githubusercontent.com/ismail0234/bb-subnautica-coop-mod/main/app/languages/tr_TR.json
          *
          */
@@ -107,7 +107,7 @@
          *
          * Launcherın krediler dosyasının sunucudan linkini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example https://raw.githubusercontent.com/ismail0234/Subnautica-Below-Zero-Multiplayer/main/credits.json
          *
          */
@@ -120,7 +120,7 @@
          *
          * Launcherın sunucudaki versiyon linkini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example https://github.com/ismail0234/mc/blob/main/launchers/v2.0.0.exe
          *
          */
@@ -133,7 +133,7 @@
          *
          * Ana klasör yolu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/
          *
          */
@@ -146,7 +146,7 @@
          *
          * Launcher Oyun klasör yolu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/
          *
          */
@@ -159,7 +159,7 @@
          *
          * Launcher için application yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/App/
          *
          */
@@ -188,7 +188,7 @@
          *
          * Launcher için game klasör yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/Game/
          *
          */
@@ -217,7 +217,7 @@
          *
          * Oyun çekirdek klasör yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/Game/Core/
          * @example /.botbenson/Subnautica Below Zero/Game/Core/Assembly-CSharp.dll
          *
@@ -236,7 +236,7 @@
          *
          * Oyun çekirdek klasör yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/Game/Core/Test/
          * @example /.botbenson/Subnautica Below Zero/Game/Core/Test/File.txt
          *
@@ -255,7 +255,7 @@
          *
          * Netbird çekirdek klasör yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/Game/Core/Netbird/File.txt
          *
          */
@@ -268,7 +268,7 @@
          *
          * Oyun bağımlılık klasör yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/Game/Dependencies/
          * @example /.botbenson/Subnautica Below Zero/Game/Dependencies/Subnautica.API.dll
          *
@@ -287,7 +287,7 @@
          *
          * Oyun Plugin klasör yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/Game/Plugins/
          * @example /.botbenson/Subnautica Below Zero/Game/Plugins/Subnautica.Client.dll
          *
@@ -306,7 +306,7 @@
          *
          * Oyun Log klasör yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/Game/Log/
          *
          */
@@ -319,7 +319,7 @@
          *
          * Multiplayer Oyun Kayıt klasör yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/Game/Saves/
          *
          */
@@ -342,7 +342,7 @@
          *
          * Multiplayer Server Kayıt klasör yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/Game/Saves/Server/
          * @example /.botbenson/Subnautica Below Zero/Game/Saves/Server/ASUSKOXMASJQYSDTSRXCMVLP/
          * @example /.botbenson/Subnautica Below Zero/Game/Saves/Server/ASUSKOXMASJQYSDTSRXCMVLP/gameinfo.json
@@ -367,7 +367,7 @@
          *
          * Multiplayer Client Kayıt klasör yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/Game/Saves/Client/
          * @example /.botbenson/Subnautica Below Zero/Game/Saves/Client/ASUSKOXMASJQYSDTSRXCMVLP/
          * @example /.botbenson/Subnautica Below Zero/Game/Saves/Client/ASUSKOXMASJQYSDTSRXCMVLP/gameinfo.json
@@ -392,7 +392,7 @@
          *
          * Multiplayer Client spawn point yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/Game/Saves/Client/ASUSKOXMASJQYSDTSRXCMVLP/SpawnPoint.bin
          *
          */
@@ -405,7 +405,7 @@
          *
          * Multiplayer Client Kayıt klasör yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/Game/Saves/Client/
          * @example /.botbenson/Subnautica Below Zero/Game/Saves/Client/RemoteScreenshots/
          * @example /.botbenson/Subnautica Below Zero/Game/Saves/Client/RemoteScreenshots/abc.jpg
@@ -426,7 +426,7 @@
          *
          * Multiplayer Client Kayıt klasör yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/Game/Saves/Client/
          * @example /.botbenson/Subnautica Below Zero/Game/Saves/Client/RemoteScreenshots/
          * @example /.botbenson/Subnautica Below Zero/Game/Saves/Client/RemoteScreenshots/abc.jpg
@@ -447,7 +447,7 @@
          *
          * Multiplayer Server / Players klasör yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/Game/Saves/Server/ASUSKOXMASJQYSDTSRXCMVLP/Players/
          * @example /.botbenson/Subnautica Below Zero/Game/Saves/Server/ASUSKOXMASJQYSDTSRXCMVLP/Players/abc.bin
          *
@@ -467,7 +467,7 @@
          *
          * Sunucular dosyasını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/Game/servers.json
          *
          */
@@ -480,7 +480,7 @@
          *
          * Launcher Log klasör yolu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/App/Logs/
          *
          */
@@ -493,7 +493,7 @@
          *
          * Launcher'ın dil klaör yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/App/Languages/
          *
          */
@@ -506,7 +506,7 @@
          *
          * Launcher'ın dil dosyası yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/App/Languages/tr_TR.json
          *
          */
@@ -519,7 +519,7 @@
          *
          * Slider resmini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/App/Images/Subnautica.jpg
          *
          */
@@ -532,7 +532,7 @@
          *
          * Launcher api dosyasının yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/App/api.json
          *
          */
@@ -545,7 +545,7 @@
          *
          * Launcher credits api dosyasının yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/App/credits.json
          *
          */
@@ -558,7 +558,7 @@
          *
          * Launcher'ın temp klasörünü döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/App/Tmp/
          *
          */
@@ -571,7 +571,7 @@
          *
          * Launcher'ın temp dosyasını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/App/Tmp/Temp.exe
          *
          */
@@ -584,7 +584,7 @@
          *
          * Launcher'ın yeni sürüm dosyasını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          * @example /.botbenson/Subnautica Below Zero/App/Tmp/NewVersion.exe
          *
          */
@@ -597,7 +597,7 @@
          *
          * Launcher'ın şuanki dinamik dosya yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetNowLauncherFile()

@@ -19,7 +19,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StopwatchItem Timing { get; set; } = new StopwatchItem(3000f);
@@ -28,7 +28,7 @@
          *
          * Her sabit tick'de tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate(float fixedDeltaTime)
@@ -45,7 +45,7 @@
          *
          * Toplu Bataryaları şarj eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void BulkChargeTheBatteries(float elapsedTime)
@@ -71,7 +71,7 @@
          *
          * Bataryaları şarj eder ve döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Metadata.ChargerSimple GetSingleChargeTheBatteries(ConstructionItem construction, float elapsedTime)
@@ -166,7 +166,7 @@
          *
          * Enerjileri tüm oyunculara gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SendBatteryToAllClients(List<Metadata.ChargerSimple> chargers)
@@ -207,7 +207,7 @@
          *
          * Enerji sağlayan yapıları döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<KeyValuePair<string, ConstructionItem>> GetBatteryChargerConstructions()

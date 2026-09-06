@@ -18,7 +18,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -42,7 +42,7 @@
          *
          * İşlem tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnCreatureProcessCompleted(MultiplayerCreature creature, CreatureQueueItem item)
@@ -64,7 +64,7 @@
          *
          * Yaratık en sonki hedefine saldırı başlatırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnCreatureAttackLastTargetStarting(CreatureAttackLastTargetStartingEventArgs ev)
@@ -78,7 +78,7 @@
          *
          * Yaratık en sonki hedefine saldırı başlatma sona erdiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnCreatureAttackLastTargetStopped(CreatureAttackLastTargetStoppedEventArgs ev)
@@ -93,7 +93,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SendPacketToServer(ushort creatureId, string targetId = null, TechType techType = TechType.None, bool isStopped = false)

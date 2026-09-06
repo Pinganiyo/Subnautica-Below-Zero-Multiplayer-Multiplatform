@@ -11,7 +11,7 @@
          *
          * FaceStart değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -21,7 +21,7 @@
          *
          * FaceEnd değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]

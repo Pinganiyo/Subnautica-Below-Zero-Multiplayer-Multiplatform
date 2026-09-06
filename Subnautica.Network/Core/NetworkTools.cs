@@ -10,7 +10,7 @@
          *
          * Veri şifreleme türünü barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static MessagePackSerializerOptions mainCompression;
@@ -19,7 +19,7 @@
          *
          * Veri şifreleme türünü barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static MessagePackSerializerOptions Lz4Compression 
@@ -39,7 +39,7 @@
          *
          * Veriyi encode eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static byte[] Serialize<T>(T data)
@@ -51,7 +51,7 @@
          *
          * Veriyi decode eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static T Deserialize<T>(ArraySegment<byte> data)
@@ -63,7 +63,7 @@
          *
          * Veriyi decode eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static T Deserialize<T>(byte[] data)

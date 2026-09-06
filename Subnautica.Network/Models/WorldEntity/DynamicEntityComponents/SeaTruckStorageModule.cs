@@ -17,7 +17,7 @@
          *
          * Lockers Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -34,7 +34,7 @@
          *
          * LiveMixin Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -44,7 +44,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public SeaTruckStorageModule Initialize(Action<NetworkDynamicEntityComponent> onEntityComponentInitialized)

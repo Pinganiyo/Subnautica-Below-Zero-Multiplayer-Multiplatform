@@ -10,7 +10,7 @@
          *
          * Çok oyunculu oyuncu mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsMultiplayerPlayer(this string name)
@@ -22,7 +22,7 @@
          *
          * Teknoloji türünü döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static TechType GetTechType(this GameObject gameObject)
@@ -34,7 +34,7 @@
          *
          * Teknoloji türünü değiştirir
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SetTechType(this GameObject gameObject, TechType techType)
@@ -46,7 +46,7 @@
          *
          * ClassId değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetClassId(this TechType techType)
@@ -63,7 +63,7 @@
          *
          * Nesne alınma bildirimi gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ShowPickupNotify(this TechType techType)
@@ -75,7 +75,7 @@
          *
          * Nesne alınma bildirimi gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ShowPickupNotify(this global::Pickupable pickupable)
@@ -87,7 +87,7 @@
          *
          * Teknoloji türünün tarandıktan sonra yok olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsDestroyAfterScan(this TechType techType)
@@ -105,7 +105,7 @@
          *
          * Teknoloji türünün parça olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsFragment(this TechType techType)
@@ -117,7 +117,7 @@
          *
          * Oyuncu olup olmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsPlayer(this TechType techType)
@@ -129,7 +129,7 @@
          *
          * Araç olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsVehicle(this TechType techType, bool isCheckVehicle = true, bool isModule = true)
@@ -159,7 +159,7 @@
          *
          * Teknoloji türünün seatruck modülü olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsSeaTruckModule(this TechType techType, bool checkSeaTruck = false)
@@ -187,7 +187,7 @@
          *
          * Teknoloji türün adını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetTechName(this TechType techType)
@@ -199,7 +199,7 @@
          *
          * Teknoloji türünün poster olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsPoster(this TechType techType)
@@ -239,7 +239,7 @@
          *
          * Teknoloji türünün poster olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsPictureFrame(this TechType techType)
@@ -263,7 +263,7 @@
          *
          * Yatak olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsBed(this TechType techType)
@@ -290,7 +290,7 @@
          *
          * Saksı olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsPlanterPot(this TechType techType)
@@ -312,7 +312,7 @@
          *
          * Üs parçası olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsBasePiece(this TechType techType)
@@ -349,7 +349,7 @@
          *
          * Mobilya olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsFurniture(this TechType techType)
@@ -422,7 +422,7 @@
          *
          * Kırılabilen nesne olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsBreakable(this TechType techType)
@@ -442,7 +442,7 @@
          *
          * Kazılabilen nesne olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsDrillable(this TechType techType)
@@ -476,7 +476,7 @@
          *
          * Yaratık yumurtası olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsCreatureEgg(this TechType techType)
@@ -530,7 +530,7 @@
          *
          * Yaratık yumurtasına dönüştürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static TechType ToCreatureEgg(this TechType techType)
@@ -582,7 +582,7 @@
          *
          * Balık/Yaratık olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsCreature(this TechType techType, bool ignoreSchool = false)
@@ -646,7 +646,7 @@
          *
          * Nesne respawn süresini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static int GetRespawnDuration(this TechType techType)

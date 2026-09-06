@@ -18,7 +18,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -67,7 +67,7 @@
          *
          * Alterra pda nesnesi aldıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnAlterraPdaPickedUp(AlterraPdaPickedUpEventArgs ev)
@@ -79,7 +79,7 @@
          *
          * Müzik nesnesi alındığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnJukeboxDiskPickedUp(JukeboxDiskPickedUpEventArgs ev)
@@ -91,7 +91,7 @@
          *
          * Oyuncu yerden eşya aldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPlayerItemPickedUp(PlayerItemPickedUpEventArgs ev)
@@ -108,7 +108,7 @@
          *
          * Kardan adam yok edilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSnowmanDestroying(SnowmanDestroyingEventArgs ev)
@@ -125,7 +125,7 @@
          *
          * Müzik nesnesi alındığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId = null, WorldPickupItem worldPickupItem = null)

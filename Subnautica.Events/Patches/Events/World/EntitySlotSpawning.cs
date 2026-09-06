@@ -160,7 +160,7 @@
          *
          * Slot hata ayıklamasını açar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ShowDebugSlot(Vector3 localPosition, Quaternion localRotation, Transform parentTransform, bool isCreatureSlot, string classId, bool isFound = true)

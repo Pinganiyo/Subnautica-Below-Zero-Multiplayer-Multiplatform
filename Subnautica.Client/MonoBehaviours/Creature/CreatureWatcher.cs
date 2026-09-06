@@ -20,7 +20,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StopwatchItem Timing { get; set; } = new StopwatchItem(BroadcastInterval.CreaturePosition);
@@ -29,7 +29,7 @@
          *
          * IsNormalTrigger nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsNormalTrigger { get; set; } = false;
@@ -38,7 +38,7 @@
          *
          * Mesafeyi barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<WorldCreaturePosition> Positions { get; set; } = new List<WorldCreaturePosition>();
@@ -47,7 +47,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Update()
@@ -94,7 +94,7 @@
          *
          * Güncellenmiş nesne konumunu kuyruğa alır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void AddPositionToQueue(ushort creatureId, MultiplayerCreature creature)
@@ -121,7 +121,7 @@
          *
          * Konum verilerini sunucuya gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SendPositionPacketToServer()

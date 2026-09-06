@@ -20,7 +20,7 @@
          *
          * Sunucu saatini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -30,7 +30,7 @@
          *
          * En Son Yapı id numarasını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -40,7 +40,7 @@
          *
          * IsFirstLogin Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -50,7 +50,7 @@
          *
          * Sunucu'daki yapıları barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -60,7 +60,7 @@
          *
          * Açılan şarkıları barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -70,7 +70,7 @@
          *
          * Güç kaynaklarını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -80,7 +80,7 @@
          *
          * Kalıcı Dünya Nesneleri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -90,7 +90,7 @@
          *
          * Dünya Nesneleri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(7)]
@@ -100,7 +100,7 @@
          *
          * Dünya Hızı.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(8)]
@@ -110,7 +110,7 @@
          *
          * Son Uyku Zamanı.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(9)]
@@ -120,7 +120,7 @@
          *
          * Zaman atlama modu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(10)]
@@ -130,7 +130,7 @@
          *
          * Zaman atlama bitiş zamanı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(11)]
@@ -140,7 +140,7 @@
          *
          * SupplyDrops Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(12)]
@@ -150,7 +150,7 @@
          *
          * Bases Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(13)]
@@ -160,7 +160,7 @@
          *
          * LastItemId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(14)]
@@ -170,7 +170,7 @@
          *
          * QuantumLocker Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(15)]
@@ -180,7 +180,7 @@
          *
          * SeaTruckConnections Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(16)]
@@ -190,7 +190,7 @@
          *
          * SpawnPoints Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(17)]
@@ -200,7 +200,7 @@
          *
          * IsWorldGenerated Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(18)]
@@ -210,7 +210,7 @@
          *
          * ActivatedPrecursorTeleporters Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(19)]
@@ -220,7 +220,7 @@
          *
          * Brinicles Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(20)]
@@ -230,7 +230,7 @@
          *
          * Brinicles Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(21)]
@@ -240,7 +240,7 @@
          *
          * DiscoveredTechTypes Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(22)]

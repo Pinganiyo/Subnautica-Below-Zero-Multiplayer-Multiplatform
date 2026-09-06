@@ -17,7 +17,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<ServerModel.StoryCinematicTriggerArgs> CinematicQueue = new List<ServerModel.StoryCinematicTriggerArgs>();
@@ -26,7 +26,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -43,7 +43,7 @@
          *
          * Her Sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate()
@@ -76,7 +76,7 @@
          *
          * Hikaye cinematic tetiklenirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnCinematicTriggering(CinematicTriggeringEventArgs ev)

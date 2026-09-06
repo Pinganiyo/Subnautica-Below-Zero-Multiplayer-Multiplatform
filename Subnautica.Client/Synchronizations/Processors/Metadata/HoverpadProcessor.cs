@@ -24,7 +24,7 @@
          *
          * Showroom değerlerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<string, byte> HoverpadShowrooms { get; set; } = new Dictionary<string, byte>();
@@ -33,7 +33,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(string uniqueId, TechType techType, MetadataComponentArgs packet, bool isSilence)
@@ -128,7 +128,7 @@
          *
          * Harita yüklenmesinde hoverbike doğduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void WorldLoadHoverbikeSpawning(GameObject gameObject, WorldEntityModel.Hoverbike component)
@@ -147,7 +147,7 @@
          *
          * Hoverbike inşaa edilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnHoverpadHoverbikeSpawning(HoverpadHoverbikeSpawningEventArgs ev)
@@ -164,7 +164,7 @@
          *
          * Renk değiştirme paleti seçildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSubNameInputSelecting(SubNameInputSelectingEventArgs ev)
@@ -186,7 +186,7 @@
          *
          * Renk değiştirme paleti seçimden çıktığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSubNameInputDeselected(SubNameInputDeselectedEventArgs ev)
@@ -201,7 +201,7 @@
          *
          * Hoverbike, pad üzerine takılınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnHoverpadDocking(HoverpadDockingEventArgs ev)
@@ -222,7 +222,7 @@
          *
          * Hoverbike, pad üzerinden ayrılınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnHoverpadUnDocking(HoverpadUnDockingEventArgs ev)
@@ -239,7 +239,7 @@
          *
          * Hoverbike yakınına gelince veya ayrılınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnHoverpadShowroomTriggering(HoverpadShowroomTriggeringEventArgs ev)
@@ -253,7 +253,7 @@
          *
          * Her Sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate()
@@ -290,7 +290,7 @@
          *
          * Verileri temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnDispose()
@@ -302,7 +302,7 @@
          *
          * Sunucuya Veri Gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SendPacketToServer(string uniqueId, string itemId = null, bool isCustomizerOpening = false, byte showroomTriggerType = 0, ZeroColorCustomizer colorCustomizer = null, ZeroVector3 hoverbikePosition = null, ZeroQuaternion hoverbikeRotation = null,  bool isSpawning = false, bool isDocking = false, bool isUnDocking = false)

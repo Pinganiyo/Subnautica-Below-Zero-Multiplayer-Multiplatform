@@ -14,7 +14,7 @@
          *
          * Geçidin sınıf idsini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private const string DoorwayClassId = "d9d5c46d-32ab-492f-af43-830d72656dcf";
@@ -23,7 +23,7 @@
          *
          * Kapıları başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static IEnumerator OnDoorwaysInitialized()
@@ -44,7 +44,7 @@
          *
          * Kapıları yumurtlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator SpawnDoorway(CustomDoorwayComponent door)

@@ -16,7 +16,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Type ConstructorInputType = typeof(ConstructorInput);
@@ -25,7 +25,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::uGUI_CraftingMenu __instance)

@@ -16,7 +16,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -53,7 +53,7 @@
          *
          * Oyuncu nesne taraması tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnEntityScannerCompleted(EntityScannerCompletedEventArgs ev)

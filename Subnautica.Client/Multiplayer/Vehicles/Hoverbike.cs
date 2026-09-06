@@ -9,7 +9,7 @@
          *
          * Exosuit aracını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::Hoverbike HoverBike { get; set; }
@@ -18,7 +18,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnUpdate()
@@ -30,7 +30,7 @@
          *
          * Bileşen verisi alındığında yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnComponentDataReceived(VehicleUpdateComponent component)
@@ -59,7 +59,7 @@
          *
          * Oyuncu araca bindiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnEnterVehicle()
@@ -83,7 +83,7 @@
          *
          * Oyuncu araçtan indiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnExitVehicle()

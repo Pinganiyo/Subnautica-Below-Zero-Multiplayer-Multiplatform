@@ -15,7 +15,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public virtual void OnAwake(PlayerVehicleManagement management)
@@ -27,7 +27,7 @@
          *
          * Bileşen verisi alındığında yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public virtual void OnComponentDataReceived(VehicleUpdateComponent component)
@@ -39,7 +39,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public virtual void OnUpdate()
@@ -54,7 +54,7 @@
          *
          * Her sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public virtual void OnFixedUpdate()
@@ -66,7 +66,7 @@
          *
          * Oyuncu araca bindiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public virtual void OnEnterVehicle()
@@ -100,7 +100,7 @@
          *
          * Oyuncu araçtan indiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public virtual void OnExitVehicle()
@@ -130,7 +130,7 @@
          *
          * Oyuncu araçtan indiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool SetPlayerParent(Transform transform)
@@ -165,7 +165,7 @@
          *
          * Interpolasyon yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public virtual void InterpolateVehicle()
@@ -191,7 +191,7 @@
          *
          * Uzaklığı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float GetDistance()
@@ -203,7 +203,7 @@
          *
          * Mevcut hızı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Vector3 GetVelocity()
@@ -215,7 +215,7 @@
          *
          * Management Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public PlayerVehicleManagement Management { get; set; }
@@ -224,7 +224,7 @@
          *
          * IsDefaultInterpolate Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsDefaultInterpolate { get; set; } = true;
@@ -233,7 +233,7 @@
          *
          * En sonki hız değerleri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Vector3 VehicleVelocity = Vector3.zero;
@@ -242,7 +242,7 @@
          *
          * En sonki hız değerleri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Quaternion VehicleRotationVelocity;

@@ -19,7 +19,7 @@
          *
          * Whitelist isim listesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static List<string> WhitelistNames { get; set; } = new List<string>()
@@ -38,7 +38,7 @@
          *
          * Serilize edilme durumu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool IsSerializable(UniqueIdentifier uniqueIdentifier)
@@ -70,7 +70,7 @@
          *
          * Sınıfı yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator Postfix(IEnumerator values, global::ProtobufSerializer __instance, Stream stream, IList<UniqueIdentifier> uids, bool storeParent)

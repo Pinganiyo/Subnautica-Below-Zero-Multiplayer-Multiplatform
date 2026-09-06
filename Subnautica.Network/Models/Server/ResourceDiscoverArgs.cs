@@ -14,7 +14,7 @@
          *
          * Ağ Paket Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -24,7 +24,7 @@
          *
          * TechType değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -34,7 +34,7 @@
          *
          * MapRooms değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]

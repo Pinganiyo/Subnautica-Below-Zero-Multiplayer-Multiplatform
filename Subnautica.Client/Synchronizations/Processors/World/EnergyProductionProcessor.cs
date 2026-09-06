@@ -14,7 +14,7 @@
          *
          * Güç kaynaklarını önbelleğe alır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<uint, global::PowerSource> PowerSources { get; set; } = new Dictionary<uint, global::PowerSource>();
@@ -23,7 +23,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -86,7 +86,7 @@
          *
          * Güç kaynağındaki enerjiyi değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void AddEnergyToPowerSource(global::PowerSource powerSource, float energy)

@@ -15,7 +15,7 @@
          *
          * UniqueId değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UniqueId { get; set; }
@@ -24,7 +24,7 @@
          *
          * PlacePosition değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Vector3 PlacePosition { get; set; }
@@ -33,7 +33,7 @@
          *
          * BasePieces değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<BasePieceData> BasePieces { get; set; } = new List<BasePieceData>();
@@ -42,7 +42,7 @@
          *
          * UniqueId veriyi günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetUniqueId(string uniqueId)
@@ -54,7 +54,7 @@
          *
          * baseTransform veriyi günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetBasePieces(Transform baseTransform)
@@ -66,7 +66,7 @@
          *
          * PlacePosition veriyi günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetPlacePosition(Vector3 placePosition)
@@ -78,7 +78,7 @@
          *
          * En son eklenen base parçasını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public BasePieceData GetAddedPiece(Transform baseTransform)
@@ -120,7 +120,7 @@
          *
          * ParseBasePieces parçala işlemini yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<BasePieceData> ParseBasePieces(Transform baseTransform, bool isTransformStorage = false)
@@ -212,7 +212,7 @@
          *
          * Base parçasını arar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static GameObject FindBasePiece(Transform cellTransform, Vector3 cellPosition, bool isFaceHasValue, Vector3 localPosition, Quaternion localRotation, Base.FaceType faceType, Base.Direction faceDirection)

@@ -16,7 +16,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkWorldEntityComponent packet, byte requesterId, bool isSpawning)
@@ -51,7 +51,7 @@
          *
          * Bir nesne hasar aldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnTakeDamaging(TakeDamagingEventArgs ev)

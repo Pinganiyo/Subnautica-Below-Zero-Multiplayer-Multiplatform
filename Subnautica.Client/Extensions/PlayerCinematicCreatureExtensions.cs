@@ -14,7 +14,7 @@
          *
          * GlowWhale ile beraber yüzme animasyonunu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool OnHandClickGlowWhaleRideStart(this ZeroPlayer player, string creatureId)
@@ -62,7 +62,7 @@
          *
          * Oyuncu merdivene tırmanma sinematiğini başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool OnHandClickGlowWhaleEyeCinematicStart(this ZeroPlayer player, string uniqueId)
@@ -85,7 +85,7 @@
          *
          * GlowWhale ile beraber yüzme animasyonunu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void StartGlowWhaleRideCinematic(this ZeroPlayer player, string uniqueId)
@@ -101,7 +101,7 @@
          *
          * GlowWhale ile beraber yüzme animasyonunu durdurur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void StopGlowWhaleRideCinematic(this ZeroPlayer player, string uniqueId)
@@ -117,7 +117,7 @@
          *
          * GlowWhale ile beraber yüzme animasyonunu durdurur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void StartGlowWhaleEyeCinematic(this ZeroPlayer player, string uniqueId)
@@ -133,7 +133,7 @@
          *
          * Leviathan sınıfı yaratık saldırma sinematiğini başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void StartLeviathanMeleeAttackCinematic(this ZeroPlayer player, string uniqueId)

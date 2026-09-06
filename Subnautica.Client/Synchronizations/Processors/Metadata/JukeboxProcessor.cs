@@ -16,7 +16,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(string uniqueId, TechType techType, MetadataComponentArgs packet, bool isSilence)
@@ -41,7 +41,7 @@
          *
          * Şarkı kutusunda veri değişimi olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnJukeboxUsed(JukeboxUsedEventArgs ev)

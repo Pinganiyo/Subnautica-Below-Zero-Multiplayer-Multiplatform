@@ -12,7 +12,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::PictureFrame __instance)
@@ -46,7 +46,7 @@
          *
          * Benzersiz ID numarasını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetUniqueId(global::PictureFrame __instance)

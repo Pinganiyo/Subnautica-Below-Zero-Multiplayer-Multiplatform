@@ -12,7 +12,7 @@
          *
          * TechType değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -22,7 +22,7 @@
          *
          * VFXEventType Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -32,7 +32,7 @@
          *
          * TargetPosition Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -42,7 +42,7 @@
          *
          * Orientation Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -52,7 +52,7 @@
          *
          * SurfaceType Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(7)]
@@ -62,7 +62,7 @@
          *
          * SoundSurfaceType Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(8)]
@@ -72,7 +72,7 @@
          *
          * IsUnderwater Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(9)]

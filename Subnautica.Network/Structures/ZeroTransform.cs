@@ -9,7 +9,7 @@
          *
          * Forward
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -19,7 +19,7 @@
          *
          * Position
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -29,7 +29,7 @@
          *
          * Rotation
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -39,7 +39,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroTransform()
@@ -50,7 +50,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroTransform(ZeroVector3 forward, ZeroVector3 position, ZeroQuaternion rotation)
@@ -64,7 +64,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroTransform(ZeroVector3 position, ZeroQuaternion rotation)
@@ -77,7 +77,7 @@
          *
          * Metin olarak bastırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override string ToString()

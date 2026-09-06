@@ -11,7 +11,7 @@
          *
          * Bloklu listeyi barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static List<ProcessType> ProcessList { get; set; } = new List<ProcessType>();
@@ -20,7 +20,7 @@
          *
          * Bloklu listeyi barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static List<TechType> TechList { get; set; } = new List<TechType>();
@@ -29,7 +29,7 @@
          *
          * İşlem Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private ProcessType ProcessType { get; set; } = ProcessType.None;
@@ -38,7 +38,7 @@
          *
          * Teknoloji Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private TechType TechType { get; set; } = TechType.None;
@@ -47,7 +47,7 @@
          *
          * Bloklu listeye veri ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static EventBlocker Create(ProcessType type)
@@ -59,7 +59,7 @@
          *
          * Bloklu listeye veri ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static EventBlocker Create(TechType type)
@@ -71,7 +71,7 @@
          *
          * Olayın bloklanıp bloklanmadığını kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsEventBlocked(ProcessType type)
@@ -83,7 +83,7 @@
          *
          * Olayın bloklanıp bloklanmadığını kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsEventBlocked(TechType type)
@@ -95,7 +95,7 @@
          *
          * ProcessType Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public EventBlocker(ProcessType type)
@@ -108,7 +108,7 @@
          *
          * TechType Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public EventBlocker(TechType type)
@@ -121,7 +121,7 @@
          *
          * Bloklu listeden kaldırma işlemi yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Dispose()

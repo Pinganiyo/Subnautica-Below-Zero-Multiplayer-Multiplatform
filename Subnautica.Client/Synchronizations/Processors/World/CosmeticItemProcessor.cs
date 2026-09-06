@@ -23,7 +23,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -59,7 +59,7 @@
          *
          * Nesne dünyaya yerleştirildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnEntitySpawned(ItemQueueProcess item, Pickupable pickupable, GameObject gameObject)
@@ -73,7 +73,7 @@
          *
          * Oyuncu yerden eşya aldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPlayerItemPickedUp(PlayerItemPickedUpEventArgs ev)
@@ -90,7 +90,7 @@
          *
          * Kozmetik dünyaya yerleştirilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnCosmeticItemPlacing(CosmeticItemPlacingEventArgs ev)
@@ -104,7 +104,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, string baseId = null, TechType techType = TechType.None, ZeroVector3 position = null, ZeroQuaternion rotation = null, WorldPickupItem pickupItem = null)

@@ -11,7 +11,7 @@
          *
          * Mevcut gücü barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -21,7 +21,7 @@
          *
          * Mevcut gücü barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -31,7 +31,7 @@
          *
          * Max Gücü barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -41,7 +41,7 @@
          *
          * Tüketilen Enerji miktarını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -51,7 +51,7 @@
          *
          * Enerji miktarlarını değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ModifyPower(float energyAmount)
@@ -63,7 +63,7 @@
          *
          * Tüketilen Enerji miktarlarını değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ModifyConsumedEnergy(float consumedEnergy)
@@ -75,7 +75,7 @@
          *
          * Tüketilen Enerji miktarlarını yeni değerle değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetConsumedEnergy(float energy)

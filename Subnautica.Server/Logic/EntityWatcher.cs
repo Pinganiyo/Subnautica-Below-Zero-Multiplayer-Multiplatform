@@ -18,7 +18,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StopwatchItem Timing { get; set; } = new StopwatchItem(1000f);
@@ -27,7 +27,7 @@
          *
          * ChangedEntities nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Dictionary<string, List<ushort>> ChangedEntities { get; set; } = new Dictionary<string, List<ushort>>();
@@ -36,7 +36,7 @@
          *
          * Sınıfı başlatır
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnStart()
@@ -52,7 +52,7 @@
          *
          * Her sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate(float fixedDeltaTime)
@@ -99,7 +99,7 @@
          *
          * Oyunculara paketleri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SendPacketToAllClient()
@@ -121,7 +121,7 @@
          *
          * Nesne için yeni sahip arar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string FindEntityOwnership(WorldDynamicEntity entity)
@@ -158,7 +158,7 @@
          *
          * Nesne konumunu günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void UpdateEntityPosition(WorldDynamicEntity entity)
@@ -175,7 +175,7 @@
          *
          * Nesne sahipliğini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool AddChangedEntity(string ownershipId, ushort entityId, bool isIgnoreEmpty = false)
@@ -198,7 +198,7 @@
          *
          * Nesne sahipliğini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ChangeEntityOwnership(WorldDynamicEntity entity, string newOwnershipId, bool autoSend = true)
@@ -217,7 +217,7 @@
          *
          * Oyuncu'ya ait tüm nesneleri ondan kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void RemoveOwnershipByPlayer(string playerId)
@@ -244,7 +244,7 @@
          *
          * Bir nesneyi oyuncudan kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void RemoveWatcherByEntity(WorldDynamicEntity entity)

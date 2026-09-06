@@ -17,7 +17,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPrefix]
@@ -56,7 +56,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPrefix]
@@ -93,7 +93,7 @@
          *
          * Nesnenin bırakılacak pozisyonunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Vector3 GetDropPosition(bool dropFromPlayerCenter)
@@ -117,7 +117,7 @@
          *
          * Nesnenin bırakılacak açılarını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Quaternion GetDropRotation(Pickupable pickupable)

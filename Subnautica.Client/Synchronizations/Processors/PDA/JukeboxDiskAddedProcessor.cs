@@ -17,7 +17,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -40,7 +40,7 @@
          *
          * Şarkı diski açıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnJukeboxDiskAdded(JukeboxDiskAddedEventArgs ev)

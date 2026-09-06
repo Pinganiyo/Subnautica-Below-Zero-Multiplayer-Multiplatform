@@ -17,7 +17,7 @@
          *
          * Yaratık numrasını uniqueId değerine çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsMultiplayerCreature(this string creatureId)
@@ -29,7 +29,7 @@
          *
          * Yaratık numrasını uniqueId değerine çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string ToCreatureStringId(this ushort creatureId)
@@ -41,7 +41,7 @@
          *
          * UniqueId değerini yaratık numarasına çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ushort ToCreatureId(this string uniqueId)
@@ -53,7 +53,7 @@
          *
          * Yaratık bilgisini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsCanBeAttacked(this TechType techType)
@@ -65,7 +65,7 @@
          *
          * Yaratık bilgisini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static BaseCreatureData GetCreatureData(this TechType techType)
@@ -77,7 +77,7 @@
          *
          * Senkronize edilmiş yaratık olup/olmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsSynchronizedCreature(this TechType techType)
@@ -89,7 +89,7 @@
          *
          * Senkronize edilmiş yaratık olup/olmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsSynchronized(this global::Creature creature)
@@ -101,7 +101,7 @@
          *
          * Önceki olayı durdurur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void StopPrevAction(this global::Creature creature)
@@ -117,7 +117,7 @@
          *
          * Yaratık nesnesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static MultiplayerCreature GetCreatureObject(this MultiplayerCreatureItem creature)
@@ -134,7 +134,7 @@
          *
          * Yaratık yumurtlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Spawn(this MultiplayerCreatureItem creature)
@@ -151,7 +151,7 @@
          *
          * Yaratık pasif hale getirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Disable(this MultiplayerCreatureItem creature)
@@ -169,7 +169,7 @@
          *
          * Yaratık sahibini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ChangeOwnership(this MultiplayerCreatureItem creature)
@@ -185,7 +185,7 @@
          *
          * Yaratık nesnesini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SetCreatureObject(this MultiplayerCreatureItem creature, MultiplayerCreature creatureObject)
@@ -197,7 +197,7 @@
          *
          * Yaratık nesnesini kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void RemoveCreatureObject(this MultiplayerCreatureItem creature)
@@ -209,7 +209,7 @@
          *
          * Yaratık nesnesini kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static IEnumerator BornAsync(this GameObject creatureGameObject, TaskResult<GameObject> taskResult)

@@ -22,7 +22,7 @@
          *
          * TargetBaseId değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -32,7 +32,7 @@
          *
          * Komponenti döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public T GetComponent<T>()

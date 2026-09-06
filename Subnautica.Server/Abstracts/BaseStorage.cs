@@ -12,7 +12,7 @@
          *
          * Multi Thread Kilidi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public object ProcessLock { get; set; } = new object();
@@ -21,7 +21,7 @@
          *
          * Sunucu id numarasını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string ServerId { get; set; }
@@ -30,7 +30,7 @@
          *
          * Doysa yolunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string FilePath { get; set; }
@@ -39,7 +39,7 @@
          *
          * Verileri dosyadan yükler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public abstract void Load();
@@ -48,7 +48,7 @@
          *
          * İşlemleri başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public abstract void Start(string serverId);
@@ -57,7 +57,7 @@
          *
          * Verileri diske yazar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public abstract void SaveToDisk();
@@ -66,7 +66,7 @@
          *
          * Verileri diske yazar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool WriteToDisk<T>(T storage)
@@ -97,7 +97,7 @@
          *
          * Verileri diske yazar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool InitializePath()

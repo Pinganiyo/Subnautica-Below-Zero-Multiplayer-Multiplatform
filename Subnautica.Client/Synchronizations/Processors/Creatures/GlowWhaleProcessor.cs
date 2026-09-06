@@ -19,7 +19,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkCreatureComponent networkPacket, byte requesterId, double processTime, TechType creatureType, ushort creatureId)
@@ -47,7 +47,7 @@
          *
          * İşlem tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnCreatureProcessCompleted(MultiplayerCreature creature, CreatureQueueItem item)
@@ -125,7 +125,7 @@
          *
          * Balina göz animasyonu başlarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnGlowWhaleEyeCinematicStarting(GlowWhaleEyeCinematicStartingEventArgs ev)
@@ -142,7 +142,7 @@
          *
          * Balina sürme başlarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnGlowWhaleRideStarting(GlowWhaleRideStartingEventArgs ev)
@@ -159,7 +159,7 @@
          *
          * Balina sürme sona erdiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnGlowWhaleRideStoped(GlowWhaleRideStopedEventArgs ev)
@@ -171,7 +171,7 @@
          *
          * Balina SFX tetiklendiğine çalışır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnGlowWhaleSFXTriggered(GlowWhaleSFXTriggeredEventArgs ev)
@@ -186,7 +186,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SendPacketToServer(ushort creatureId, bool isRideStart = false, bool isRideEnd = false, bool isEyeInteract = false, GlowWhaleSFXType sfxType = GlowWhaleSFXType.None)

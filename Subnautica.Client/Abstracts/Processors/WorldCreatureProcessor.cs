@@ -9,7 +9,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public abstract bool OnDataReceived(NetworkCreatureComponent packet, byte requesterId, double processTime, TechType creatureType, ushort creatureId);
@@ -18,7 +18,7 @@
          *
          * İşlemi yönlendirip çalıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool ExecuteProcessor(NetworkCreatureComponent packet, byte requesterId, double processTime, TechType creatureType, ushort creatureId)

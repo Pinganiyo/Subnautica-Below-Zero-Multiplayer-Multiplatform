@@ -17,7 +17,7 @@
          *
          * Nesnenin id'sini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetIdentityId(this GameObject gameObject, bool autoAdd = false)
@@ -29,7 +29,7 @@
          *
          * Nesnenin id'sini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SetIdentityId(this GameObject gameObject, string uniqueId)
@@ -41,7 +41,7 @@
          *
          * Oyun modunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */        
         public static GameModePresetId GetButtonGameModeId(this GameObject gameObject)
@@ -84,7 +84,7 @@
          *
          * ColorCustomizer özellikleri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void CopyFrom(this global::ICustomizeable customizeable, ZeroColorCustomizer customizer)
@@ -100,7 +100,7 @@
          *
          * ColorCustomizer özellikleri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void CopyFrom(this global::SubNameInput subNameInput, ZeroColorCustomizer customizer)
@@ -116,7 +116,7 @@
          *
          * ColorCustomizer özellikleri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void CopyFrom(this global::ColorNameControl toColorNameControl, global::ColorNameControl fromColorNameControl)
@@ -129,7 +129,7 @@
          *
          * Hoverbike özellikleri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static WorldEntityModel.Hoverbike ToHoverbikeComponent(this global::Hoverbike hoverBike)
@@ -148,7 +148,7 @@
          *
          * Hoverbike özellikleri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static WorldEntityModel.MapRoomCamera ToMapRoomCameraComponent(this global::Pickupable pickupable)
@@ -165,7 +165,7 @@
          *
          * ZeroColorCustomizer nesnesine dönüştürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ZeroColorCustomizer ToZeroColorCustomer(this ColorNameControl colorNameControl)
@@ -184,7 +184,7 @@
          *
          * LiveMixin nesnesine dönüştürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static WorldEntityModel.Shared.LiveMixin ToZeroLiveMixin(this global::LiveMixin liveMixin)
@@ -196,7 +196,7 @@
          *
          * Powercell nesnesine dönüştürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static WorldEntityModel.Shared.PowerCell ToPowerCell(this global::EnergyMixin energyMixin)
@@ -213,7 +213,7 @@
          *
          * UpgradeConsole nesnelerine dönüştürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<UpgradeConsoleItem> ToUpgradeConsoleItems(this global::Equipment equipment, string[] slotIds)
@@ -239,7 +239,7 @@
          *
          * Güç hücrelerine dönüştürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SetHealth(this global::Drillable drillable, float newHealth, bool isRespawnable = false, bool isSpawnFx = false)
@@ -312,7 +312,7 @@
          *
          * Çok Oyunculu resim çerçevesi seçer.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool MultiplayerSelectImage(this global::PictureFrame pictureFrame, string filename, byte[] imageData)
@@ -356,7 +356,7 @@
          *
          * Çok Oyunculu muzik değiştirir
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool ChangeMusic(this global::JukeboxInstance jukebox, string currentPlayingTrack, bool isPaused, global::Jukebox.Repeat repeatMode, bool isShuffled, float volume, float position, uint length)
@@ -430,7 +430,7 @@
          *
          * WaterPark döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */  
         public static global::WaterPark GetBaseWaterPark(this global::BaseDeconstructable baseDeconstructable)
@@ -447,7 +447,7 @@
          *
          * WaterPark için BaseDeconstructable döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static BaseDeconstructable GetBaseDeconstructable(this global::WaterPark waterPark)
@@ -475,7 +475,7 @@
          *
          * Maproom için BaseDeconstructable döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static BaseDeconstructable GetBaseDeconstructable(this MapRoomFunctionality mapRoom)
@@ -506,7 +506,7 @@
          *
          * BaseDeconstructable için MapRoomFunctionality döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */    
         public static MapRoomFunctionality GetMapRoomFunctionality(this BaseDeconstructable baseDeconstructable)
@@ -518,7 +518,7 @@
          *
          * Ghost crafter döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */    
         public static global::GhostCrafter GetGhostCrafter(this GameObject gameObject)
@@ -540,7 +540,7 @@
          *
          * Sinematiği atlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */    
         public static void SkipCinematic(this global::PlayerCinematicController cinematic)
@@ -556,7 +556,7 @@
          *
          * Oyuncunun pilotluk durumunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */    
         public static bool IsPiloted(this global::SeaTruckSegment seaTruckSegment)
@@ -578,7 +578,7 @@
          *
          * Ghost crafter döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */    
         public static global::MoonpoolExpansionManager GetDockedMoonpoolExpansion(this global::SeaTruckSegment seaTruckSegment, bool checkHead = false)
@@ -608,7 +608,7 @@
          *
          * Oyuncunun altındaki nesneyi döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static T GetUnderGameObject<T>(this global::Player player)
@@ -625,7 +625,7 @@
          *
          * Oyuncunun hareketini dondurur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void DisableMovement(this global::Player player)
@@ -637,7 +637,7 @@
          *
          * Oyuncunun hareketini açar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void EnableMovement(this global::Player player)

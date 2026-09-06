@@ -12,7 +12,7 @@
          *
          * Name değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -22,7 +22,7 @@
          *
          * BaseColor değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -32,7 +32,7 @@
          *
          * StripeColor1 değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -42,7 +42,7 @@
          *
          * StripeColor2 değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -52,7 +52,7 @@
          *
          * NameColor değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -62,7 +62,7 @@
          *
          * Minimap değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -72,7 +72,7 @@
          *
          * IsNavigateOpening değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -82,7 +82,7 @@
          *
          * IsColorCustomizerOpening değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(7)]
@@ -92,7 +92,7 @@
          *
          * IsColorCustomizerSave değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(8)]
@@ -102,7 +102,7 @@
          *
          * IsNavigationExiting değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(9)]
@@ -116,7 +116,7 @@
          *
          * Position değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -126,7 +126,7 @@
          *
          * Cell değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -136,7 +136,7 @@
          *
          * IsPowered değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -146,7 +146,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public BaseControlRoomMinimap()
@@ -158,7 +158,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public BaseControlRoomMinimap(ZeroVector3 position, ZeroInt3 cell, bool isPowered = false)

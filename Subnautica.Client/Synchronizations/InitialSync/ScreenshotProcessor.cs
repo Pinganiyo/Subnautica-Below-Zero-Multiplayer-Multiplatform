@@ -13,7 +13,7 @@
          *
          * Mevcut resim isimlerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<string> GetLocalScreenshotFileNames()
@@ -34,7 +34,7 @@
          *
          * Oyuncu'ya özel ekran görüntülerini senkronlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnScreenshotInitialized()
@@ -57,7 +57,7 @@
          *
          * Sunucu taraflı ekran görüntülerini ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
          public static void OnPictureFrameInitialized(Dictionary<string, PictureFrame> pictureFrames, List<string> existImages)

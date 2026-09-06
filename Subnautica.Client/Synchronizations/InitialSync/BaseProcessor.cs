@@ -19,7 +19,7 @@
          *
          * Üs verilerini ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static IEnumerator InitialBases()
@@ -58,7 +58,7 @@
          *
          * Üs rengini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SetBaseColor(string baseId, string name, ZeroColor baseColor, ZeroColor stripeColor1, ZeroColor stripeColor2, ZeroColor nameColor)
@@ -78,7 +78,7 @@
          *
          * Üs harita konumlarını değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SetMinimapPositions(global::Base baseComponent, Dictionary<string, ZeroVector3> minimapPositions)
@@ -108,7 +108,7 @@
          *
          * Üs kapalı ışıkları ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SetDisablePowers(global::Base baseComponent, HashSet<ZeroInt3> disablePowers)
@@ -135,7 +135,7 @@
          *
          * Üs'deki sızıntıları senkronlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SetLeakers(global::Base baseComponent, HashSet<Leaker> leakers)
@@ -175,7 +175,7 @@
          *
          * Üs'deki su seviyelerini senkronlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SetCellWaterLevel(global::Base baseComponent, Dictionary<ushort, float> cellWaterLevels)

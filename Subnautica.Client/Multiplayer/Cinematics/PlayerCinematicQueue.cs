@@ -19,7 +19,7 @@
          *
          * Kuyruk listesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Dictionary<string, Queue<PlayerCinematicQueueItem>> Queues = new Dictionary<string, Queue<PlayerCinematicQueueItem>>();
@@ -28,7 +28,7 @@
          *
          * Kuyruk Durumu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static List<string> QueueStatus = new List<string>();
@@ -37,7 +37,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Initialize()
@@ -49,7 +49,7 @@
          *
          * Animasyon kuyruğuna ekleme yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void AddQueue(CinematicController cinematicController, Action cinematicAction, string playerId, string uniqueId, GenericProperty property = null)
@@ -67,7 +67,7 @@
          *
          * Kuyruğun çalışıp/çalışmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsQueueRunning(string playerId)
@@ -79,7 +79,7 @@
          *
          * Animasyon kuyruğunu tüketir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void ConsumeQueue(string playerId)
@@ -94,7 +94,7 @@
          *
          * Animasyon kuyruğunu tüketir. (Async)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator ConsumeQueueAsync(string playerId)
@@ -164,7 +164,7 @@
          *
          * Hedef kullanılıyor mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool IsUsingTarget(string uniqueId, string playerId)
@@ -189,7 +189,7 @@
          *
          * Bir nesne yok edilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool GameObjectDestroyingAction(string uniqueId)
@@ -210,7 +210,7 @@
          *
          * Tüm veriyi temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Dispose()
@@ -226,7 +226,7 @@
          *
          * Yapı Id Kimliği
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UniqueId { get; private set; }
@@ -235,7 +235,7 @@
          *
          * Çalışacak sinematik
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Action CinematicAction { get; private set; }
@@ -244,7 +244,7 @@
          *
          * Sinematik sınıfı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public CinematicController CinematicController { get; private set; }
@@ -253,7 +253,7 @@
          *
          * Özellikleri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<GenericProperty> Properties = new List<GenericProperty>();
@@ -262,7 +262,7 @@
          *
          * Sınıf ayarlarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public PlayerCinematicQueueItem(CinematicController cinematicController, Action cinematicAction, string uniqueId, GenericProperty property = null)
@@ -281,7 +281,7 @@
          *
          * Özellik kaydeder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void RegisterProperty(string key, object value)
@@ -293,7 +293,7 @@
          *
          * Tüm özellikleri temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ClearProperties()

@@ -17,7 +17,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -81,7 +81,7 @@
          *
          * Sınıf başlatılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnStart()
@@ -93,7 +93,7 @@
          *
          * Hayalet yapı kurulmaya çalışıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnConstructingGhostTryPlacing(ConstructionGhostTryPlacingEventArgs ev)

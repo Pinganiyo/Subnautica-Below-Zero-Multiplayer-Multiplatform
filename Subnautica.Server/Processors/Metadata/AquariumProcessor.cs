@@ -13,7 +13,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(AuthorizationProfile profile, MetadataComponentArgs packet, ConstructionItem construction)
@@ -57,7 +57,7 @@
          *
          * Depolamayı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Metadata.StorageContainer GetStorageContainer(ConstructionItem construction)

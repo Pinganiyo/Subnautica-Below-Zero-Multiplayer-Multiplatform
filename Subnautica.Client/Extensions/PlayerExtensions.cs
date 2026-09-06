@@ -14,7 +14,7 @@
          *
          * Oyuncuya gerekli Behaviour'ları ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void InitBehaviours(this ZeroPlayer player)
@@ -37,7 +37,7 @@
          *
          * Oyuncu elindeki aleti döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static T GetHandTool<T>(this ZeroPlayer player, TechType techType)
@@ -67,7 +67,7 @@
          *
          * Oyuncuya gerekli Behaviour'ları ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SetHandItem(this ZeroPlayer player, TechType techType)
@@ -90,7 +90,7 @@
          *
          * Oyuncunun aracını yeniler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool RefreshVehicle(this ZeroPlayer player, ushort vehicleId)
@@ -119,7 +119,7 @@
          *
          * Oyuncunun araç durumunu günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool SetVehicle(this ZeroPlayer player, ushort vehicleId, ZeroVector3 position, ZeroQuaternion rotation, VehicleUpdateComponent component)
@@ -156,7 +156,7 @@
          *
          * Oyuncu araçtan iner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ExitVehicle(this ZeroPlayer player)
@@ -173,7 +173,7 @@
          *
          * Oyuncu araç verisini temizler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ClearVehicle(this ZeroPlayer player)
@@ -186,7 +186,7 @@
          *
          * Oyuncuya componenti ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static T EnsureComponent<T>(this ZeroPlayer player) where T : MonoBehaviour
@@ -198,7 +198,7 @@
          *
          * İstenen sinematik nesnesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static T GetCinematic<T>(this ZeroPlayer player) where T : CinematicController
@@ -222,7 +222,7 @@
          *
          * Tüm sinematikleri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static CinematicController[] GetCinematics(this ZeroPlayer player)

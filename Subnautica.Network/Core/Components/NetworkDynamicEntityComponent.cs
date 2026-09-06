@@ -33,7 +33,7 @@
          *
          * Komponenti döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public T GetComponent<T>()

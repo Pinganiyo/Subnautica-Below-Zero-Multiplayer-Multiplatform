@@ -14,7 +14,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string UniqueId { get; set; } = null;
@@ -23,7 +23,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static TechType TechType { get; set; } = TechType.None;
@@ -32,7 +32,7 @@
          *
          * Önek Yaması
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void Prefix()
@@ -48,7 +48,7 @@
          *
          * Sonek Yaması
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void Postfix(ref PDAScanner.Result __result)

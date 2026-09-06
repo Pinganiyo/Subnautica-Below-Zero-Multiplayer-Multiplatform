@@ -16,7 +16,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(AuthorizationProfile profile, PlayerItemActionArgs packet)
@@ -48,7 +48,7 @@
          *
          * Bileşeni döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private WorldEntityModel.LEDLight GetComponent(bool isDeployed)

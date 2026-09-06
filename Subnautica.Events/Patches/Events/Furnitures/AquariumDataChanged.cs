@@ -17,7 +17,7 @@
          *
          * Tetiklenme durumunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool IsTriggered { get; set; } = false;
@@ -26,7 +26,7 @@
          *
          * Olayı Tetikler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void TriggerEvent(global::Aquarium __instance)
@@ -41,7 +41,7 @@
          *
          * İç Olayı Tetikler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator TriggerEventCallback(global::Aquarium __instance)
@@ -72,7 +72,7 @@
          *
          * Balık türlerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static List<TechType> GetFishTypes(global::Aquarium __instance)

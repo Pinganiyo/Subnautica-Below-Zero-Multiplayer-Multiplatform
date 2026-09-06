@@ -11,7 +11,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::DockedVehicleHandTarget __instance)
@@ -34,7 +34,7 @@
          *
          * Bloklanma durumunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool IsBlocked(global::DockedVehicleHandTarget __instance)

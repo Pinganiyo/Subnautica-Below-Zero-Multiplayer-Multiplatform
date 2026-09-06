@@ -8,7 +8,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ShieldBaseEnterTriggeringEventArgs(bool isAllowed = true)
@@ -20,7 +20,7 @@
          *
          * Olayın çalıştırılıp/çalıştırılmayacağı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsAllowed { get; set; }

@@ -10,7 +10,7 @@
          *
          * Balina sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::Skyray Skyray { get; set; }
@@ -19,7 +19,7 @@
          *
          * Sınıf uyanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Awake()
@@ -31,7 +31,7 @@
          *
          * Her sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void FixedUpdate()
@@ -59,7 +59,7 @@
          *
          * Kuş tünemiş mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsRoosting()

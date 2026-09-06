@@ -10,7 +10,7 @@
          *
          * TechTypeInfos değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private readonly Dictionary<TechType, WorldEntityInfo> TechTypeInfos = new Dictionary<TechType, WorldEntityInfo>();
@@ -19,7 +19,7 @@
          *
          * Teknoloji bilgisini önbelleğe ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void AddTechTypeInfo(TechType techType, WorldEntityInfo info)
@@ -31,7 +31,7 @@
          *
          * Teknoloji bilgisini önbellekten döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool TryGetInfoByTechType(TechType techType, out WorldEntityInfo info)
@@ -43,7 +43,7 @@
          *
          * Teknoloji bilgisini önbellekten döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool TryGetInfoByClassId(string classId, out WorldEntityInfo info)
@@ -55,7 +55,7 @@
          *
          * Verileri temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Dispose()

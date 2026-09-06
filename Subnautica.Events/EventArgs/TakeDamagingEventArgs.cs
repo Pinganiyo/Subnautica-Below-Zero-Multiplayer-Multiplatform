@@ -12,7 +12,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public TakeDamagingEventArgs(global::LiveMixin liveMixin, TechType techType, float damage, float oldHealth, float maxHealth, float newHealth, DamageType damageType, bool isDestroyable, GameObject dealer, bool isAllowed = true)
@@ -41,7 +41,7 @@
          *
          * LiveMixin değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public global::LiveMixin LiveMixin { get; set; }
@@ -50,7 +50,7 @@
          *
          * UniqueId değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UniqueId { get; set; }
@@ -59,7 +59,7 @@
          *
          * Dealer değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public GameObject Dealer { get; set; }
@@ -68,7 +68,7 @@
          *
          * DealerId değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string DealerId { get; set; }
@@ -77,7 +77,7 @@
          *
          * TechType değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public TechType TechType { get; set; }
@@ -86,7 +86,7 @@
          *
          * Damage değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float Damage { get; set; }
@@ -95,7 +95,7 @@
          *
          * OldHealth değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float OldHealth { get; set; }
@@ -104,7 +104,7 @@
          *
          * MaxHealth değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float MaxHealth { get; set; }
@@ -113,7 +113,7 @@
          *
          * NewHealth değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float NewHealth { get; set; }
@@ -122,7 +122,7 @@
          *
          * DamageType değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public DamageType DamageType { get; set; }
@@ -131,7 +131,7 @@
          *
          * IsDestroyable değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsDestroyable { get; private set; }
@@ -140,7 +140,7 @@
          *
          * IsStaticWorldEntity değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsStaticWorldEntity { get; private set; }
@@ -149,7 +149,7 @@
          *
          * IsDead değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsDead { get; set; }
@@ -158,7 +158,7 @@
          *
          * IsAllowed değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsAllowed { get; set; }

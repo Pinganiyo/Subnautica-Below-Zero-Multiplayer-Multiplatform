@@ -14,7 +14,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void Prefix(global::CinematicModeTriggerBase __instance)
@@ -29,7 +29,7 @@
          *
          * Merdiveni döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetLadderUniqueId(global::CinematicModeTrigger cinematic)

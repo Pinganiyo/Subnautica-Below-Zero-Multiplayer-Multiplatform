@@ -9,7 +9,7 @@
          *
          * Araç bileşenini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static HoverbikeUpdateComponent GetComponent(HoverbikeUpdateComponent component, global::Hoverbike hoverbike)

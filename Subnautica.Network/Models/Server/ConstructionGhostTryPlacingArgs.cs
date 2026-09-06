@@ -14,7 +14,7 @@
          *
          * Ağ Paket Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -24,7 +24,7 @@
          *
          * Packet Kanal Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -34,7 +34,7 @@
          *
          * Packet Kanal Id
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -44,7 +44,7 @@
          *
          * Ağ Kimliği Pozisyonu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -54,7 +54,7 @@
          *
          * SubrootId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -64,7 +64,7 @@
          *
          * Nesne Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(7)]
@@ -74,7 +74,7 @@
          *
          * Nesne Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(8)]
@@ -84,7 +84,7 @@
          *
          * Nesne Pozisyonu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(9)]
@@ -94,7 +94,7 @@
          *
          * Nesne Açısı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(10)]
@@ -104,7 +104,7 @@
          *
          * AimTransform
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(11)]
@@ -114,7 +114,7 @@
          *
          * BaseGhostComponent
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(12)]
@@ -124,7 +124,7 @@
          *
          * IsCanPlace Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(13)]
@@ -134,7 +134,7 @@
          *
          * IsBasePiece Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(14)]
@@ -144,7 +144,7 @@
          *
          * IsError Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(15)]

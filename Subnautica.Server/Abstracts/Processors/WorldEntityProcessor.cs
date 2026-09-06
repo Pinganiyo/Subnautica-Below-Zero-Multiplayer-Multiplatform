@@ -11,7 +11,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public abstract bool OnDataReceived(AuthorizationProfile profile, WorldEntityActionArgs packet);
@@ -20,7 +20,7 @@
          *
          * veriyi serilize eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool ExecuteProcessor(AuthorizationProfile profile, WorldEntityActionArgs packet)

@@ -13,7 +13,7 @@
          *
          * Builder sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Constructing.Builder Builder;
@@ -22,7 +22,7 @@
          *
          * Hedef miktarı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float TargetConstructedAmount { get; set; } = 0.0f;
@@ -31,7 +31,7 @@
          *
          * Hedef için kalan zamanı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float ConstructionLeftTime { get; set; } = 0.0f;
@@ -40,7 +40,7 @@
          *
          * Builder sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsActive { get; set; } = false;
@@ -49,7 +49,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Update()
@@ -64,7 +64,7 @@
          *
          * Hedef miktarı değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetTargetConstructedAmount(float targetAmount)
@@ -78,7 +78,7 @@
          *
          * Tamamlanma animasyonunu günceller
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void UpdateChangedAmount()
@@ -106,7 +106,7 @@
          *
          * Zaman arasındaki güncelleme oranını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float GetDifferentAmount()
@@ -121,7 +121,7 @@
          *
          * Yapının inşaa edilmiş miktarını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float GetConstructedAmount()

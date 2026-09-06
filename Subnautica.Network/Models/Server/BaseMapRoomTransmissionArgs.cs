@@ -16,7 +16,7 @@
          *
          * Ağ Paket Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -26,7 +26,7 @@
          *
          * Packet Kanal Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -36,7 +36,7 @@
          *
          * Packet Teslim Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -46,7 +46,7 @@
          *
          * Packet Kanal Id
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -56,7 +56,7 @@
          *
          * UniqueId Değerini Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -66,7 +66,7 @@
          *
          * Items Değerini Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -80,7 +80,7 @@
          *
          * Health Değerini Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -90,7 +90,7 @@
          *
          * Charge Değerini Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -100,7 +100,7 @@
          *
          * Sınıf ayarlarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public BaseMapRoomTransmissionItem()
@@ -112,7 +112,7 @@
          *
          * Sınıf ayarlarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public BaseMapRoomTransmissionItem(string uniqueId, long position)

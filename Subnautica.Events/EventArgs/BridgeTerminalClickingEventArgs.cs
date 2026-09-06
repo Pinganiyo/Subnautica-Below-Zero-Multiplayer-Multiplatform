@@ -8,7 +8,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public BridgeTerminalClickingEventArgs(string uniqueId, bool isExtend, double time, bool isAllowed = true)
@@ -22,7 +22,7 @@
          *
          * UniqueId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UniqueId { get; private set; }
@@ -31,7 +31,7 @@
          *
          * IsExtend Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsExtend { get; set; }
@@ -40,7 +40,7 @@
          *
          * Time Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float Time { get; set; }
@@ -49,7 +49,7 @@
          *
          * IsAllowed Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsAllowed { get; set; }

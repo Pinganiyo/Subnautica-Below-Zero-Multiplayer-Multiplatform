@@ -20,7 +20,7 @@
          *
          * Dünya üzerinde dinamik nesneler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<string, WorldDynamicEntity> Entities { get; set; } = new Dictionary<string, WorldDynamicEntity>();
@@ -29,7 +29,7 @@
          *
          * Dünya üzerinde aktif dinamik nesneler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public HashSet<ushort> ActivatedEntities { get; set; } = new HashSet<ushort>();
@@ -38,7 +38,7 @@
          *
          * Uzaklık Görünürlüğü (72^ metre)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float VisibilityDistance { get; set; } = 5000f;
@@ -47,7 +47,7 @@
          *
          * Fizik Görünürlüğü (50 metre)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float PhysicsDistance { get; set; } = 2500f;
@@ -56,7 +56,7 @@
          *
          * Dinmaik nesne yumurtlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Spawn(WorldDynamicEntity entity, Action<ItemQueueProcess, Pickupable, GameObject> onEntitySpawned, object customProperty = null, object customProperty2 = null, bool ignoreDynamicCheck = false)
@@ -83,7 +83,7 @@
          *
          * Dinmaik nesne siler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Remove(string itemId)
@@ -99,7 +99,7 @@
          *
          * Nesne silindikten sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntityRemoved(ItemQueueProcess item)
@@ -111,7 +111,7 @@
          *
          * Nesne spawnlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntitySpawned(ItemQueueProcess item, Pickupable pickupable, GameObject gameObject)
@@ -134,7 +134,7 @@
          *
          * Dinmaik nesne ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void AddEntity(WorldDynamicEntity entity)
@@ -149,7 +149,7 @@
          *
          * Dinmaik nesne değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetEntity(WorldDynamicEntity entity)
@@ -161,7 +161,7 @@
          *
          * Nesnenin oyuncu tarafından kullanılma durumunu değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetEntityUsingByPlayer(ushort entityId, bool status)
@@ -180,7 +180,7 @@
          *
          * Dinmaik nesne kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void RemoveEntity(string uniqueId)
@@ -196,7 +196,7 @@
          *
          * Tüm Dinmaik nesneleri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Dictionary<string, WorldDynamicEntity> GetEntities()
@@ -208,7 +208,7 @@
          *
          * Tüm Dinmaik nesneleri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public HashSet<ushort> GetActivatedEntityIds()
@@ -220,7 +220,7 @@
          *
          * Nesne aktif mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsEntityActivated(ushort entityId)
@@ -232,7 +232,7 @@
          *
          * Nesneyi aktif eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ActivateEntity(ushort entityId)
@@ -244,7 +244,7 @@
          *
          * Nesneyi pasif yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void DisableEntity(ushort entityId)
@@ -256,7 +256,7 @@
          *
          * Nesnenin bana ait olup / olmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsMine(string uniqueId)
@@ -274,7 +274,7 @@
          *
          * Nesnenin Türünü döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public TechType GetTechType(string uniqueId)
@@ -292,7 +292,7 @@
          *
          * Dinmaik nesne döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WorldDynamicEntity GetEntity(ushort id)
@@ -304,7 +304,7 @@
          *
          * Dinmaik nesne döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WorldDynamicEntity GetEntity(string uniqueId)
@@ -322,7 +322,7 @@
          *
          * Dinmaik nesne değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool HasEntity(string uniqueId)
@@ -334,7 +334,7 @@
          *
          * Pozisyonu değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ChangePosition(ushort id, ZeroVector3 position, ZeroQuaternion rotation)
@@ -351,7 +351,7 @@
          *
          * Sahipliği değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ChangeOwnership(ushort id, string playerId)
@@ -367,7 +367,7 @@
          *
          * Nesneyi otomatik kinematic veya normal hale getirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool ToggleKinematic(WorldDynamicEntity entity, ZeroKinematicState kinematicState)
@@ -401,7 +401,7 @@
          *
          * Kinematic durumunu hesaplar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroKinematicState CalculateKinematic(WorldDynamicEntity entity, ZeroVector3 playerPosition, string playerUniqueId)
@@ -483,7 +483,7 @@
          *
          * Verileri temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Dispose()

@@ -17,7 +17,7 @@
          *
          * Modules Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -33,7 +33,7 @@
          *
          * ColorCustomizer Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -43,7 +43,7 @@
          *
          * PowerCells Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -57,7 +57,7 @@
          *
          * IsLightActive Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -67,7 +67,7 @@
          *
          * LiveMixin Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -77,7 +77,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public SeaTruck Initialize(Action<NetworkDynamicEntityComponent> onEntityComponentInitialized)

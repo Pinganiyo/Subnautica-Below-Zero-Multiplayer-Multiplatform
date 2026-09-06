@@ -16,7 +16,7 @@
          *
          * FabricatorUniqueId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -26,7 +26,7 @@
          *
          * Lockers Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -39,7 +39,7 @@
          *
          * LiveMixin Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -49,7 +49,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public SeaTruckFabricatorModule Initialize(Action<NetworkDynamicEntityComponent> onEntityComponentInitialized)

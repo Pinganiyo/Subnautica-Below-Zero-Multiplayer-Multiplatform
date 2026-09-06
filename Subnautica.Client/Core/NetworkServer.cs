@@ -13,7 +13,7 @@
          *
          * Varsayılan Local Sunucu Ip Adresi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const string DefaultLocalIpAddress = "127.0.0.1";
@@ -22,7 +22,7 @@
          *
          * Varsayılan Sunucu Portu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const int DefaultPort = 666;
@@ -31,7 +31,7 @@
          *
          * Varsayılan Max Oyuncu Sayısı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const int DefaultMaxPlayer = 8;
@@ -40,7 +40,7 @@
          *
          * Sunucuya bağlanılıyor mu durumu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsConnecting()
@@ -52,7 +52,7 @@
          *
          * Sunucuya bağlanıldı mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsConnected()
@@ -64,7 +64,7 @@
          *
          * Sunucu Id'si oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string CreateServerId()
@@ -86,7 +86,7 @@
          *
          * Yeni Sunucu Oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string CreateNewServer(GameModePresetId gameModeId)
@@ -111,7 +111,7 @@
          *
          * Sunucuyu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool StartServer(string serverId, string ownerId)
@@ -141,7 +141,7 @@
          *
          * Sunucu kapatır
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void AbortServer(bool isEndGame = false)
@@ -159,7 +159,7 @@
          *
          * Hızlı şekilde yapıları senkronlar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void UpdateConstructionSync(byte[] constructionData)
@@ -174,7 +174,7 @@
          *
          * Local Sunucu Listesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<LocalServerItem> GetLocalServerList()
@@ -199,7 +199,7 @@
          *
          * Local Sunucu Listesini günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SaveLocalServerList(List<LocalServerItem> serverList)
@@ -218,7 +218,7 @@
          *
          * Barındırılan Sunucu Listesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<HostServerItem> GetHostServerList()

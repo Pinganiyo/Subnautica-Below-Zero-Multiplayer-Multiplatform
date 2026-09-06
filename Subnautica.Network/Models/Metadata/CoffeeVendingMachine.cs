@@ -14,7 +14,7 @@
          *
          * IsAdding değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -24,7 +24,7 @@
          *
          * IsFull değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -34,7 +34,7 @@
          *
          * WasPowered değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -44,7 +44,7 @@
          *
          * ItemId değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -54,7 +54,7 @@
          *
          * Thermoses değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -68,7 +68,7 @@
          *
          * PickupItem değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -82,7 +82,7 @@
          *
          * IsActive değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -92,7 +92,7 @@
          *
          * ItemId değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -102,7 +102,7 @@
          *
          * IsFull değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -112,7 +112,7 @@
          *
          * AddedTime değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -122,7 +122,7 @@
          *
          * Thermos'u ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Initialize(string itemId, float currentTime)
@@ -137,7 +137,7 @@
          *
          * Thermos'u doldurur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Refill()
@@ -149,7 +149,7 @@
          *
          * Thermos'u sıfırlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Clear()

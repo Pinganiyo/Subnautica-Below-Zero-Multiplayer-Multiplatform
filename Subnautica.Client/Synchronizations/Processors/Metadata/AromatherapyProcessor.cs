@@ -15,7 +15,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(string uniqueId, TechType techType, MetadataComponentArgs packet, bool isSilence)
@@ -48,7 +48,7 @@
          *
          * Terapi nesnesi aktif/pasif olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnAromatherapyLampSwitchToggle(AromatherapyLampSwitchToggleEventArgs ev)

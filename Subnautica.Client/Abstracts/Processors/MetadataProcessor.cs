@@ -10,7 +10,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public abstract bool OnDataReceived(string uniqueId, TechType techType, MetadataComponentArgs packet, bool isSilence);
@@ -19,7 +19,7 @@
          *
          * İşlemi yönlendirip çalıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool ExecuteProcessor(TechType techType, string uniqueId, MetadataComponentArgs packet, bool isSilence = false)
@@ -40,7 +40,7 @@
          *
          * İşlemi yönlendirip çalıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool ExecuteProcessor(TechType techType, string uniqueId, MetadataComponent component, bool isSilence = false)

@@ -9,7 +9,7 @@
          *
          * Renk (R)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -19,7 +19,7 @@
          *
          * Renk (G)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -29,7 +29,7 @@
          *
          * Renk (B)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -39,7 +39,7 @@
          *
          * Renk (Alpha)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -49,7 +49,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroColor()
@@ -60,7 +60,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroColor(float r, float g, float b, float a = 1)
@@ -75,7 +75,7 @@
          *
          * Metin olarak bastırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override string ToString()

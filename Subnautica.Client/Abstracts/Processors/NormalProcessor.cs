@@ -9,7 +9,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public abstract bool OnDataReceived(NetworkPacket networkPacket);

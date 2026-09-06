@@ -13,7 +13,7 @@
          *
          * Hedefleri tamamlandı yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnGoalsCompleteInitialized()
@@ -54,7 +54,7 @@
          *
          * Hikaye ve PDA loglarını işler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void ProcessCompletedGoal(ZeroStoryGoal goal)

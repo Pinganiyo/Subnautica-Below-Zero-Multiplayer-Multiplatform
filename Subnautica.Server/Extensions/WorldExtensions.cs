@@ -12,7 +12,7 @@
          *
          * Id Yeniler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void RenewId(this WorldDynamicEntity entity)
@@ -24,7 +24,7 @@
          *
          * İlk modülü döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static WorldDynamicEntity GetSeaTruckHeadModule(this WorldDynamicEntity entity)
@@ -56,7 +56,7 @@
          *
          * Ön modülü döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static IEnumerable<WorldDynamicEntity> GetSeaTruckFrontModule(this WorldDynamicEntity entity)
@@ -82,7 +82,7 @@
          *
          * Arka Modülü Döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static WorldDynamicEntity GetSeaTruckRearModule(this WorldDynamicEntity entity)

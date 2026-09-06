@@ -17,7 +17,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(AuthorizationProfile profile, PlayerItemActionArgs packet)
@@ -49,7 +49,7 @@
          *
          * Bileşeni döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WorldEntityModel.Thumper GetComponent(float charge, ZeroVector3 position)

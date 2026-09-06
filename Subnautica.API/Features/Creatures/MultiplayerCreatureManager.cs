@@ -22,7 +22,7 @@
          *
          * Havuz önbellek verilerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Dictionary<TechType, List<MultiplayerCreature>> CreaturePools { get; set; } = new Dictionary<TechType, List<MultiplayerCreature>>();
@@ -31,7 +31,7 @@
          *
          * Yaratık veri önbellek verilerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Dictionary<ushort, MultiplayerCreatureItem> Creatures { get; set; } = new Dictionary<ushort, MultiplayerCreatureItem>();
@@ -40,7 +40,7 @@
          *
          * Kuyruğu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Queue<CreatureQueueItem> Queue { get; set; } = new Queue<CreatureQueueItem>();
@@ -49,7 +49,7 @@
          *
          * Meşgul Kuyruğu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Queue<CreatureQueueItem> BusyQueue { get; set; } = new Queue<CreatureQueueItem>();
@@ -58,7 +58,7 @@
          *
          * Aktif balıkları barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<ushort, MultiplayerCreature> ActiveCreatureObjects { get; set; } = new Dictionary<ushort, MultiplayerCreature>();
@@ -67,7 +67,7 @@
          *
          * Aktif balıkların id'sini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private HashSet<ushort> ActiveCreatureIds { get; set; } = new HashSet<ushort>();
@@ -76,7 +76,7 @@
          *
          * Çerçeve Başına İşlem Sayısı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private byte ConsumptionPerFrame { get; set; } = 4;
@@ -85,7 +85,7 @@
          *
          * Mevcut çerçevede yapılan işlem sayısı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private byte CurrentConsumptionCount { get; set; } = 0;
@@ -94,7 +94,7 @@
          *
          * Kuyruğun tüketilip/tüketilmediği
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsRunning { get; set; } = false;
@@ -103,7 +103,7 @@
          *
          * Yaratığı hedefe yüzdürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SwimTo(ushort creatureId, Vector3 position, Quaternion rotation)
@@ -118,7 +118,7 @@
          *
          * Yaratık kaydını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void RegisterCreature(ServerModel.WorldCreatureOwnershipItem creature)
@@ -130,7 +130,7 @@
          *
          * Yaratık kaydını günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void UpdateCreature(ServerModel.WorldCreatureOwnershipItem creature)
@@ -146,7 +146,7 @@
          *
          * Aktif yaratık nesne kaydını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool TryGetActiveCreatureObject(ushort creatureId, out MultiplayerCreature creature)
@@ -158,7 +158,7 @@
          *
          * Aktif yaratık nesne kaydını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetActiveCreatureObject(ushort creatureId, MultiplayerCreature creature)
@@ -170,7 +170,7 @@
          *
          * Aktif yaratık nesne kaydını siler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void RemoveActiveCreatureObject(ushort creatureId)
@@ -182,7 +182,7 @@
          *
          * Yaratık bana mı ait?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsMine(GameObject gameObject)
@@ -194,7 +194,7 @@
          *
          * Yaratık bana mı ait?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsMine(string uniqueId)
@@ -211,7 +211,7 @@
          *
          * Yaratık bana mı ait?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsMine(ushort creatureId)
@@ -228,7 +228,7 @@
          *
          * Yaratık kaydını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool TryGetCreature(ushort creatureId, out MultiplayerCreatureItem creature)
@@ -240,7 +240,7 @@
          *
          * Yaratık kaydını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public MultiplayerCreatureItem GetCreature(ushort creatureId)
@@ -253,7 +253,7 @@
          *
          * Aktif yaratıkları döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public IEnumerable<MultiplayerCreatureItem> GetActiveCreatures()
@@ -271,7 +271,7 @@
          *
          * Yaratık aktif mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsActiveCreature(ushort creatureId)
@@ -283,7 +283,7 @@
          *
          * Yaratık aktif mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void AddActiveCreature(ushort creatureId)
@@ -295,7 +295,7 @@
          *
          * Yaratık aktif mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void RemoveActiveCreature(ushort creatureId)
@@ -307,7 +307,7 @@
          *
          * Yaratık yok etme kuyruğuna ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool ProcessToQueue(ushort creatureId, CreatureQueueAction action = null)
@@ -327,7 +327,7 @@
          *
          * Yaratık doğma kuyruğuna ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool SpawnToQueue(ushort creatureId)
@@ -353,7 +353,7 @@
          *
          * Yaratık ölüm kuyruğuna ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool DeathToQueue(ushort creatureId)
@@ -379,7 +379,7 @@
          *
          * Yaratık yok etme kuyruğuna ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool RemoveToQueue(ushort creatureId)
@@ -405,7 +405,7 @@
          *
          * Yaratık yok etme kuyruğuna ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool ChangeOwnershipToQueue(ushort creatureId)
@@ -424,7 +424,7 @@
          *
          * Mevcut çerçevede yapılan işlem sayısını sıfırlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void ResetConsumption()
@@ -436,7 +436,7 @@
          *
          * Mevcut çerçevede yapılan işlem sayısını arttırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void IncreaseConsumption()
@@ -448,7 +448,7 @@
          *
          * Kuyruktaki işlemleri tüketir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool ConsumeQueue()
@@ -466,7 +466,7 @@
          *
          * Kuyruktaki nesneleri tüketir. (Async)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private IEnumerator ConsumeQueueAsync()
@@ -594,7 +594,7 @@
          *
          * Havuzdan yaratık alır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private MultiplayerCreature GetCreatureFromPool(TechType techType)
@@ -611,7 +611,7 @@
          *
          * Havuz'a yaratık ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private MultiplayerCreature AddCreatureToPool(TechType techType, GameObject gameObject)
@@ -636,7 +636,7 @@
          *
          * Havuz'da yaratık yoksa ekler varsa döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private IEnumerator SpawnCreature(TechType techType, TaskResult<MultiplayerCreature> item, bool addPool = true)
@@ -717,7 +717,7 @@
          *
          * Verileri temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Dispose()

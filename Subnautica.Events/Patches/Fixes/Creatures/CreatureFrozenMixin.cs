@@ -32,7 +32,7 @@
          *
          * Kinematic durumunu ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool ToggleKinematic(global::FrozenMixin __instance)

@@ -18,7 +18,7 @@
          *
          * Platform'da duran oyuncular
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<string, List<string>> PlayersOnPlatform { get; set; } = new Dictionary<string, List<string>>();
@@ -27,7 +27,7 @@
          *
          * Hoverbike enerji kapasitesi.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float HoverbikeEnergyCapacity { get; set; } = 100f;
@@ -36,7 +36,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StopwatchItem Timing { get; set; } = new StopwatchItem(1000f);
@@ -45,7 +45,7 @@
          *
          * Requests nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<ConstructionItem> Requests { get; set; } = new List<ConstructionItem>();
@@ -54,7 +54,7 @@
          *
          * Sınıfı başlatır
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnStart()
@@ -69,7 +69,7 @@
          *
          * Zamanlayıcının geri dönüş methodu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnUpdate(float deltaTime)
@@ -100,7 +100,7 @@
          *
          * Yakındaki oyunculara verileri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SendPacketToAllClient()
@@ -142,7 +142,7 @@
          *
          * Platform'daki oyuncu sayısını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public byte GetPlayerCountFromPlatform(string constructionId)
@@ -159,7 +159,7 @@
          *
          * Platform'a oyuncu ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void AddPlayerToPlatform(string constructionId, string playerId)
@@ -179,7 +179,7 @@
          *
          * Platform'dan oyuncu kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void RemovePlayerFromPlatform(string constructionId, string playerId)
@@ -194,7 +194,7 @@
          *
          * Platform'dan oyuncu kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void RemovePlayerFromPlatform(string playerId, bool autoSend)
@@ -228,7 +228,7 @@
          *
          * Hoverpad'leri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<KeyValuePair<string, ConstructionItem>> GetHoverpads()

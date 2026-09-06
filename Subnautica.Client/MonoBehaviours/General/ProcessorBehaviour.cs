@@ -12,7 +12,7 @@
           *
           * Update İşlemcilerini barındırır.
           *
-          * @author Ismail <ismaiil_0234@hotmail.com>
+          
           *
           */
         private List<BaseProcessor> UpdateProcessors { get; set; } = new List<BaseProcessor>();
@@ -21,7 +21,7 @@
           *
           * LateUpdate İşlemcilerini barındırır.
           *
-          * @author Ismail <ismaiil_0234@hotmail.com>
+          
           *
           */
         private List<BaseProcessor> LateUpdateProcessors { get; set; } = new List<BaseProcessor>();
@@ -30,7 +30,7 @@
           *
           * FixedUpdate İşlemcilerini barındırır.
           *
-          * @author Ismail <ismaiil_0234@hotmail.com>
+          
           *
           */
         private List<BaseProcessor> FixedUpdateProcessors { get; set; } = new List<BaseProcessor>();
@@ -39,7 +39,7 @@
           *
           * Dispose İşlemcilerini barındırır.
           *
-          * @author Ismail <ismaiil_0234@hotmail.com>
+          
           *
           */
         private List<BaseProcessor> DisposeProcessors { get; set; } = new List<BaseProcessor>();
@@ -48,7 +48,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Update()
@@ -63,7 +63,7 @@
          *
          * Her kare sonunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void LateUpdate()
@@ -78,7 +78,7 @@
          *
          * Her Sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void FixedUpdate()
@@ -93,7 +93,7 @@
          *
          * Her Sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnDestroy()
@@ -108,7 +108,7 @@
          *
          * Update İşlemcisi ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void AddUpdateProcessor(BaseProcessor processors)
@@ -120,7 +120,7 @@
          *
          * LateUpdate İşlemcisi ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void AddLateUpdateProcessor(BaseProcessor processors)
@@ -132,7 +132,7 @@
          *
          * FixedUpdate İşlemcisi ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void AddFixedUpdateProcessor(BaseProcessor processors)
@@ -144,7 +144,7 @@
          *
          * Dipose İşlemcisi ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void AddDisposeProcessor(BaseProcessor processors)

@@ -24,7 +24,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -51,7 +51,7 @@
          *
          * Lifepod bölgesi seçilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnLifepodZoneSelecting(LifepodZoneSelectingEventArgs ev)
@@ -72,7 +72,7 @@
          *
          * Lifepod spawnlanma için kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnLifepodZoneCheck(LifepodZoneCheckEventArgs ev)
@@ -87,7 +87,7 @@
          *
          * Lifepod enterpolasyon işleminde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnLifepodInterpolation(LifepodInterpolationEventArgs ev)
@@ -125,7 +125,7 @@
          *
          * Depo'daki malzemeleri ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void InitializeStorage(Subnautica.Network.Models.Storage.World.Childrens.SupplyDrop supplyDrop)
@@ -144,7 +144,7 @@
          *
          * Yaşam kozasını yumurtlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ForceSupplyDrop(string key)
@@ -162,7 +162,7 @@
          *
          * Nesne spawn olurken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnEntitySpawning(EntitySpawningEventArgs ev)
@@ -177,7 +177,7 @@
          *
          * Depolamaya eşya eklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStorageItemAdding(StorageItemAddingEventArgs ev)
@@ -194,7 +194,7 @@
          *
          * Depolama'dan eşya kaldırıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStorageItemRemoving(StorageItemRemovingEventArgs ev)
@@ -211,7 +211,7 @@
          *
          * Sunucuya Veri Gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, WorldPickupItem pickupItem = null, bool isAdded = false)

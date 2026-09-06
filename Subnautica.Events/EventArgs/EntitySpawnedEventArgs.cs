@@ -14,7 +14,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public EntitySpawnedEventArgs(string uniqueId, GameObject gameObject, string classId, TechType techType, EntitySpawnLevel level, bool isPersistent)
@@ -41,7 +41,7 @@
          *
          * UniqueId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UniqueId { get; set; }
@@ -50,7 +50,7 @@
          *
          * GameObject Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public GameObject GameObject { get; private set; }
@@ -59,7 +59,7 @@
          *
          * ClassId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string ClassId { get; private set; }
@@ -68,7 +68,7 @@
          *
          * Level Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public EntitySpawnLevel Level { get; private set; }
@@ -77,7 +77,7 @@
          *
          * TechType Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public TechType TechType { get; private set; }
@@ -86,7 +86,7 @@
          *
          * SlotType Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public SlotType SlotType { get; set; }

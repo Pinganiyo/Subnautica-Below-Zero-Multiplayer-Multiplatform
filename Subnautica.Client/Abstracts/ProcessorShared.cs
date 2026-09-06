@@ -30,7 +30,7 @@
          *
          * İşlemleri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Dictionary<ProcessType, NormalProcessor> Processors { get; set; } = new Dictionary<ProcessType, NormalProcessor>()
@@ -39,7 +39,7 @@
              *
              * Normal Senkronizasyonlar
              *
-             * @author Ismail <ismaiil_0234@hotmail.com>
+             
              *
              */
             { ProcessType.None                               , new NoneProcessor() },
@@ -152,7 +152,7 @@
          *
          * Metadata İşlemlerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Dictionary<TechType, MetadataProcessor> MetadataProcessors { get; set; } = new Dictionary<TechType, MetadataProcessor>()
@@ -161,7 +161,7 @@
              *
              * Normal Senkronizasyonlar
              *
-             * @author Ismail <ismaiil_0234@hotmail.com>
+             
              *
              */
             { TechType.AromatherapyLamp      , new Metadata.AromatherapyProcessor() },
@@ -225,7 +225,7 @@
          *
          * Yaratık Senkronizasyon İşlemlerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Dictionary<TechType, WorldCreatureProcessor> WorldCreatureProcessors { get; set; } = new Dictionary<TechType, WorldCreatureProcessor>()
@@ -234,7 +234,7 @@
              *
              * Yaratık Senkronizasyonlar
              *
-             * @author Ismail <ismaiil_0234@hotmail.com>
+             
              *
              */
             { TechType.GlowWhale      , new Creatures.GlowWhaleProcessor() },
@@ -247,7 +247,7 @@
          *
          * World Entity İşlemlerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Dictionary<EntityProcessType, WorldEntityProcessor> WorldEntityProcessors { get; set; } = new Dictionary<EntityProcessType, WorldEntityProcessor>()
@@ -256,7 +256,7 @@
              *
              * Normal Senkronizasyonlar
              *
-             * @author Ismail <ismaiil_0234@hotmail.com>
+             
              *
              */
             { EntityProcessType.OxygenPlant         , new WorldEntities.OxygenPlantProcessor() },
@@ -275,7 +275,7 @@
          *
          * World Dynamic Entity İşlemlerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Dictionary<TechType, WorldDynamicEntityProcessor> WorldDynamicEntityProcessors { get; set; } = new Dictionary<TechType, WorldDynamicEntityProcessor>()
@@ -284,7 +284,7 @@
              *
              * Normal Senkronizasyonlar
              *
-             * @author Ismail <ismaiil_0234@hotmail.com>
+             
              *
              */
             { TechType.Constructor                  , new DynamicEntities.ConstructorProcessor() },
@@ -311,7 +311,7 @@
              *
              * Yumurta Senkronizasyonları
              *
-             * @author Ismail <ismaiil_0234@hotmail.com>
+             
              *
              */
             { TechType.GlowWhaleEgg, new DynamicEntities.BaseWaterParkProcessor() },
@@ -321,7 +321,7 @@
          *
          * Oyuncu Eşya İşlemlerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Dictionary<TechType, PlayerItemProcessor> PlayerItemProcessors { get; set; } = new Dictionary<TechType, PlayerItemProcessor>()
@@ -330,7 +330,7 @@
              *
              * Normal Senkronizasyonlar
              *
-             * @author Ismail <ismaiil_0234@hotmail.com>
+             
              *
              */
             { TechType.Scanner            , new Items.ScannerProcessor() },
@@ -360,7 +360,7 @@
          *
          * Normal işlemci döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static NormalProcessor GetNormalProcessor(ProcessType type)

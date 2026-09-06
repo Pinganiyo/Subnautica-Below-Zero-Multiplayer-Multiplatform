@@ -15,7 +15,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(string uniqueId, TechType techType, MetadataComponentArgs packet, bool isSilence)
@@ -60,7 +60,7 @@
          *
          * Tabela seçildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSignSelect(SignSelectEventArgs ev)
@@ -82,7 +82,7 @@
          *
          * Tabela da veri değişimi olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSignDataChanged(SignDataChangedEventArgs ev)
@@ -97,7 +97,7 @@
          *
          * Sunucuya Veri Gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendDataToServer(string uniqueId, bool isOpening = false, bool isSave = false, string text = null, bool[] elementsState = null, int scaleIndex = 0, int colorIndex = 0, bool isBackgroundEnabled = false)

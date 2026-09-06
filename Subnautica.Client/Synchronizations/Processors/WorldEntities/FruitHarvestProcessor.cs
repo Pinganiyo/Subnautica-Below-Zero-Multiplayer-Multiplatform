@@ -18,7 +18,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkWorldEntityComponent packet, byte requesterId, bool isSpawning)
@@ -55,7 +55,7 @@
          *
          * Biti/Ağacı hasatlar ve senkronize eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool FruitHarvestSync(string uniqueId, bool isHarvest = false)
@@ -140,7 +140,7 @@
          *
          * Bir meyve hasat edildğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnFruitHarvesting(FruitHarvestingEventArgs ev)

@@ -21,7 +21,7 @@
          *
          * Kontrol odalarını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<string, BaseControlRoomMap> ControlRooms { get; set; } = new Dictionary<string, BaseControlRoomMap>();
@@ -30,7 +30,7 @@
          *
          * Kaldırılacak haritaları barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<string> RemovingMaps { get; set; } = new List<string>();
@@ -39,7 +39,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(string uniqueId, TechType techType, MetadataComponentArgs packet, bool isSilence)
@@ -110,7 +110,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnUpdate()
@@ -147,7 +147,7 @@
          *
          * Renk değiştirme paleti seçildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSubNameInputSelecting(SubNameInputSelectingEventArgs ev)
@@ -169,7 +169,7 @@
          *
          * Renk değiştirme paleti seçimden çıktığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSubNameInputDeselected(SubNameInputDeselectedEventArgs ev)
@@ -184,7 +184,7 @@
          *
          * Kontrol odasındaki mini haritaya tıklanınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBaseControlRoomMinimapUsing(BaseControlRoomMinimapUsingEventArgs ev)
@@ -201,7 +201,7 @@
          *
          * Kontrol odasındaki mini haritadan ayrılınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBaseControlRoomMinimapExiting(BaseControlRoomMinimapExitingEventArgs ev)
@@ -213,7 +213,7 @@
          *
          * Kontrol odasındaki mini harita hücresine basıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBaseControlRoomCellPowerChanging(BaseControlRoomCellPowerChangingEventArgs ev)
@@ -227,7 +227,7 @@
          *
          * Kontrol odasındaki mini harita hareket ettiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBaseControlRoomMinimapMoving(BaseControlRoomMinimapMovingEventArgs ev)
@@ -239,7 +239,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, string name = null, Color baseColor = default(Color), Color stripeColor1 = default(Color), Color stripeColor2 = default(Color), Color nameColor = default(Color), BaseControlRoomMinimap minimap = null, bool isColorCustomizerOpening = false, bool isColorCustomizerSave = false, bool isNavigateOpening = false, bool isNavigationExiting = false)
@@ -269,7 +269,7 @@
          *
          * Ana menüye dönünce tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnDispose()
@@ -285,7 +285,7 @@
          *
          * Haritayı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public GameObject Minimap { get; set; }
@@ -294,7 +294,7 @@
          *
          * Son konumu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Vector3 Position { get; set; }
@@ -303,7 +303,7 @@
          *
          * Zamanı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float Time { get; set; }

@@ -10,7 +10,7 @@
          *
          * Hata mesajı gönderir
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool SendEmptyPacketErrorLog(NetworkPacket networkPacket)
@@ -23,7 +23,7 @@
          *
          * Hata mesajı gönderir
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool SendErrorLog(string message)

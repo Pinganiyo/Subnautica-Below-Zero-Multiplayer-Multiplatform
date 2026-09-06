@@ -10,7 +10,7 @@
          *
          * Yatağı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::SeaTruckMotor SeaTruckMotor { get; set; }
@@ -19,7 +19,7 @@
          *
          * Animasyonu resetler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnResetAnimations(PlayerCinematicQueueItem item)
@@ -40,7 +40,7 @@
          *
          * Binme animasyonunu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void StartPilotingCinematic()
@@ -56,7 +56,7 @@
          *
          * İnme animasyonunu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void StopPilotingCinematic()
@@ -73,7 +73,7 @@
          *
          * Engage koşul simülasyonunu çalıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void PrepareStopPiloting()
@@ -90,7 +90,7 @@
          *
          * Oyuncu bağlantısı kesildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnPlayerDisconnected()
@@ -119,7 +119,7 @@
          *
          * Binme bittiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void StopPilotingEndMode()

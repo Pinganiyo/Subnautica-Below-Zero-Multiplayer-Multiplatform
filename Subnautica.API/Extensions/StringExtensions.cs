@@ -12,7 +12,7 @@
          *
          * Metni enum'a dönüştürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static T ToEnum<T>(this string value)
@@ -31,7 +31,7 @@
          *
          * Sayıyı Kültür kullanmadan metne dönüştürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string ToInvariantCultureString(this double value)
@@ -43,7 +43,7 @@
          *
          * Sayıyı Kültür kullanmadan metne dönüştürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string ToInvariantCultureString(this float value)
@@ -55,7 +55,7 @@
          *
          * Null olup/olmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsNotNull(this string value)
@@ -67,7 +67,7 @@
          *
          * Null olup/olmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsNull(this string value)
@@ -79,7 +79,7 @@
          *
          * Listeyi parçalar ve döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static IEnumerable<IEnumerable<T>> Split<T>(this T[] array, int size)
@@ -94,7 +94,7 @@
          *
          * Listeyi parçalar ve döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static IEnumerable<IEnumerable<T>> Split<T>(this List<T> list, int size)
@@ -109,7 +109,7 @@
          *
          * Listeyi parçalar ve döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static IEnumerable<Dictionary<int, long>> Split(this Dictionary<int, long> list, int size)
@@ -124,7 +124,7 @@
          *
          * Listeyi parçalar ve döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static IEnumerable<Dictionary<ushort, byte>> Split(this Dictionary<ushort, byte> list, int size)
@@ -139,7 +139,7 @@
          *
          * Aşırı yüklenmiş method mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsOverride(this MethodInfo methodInfo)
@@ -151,7 +151,7 @@
          *
          * World streamer içerip içermediğine bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsWorldStreamer(this string uniqueId)

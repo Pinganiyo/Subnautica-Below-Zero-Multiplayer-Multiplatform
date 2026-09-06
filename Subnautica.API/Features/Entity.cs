@@ -20,7 +20,7 @@ namespace Subnautica.API.Features
          *
          * Kuyruğu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Queue<ItemQueueProcess> Queue { get; set; } = new Queue<ItemQueueProcess>();
@@ -29,7 +29,7 @@ namespace Subnautica.API.Features
          *
          * Çerçeve Başına İşlem Sayısı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static byte ConsumptionPerFrame { get; set; } = 8;
@@ -38,7 +38,7 @@ namespace Subnautica.API.Features
          *
          * Mevcut çerçevede yapılan işlem sayısı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static byte CurrentConsumptionCount { get; set; } = 0;
@@ -47,7 +47,7 @@ namespace Subnautica.API.Features
          *
          * Kuyruğun tüketilip/tüketilmediği
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsRunning { get; private set; } = false;
@@ -56,7 +56,7 @@ namespace Subnautica.API.Features
          *
          * Kuyruktaki nesne sayısını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static int QueueTotalCount()
@@ -68,7 +68,7 @@ namespace Subnautica.API.Features
          *
          * (İşlem) Yumurtlama kuyruğuna ekleme yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ProcessToQueue(ItemQueueAction action)
@@ -86,7 +86,7 @@ namespace Subnautica.API.Features
          *
          * (Depolama) Yumurtlama kuyruğuna ekleme yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SpawnToQueue(TechType techType, ItemsContainer container, ItemQueueAction action = null)
@@ -106,7 +106,7 @@ namespace Subnautica.API.Features
          *
          * (Depolama) Yumurtlama kuyruğuna ekleme yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SpawnToQueue(TechType techType, string itemId, ItemQueueAction action = null)
@@ -126,7 +126,7 @@ namespace Subnautica.API.Features
          *
          * (Depolama) Yumurtlama kuyruğuna ekleme yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SpawnToQueue(TechType techType, string itemId, ItemsContainer container, ItemQueueAction action = null)
@@ -147,7 +147,7 @@ namespace Subnautica.API.Features
          *
          * (Depolama) Yumurtlama kuyruğuna ekleme yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SpawnToQueue(byte[] item, string itemId, ZeroTransform transform, ItemQueueAction action = null)
@@ -168,7 +168,7 @@ namespace Subnautica.API.Features
          *
          * (Depolama) Yumurtlama kuyruğuna ekleme yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SpawnToQueue(TechType techType, string itemId, ZeroTransform transform, ItemQueueAction action = null)
@@ -189,7 +189,7 @@ namespace Subnautica.API.Features
          *
          * (Depolama) Yumurtlama kuyruğuna ekleme yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SpawnToQueue(byte[] item, string itemId, ItemsContainer container, ItemQueueAction action = null)
@@ -210,7 +210,7 @@ namespace Subnautica.API.Features
          *
          * (Ekipman) Yumurtlama kuyruğuna ekleme yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SpawnToQueue(string slotId, TechType techType, Equipment equipment, ItemQueueAction action = null)
@@ -231,7 +231,7 @@ namespace Subnautica.API.Features
          *
          * (Depolama) Kaldırma/Yoketme kuyruğuna ekleme yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void RemoveToQueue(Pickupable pickupable, ItemsContainer container, ItemQueueAction action = null)
@@ -251,7 +251,7 @@ namespace Subnautica.API.Features
          *
          * (Ekipman) Yumurtlama kuyruğuna ekleme yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SpawnToQueue(string slotId, TechType techType, string itemId, Equipment equipment, ItemQueueAction action = null)
@@ -273,7 +273,7 @@ namespace Subnautica.API.Features
          *
          * (Ekipman) Kaldırma/Yoketme kuyruğuna ekleme yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void RemoveToQueue(string slotId, Equipment equipment, ItemQueueAction action = null)
@@ -293,7 +293,7 @@ namespace Subnautica.API.Features
          *
          * (Nesne) Kaldırma/Yoketme kuyruğuna ekleme yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void RemoveToQueue(string itemId, ItemQueueAction action = null)
@@ -312,7 +312,7 @@ namespace Subnautica.API.Features
          *
          * Kuyruktaki nesneleri tüketir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool ConsumeQueue()
@@ -330,7 +330,7 @@ namespace Subnautica.API.Features
          *
          * Kuyruktaki nesneleri tüketir. (Async)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator ConsumeQueueAsync()
@@ -496,7 +496,7 @@ namespace Subnautica.API.Features
          *
          * Ekipman'a nesneyi ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void AddItemToEquipment(ItemQueueProcess item, GameObject itemGameObject, Pickupable pickupable)
@@ -530,7 +530,7 @@ namespace Subnautica.API.Features
          *
          * Depolamaya nesneyi ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void AddItemToContainer(ItemQueueProcess item, GameObject itemGameObject, Pickupable pickupable)
@@ -579,7 +579,7 @@ namespace Subnautica.API.Features
          *
          * Eşyayı yok eder ve ekipmanlardan kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool RemoveItemInEquipment(ItemQueueProcess item)
@@ -613,7 +613,7 @@ namespace Subnautica.API.Features
          *
          * Eşyayı yok eder ve kapsayıcı'dan kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool RemoveItemInContainer(ItemQueueProcess item)
@@ -667,7 +667,7 @@ namespace Subnautica.API.Features
          *
          * Dünya'dan nesneyi kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void RemoveItemInWorld(ItemQueueProcess item)
@@ -724,7 +724,7 @@ namespace Subnautica.API.Features
          *
          * Mevcut çerçevede yapılan işlem sayısını sıfırlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void ResetConsumption()
@@ -736,7 +736,7 @@ namespace Subnautica.API.Features
          *
          * Tüm verileri siler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Dispose()

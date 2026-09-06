@@ -14,7 +14,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::FiltrationMachine __instance, BaseFiltrationMachineGeometry model)

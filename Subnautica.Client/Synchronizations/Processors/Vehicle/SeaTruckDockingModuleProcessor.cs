@@ -19,7 +19,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -48,7 +48,7 @@
          *
          * İşlem tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnDockProcessCompleted(ItemQueueProcess item)
@@ -74,7 +74,7 @@
          *
          * Demirlemeyi başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void StartDocking(string uniqueId, string vehicleId)
@@ -92,7 +92,7 @@
          *
          * Demirlemeyi çözer.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void StartUndocking(string uniqueId, WorldDynamicEntity entity, byte playerId, bool isEnterUndock, ZeroVector3 undockPosition)
@@ -110,7 +110,7 @@
          *
          * SeaTruck/Exosuit rıhtıma yanaşırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnVehicleDocking(VehicleDockingEventArgs ev)
@@ -127,7 +127,7 @@
          *
          * SeaTruck/Exosuit rıhtımdan ayrılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnVehicleUndocking(VehicleUndockingEventArgs ev)
@@ -147,7 +147,7 @@
          *
          * SeaTruck modülü başlatılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSeaTruckModuleInitialized(SeaTruckModuleInitializedEventArgs ev)
@@ -162,7 +162,7 @@
          *
          * Sunucuya paketi gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, string vehicleId, ZeroVector3 undockPosition = null, ZeroQuaternion undockRotation = null, bool isDocking = false, bool isEnterUndock = false)

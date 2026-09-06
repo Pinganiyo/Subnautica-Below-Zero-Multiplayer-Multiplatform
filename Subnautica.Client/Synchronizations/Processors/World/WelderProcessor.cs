@@ -17,7 +17,7 @@ namespace Subnautica.Client.Synchronizations.Processors.World
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -43,7 +43,7 @@ namespace Subnautica.Client.Synchronizations.Processors.World
          *
          * İşlem tamamlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnProcessCompleted(ItemQueueProcess item)
@@ -74,7 +74,7 @@ namespace Subnautica.Client.Synchronizations.Processors.World
          *
          * LiveMixin sınıfını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::LiveMixin GetLiveMixin(string uniqueId)
@@ -98,7 +98,7 @@ namespace Subnautica.Client.Synchronizations.Processors.World
          *
          * Bir araç veya yapı tamir edilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnWelding(WeldingEventArgs ev)

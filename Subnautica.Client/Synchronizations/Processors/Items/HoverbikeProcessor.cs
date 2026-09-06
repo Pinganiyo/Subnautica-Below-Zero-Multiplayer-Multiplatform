@@ -22,7 +22,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPlayerItemComponent packet, byte playerId)
@@ -46,7 +46,7 @@
          *
          * Nesne spawnlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntitySpawned(ItemQueueProcess item, Pickupable pickupable, GameObject gameObject)
@@ -83,7 +83,7 @@
          *
          * Hoverbike bırakıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnHoverbikeDeploying(HoverbikeDeployingEventArgs ev)
@@ -97,7 +97,7 @@
          *
          * Sunucuya paketi gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, ZeroVector3 deployPosition, ZeroVector3 forward, WorldEntityModel.Hoverbike component)

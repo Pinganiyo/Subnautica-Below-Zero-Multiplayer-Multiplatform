@@ -13,7 +13,7 @@
          *
          * Ağ Paket Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -23,7 +23,7 @@
          *
          * IsConnect Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -33,7 +33,7 @@
          *
          * IsEject Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -43,7 +43,7 @@
          *
          * IsMoonpoolExpansion Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(7)]
@@ -53,7 +53,7 @@
          *
          * FrontModuleId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(8)]
@@ -63,7 +63,7 @@
          *
          * BackModuleId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(9)]
@@ -73,7 +73,7 @@
          *
          * FirstModuleId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(10)]
@@ -83,7 +83,7 @@
          *
          * ModuleId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(11)]
@@ -93,7 +93,7 @@
          *
          * Position Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(12)]
@@ -103,7 +103,7 @@
          *
          * Rotation Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(13)]

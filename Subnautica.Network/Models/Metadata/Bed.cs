@@ -13,7 +13,7 @@
          *
          * MaxPlayerCount Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -23,7 +23,7 @@
          *
          * IsSleeping Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -33,7 +33,7 @@
          *
          * CurrentSide Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -43,7 +43,7 @@
          *
          * Sides Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -53,7 +53,7 @@
          *
          * Yatağın boş indexini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public int GetBedEmptySideIndex()
@@ -74,7 +74,7 @@
          *
          * PlayerId değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -84,7 +84,7 @@
          *
          * Side değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -94,7 +94,7 @@
          *
          * SleepTime değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -104,7 +104,7 @@
          *
          * PlayerIdv2 değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -114,7 +114,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public BedSideItem()
@@ -126,7 +126,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public BedSideItem(byte playerId, global::Bed.BedSide side)
@@ -140,7 +140,7 @@
          *
          * Oyuncuya uykuya yatırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Sleep(byte playerId, global::Bed.BedSide side, float SleepTime)
@@ -155,7 +155,7 @@
          *
          * Oyuncuya yataktan kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Standup()
@@ -170,7 +170,7 @@
          *
          * Kullanılma Durumu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsUsing()
@@ -182,7 +182,7 @@
          *
          * Uyuma Durumu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsSleeping(float currentTime)

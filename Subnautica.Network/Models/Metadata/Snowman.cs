@@ -11,7 +11,7 @@
          *
          * Sınıf ayarlamarlarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Snowman()

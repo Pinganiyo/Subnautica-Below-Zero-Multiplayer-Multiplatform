@@ -16,7 +16,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void Postfix(Constructable __instance)
@@ -53,7 +53,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void Postfix(BaseGhost __instance)
@@ -133,7 +133,7 @@
          *
          * Parçayı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static GameObject FindPartitionPiece(string uniqueId, Transform cellTransform)
@@ -153,7 +153,7 @@
          *
          * Base parçasını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static GameObject FindBasePiece(string uniqueId, Transform cellTransform)

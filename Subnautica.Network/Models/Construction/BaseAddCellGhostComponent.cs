@@ -12,7 +12,7 @@
          *
          * TargetOffset değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -22,7 +22,7 @@
          *
          * AboveFaceType değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -32,7 +32,7 @@
          *
          * BelowFaceType değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]

@@ -8,7 +8,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public CrushDamagingEventArgs(string uniqueId, TechType techType, float maxHealth, float damage, bool isAllowed = true)
@@ -24,7 +24,7 @@
          *
          * UniqueId değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UniqueId { get; set; }
@@ -33,7 +33,7 @@
          *
          * TechType değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public TechType TechType { get; set; }
@@ -42,7 +42,7 @@
          *
          * MaxHealth değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float MaxHealth { get; set; }
@@ -51,7 +51,7 @@
          *
          * Damage değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float Damage { get; set; }
@@ -60,7 +60,7 @@
          *
          * IsAllowed değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsAllowed { get; set; }

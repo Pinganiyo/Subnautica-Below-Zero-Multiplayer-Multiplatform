@@ -17,7 +17,7 @@
          *
          * Eklenti Adı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override string Name { get; } = "BOT Benson Client";
@@ -26,7 +26,7 @@
          *
          * Router
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Router Router { get; set; }
@@ -35,7 +35,7 @@
          *
          * Eklenti Aktifleştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnEnabled()
@@ -302,7 +302,7 @@
          *
          * Bepinex kontrolü yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void CheckBepinex()
@@ -314,7 +314,7 @@
          *
          * Ana Menüye Döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ReturnToMainMenu()

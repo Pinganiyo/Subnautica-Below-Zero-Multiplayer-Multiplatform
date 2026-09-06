@@ -12,7 +12,7 @@
          *
          * Sunucu verilerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public JoiningServerArgs Current { get; private set; }
@@ -21,7 +21,7 @@
          *
          * EndGameWorldTime değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public double EndGameWorldTime { get; private set; }
@@ -30,7 +30,7 @@
          *
          * Oyuncu seatruck içerisinde mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsInSeaTruck { get; set; }
@@ -39,7 +39,7 @@
          *
          * Sunucu verilerini günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetSession(JoiningServerArgs session)
@@ -51,7 +51,7 @@
          *
          * Keşfeldilmiş teknoloji ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void AddDiscoveredTechType(TechType techType)
@@ -63,7 +63,7 @@
          *
          * Brinicle değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Brinicle GetBrinicle(string uniqueId)
@@ -75,7 +75,7 @@
          *
          * Brinicle değerini günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetBrinicle(Brinicle brinicle)
@@ -88,7 +88,7 @@
          *
          * Brinicle var olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsBrinicleExists(string uniqueId)
@@ -100,7 +100,7 @@
          *
          * CosmeticItem var olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsCosmeticItemExists(string uniqueId)
@@ -112,7 +112,7 @@
          *
          * Cosmetic Item nesnesini değiştirir
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetCosmeticItem(CosmeticItem cosmeticItem)
@@ -125,7 +125,7 @@
          *
          * Cosmetic Item nesnesini değiştirir
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void RemoveCosmeticItem(string uniqueId)
@@ -137,7 +137,7 @@
          *
          * Sunucu verilerini günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool SetConstructionComponent(string uniqueId, MetadataComponent component)
@@ -156,7 +156,7 @@
          *
          * Oyun zamanını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public double GetWorldTime()
@@ -173,7 +173,7 @@
          *
          * Oyun sonu zamanını değiştirir
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetEndGameWorldTime(double time, bool isAdd = false)
@@ -192,7 +192,7 @@
          *
          * Bütün verileri temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Dispose()

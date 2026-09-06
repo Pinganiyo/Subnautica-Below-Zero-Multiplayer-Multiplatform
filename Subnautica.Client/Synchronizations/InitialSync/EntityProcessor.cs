@@ -19,7 +19,7 @@
          *
          * Yumurtlamayacak nesneleri ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnEntityRestrictedInitialized()
@@ -34,7 +34,7 @@
          *
          * Dünyadaki nesneleri yumurtlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnWorldItemsSpawn()
@@ -76,7 +76,7 @@
          *
          * Nesne spawnlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnEntitySpawned(ItemQueueProcess item, Pickupable pickupable, GameObject gameObject)
@@ -97,7 +97,7 @@
          *
          * Nesne spawnlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnCosmeticItemSpawned(ItemQueueProcess item, Pickupable pickupable, GameObject gameObject)

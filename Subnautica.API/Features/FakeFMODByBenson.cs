@@ -18,7 +18,7 @@
          *
          * Sınıf örneğini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static FakeFMODByBenson instance;
@@ -27,7 +27,7 @@
          *
          * Sınıf örneğini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static FakeFMODByBenson Instance
@@ -48,7 +48,7 @@
          *
          * Bir konumda ses çalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void PlaySound(FMODAsset asset, Transform attachedTransform, float maxDistance = 20f, Action<EventInstance> startAction = null, Func<EventInstance, Transform, bool> validAction = null)
@@ -60,7 +60,7 @@
          *
          * Bir konumda ses çalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void PlaySound(StudioEventEmitter eventEmitter, Transform attachedTransform, float maxDistance, Func<StudioEventEmitter, Transform, bool> validAction)
@@ -72,7 +72,7 @@
          *
          * Bir asenkron konumda ses çalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private IEnumerator PlaySoundAsync(FMODAsset asset, Transform attachedTransform, float maxDistance, Action<EventInstance> startAction, Func<EventInstance, Transform, bool> validAction)
@@ -105,7 +105,7 @@
          *
          * Bir asenkron konumda ses çalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private IEnumerator PlaySoundAsync(StudioEventEmitter eventEmitter, Transform attachedTransform, float maxDistance, Func<StudioEventEmitter, Transform, bool> validAction)
@@ -130,7 +130,7 @@
          *
          * Ses seviyesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float GetVolume(Transform attachedTransform, float maxDistance)

@@ -14,7 +14,7 @@
          *
          * LeviathanMeleeAttack sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::LeviathanMeleeAttack LeviathanMeleeAttack { get; set; }
@@ -23,7 +23,7 @@
          *
          * MultiplayerMeleeAttack sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private MultiplayerMeleeAttack MultiplayerMeleeAttack { get; set; }
@@ -32,7 +32,7 @@
          *
          * Sınıf uyanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Awake()
@@ -45,7 +45,7 @@
          *
          * Sahiplik değiştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnChangedOwnership()
@@ -57,7 +57,7 @@
          *
          * Pasif olurken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnDisable()
@@ -69,7 +69,7 @@
          *
          * Yakın dövüş saldırısını başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool StartMeleeAttack(ZeroLastTarget lastTarget)
@@ -138,7 +138,7 @@
          *
          * Diğer oyuncular için saldırıyı simüle eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool SimulateMeleeAttack(ZeroLastTarget lastTarget)
@@ -216,7 +216,7 @@
          *
          * Shadow Leviathan collider sorunnu düzeltir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private IEnumerator FixShadowLeviathanCollider(GameObject target)

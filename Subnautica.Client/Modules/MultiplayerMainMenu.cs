@@ -24,7 +24,7 @@ namespace Subnautica.Client.Modules
          *
          * Sahne yüklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSceneLoaded(SceneLoadedEventArgs ev)
@@ -43,7 +43,7 @@ namespace Subnautica.Client.Modules
          *
          * Çok oyunculu menü ayarlarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void InitializeMultiplayerMenu()
@@ -70,7 +70,7 @@ namespace Subnautica.Client.Modules
          *
          * Singleplayer butonuna basıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSinglePlayerButtonClick()
@@ -89,7 +89,7 @@ namespace Subnautica.Client.Modules
          *
          * Sidebar çok oyunculu butonuna basınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSidebarMultiplayerButtonClick()
@@ -101,7 +101,7 @@ namespace Subnautica.Client.Modules
          *
          * Host Game Butonuna basınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnHostGameButtonClick()
@@ -123,7 +123,7 @@ namespace Subnautica.Client.Modules
          *
          * Add server Butonuna basınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnAddServerButtonClick()
@@ -154,7 +154,7 @@ namespace Subnautica.Client.Modules
          *
          * Create server Butonuna basınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnHostCreateServerButtonClick()
@@ -166,7 +166,7 @@ namespace Subnautica.Client.Modules
          *
          * Join Game Butonuna basınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnJoinGameButtonClick()
@@ -188,7 +188,7 @@ namespace Subnautica.Client.Modules
          *
          * Singleplayer verilerini önbelleğe alır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void CacheSinglePlayerSaveGames()
@@ -200,7 +200,7 @@ namespace Subnautica.Client.Modules
          *
          * Ana menü kayıtlı oyunları sil iptal onay butonu tetiklenmesi.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnMenuSaveCancelDeleteButtonClicking(MenuSaveCancelDeleteButtonClickingEventArgs ev)
@@ -217,7 +217,7 @@ namespace Subnautica.Client.Modules
          *
          * Ana menü kayıtlı oyunları sil butonu tetiklenmesi.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnMenuSaveDeleteButtonClicking(MenuSaveDeleteButtonClickingEventArgs ev)
@@ -234,7 +234,7 @@ namespace Subnautica.Client.Modules
          *
          * Ana menü kayıtlı oyun buton bilgileri tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnMenuSaveUpdateLoadedButtonState(MenuSaveUpdateLoadedButtonStateEventArgs ev)
@@ -246,7 +246,7 @@ namespace Subnautica.Client.Modules
          *
          * Ana menü kayıtlı oyunu başlat tetiklemesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnMenuSaveLoadButtonClicking(MenuSaveLoadButtonClickingEventArgs ev)
@@ -258,7 +258,7 @@ namespace Subnautica.Client.Modules
          *
          * Kayıt dosyası tıklandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool LoadSave(string sessionId)
@@ -312,7 +312,7 @@ namespace Subnautica.Client.Modules
          *
          * Kayıt dosyası onay kabul reddedildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool CancelDeleteSave()
@@ -329,7 +329,7 @@ namespace Subnautica.Client.Modules
          *
          * Kayıt dosyası onay kabul edildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool DeleteSave(string sessionId)
@@ -374,7 +374,7 @@ namespace Subnautica.Client.Modules
          *
          * Kayıt kutularının detaylarını doldurur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void UpdateLoadSaveButtonState(MainMenuLoadButton lb)
@@ -404,7 +404,7 @@ namespace Subnautica.Client.Modules
          *
          * Add server save Butonuna basınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnAddServerSaveButtonClick()
@@ -457,7 +457,7 @@ namespace Subnautica.Client.Modules
          *
          * Survival/Hardcore game v.s server oluştur Butonuna basınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnCreateServerHostClick(GameModePresetId gameModeId)
@@ -488,7 +488,7 @@ namespace Subnautica.Client.Modules
          *
          * Grup Anahtarları
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const string MULTIPLAYER_BASE_GROUP_NAME = "MultiplayerBase";
@@ -501,7 +501,7 @@ namespace Subnautica.Client.Modules
          *
          * SinglePlayer verilerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Dictionary<string, SaveLoadManager.GameInfo> SinglePlayerGameSaves { get; set; }
@@ -510,7 +510,7 @@ namespace Subnautica.Client.Modules
          *
          *  IsClicked Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsClicked { get; set; } = false;

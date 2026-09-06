@@ -20,7 +20,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPlayerItemComponent packet, byte playerId)
@@ -45,7 +45,7 @@
          *
          * Bıçak saldırı animasyonunu oynatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool PlayAttackAnimation(ZeroPlayer player, ItemModel.Knife entity)
@@ -90,7 +90,7 @@
          *
          * Bıçak kullanıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnKnifeUsing(KnifeUsingEventArgs ev)

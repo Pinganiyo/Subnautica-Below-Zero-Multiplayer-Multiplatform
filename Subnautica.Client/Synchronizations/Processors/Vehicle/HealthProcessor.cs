@@ -20,7 +20,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -45,7 +45,7 @@
          *
          * İşlem tamamlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnProcessCompleted(ItemQueueProcess item)
@@ -64,7 +64,7 @@
          *
          * Araç patlamadan önce tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnVehicleDestroyed(string uniqueId, GameObject gameObject)
@@ -92,7 +92,7 @@
          *
          * Bir nesne hasar aldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnTakeDamaging(TakeDamagingEventArgs ev)
@@ -112,7 +112,7 @@
          *
          * Basınç hasarı alınınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnCrushDamaging(CrushDamagingEventArgs ev)
@@ -132,7 +132,7 @@
          *
          * Sunucuya paketi gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, float damage, DamageType damageType)

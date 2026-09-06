@@ -10,7 +10,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WorldLoadingEventArgs(IEnumerator method = null)
@@ -22,7 +22,7 @@
          *
          * WaitingMethods Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<IEnumerator> WaitingMethods { get; set; }

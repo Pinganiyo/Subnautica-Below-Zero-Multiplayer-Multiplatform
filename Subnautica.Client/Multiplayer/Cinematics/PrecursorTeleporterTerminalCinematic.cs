@@ -13,7 +13,7 @@
          *
          * Terminali barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::PrecursorTeleporterActivationTerminal Terminal { get; set; }
@@ -22,7 +22,7 @@
          *
          * Animasyonu resetler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnResetAnimations(PlayerCinematicQueueItem item)
@@ -35,7 +35,7 @@
          *
          * Animasyonu resetler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override IEnumerator OnResetAnimationsAsync(PlayerCinematicQueueItem item)
@@ -53,7 +53,7 @@
          *
          * Terminal animasyonunu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ActivatePrecursorTerminalCinematic()
@@ -71,7 +71,7 @@
          *
          * İyon küpünü hazırlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void InitializeIonCube(GameObject gameObject)
@@ -101,7 +101,7 @@
          *
          * Cinematik bittiğinde tetiklenecek kancayı değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void ActivateTeleportEndMode()

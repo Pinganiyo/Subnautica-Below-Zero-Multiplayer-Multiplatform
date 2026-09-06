@@ -12,7 +12,7 @@
          *
          * TailId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -22,7 +22,7 @@
          *
          * Kuyruğu demirler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void DockTail(string tailId)
@@ -34,7 +34,7 @@
          *
          * Kuyruğu kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void UndockTail()
@@ -46,7 +46,7 @@
          *
          * Kuyruğu demirlenmiş mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsTailDocked()

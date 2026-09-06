@@ -15,7 +15,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -37,7 +37,7 @@
          *
          * Çağrıyı cevaplar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void Answer(string data)
@@ -59,7 +59,7 @@
          *
          * Çağrıyı yoksayar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void Decline(string data)
@@ -73,7 +73,7 @@
          *
          * Hikaye çağrısı kabul/red edildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStoryCalling(StoryCallingEventArgs ev)

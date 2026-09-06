@@ -24,7 +24,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(string uniqueId, TechType techType, MetadataComponentArgs packet, bool isSilence)
@@ -121,7 +121,7 @@
          *
          * Nesne yok edildikten sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntityRemoved(ItemQueueProcess item)
@@ -143,7 +143,7 @@
          *
          * Nesne spawnlanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool OnEntitySpawning(ItemQueueProcess item)
@@ -172,7 +172,7 @@
          *
          * Nesne spawnlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntitySpawned(ItemQueueProcess item, Pickupable pickupable, GameObject gameObject)
@@ -194,7 +194,7 @@
          *
          * Şarj cihazına pil eklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnChargerItemAdded(ChargerItemAddedEventArgs ev)
@@ -206,7 +206,7 @@
          *
          * Şarj cihazın'dan pil kaldırılınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnChargerItemRemoved(ChargerItemRemovedEventArgs ev)
@@ -218,7 +218,7 @@
          *
          * Şarj cihazına tıklanınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnChargerOpening(ChargerOpeningEventArgs ev)
@@ -235,7 +235,7 @@
          *
          * PDA kapatıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnClosing(PDAClosingEventArgs ev)
@@ -257,7 +257,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SendDataToServer(string uniqueId, TechType techType, string slotId, float currentCharge, bool isOpening, bool isRemoving, bool isClosing)

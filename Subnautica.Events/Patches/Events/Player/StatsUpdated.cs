@@ -14,7 +14,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static readonly StopwatchItem Timing = new StopwatchItem(BroadcastInterval.PlayerStatsUpdated);
@@ -23,7 +23,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void Postfix()

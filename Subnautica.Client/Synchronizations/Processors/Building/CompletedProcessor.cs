@@ -17,7 +17,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -45,7 +45,7 @@
          *
          * Sınıf başlatılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnStart()
@@ -57,7 +57,7 @@
          *
          * Yapı inşaası tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnConstructingCompleted(ConstructionCompletedEventArgs ev)

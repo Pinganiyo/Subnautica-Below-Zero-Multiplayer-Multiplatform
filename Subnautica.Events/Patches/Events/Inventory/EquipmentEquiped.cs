@@ -14,7 +14,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void Postfix(global::Equipment __instance, string slot, InventoryItem item)

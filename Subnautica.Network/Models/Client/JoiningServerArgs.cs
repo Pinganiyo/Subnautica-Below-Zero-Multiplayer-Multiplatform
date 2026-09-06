@@ -25,7 +25,7 @@
          *
          * Ağ Paket Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -35,7 +35,7 @@
          *
          * Packet Kanal Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -45,7 +45,7 @@
          *
          * Benzersiz Oyuncu Id
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -55,7 +55,7 @@
          *
          * SubrootId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -65,7 +65,7 @@
          *
          * Sunucu Id numarası
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(7)]
@@ -75,7 +75,7 @@
          *
          * Mevcut Sağlık
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(8)]
@@ -85,7 +85,7 @@
          *
          * Su Miktarı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(9)]
@@ -95,7 +95,7 @@
          *
          * Açlık Miktarı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(10)]
@@ -105,7 +105,7 @@
          *
          * Oyuncu Konumu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(11)]
@@ -115,7 +115,7 @@
          *
          * Oyuncu Açısı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(12)]
@@ -125,7 +125,7 @@
          *
          * Envanter eşyaları Açısı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(13)]
@@ -135,7 +135,7 @@
          *
          * Ekipman eşyaları
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(14)]
@@ -145,7 +145,7 @@
          *
          * Ekipman eşyala Id'leri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(15)]
@@ -155,7 +155,7 @@
          *
          * Hızlı slot id'leri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(16)]
@@ -165,7 +165,7 @@
          *
          * Aktif slot değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(17)]
@@ -175,7 +175,7 @@
          *
          * Teknoloji pinlerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(18)]
@@ -185,7 +185,7 @@
          *
          * TechType Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(19)]
@@ -195,7 +195,7 @@
          *
          * Açılmış teknolojileri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(20)]
@@ -205,7 +205,7 @@
          *
          * Taranmış teknolojileri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(21)]
@@ -215,7 +215,7 @@
          *
          * Analiz edilmiş teknolojileri ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(22)]
@@ -225,7 +225,7 @@
          *
          * Açılmış ansiklopedileri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(23)]
@@ -235,7 +235,7 @@
          *
          * Kullanılan araçları barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(24)]
@@ -245,7 +245,7 @@
          *
          * Dünya Yapılarını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(25)]
@@ -255,7 +255,7 @@
          *
          * Dünya Yapılarını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(26)]
@@ -265,7 +265,7 @@
          *
          * Açılan şarkıları barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(27)]
@@ -275,7 +275,7 @@
          *
          * Bloklu listeyi barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(28)]
@@ -285,7 +285,7 @@
          *
          * Sunucu saatini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(29)]
@@ -295,7 +295,7 @@
          *
          * İlk Giriş Mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(30)]
@@ -305,7 +305,7 @@
          *
          * Oyun Modu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(31)]
@@ -315,7 +315,7 @@
          *
          * Bağlı oyuncu listesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(32)]
@@ -325,7 +325,7 @@
          *
          * Doğmayacak Nesneler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(33)]
@@ -335,7 +335,7 @@
          *
          * Dünya Nesneleri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(34)]
@@ -345,7 +345,7 @@
          *
          * PlayerTimeLastSleep Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(35)]
@@ -355,7 +355,7 @@
          *
          * IsStartedGame Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(36)]
@@ -365,7 +365,7 @@
          *
          * SupplyDrops Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(37)]
@@ -375,7 +375,7 @@
          *
          * PlayerInteriorId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(38)]
@@ -385,7 +385,7 @@
          *
          * Bases Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(39)]
@@ -395,7 +395,7 @@
          *
          * QuantumLocker Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(40)]
@@ -405,7 +405,7 @@
          *
          * PlayerId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(41)]
@@ -415,7 +415,7 @@
          *
          * MaxPlayerCount Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(42)]
@@ -425,7 +425,7 @@
          *
          * SeaTruckConnections Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(43)]
@@ -435,7 +435,7 @@
          *
          * Story Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(44)]
@@ -445,7 +445,7 @@
          *
          * ActivatedTeleporters Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(45)]
@@ -455,7 +455,7 @@
          *
          * Kişiye özel hedefleri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(46)]
@@ -465,7 +465,7 @@
          *
          * Brinicles barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(47)]
@@ -475,7 +475,7 @@
          *
          * CosmeticItems Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(48)]
@@ -485,7 +485,7 @@
          *
          * DiscoveredTechTypes Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(49)]
@@ -495,7 +495,7 @@
          *
          * PlayerRespawnPointId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(50)]
@@ -505,7 +505,7 @@
          *
          * IsInitialEquipmentAdded Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(51)]
@@ -515,7 +515,7 @@
          *
          * PlayerHypnotizeTime Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(52)]

@@ -15,7 +15,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(string uniqueId, TechType techType, MetadataComponentArgs packet, bool isSilence)
@@ -48,7 +48,7 @@
          *
          * Tuvalet kapağı açılıp/kapandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnToiletSwitchToggle(ToiletSwitchToggleEventArgs ev)

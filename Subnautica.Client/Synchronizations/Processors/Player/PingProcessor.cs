@@ -18,7 +18,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StopwatchItem Timing { get; set; } = new StopwatchItem(1000f);
@@ -27,7 +27,7 @@
          *
          * Zamanlama sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Stopwatch Ping = new Stopwatch();
@@ -36,7 +36,7 @@
         *
         * Gelen veriyi işler
         *
-        * @author Ismail <ismaiil_0234@hotmail.com>
+        
         *
         */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -66,7 +66,7 @@
          *
          * Sınıf başlatılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnStart()
@@ -78,7 +78,7 @@
          *
          * Her Sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate()
@@ -102,7 +102,7 @@
          *
          * Oyuncu istatistikleri alındığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SendPacketToServer()
@@ -119,7 +119,7 @@
          *
          * Ortalama sunucu zamanını hesaplar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private double GetServerTime(double serverTime)

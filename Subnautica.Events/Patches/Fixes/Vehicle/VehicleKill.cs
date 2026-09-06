@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Events.Patches.Fixes.Vehicle
+namespace Subnautica.Events.Patches.Fixes.Vehicle
 {
     using System;
     using System.Collections;
@@ -22,7 +22,7 @@
          *
          * Yok edilen araçları barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static HashSet<string> DestroyedVehicles { get; set; } = new HashSet<string>();
@@ -31,7 +31,7 @@
          *
          * Araç yok edilme vfx'ini çalıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool SpawnDeathVFX(string uniqueId, GameObject deathVFX, Vector3 position, Quaternion rotation)
@@ -74,7 +74,7 @@
          *
          * VFX'i belirli bir süre sonra yok eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator VFXAutoRemove(GameObject gameObject, float lifeTime)
@@ -108,7 +108,7 @@
          *
          * Ana Menüye dönünce veriler temizlenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPostfix]
@@ -121,9 +121,9 @@
 
         /**
          *
-         * Hoverbike Patlama işlemini yamalar.
+         * Hoverbike Patlama.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPostfix]
@@ -152,9 +152,9 @@
 
         /**
          *
-         * Penguin Patlama işlemini yamalar.
+         * Penguin Patlama.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPrefix]
@@ -183,9 +183,9 @@
 
         /**
          *
-         * Exosuit Patlama işlemini yamalar.
+         * Exosuit Patlama.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPrefix]
@@ -216,9 +216,9 @@
 
         /**
          *
-         * SeaTruck/Module Patlama işlemini yamalar.
+         * SeaTruck/Module Patlama.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SeaTruckSegment_OnKill_Destruction(global::SeaTruckSegment seaTruckSegment)
@@ -231,75 +231,36 @@
 
         /**
          *
-         * SeaTruckSegment işlemini yamalar.
+         * SeaTruckSegment OnKill.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
-        [HarmonyTranspiler]
+        [HarmonyPrefix]
         [HarmonyPatch(typeof(global::SeaTruckSegment), nameof(global::SeaTruckSegment.OnKill))]
-        private static IEnumerable<CodeInstruction> SeaTruckSegment_OnKill(IEnumerable<CodeInstruction> instructions)
+        private static bool SeaTruckSegment_OnKill(global::SeaTruckSegment __instance)
         {
-            var codes = instructions.ToList();
-            var index = codes.FindIndex(q => q.opcode == OpCodes.Call && q.operand.ToString().Contains("Destroy"));
-
-            if (index > -1)
+            if (Network.IsMultiplayerActive)
             {
-                codes.RemoveRange(index, 1);
-                codes.InsertRange(index, new CodeInstruction[] {
-                    new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(VehicleKill), nameof(VehicleKill.SeaTruckSegment_OnKill_Destroy), new System.Type[] { typeof(GameObject) }))
-                });
+                if (__instance.destructionEffect)
+                {
+                    SpawnDeathVFX(__instance.gameObject.GetIdentityId(), __instance.destructionEffect, __instance.transform.position, __instance.transform.rotation);
+                }
+
+                if (__instance.motor != null && __instance.motor.piloting)
+                {
+                    __instance.motor.StopPiloting(true);
+                }
+
+                if (global::Player.main != null && global::Player.main.currentInterior != null && global::Player.main.currentInterior.GetGameObject() == __instance.gameObject)
+                {
+                    global::Player.main.ExitCurrentInterior();
+                }
+
+                return false;
             }
 
-            index = codes.FindLastIndex(q => q.opcode == OpCodes.Callvirt && q.operand.ToString().Contains("ExitCurrentInterior"));
-
-            if (index > -1)
-            {
-                codes.RemoveRange(index - 1, 2);
-                codes.InsertRange(index - 1, new CodeInstruction[] {
-                    new CodeInstruction(OpCodes.Callvirt, AccessTools.Method(typeof(VehicleKill), nameof(VehicleKill.SeaTruckSegment_OnKill_ExitInterior)))
-                });
-            }
-
-            index = codes.FindIndex(q => q.opcode == OpCodes.Ldfld && q.operand.ToString().Contains("destructionEffect"));
-
-            if (index > -1)
-            {
-                codes.RemoveRange(index, 18);
-                codes.InsertRange(index, new CodeInstruction[] {
-                     new CodeInstruction(OpCodes.Ldarg_0),
-                     new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(VehicleKill), nameof(VehicleKill.SeaTruckSegment_OnKill_Destruction), new Type[] { typeof(global::SeaTruckSegment) }))
-                 });
-            }
-
-            return codes.AsEnumerable();
-        }
-
-        /**
-         *
-         * SeaTruckSegment yok etme işlemini yamalar.
-         *
-         * @author Ismail <ismaiil_0234@hotmail.com>
-         *
-         */
-        public static void SeaTruckSegment_OnKill_Destroy(GameObject gameObject)
-        {
-            if (!Network.IsMultiplayerActive)
-            {
-                GameObject.Destroy(gameObject);
-            }
-        }
-
-        /**
-         *
-         * SeaTruckSegment/ExitInterior işlemini yamalar.
-         *
-         * @author Ismail <ismaiil_0234@hotmail.com>
-         *
-         */
-        public static void SeaTruckSegment_OnKill_ExitInterior()
-        {
-            global::Player.main.ExitCurrentInterior();
+            return true;
         }
     }
 }

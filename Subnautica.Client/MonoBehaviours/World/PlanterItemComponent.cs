@@ -8,7 +8,7 @@
          *
          * Canı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float Health { get; private set; } = -1f;
@@ -17,7 +17,7 @@
          *
          * TimeNextFruit barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float TimeNextFruit { get; private set; } = 0f;
@@ -26,7 +26,7 @@
          *
          * ActiveFruitCount barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public byte ActiveFruitCount { get; private set; } = 0;
@@ -35,7 +35,7 @@
          *
          * Başlangıç zamanını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float TimeStartGrowth { get; private set; } = 0f;
@@ -44,7 +44,7 @@
          *
          * Canı değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetHealth(float health)
@@ -62,7 +62,7 @@
          *
          * Süreyi değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetTimeNextFruit(float timeNextFruit)
@@ -74,7 +74,7 @@
          *
          * ActiveFruitCount değerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetActiveFruitCount(byte activeFruitCount)
@@ -86,7 +86,7 @@
          *
          * Başlangıç zamanını değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetStartingTime(float time)

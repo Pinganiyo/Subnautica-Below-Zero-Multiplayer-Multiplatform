@@ -22,7 +22,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPlayerItemComponent packet, byte playerId)
@@ -78,7 +78,7 @@
          *
          * Araç üretildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCraftedVehicle(WorldDynamicEntity entity, ItemQueueAction item, GameObject gameObject)
@@ -90,7 +90,7 @@
          *
          * Nesne spawnlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntitySpawned(ItemQueueProcess item, global::Pickupable pickupable, GameObject gameObject)
@@ -117,7 +117,7 @@
          *
          * Bir araç yapılmaya çalışıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnConstructorCrafting(ConstructorCraftingEventArgs ev)
@@ -131,7 +131,7 @@
          *
          * Constructor menüyü açtığında/kapattığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnConstructorEngageToggle(ConstructorEngageToggleEventArgs ev)
@@ -155,7 +155,7 @@
          *
          * Constructor bırakılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnConstructorDeploying(ConstructorDeployingEventArgs ev)
@@ -169,7 +169,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SendPacketToServer(string uniqueId, TechType craftingTechType = TechType.None, ZeroVector3 craftingPosition = null, ZeroQuaternion craftingRotation = null, byte engageToggle = 0, ZeroVector3 forward = null, ZeroVector3 position = null)

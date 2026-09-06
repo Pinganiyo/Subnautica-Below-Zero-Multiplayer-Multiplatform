@@ -9,7 +9,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public IntroCheckingEventArgs(bool isAllowed = true)
@@ -21,7 +21,7 @@
          *
          * WaitingMethod değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public IEnumerator WaitingMethod { get; set; }
@@ -30,7 +30,7 @@
          *
          * IsAllowed değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsAllowed { get; set; }

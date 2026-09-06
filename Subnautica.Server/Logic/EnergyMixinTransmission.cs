@@ -18,7 +18,7 @@
          *
          * ThumperEnergyConsumptionPerSecond nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float ThumperEnergyConsumptionPerSecond { get; set; } = 0.125f;
@@ -27,7 +27,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StopwatchItem Timing { get; set; } = new StopwatchItem(1000f);
@@ -36,7 +36,7 @@
          *
          * Requests nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<EnergyMixinTransmissionItem> Requests { get; set; } = new List<EnergyMixinTransmissionItem>();
@@ -45,7 +45,7 @@
          *
          * Her sabit tick'den sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate(float fixedDeltaTime)
@@ -79,7 +79,7 @@
          *
          * Enerji tüketir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float ConsumeEnergy(WorldDynamicEntity item)
@@ -122,7 +122,7 @@
          *
          * Rüzgar gücünü döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float GetWindBurnDownScalar()
@@ -134,7 +134,7 @@
          *
          * Yakındaki oyunculara verileri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SendPacketToAllClient()
@@ -171,7 +171,7 @@
          *
          * Tüm oyunculara verileri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SendSinglePacketToAllClient(EnergyMixinTransmissionItem item)
@@ -190,7 +190,7 @@
          *
          * Nesneleri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WorldDynamicEntity[] GetItems()

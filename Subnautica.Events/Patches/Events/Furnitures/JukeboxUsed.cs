@@ -19,7 +19,7 @@
          *
          * Tetiklenme durumunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool IsVolumeTriggered { get; set; } = false;
@@ -28,7 +28,7 @@
          *
          * Olayı Tetikler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool FastTrigger(JukeboxInstance __instance, CustomProperty property)
@@ -67,7 +67,7 @@
          *
          * Olayı Tetikler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void DelayedVolumeTrigger(global::JukeboxInstance __instance)
@@ -82,7 +82,7 @@
          *
          * İç Olayı Tetikler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator TriggerEventCallback(global::JukeboxInstance __instance)
@@ -100,7 +100,7 @@
          *
          * İç Olayı Tetikler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string GetUniqueId(global::JukeboxInstance __instance)

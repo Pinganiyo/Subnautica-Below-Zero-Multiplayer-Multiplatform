@@ -12,7 +12,7 @@
          *
          * Anahtarı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]         
@@ -22,7 +22,7 @@
          *
          * Değeri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -32,7 +32,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public CustomProperty(byte key, string value)
@@ -45,7 +45,7 @@
          *
          * Anahtarı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public T GetKey<T>()
@@ -63,7 +63,7 @@
          *
          * Değeri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public T GetValue<T>()

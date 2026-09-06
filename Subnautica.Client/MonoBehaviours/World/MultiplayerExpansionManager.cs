@@ -20,7 +20,7 @@
          *
          * DockingBay nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public MultiplayerVehicleDockingBay DockingBay { get; set; }
@@ -29,7 +29,7 @@
          *
          * ExpansionManager nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public MoonpoolExpansionManager ExpansionManager { get; set; }
@@ -38,7 +38,7 @@
          *
          * ExpansionManager nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public global::Player Player { get; set; }
@@ -47,7 +47,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public MultiplayerExpansionManager(MultiplayerVehicleDockingBay dockingBay)
@@ -64,7 +64,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnAwake()
@@ -76,7 +76,7 @@
          *
          * Dünya yüklendikten sonra aracı hemen demirler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnHandleLoading(bool isLoadingWorld = false)
@@ -107,7 +107,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnUpdate(bool nearby)
@@ -119,7 +119,7 @@
          *
          * Expansion -> Seatruck kuyruk kenetlenme işlemi tamamlanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnDockTail(global::SeaTruckSegment newTail)
@@ -131,7 +131,7 @@
          *
          * Expansion -> Seatruck kuyruk ayrılma işlemi tamamlanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnUndockTail(bool withEjection)
@@ -143,7 +143,7 @@
          *
          * Modülü kenetler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool DockTail(global::SeaTruckSegment newTail, bool isConnection = false, bool teleport = false)
@@ -215,7 +215,7 @@
          *
          * Modül demirlemesini çözer.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool UndockTail(bool withEjection = false, bool supressEvent = true)
@@ -269,7 +269,7 @@
          *
          * Docking hazırlığını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool PrepDocking(Dockable dockable)
@@ -311,7 +311,7 @@
          *
          * Kuyruk renklerini günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void UpdateTailColors()
@@ -333,7 +333,7 @@
          *
          * Rıhtımdan ayrılmayı başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void StartUndocking(bool isMine)
@@ -378,7 +378,7 @@
          *
          * Expansion -> Seatruck yanaşma tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool OnDockingTimelineCompleted()
@@ -423,7 +423,7 @@
          *
          * Expansion -> Seatruck ayrılma tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool OnUndockingTimelineCompleted()
@@ -483,7 +483,7 @@
          *
          * Oyuncuyu otomatik olarak moonpool dışına ışınlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void DockPlayerAutoTeleport(bool ignoreCheck = false)
@@ -498,7 +498,7 @@
          *
          * Oyuncunun hareket platformunu devre dışı bırakır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void PlayerDisableMovementPlatform()
@@ -517,7 +517,7 @@
          *
          * Oyuncu güvenli bir yere ışınlar ya da araca bindirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool UndockPlayerAutoTeleport(global::SeaTruckSegment undockTail = null)
@@ -582,7 +582,7 @@
          *
          * Oyuncu hareket kısıtlamasını kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private IEnumerator UnlockMovement()
@@ -603,7 +603,7 @@
          *
          * ExpansionManager aktifliğini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsActive()
@@ -615,7 +615,7 @@
          *
          * Kuyruk aktifliğini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsTailOccupied()
@@ -627,7 +627,7 @@
          *
          * Oyuncu moonpool expansion bölgesi içerisinde mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsPlayerInMoonpoolExpansion()
@@ -688,7 +688,7 @@
          *
          * Terminal doğma konumunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Vector3 GetTerminalSpawnPosition()
@@ -700,7 +700,7 @@
          *
          * Dışarıdaki doğma konumunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Vector3 GetOutsideSpawnPosition()

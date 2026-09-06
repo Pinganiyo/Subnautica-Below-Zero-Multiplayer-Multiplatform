@@ -13,7 +13,7 @@
          *
          * Yatak verilerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static HashSet<string> Beds { get; set; } = new HashSet<string>();
@@ -22,7 +22,7 @@
          *
          * Uyuyan toplam oyuncu sayısını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static int GetSleepingPlayerCount()
@@ -34,7 +34,7 @@
          *
          * Yatağı günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool UpdateBed(string playerId)
@@ -46,7 +46,7 @@
          *
          * Yatağı günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsSleeping(string playerId)
@@ -58,7 +58,7 @@
          *
          * Eski yataklardaki oyuncuyu siler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool ClearBed(string playerId)
@@ -70,7 +70,7 @@
          *
          * Tüm verileri temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Dispose()

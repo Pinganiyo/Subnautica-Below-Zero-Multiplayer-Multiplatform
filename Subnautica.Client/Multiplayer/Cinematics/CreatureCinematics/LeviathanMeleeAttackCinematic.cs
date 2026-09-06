@@ -14,7 +14,7 @@
          *
          * Yatağı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::LeviathanMeleeAttack MeleeAttack { get; set; }
@@ -23,7 +23,7 @@
          *
          * Animasyonu resetler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnResetAnimations(PlayerCinematicQueueItem item)
@@ -40,7 +40,7 @@
          *
          * Yakın dövüş saldırısını başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void StartMeleeAttack()
@@ -63,7 +63,7 @@
          *
          * Ses geçerlilik durumunu kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsValidSound(StudioEventEmitter eventEmitter, Transform attachedTransform)

@@ -17,7 +17,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnExecute(AuthorizationProfile profile, NetworkPacket networkPacket)
@@ -78,7 +78,7 @@
          *
          * Temel gövde tamir paketi gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SendBaseHullRepairPacket(string uniqueId, List<ZeroVector3> leakPoints)

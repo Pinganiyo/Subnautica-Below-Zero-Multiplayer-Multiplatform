@@ -14,7 +14,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -26,7 +26,7 @@
          *
          * Oyuncunun yeniden doğma noktası değişince tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPlayerRespawnPointChanged(PlayerRespawnPointChangedEventArgs ev)

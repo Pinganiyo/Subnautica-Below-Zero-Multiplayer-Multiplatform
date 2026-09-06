@@ -14,7 +14,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::UseableDiveHatch __instance, global::PlayerCinematicController cinematicController, global::Player player)
@@ -54,7 +54,7 @@
          *
          * Yapı id'sini döner. yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetUniqueId(global::UseableDiveHatch __instance)

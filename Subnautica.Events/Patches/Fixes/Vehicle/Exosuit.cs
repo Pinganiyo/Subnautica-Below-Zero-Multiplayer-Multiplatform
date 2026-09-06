@@ -87,7 +87,7 @@
          *
          * Aracı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool IsUsingByPlayer(global::Exosuit __instance)

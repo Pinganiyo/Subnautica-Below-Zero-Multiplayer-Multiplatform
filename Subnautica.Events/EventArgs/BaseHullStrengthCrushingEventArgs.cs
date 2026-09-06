@@ -8,7 +8,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public BaseHullStrengthCrushingEventArgs(global::BaseHullStrength instance, bool isAllowed = true)
@@ -21,7 +21,7 @@
          *
          * Instance Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public global::BaseHullStrength Instance { get; set; }
@@ -30,7 +30,7 @@
          *
          * Olayın çalıştırılıp/çalıştırılmayacağı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsAllowed { get; set; }

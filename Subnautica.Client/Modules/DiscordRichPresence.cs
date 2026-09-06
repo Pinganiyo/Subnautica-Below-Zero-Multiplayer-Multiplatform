@@ -12,7 +12,7 @@
          *
          * Sahne yüklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSceneLoaded(SceneLoadedEventArgs ev)
@@ -27,7 +27,7 @@
          *
          * Eklenti aktifleştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPluginEnabled()

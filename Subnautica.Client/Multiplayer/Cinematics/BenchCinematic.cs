@@ -10,7 +10,7 @@
          *
          * Yatağı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::Bench Bench { get; set; }
@@ -19,7 +19,7 @@
          *
          * Animasyonu resetler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnResetAnimations(PlayerCinematicQueueItem item)
@@ -32,7 +32,7 @@
          *
          * Oturma animasyonunu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SitDownStartCinematic()
@@ -48,7 +48,7 @@
          *
          * Kalkma animasyonunu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void StandupStartCinematic()
@@ -65,7 +65,7 @@
          *
          * Oyuncu oturma konumunu döner..
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Vector3 GetPlayerSitdownAngles(global::Bench.BenchSide side)
@@ -77,7 +77,7 @@
          *
          * Oyuncu kalkma animasyon adını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private string GetPlayerStandupAnimationName()

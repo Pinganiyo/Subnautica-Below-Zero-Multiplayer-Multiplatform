@@ -16,7 +16,7 @@
          *
          * Üzerine yazılacak Teknolojiler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Dictionary<string, TechType> Overrides { get; set; } = new Dictionary<string, TechType>()
@@ -39,7 +39,7 @@
          *
          * Extra prefabs
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Dictionary<string, KeyValuePair<string, TechType>> ExtraPrefabs { get; set; } = new Dictionary<string, KeyValuePair<string, TechType>>()
@@ -51,7 +51,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPostfix]
@@ -86,7 +86,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPostfix]

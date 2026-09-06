@@ -15,7 +15,7 @@
          *
          * Exosuit aracını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::Exosuit ExoSuit { get; set; }
@@ -24,7 +24,7 @@
          *
          * Araç bileşenini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private ExosuitUpdateComponent VehicleComponent { get; set; } = new ExosuitUpdateComponent();
@@ -33,7 +33,7 @@
          *
          * Exosuit aracını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Vector3 SmoothedVelocity { get; set; } = Vector3.zero;
@@ -42,7 +42,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnUpdate()
@@ -64,7 +64,7 @@
          *
          * Bileşen verisi alındığında yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnComponentDataReceived(VehicleUpdateComponent component)
@@ -76,7 +76,7 @@
          *
          * Oyuncu araca bindiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnEnterVehicle()
@@ -103,7 +103,7 @@
          *
          * Oyuncu araçtan indiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnExitVehicle()
@@ -124,7 +124,7 @@
          *
          * Yürüme animasyonu uygular
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void UpdateMovementAnimation()
@@ -145,7 +145,7 @@
          *
          * Motor su kabarcık animasyonunu çalıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void UpdateMotorAnimation()
@@ -160,7 +160,7 @@
          *
          * Yürüme animasyonu uygular
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void UpdateExosuitArms()
@@ -185,7 +185,7 @@
          *
          * Kolların işlemlerini uygular.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void ArmProcess(IExosuitArm exosuitArm, TechType techType, ExosuitArmComponent armComponent, bool isReset = false)
@@ -212,7 +212,7 @@
          *
          * Drill Arm işlemlerini uygular.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool ProcessDrillArmModule(ExosuitDrillArmComponent component, global::ExosuitDrillArm drillArm, bool isReset)
@@ -264,7 +264,7 @@
          *
          * Claw Arm işlemlerini uygular.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool ProcessClawArmModule(ExosuitClawArmComponent component, global::ExosuitClawArm clawArm, bool isReset)
@@ -305,7 +305,7 @@
          *
          * Grappling Arm işlemlerini uygular.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool ProcessGrapplingArmModule(ExosuitGrapplingArmComponent component, global::ExosuitGrapplingArm grapplingArm, bool isReset)
@@ -359,7 +359,7 @@
          *
          * Animasyonları sıfırlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void ResetAnimations()
@@ -386,7 +386,7 @@
          *
          * Kol lerp formülünü döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Vector3 GetArmLerpFormula(float angleX, Vector3 cameraPosition)

@@ -10,7 +10,7 @@
          *
          * pingLatencyGameObject nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static GameObject pingLatencyGameObject;
@@ -19,7 +19,7 @@
          *
          * pingLatencyText nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static TextMeshProUGUI pingLatencyComponent;
@@ -28,7 +28,7 @@
          *
          * Oyun tamamen başlatıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnWorldLoaded()
@@ -40,7 +40,7 @@
          *
          * Ping nesnesini oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void CreatePingLatencyGameObject()
@@ -67,7 +67,7 @@
          *
          * Gözüken pingi değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SetPingText(long ping)

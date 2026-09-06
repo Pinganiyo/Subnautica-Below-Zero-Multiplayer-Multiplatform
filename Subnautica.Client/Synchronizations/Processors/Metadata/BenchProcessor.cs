@@ -18,7 +18,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(string uniqueId, TechType techType, MetadataComponentArgs packet, bool isSilence)
@@ -92,7 +92,7 @@
          *
          * Kalkma animasyonu başladığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBenchStandup(BenchStandupEventArgs ev)
@@ -104,7 +104,7 @@
          *
          * Sunucuya paketi gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, global::Bench.BenchSide side, bool isSitdown)

@@ -22,7 +22,7 @@
          *
          * Fonksiyon ön ekini yamalar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator Postfix(IEnumerator values, global::MainGameController __instance)
@@ -122,7 +122,7 @@
          *
          * Dünya yüklendikten sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator WorldLoadedEvent()

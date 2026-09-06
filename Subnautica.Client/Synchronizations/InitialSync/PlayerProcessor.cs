@@ -21,7 +21,7 @@
          *
          * Oyuncu verileri yüklendikten sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPlayerInitialized()
@@ -56,7 +56,7 @@
          *
          * İlk ekipmanları duruma göre başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPlayerFirstEquipmentInitialized()
@@ -71,7 +71,7 @@
          *
          * Oyuncu başlangıç konumunu ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPlayerPositionInitialized()
@@ -101,7 +101,7 @@
          *
          * Oyuncu başlangıç konumunu ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPlayerSubRootInitialized()
@@ -171,7 +171,7 @@
          *
          * Oyuncu yeniden doğma konumunu ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPlayerRespawnPointInitialized()
@@ -194,7 +194,7 @@
          *
          * Diğer oyuncuları oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnOtherPlayersInitialized(List<PlayerItem> players)
@@ -221,7 +221,7 @@
          *
          * Ay havuzundaki oyuncunun konumunu düzeltir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool FixMoonpoolExpansionPlayerPosition(global::Player player, string subrootId)

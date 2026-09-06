@@ -18,7 +18,7 @@ namespace Subnautica.Server.Logic
          *
          * Bloklu listeyi barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<KeyValuePair<string, int>> Queue { get; set; } = new List<KeyValuePair<string, int>>();
@@ -27,7 +27,7 @@ namespace Subnautica.Server.Logic
          *
          * Her tick'den sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnUnscaledFixedUpdate(float fixedDeltaTime)
@@ -60,7 +60,7 @@ namespace Subnautica.Server.Logic
          *
          * Oyuncuya çıktığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPlayerDisconnected(string uniqueId)
@@ -72,7 +72,7 @@ namespace Subnautica.Server.Logic
          *
          * Kuyruğa bağlanan oyuncu ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void AddQueue(string uniqueId, int spawnPointCount)
@@ -84,7 +84,7 @@ namespace Subnautica.Server.Logic
          *
          * Oyuncuya giriş paketini gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SendJoinPacket(AuthorizationProfile player, bool isSpawnPointExists)
@@ -103,7 +103,7 @@ namespace Subnautica.Server.Logic
          *
          * Spawn noktalarını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private HashSet<ZeroSpawnPointSimple> GetSpawnPoints(bool isSpawnPointExists)

@@ -12,14 +12,14 @@ if exist "%LocalAppData%\Microsoft\dotnet" (
 
 REM Detect Default Steam Game Path if not provided
 if "%SUBNAUTICA_DIR%"=="" (
-    if exist "C:\Program Files (x86)\Steam\steamapps\common\SubnauticaZero" (
-        set "GAME_DIR=C:\Program Files (x86)\Steam\steamapps\common\SubnauticaZero"
-    ) else if exist "D:\SteamLibrary\steamapps\common\SubnauticaZero" (
+    if exist "D:\SteamLibrary\steamapps\common\SubnauticaZero" (
         set "GAME_DIR=D:\SteamLibrary\steamapps\common\SubnauticaZero"
+    ) else if exist "C:\Program Files (x86)\Steam\steamapps\common\SubnauticaZero" (
+        set "GAME_DIR=C:\Program Files (x86)\Steam\steamapps\common\SubnauticaZero"
     ) else if exist "E:\SteamLibrary\steamapps\common\SubnauticaZero" (
         set "GAME_DIR=E:\SteamLibrary\steamapps\common\SubnauticaZero"
     ) else (
-        set "GAME_DIR=C:\Program Files (x86)\Steam\steamapps\common\SubnauticaZero"
+        set "GAME_DIR=D:\SteamLibrary\steamapps\common\SubnauticaZero"
     )
 ) else (
     set "GAME_DIR=%SUBNAUTICA_DIR%"
@@ -59,6 +59,9 @@ if not exist "%PLUGIN_DIR%" mkdir "%PLUGIN_DIR%"
 
 copy /Y "%BUILD_DIR%\*.dll" "%PLUGIN_DIR%\"
 copy /Y "%BUILD_DIR%\*.pdb" "%PLUGIN_DIR%\" 2>nul
+
+REM Remove System.Reflection.Emit dummy stubs to allow Unity/Mono native Reflection.Emit
+del /Q /F "%PLUGIN_DIR%\System.Reflection.Emit*.dll" 2>nul
 
 if exist "%~dp0Data" (
     xcopy /E /I /Y "%~dp0Data\*" "%PLUGIN_DIR%\Data\"

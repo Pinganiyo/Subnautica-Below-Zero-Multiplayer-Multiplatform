@@ -16,7 +16,7 @@
          *
          * Encyclopedia sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public EncyclopediaStorage.Encyclopedia Storage { get; set; }
@@ -25,7 +25,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void Start(string serverId)
@@ -40,7 +40,7 @@
          *
          * Sunucu ansiklopedi verilerini belleğe yükler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void Load()
@@ -78,7 +78,7 @@
          *
          * Verileri diske yazar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void SaveToDisk()
@@ -93,7 +93,7 @@
          *
          * Açılmış Ansiklopedi ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool AddEncyclopedia(string encyclopedia)
@@ -114,7 +114,7 @@
          *
          * Oyuncuların okumuş olduğu ansiklopedileri ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool AddPlayerViewedEncyclopedia(string playerName, string encyclopedia)

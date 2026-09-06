@@ -6,7 +6,7 @@
          *
          * Balina sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::GlowWhale GlowWhale { get; set; }
@@ -15,7 +15,7 @@
          *
          * Sınıf uyanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Awake()
@@ -27,7 +27,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Update()

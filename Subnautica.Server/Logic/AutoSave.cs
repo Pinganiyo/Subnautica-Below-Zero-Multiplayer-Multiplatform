@@ -13,7 +13,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StopwatchItem Timing { get; set; } = new StopwatchItem(5000f);
@@ -22,7 +22,7 @@
          *
          * Belirli aralıklarla tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnAsyncUpdate()
@@ -38,7 +38,7 @@
          *
          * Tüm verileri diske yazar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SaveAll()

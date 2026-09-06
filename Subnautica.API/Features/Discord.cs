@@ -16,7 +16,7 @@
          *
          * Başlangıç zamanını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static DateTime StartedTime { get; set; }
@@ -25,7 +25,7 @@
          *
          * Başlangıç zamanını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Queue<RichPresence> Queue { get; set; } = new Queue<RichPresence>();
@@ -34,7 +34,7 @@
          *
          * Client Sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static DiscordRpcClient Client { get; set; }
@@ -43,7 +43,7 @@
          *
          * discordManager Sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static GameObject DiscordManager { get; set; }
@@ -52,7 +52,7 @@
          *
          * Sınıf ayarlarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Awake()
@@ -88,7 +88,7 @@
          *
          * Discord durumunu günceller
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void UpdateRichPresence(string message, string subMessage = null, bool resetTime = false)
@@ -130,7 +130,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Update()
@@ -145,7 +145,7 @@
          *
          * Her sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void FixedUpdate()

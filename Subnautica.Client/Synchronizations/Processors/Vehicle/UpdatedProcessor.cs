@@ -22,7 +22,7 @@
          *
          * ExosuitUpdateComponent nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static ExosuitUpdateComponent ExosuitUpdateComponent { get; set; } = new ExosuitUpdateComponent();
@@ -31,7 +31,7 @@
          *
          * SpyPenguinUpdateComponent nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static SpyPenguinUpdateComponent SpyPenguinUpdateComponent { get; set; } = new SpyPenguinUpdateComponent();
@@ -40,7 +40,7 @@
          *
          * HoverbikeUpdateComponent nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static HoverbikeUpdateComponent HoverbikeUpdateComponent { get; set; } = new HoverbikeUpdateComponent();
@@ -49,7 +49,7 @@
          *
          * SpyPenguinAnimations nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static List<string> SpyPenguinAnimations { get; set; } = new List<string>();
@@ -58,7 +58,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -83,7 +83,7 @@
          *
          * Araç konumu güncellendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnVehicleUpdated(VehicleUpdatedEventArgs ev)
@@ -107,7 +107,7 @@
          *
          * Spy Penguin bir animasyon halinde iken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSpyPenguinItemGrabing(SpyPenguinItemGrabingEventArgs ev)
@@ -119,7 +119,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static VehicleUpdateComponent GetVehicleComponent(TechType techType, GameObject gameObject)

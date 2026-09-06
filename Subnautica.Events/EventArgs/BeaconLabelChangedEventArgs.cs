@@ -8,7 +8,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public BeaconLabelChangedEventArgs(string uniqueId, string text)
@@ -21,7 +21,7 @@
          *
          * UniqueId Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UniqueId { get; set; }
@@ -30,7 +30,7 @@
          *
          * Text Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string Text { get; set; }

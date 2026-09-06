@@ -16,7 +16,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void Start(string serverId)
@@ -29,7 +29,7 @@
          *
          * Sunucu tarafı Players yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string GetPlayerFilePath(string playerUniqueId)
@@ -41,7 +41,7 @@
          *
          * Sunucu oyuncu ayarlarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void Load()
@@ -53,7 +53,7 @@
          *
          * Oyuncu verisini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public AuthorizationProfile GetPlayerData(string playerUniqueId, string playerName)
@@ -92,7 +92,7 @@
          *
          * Bütün oyuncuları döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<AuthorizationProfile> GetAllPlayers()
@@ -127,7 +127,7 @@
          *
          * Verileri diske yazar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void SaveToDisk()

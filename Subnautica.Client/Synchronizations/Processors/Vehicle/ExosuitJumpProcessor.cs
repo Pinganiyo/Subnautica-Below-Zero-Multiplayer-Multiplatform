@@ -13,7 +13,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -25,7 +25,7 @@
          *
          * Exosuit ile zıplandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnExosuitJumping(ExosuitJumpingEventArgs ev)

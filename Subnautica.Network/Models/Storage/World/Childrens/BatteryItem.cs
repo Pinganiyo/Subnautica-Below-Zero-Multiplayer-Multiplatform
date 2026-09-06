@@ -11,7 +11,7 @@
          *
          * Mevcut slotu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -21,7 +21,7 @@
          *
          * Mevcut slotu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -31,7 +31,7 @@
          *
          * Mevcut teknolojiyi barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -41,7 +41,7 @@
          *
          * Mevcut şarj durumunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -51,7 +51,7 @@
          *
          * Max şarj durumunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -61,7 +61,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public BatteryItem()
@@ -73,7 +73,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public BatteryItem(string slotId = null, TechType techType = TechType.None, float charge = 0f, float capacity = 100f)
@@ -88,7 +88,7 @@
          *
          * Batarya bilgilerini günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public byte GetSlotId()
@@ -111,7 +111,7 @@
          *
          * Batarya bilgilerini günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetBattery(TechType techType, float charge)
@@ -131,7 +131,7 @@
          *
          * Sınıfı temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float GetCapacity()
@@ -155,7 +155,7 @@
          *
          * Sınıfı temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Clear()

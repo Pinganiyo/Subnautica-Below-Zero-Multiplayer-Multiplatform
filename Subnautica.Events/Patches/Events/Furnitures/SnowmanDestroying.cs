@@ -15,7 +15,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::Snowman __instance)
@@ -60,7 +60,7 @@
          *
          * Benzersiz Id döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string GetUniqueId(global::Snowman __instance)

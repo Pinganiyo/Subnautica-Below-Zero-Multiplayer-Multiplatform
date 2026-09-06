@@ -18,7 +18,7 @@
          *
          * Zamanlayıcıyı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private StopwatchItem Timing { get; set; } = new StopwatchItem(2000f);
@@ -27,7 +27,7 @@
          *
          * SpawnedCreatures değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private HashSet<ushort> SpawnedCreatures { get; set; } = new HashSet<ushort>();
@@ -36,7 +36,7 @@
          *
          * Oyuncu zamanlarını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<byte, double> PlayerTimes { get; set; } = new Dictionary<byte, double>();
@@ -45,7 +45,7 @@
          *
          * ScanRange değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private BaseCreatureData Data { get; set; }
@@ -54,7 +54,7 @@
          *
          * MaxSpawn değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private int MaxSpawn { get; set; } = 3;
@@ -63,7 +63,7 @@
          *
          * Yaratık spawnlandı mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsCreatureSpawned { get; set; }
@@ -72,7 +72,7 @@
          *
          * Spawner değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private VoidLeviathansSpawner Spawner
@@ -87,7 +87,7 @@
          *
          * Sınıfı başlatır
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnStart()
@@ -99,7 +99,7 @@
          *
          * Her sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate(float fixedDeltaTime)
@@ -127,7 +127,7 @@
          *
          * Oyuncuya çıktığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPlayerDisconnected(AuthorizationProfile player)
@@ -139,7 +139,7 @@
          *
          * Sahibi olmayan yaratıkları kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void RemoveVoidLeviathans()
@@ -164,7 +164,7 @@
          *
          * Boşluktaki yaratıkları spawnlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SpawnVoidLeviathans()
@@ -207,7 +207,7 @@
          *
          * Yaratığı spawnlar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SpawnCreature(AuthorizationProfile player)
@@ -224,7 +224,7 @@
          *
          * Yaratık en yakın spawn konumunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool TryGetSpawnPosition(Vector3 playerPosition, out Vector3 spawnPosition)
@@ -248,7 +248,7 @@
          *
          * Sonraki spawnlanma zamanını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private double CalculateTimeNextSpawn(bool first = false)
@@ -261,7 +261,7 @@
          *
          * Konum yakınındaki leviathan sayısını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private int GetNearestCreatureCount(ZeroVector3 playerPosition)
@@ -286,7 +286,7 @@
          *
          * Yüklenme durumunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsLoaded()

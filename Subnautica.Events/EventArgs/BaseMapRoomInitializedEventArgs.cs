@@ -8,7 +8,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public BaseMapRoomInitializedEventArgs(uGUI_MapRoomScanner mapRoom)
@@ -20,7 +20,7 @@
          *
          * MapRoom Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public uGUI_MapRoomScanner MapRoom { get; set; }

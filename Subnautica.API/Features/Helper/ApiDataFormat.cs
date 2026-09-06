@@ -14,7 +14,7 @@
          *
          * IsStatus değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsStatus { get; set; }
@@ -23,7 +23,7 @@
          *
          * IsPreRelease değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsPreRelease { get; set; }
@@ -32,7 +32,7 @@
          *
          * Version değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string Version { get; set; }
@@ -41,7 +41,7 @@
          *
          * Assets değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<ApiDataAssetsFormat> Assets { get; set; } = new List<ApiDataAssetsFormat>();
@@ -50,7 +50,7 @@
          *
          * Downloads değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<ApiDataDownloadItem> Downloads { get; set; } = new List<ApiDataDownloadItem>();
@@ -59,7 +59,7 @@
          *
          * Languages değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<string> Languages { get; set; } = new List<string>();
@@ -68,7 +68,7 @@
          *
          * Toplam dosya boyutunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public double GetTotalFileSize()
@@ -87,7 +87,7 @@
          *
          * İndirilecek dosyaları döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<ApiDataDownloadItem> GetDownloadFiles()
@@ -106,7 +106,7 @@
          *
          * İndirme nesnesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private ApiDataDownloadItem GetDownloadItem(string tempname, string localPath, string remoteUrl, long fileSize, bool checkVersion, string customVersion)
@@ -129,7 +129,7 @@
          *
          * Path değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string Path { get; set; }
@@ -138,7 +138,7 @@
          *
          * Url değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string Url { get; set; }
@@ -150,7 +150,7 @@
          *
          * TempName değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string TempName { get; set; }
@@ -159,7 +159,7 @@
          *
          * CheckVersion değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool CheckVersion { get; set; }
@@ -168,7 +168,7 @@
          *
          * CurrentVersion değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string CurrentVersion { get; set; }
@@ -177,7 +177,7 @@
          *
          * CustomVersion değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string CustomVersion { get; set; }
@@ -186,7 +186,7 @@
          *
          * LocalPath değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string LocalPath { get; set; }
@@ -195,7 +195,7 @@
          *
          * RemoteUrl değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string RemoteUrl { get; set; }
@@ -204,7 +204,7 @@
          *
          * FileSize değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public long FileSize { get; set; }

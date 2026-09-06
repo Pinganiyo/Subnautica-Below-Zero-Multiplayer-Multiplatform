@@ -19,7 +19,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StopwatchItem Timing { get; set; } = new StopwatchItem(1000f);
@@ -28,7 +28,7 @@
          *
          * Triggers nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<StoryTriggerItem> Triggers { get; set; } = new List<StoryTriggerItem>();
@@ -37,7 +37,7 @@
          *
          * Oyun Sonu hedefleri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<string> EndGameGoals { get; set; } = new List<string>()
@@ -58,7 +58,7 @@
          *
          * Oyun Sonu Cinematicleri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<StoryCinematicType> EndGameCinematics { get; set; } = new List<StoryCinematicType>()
@@ -76,7 +76,7 @@
          *
          * Sınıfı başlatır
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnStart()
@@ -102,7 +102,7 @@
          *
          * Tetikleyicinin varlığını kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsTriggerExists(string goalKey)
@@ -114,7 +114,7 @@
          *
          * Her sabit tick'de tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate(float fixedDeltaTime)
@@ -163,7 +163,7 @@
          *
          * Hikayeyi tetikler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Trigger(StoryTriggerItem trigger)
@@ -191,7 +191,7 @@
          *
          * Oyuncu sayılarını iletir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SendClosestPlayerCount(AuthorizationProfile player, byte playerCount, byte maxPlayer)
@@ -210,7 +210,7 @@
          *
          * Hikayeyi tetikler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool AddCheckTrigger(string storyKey)
@@ -234,7 +234,7 @@
          *
          * Tetikleyici pasif yapar. tetikler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool CompleteTrigger(string storyKey)
@@ -265,7 +265,7 @@
          *
          * Ön koşul tamamlandı mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsPreconditionComplete(string goalKey)
@@ -283,7 +283,7 @@
          *
          * Tetiklemenin aktif olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsTriggerActive(string goalKey)
@@ -301,7 +301,7 @@
          *
          * Cinematic tamamlanmış mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsCinematicFinished(string goalKey)
@@ -313,7 +313,7 @@
          *
          * Hedefin yakınındaki oyuncuları kontrol eder ve tamamlanabilirliği döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsCompleteableCinematic(string goalKey)
@@ -341,7 +341,7 @@
          *
          * Hedefin yakınındaki oyuncu sayısını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public byte GetClosestPlayerCount(string goalKey)
@@ -359,7 +359,7 @@
          *
          * Hedefin yakınındaki oyuncu sayısını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public byte GetClosestPlayerCount(ZeroVector3 position, float range, bool isInBaseCheck)
@@ -386,7 +386,7 @@
          *
          * Oyuncu üs içerisinde mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsPlayerInBase(AuthorizationProfile player, bool isInBaseCheck = false)
@@ -403,7 +403,7 @@
          *
          * Özel kapıları ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool AddCustomDoorway(StoryCinematicType cinematicType, ZeroQuaternion rotation, ZeroVector3 scale)
@@ -427,7 +427,7 @@
          *
          * Oyun sonu ayarlarını sıfırlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ResetEndGame()

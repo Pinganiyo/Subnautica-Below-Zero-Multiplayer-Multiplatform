@@ -14,7 +14,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -45,7 +45,7 @@
          *
          * Oyuncu bir araca bindiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnEnteredInterior(PlayerEnteredInteriorEventArgs ev)
@@ -57,7 +57,7 @@
          *
          * Oyuncu bir araçtan indiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnExitedInterior(PlayerExitedInteriorEventArgs ev)
@@ -69,7 +69,7 @@
          *
          * Oyuncu öldüğünde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SendPacketToServer(string interiorId, bool isEntered = false)

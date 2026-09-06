@@ -18,7 +18,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
 
@@ -72,7 +72,7 @@
          *
          * UniqueId değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string GetUniqueId(GameObject gameObject)
@@ -84,7 +84,7 @@
          *
          * VehicleId değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string GetVehicleId(global::DockedVehicleHandTarget dockedVehicleHandTarget)
@@ -101,7 +101,7 @@
          *
          * TechType değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static TechType GetTechType(GameObject gameObject)

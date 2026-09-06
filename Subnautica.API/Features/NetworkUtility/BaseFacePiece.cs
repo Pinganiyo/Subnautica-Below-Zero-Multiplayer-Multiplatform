@@ -13,7 +13,7 @@
          *
          * BaseFacePieces değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Dictionary<BasePieceData, string> BaseFacePieces { get; set; } = new Dictionary<BasePieceData, string>();
@@ -22,7 +22,7 @@
          *
          * BaseFacePiece değerini önbelleğe ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string Get(BasePieceData basePieceData)
@@ -39,7 +39,7 @@
          *
          * BaseFacePiece değerini önbelleğe ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Add(string uniqueId, Vector3 position, Vector3 localPosition, Quaternion localRotation, Base.Direction faceDirection, Base.FaceType faceType, TechType techType)
@@ -61,7 +61,7 @@
          *
          * BaseFacePiece değerini önbellekten siler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Remove(string uniqueId)
@@ -76,7 +76,7 @@
          *
          * Verileri temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Dispose()

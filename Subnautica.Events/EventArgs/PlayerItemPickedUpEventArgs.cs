@@ -10,7 +10,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public PlayerItemPickedUpEventArgs(string uniqueId, TechType techType, Pickupable pickupable, bool isAllowed = true)
@@ -26,7 +26,7 @@
          *
          * Yapı Kimliği değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UniqueId { get; private set; }
@@ -35,7 +35,7 @@
          *
          * TechType değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public TechType TechType { get; private set; }
@@ -44,7 +44,7 @@
          *
          * Pickupable değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Pickupable Pickupable { get; private set; }
@@ -53,7 +53,7 @@
          *
          * IsAllowed değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsAllowed { get; set; }
@@ -62,7 +62,7 @@
          *
          * IsStaticWorldEntity değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsStaticWorldEntity { get; private set; }

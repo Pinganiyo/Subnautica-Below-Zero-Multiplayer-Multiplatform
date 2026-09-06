@@ -21,7 +21,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<ServerModel.StoryTriggerArgs> GoalsQueue = new List<ServerModel.StoryTriggerArgs>();
@@ -30,7 +30,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -74,7 +74,7 @@
          *
          * Her Sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate()
@@ -115,7 +115,7 @@
          *
          * Kapıyı açar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private IEnumerator OpenCustomDoorAsync(string uniqueId)
@@ -138,7 +138,7 @@
          *
          * Hedef tetiklenirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStoryGoalTriggering(StoryGoalTriggeringEventArgs ev)
@@ -167,7 +167,7 @@
          *
          * Tetiklenebilir mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool IsTriggerable(string goalKey)
@@ -189,7 +189,7 @@
          *
          * Oyun sonu tetikleyicileri mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool IsEndGameTrigger(string goalKey)

@@ -12,7 +12,7 @@
          *
          * X / Y / Z Meta verilerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public enum Metadata
@@ -27,7 +27,7 @@
          *
          * Büyük sayıyı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static long BigNumber = 1000000L * 1000000L * 1000000L;
@@ -36,7 +36,7 @@
          *
          * Hassasiyeti barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private const float FLOAT_PRECISION_MULT = 10000f;
@@ -45,7 +45,7 @@
          *
          * Vector3'ü 12 bayttan 8 bayta sıkıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static long Vector3Compress(float x, float y, float z)
@@ -77,7 +77,7 @@
          *
          * Sıkıştırılmış Vector3'ü normal haline getirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Vector3 Vector3Decompress(long longNumber)
@@ -113,7 +113,7 @@
          *
          * Sıkıştırılmış ZeroVector3'ü normal haline getirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ZeroVector3 ZeroVector3Decompress(long longNumber)
@@ -150,7 +150,7 @@
          * Yeniden oluşturulmuş versiyon
          * Quaternion'u sıkıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com> and forked https://gist.github.com/StagPoint/bb7edf61c2e97ce54e3e4561627f6582
+          and forked https://gist.github.com/StagPoint/bb7edf61c2e97ce54e3e4561627f6582
          *
          */
         public static long QuaternionCompress(Quaternion rotation)
@@ -226,7 +226,7 @@
          *
          * Sıkıştırılmış Quaternion'u normal haline getirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Quaternion QuaternionDecompress(long longNumber)
@@ -266,7 +266,7 @@
          * Yeniden oluşturulmuş versiyon
          * Sıkıştırılmış Quaternion'u normal haline getirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com> and https://gist.github.com/StagPoint/bb7edf61c2e97ce54e3e4561627f6582
+          and https://gist.github.com/StagPoint/bb7edf61c2e97ce54e3e4561627f6582
          *
          */
         private static Quaternion ReadCompressedRotation(byte maxIndex, short readerA, short readerB, short readerC)

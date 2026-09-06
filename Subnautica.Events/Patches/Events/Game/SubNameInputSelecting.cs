@@ -54,7 +54,7 @@ namespace Subnautica.Events.Patches.Events.Game
          *
          * UniqueId değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UniqueId { get; private set; }
@@ -63,7 +63,7 @@ namespace Subnautica.Events.Patches.Events.Game
          *
          * TechType değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public TechType TechType { get; private set; }
@@ -72,7 +72,7 @@ namespace Subnautica.Events.Patches.Events.Game
          *
          * Detayları döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static SubnameInputDetail GetInformation(GameObject gameObject)

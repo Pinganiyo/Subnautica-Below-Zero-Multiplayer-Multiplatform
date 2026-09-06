@@ -18,7 +18,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnExecute(AuthorizationProfile profile, NetworkPacket networkPacket)

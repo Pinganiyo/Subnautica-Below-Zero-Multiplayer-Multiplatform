@@ -18,7 +18,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -49,7 +49,7 @@
          *
          * Nesne işlemi tamamlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnProcessCompleted(ItemQueueProcess item)
@@ -71,7 +71,7 @@
          *
          * Oyuncu yerden eşya aldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPlayerItemPickedUp(PlayerItemPickedUpEventArgs ev)

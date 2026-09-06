@@ -16,7 +16,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkWorldEntityComponent packet, byte requesterId, bool isSpawning)
@@ -48,7 +48,7 @@
          *
          * Mühürlü bir nesne başlatılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSealedInitialized(SealedInitializedEventArgs ev)
@@ -65,7 +65,7 @@
          *
          * Kesici kullanılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnLaserCutterUsing(LaserCutterEventArgs ev)

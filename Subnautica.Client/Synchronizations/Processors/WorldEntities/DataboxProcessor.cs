@@ -20,7 +20,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkWorldEntityComponent packet, byte requesterId, bool isSpawning)
@@ -55,7 +55,7 @@
          *
          * Asenkron olarak veri nesnesini işler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private IEnumerator PickupBlueprintAsync(global::BlueprintHandTarget databox)
@@ -72,7 +72,7 @@
          *
          * Normal olarak veri nesnesini işler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void PickupBlueprint(global::BlueprintHandTarget databox)
@@ -90,7 +90,7 @@
          *
          * Veri kutusundan tasarım alındığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnDataboxItemPickedUp(DataboxItemPickedUpEventArgs ev)

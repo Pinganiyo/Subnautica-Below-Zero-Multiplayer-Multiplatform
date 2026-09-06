@@ -24,7 +24,7 @@
          *
          * Kapağı yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::UseableDiveHatch Hatch { get; set; }
@@ -33,7 +33,7 @@
          *
          * Oyuncuyu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::Player Player { get; set; }
@@ -42,7 +42,7 @@
          *
          * Uyanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */        
         public void Awake()
@@ -55,7 +55,7 @@
          *
          * Pasif hale gelirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */  
         public void OnDisable()
@@ -78,7 +78,7 @@
          *
          * Hızlı giriş işlemini yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */  
         private void FastEnter()
@@ -95,7 +95,7 @@
          *
          * Hızlı çıkış işlemini yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */  
         private void FastExit()

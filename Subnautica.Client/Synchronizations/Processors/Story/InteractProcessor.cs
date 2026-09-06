@@ -17,7 +17,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -35,7 +35,7 @@
          *
          * AL-AN Beden inşa cinematiğini başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void BuildAlanStartCinematic(string uniqueId, string goalKey)
@@ -61,7 +61,7 @@
          *
          * Terminal tıklanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStoryHandClicking(StoryHandClickingEventArgs ev)

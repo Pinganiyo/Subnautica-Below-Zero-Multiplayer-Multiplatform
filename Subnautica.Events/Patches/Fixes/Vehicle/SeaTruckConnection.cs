@@ -16,7 +16,7 @@
          *
          * Zamanlayıcıları barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Dictionary<string, StopwatchItem> Timings { get; set; } = new Dictionary<string, StopwatchItem>();
@@ -25,7 +25,7 @@
          *
          * Zamanlayıcı başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPrefix]
@@ -42,7 +42,7 @@
          *
          * Bağlanma kontrolü yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPrefix]
@@ -79,7 +79,7 @@
          *
          * Zamanlayıcı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static StopwatchItem GetTimingItem(global::SeaTruckConnection __instance)
@@ -133,7 +133,7 @@
          *
          * Bağlantıyı düzeltir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator FixSeaTruckConnection(global::SeaTruckSegment __instance)
@@ -152,7 +152,7 @@
          *
          * Hedef konumu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Vector3 GetTargetPosition(global::SeaTruckSegment __instance)
@@ -164,7 +164,7 @@
          *
          * Hedef açıyı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Quaternion GetTargetRotation(global::SeaTruckSegment __instance)

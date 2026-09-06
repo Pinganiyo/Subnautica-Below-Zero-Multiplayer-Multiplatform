@@ -17,7 +17,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::EnergyMixin __instance, InventoryItem item)
@@ -104,7 +104,7 @@
          *
          * Slot idsini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetBatterySlotId(global::EnergyMixin energyMixin)
@@ -116,7 +116,7 @@
          *
          * Batarya türünü döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static TechType GetBatteryTechType(global::InventoryItem item)
@@ -133,7 +133,7 @@
          *
          * Araç idsini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetVehicleUniqueId(global::EnergyMixin gameObject)
@@ -151,7 +151,7 @@
          *
          * Araç türünü döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static TechType GetVehicleType(global::EnergyMixin gameObject)
@@ -169,7 +169,7 @@
          *
          * Araç nesnesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static GameObject GetVehicleGameObject(global::EnergyMixin energyMixin)

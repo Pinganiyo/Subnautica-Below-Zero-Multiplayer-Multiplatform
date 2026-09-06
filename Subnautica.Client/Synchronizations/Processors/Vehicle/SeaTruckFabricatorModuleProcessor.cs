@@ -16,7 +16,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -61,7 +61,7 @@
          *
          * Depolamaya eşya eklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStorageItemAdding(StorageItemAddingEventArgs ev)
@@ -78,7 +78,7 @@
          *
          * Depolama'dan eşya kaldırıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStorageItemRemoving(StorageItemRemovingEventArgs ev)
@@ -95,7 +95,7 @@
          *
          * Tabela seçildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSignSelect(SignSelectEventArgs ev)
@@ -117,7 +117,7 @@
          *
          * Tabela da veri değişimi olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSignDataChanged(SignDataChangedEventArgs ev)
@@ -132,7 +132,7 @@
          *
          * Sunucuya paketi gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, bool isSignProcess = false, bool isSignSelect = false, string signText = null, int signColorIndex = -1, WorldPickupItem pickupItem = null, bool isAdded = false)

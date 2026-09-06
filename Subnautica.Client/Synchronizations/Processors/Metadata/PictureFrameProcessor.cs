@@ -16,7 +16,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(string uniqueId, TechType techType, MetadataComponentArgs packet, bool isSilence)
@@ -52,7 +52,7 @@
          *
          * Resim çerçevesi tıklanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPictureFrameOpening(PictureFrameOpeningEventArgs ev)
@@ -69,7 +69,7 @@
          *
          * Resim çervesine resim eklenirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPictureFrameImageSelecting(PictureFrameImageSelectingEventArgs ev)
@@ -83,7 +83,7 @@
          *
          * Sunucuya paketi gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, string imageName, byte[] imageData, bool isOpening)

@@ -12,7 +12,7 @@
          *
          * Ağ Paket Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -22,7 +22,7 @@
          *
          * DangerLevel değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -32,7 +32,7 @@
          *
          * StartTime değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -42,7 +42,7 @@
          *
          * Duration değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(7)]
@@ -52,7 +52,7 @@
          *
          * WindDir değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(8)]
@@ -62,7 +62,7 @@
          *
          * WindSpeed değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(9)]
@@ -72,7 +72,7 @@
          *
          * FogDensity değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(10)]
@@ -82,7 +82,7 @@
          *
          * FogHeight değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(11)]
@@ -92,7 +92,7 @@
          *
          * SmokinessIntensity değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(12)]
@@ -102,7 +102,7 @@
          *
          * SnowIntensity değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(13)]
@@ -112,7 +112,7 @@
          *
          * CloudCoverage değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(14)]
@@ -122,7 +122,7 @@
          *
          * RainIntensity değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(15)]
@@ -132,7 +132,7 @@
          *
          * HailIntensity değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(16)]
@@ -142,7 +142,7 @@
          *
          * MeteorIntensity değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(17)]
@@ -152,7 +152,7 @@
          *
          * LightningIntensity değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(18)]
@@ -162,7 +162,7 @@
          *
          * Temperature değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(19)]
@@ -172,7 +172,7 @@
          *
          * AuroraBorealisIntensity değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(20)]
@@ -182,7 +182,7 @@
          *
          * IsProfile değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(21)]

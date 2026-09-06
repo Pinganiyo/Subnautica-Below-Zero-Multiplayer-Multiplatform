@@ -22,7 +22,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(string uniqueId, TechType techType, MetadataComponentArgs packet, bool isSilence)
@@ -84,7 +84,7 @@
          *
          * Nesne işlemi tamamlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnProcessCompleted(ItemQueueProcess item)
@@ -117,7 +117,7 @@
          *
          * Nesne spawnlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntitySpawned(ItemQueueProcess item, Pickupable pickupable, GameObject gameObject)
@@ -146,7 +146,7 @@
          *
          * Depolamaya eşya eklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStorageItemAdding(StorageItemAddingEventArgs ev)
@@ -170,7 +170,7 @@
          *
          * Depolama'dan eşya kaldırıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStorageItemRemoving(StorageItemRemovingEventArgs ev)
@@ -187,7 +187,7 @@
          *
          * Sunucuya paketi gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, WorldPickupItem pickupItem = null, bool isDecomposes = false, float timeDecayStart = 0f, bool isAdded = false)

@@ -10,7 +10,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public PlanterGrownedEventArgs(FruitPlant fruitPlant)
@@ -22,7 +22,7 @@
          *
          * FruitPlant Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public FruitPlant FruitPlant { get; private set; }

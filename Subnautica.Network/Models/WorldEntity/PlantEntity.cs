@@ -12,7 +12,7 @@
          *
          * ProcessType değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -22,7 +22,7 @@
          *
          * TechType değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -32,7 +32,7 @@
          *
          * ActiveFruitCount değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -42,7 +42,7 @@
          *
          * MaxFruit değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -52,7 +52,7 @@
          *
          * TimeNextFruit değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(7)]
@@ -62,7 +62,7 @@
          *
          * SpawnInterval Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(8)]
@@ -72,7 +72,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public PlantEntity()
@@ -84,7 +84,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public PlantEntity(TechType techType, byte activeFruitCount, byte maxFruit, float timeNextFruit, float spawnInterval)
@@ -100,7 +100,7 @@
          *
          * Meyve bilgilerini senkronlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool SyncFruits(float currentTime, bool harvest = false)

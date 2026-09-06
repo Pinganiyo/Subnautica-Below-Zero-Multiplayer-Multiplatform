@@ -16,7 +16,7 @@
          *
          * Ağ Paket Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -26,7 +26,7 @@
          *
          * Packet Kanal Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -36,7 +36,7 @@
          *
          * Packet Teslim Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -46,7 +46,7 @@
          *
          * Energies Değerini Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -60,7 +60,7 @@
          *
          * Health Değerini Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -70,7 +70,7 @@
          *
          * Charge Değerini Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -80,7 +80,7 @@
          *
          * Sınıf ayarlarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public HoverpadEnergyTransmissionItem()
@@ -92,7 +92,7 @@
          *
          * Sınıf ayarlarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public HoverpadEnergyTransmissionItem(byte health, byte charge)

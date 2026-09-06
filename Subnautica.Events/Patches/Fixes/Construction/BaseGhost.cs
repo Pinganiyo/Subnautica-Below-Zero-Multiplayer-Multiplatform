@@ -137,7 +137,7 @@
          *
          * LastRotation değerini yamalar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static IEnumerable<CodeInstruction> TranspileLastRotation(IEnumerable<CodeInstruction> instructions)
@@ -161,7 +161,7 @@
          *
          * ClampRotation değerini yamalar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static IEnumerable<CodeInstruction> TranspileClampRotation(IEnumerable<CodeInstruction> instructions)
@@ -190,7 +190,7 @@
          *
          * UpdateRotation değerini yamalar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static IEnumerable<CodeInstruction> TranspileUpdateRotation(IEnumerable<CodeInstruction> instructions, bool isPlacement = false)

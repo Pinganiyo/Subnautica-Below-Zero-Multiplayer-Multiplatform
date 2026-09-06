@@ -22,7 +22,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(string uniqueId, TechType techType, MetadataComponentArgs packet, bool isSilence)
@@ -62,7 +62,7 @@
          *
          * Termosları işler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void ProcessThermos(string itemId, ItemsContainer container, bool isFull, bool isAdding, bool isMine = false)
@@ -100,7 +100,7 @@
          *
          * Nesne spawnlanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool OnFullEntitySpawning(ItemQueueProcess item)
@@ -119,7 +119,7 @@
          *
          * Nesne spawnlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnFullEntitySpawned(ItemQueueProcess item, Pickupable pickupable, GameObject gameObject)
@@ -131,7 +131,7 @@
          *
          * Depolamaya eşya eklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStorageItemAdding(StorageItemAddingEventArgs ev)
@@ -148,7 +148,7 @@
          *
          * Depolama'dan eşya kaldırıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStorageItemRemoving(StorageItemRemovingEventArgs ev)
@@ -165,7 +165,7 @@
          *
          * Sunucuya paketi gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, string itemId, WorldPickupItem pickupItem = null, bool isAdding = false)

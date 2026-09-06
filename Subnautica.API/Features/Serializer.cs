@@ -15,7 +15,7 @@
          *
          * Benzersiz idleri önbellekte barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Dictionary<string, string> UniqueIds = new Dictionary<string, string>();
@@ -24,7 +24,7 @@
          *
          * Ebeveynleri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Dictionary<int, Transform> ParentGameObjects = new Dictionary<int, Transform>();
@@ -33,7 +33,7 @@
          *
          * Benzersiz idleri önbellekte barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static float LastInteractTime = 0f;
@@ -42,7 +42,7 @@
          *
          * Benzersiz idleri önbellekte barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static int ProcessId = 1;
@@ -51,7 +51,7 @@
          *
          * Pickupable nesnesini serileştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static byte[] SerializeGameObject(Pickupable pickupable)
@@ -68,7 +68,7 @@
          *
          * GameObject nesnesini serileştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static byte[] SerializeGameObject(GameObject gameObject)
@@ -104,7 +104,7 @@
          *
          * Serileştirilmiş nesneyi oyun nesnesine dönüştürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static CoroutineTask<GameObject> DeserializeGameObject(byte[] datas)
@@ -122,7 +122,7 @@
          *
          * UniqueId karşılığı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetUniqueId(string uniqueId)
@@ -134,7 +134,7 @@
          *
          * Nesne ebeveynliğini kaldırıp ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static int HandleParent(GameObject gameObject, bool isParent, int oldProcessId = 0)
@@ -170,7 +170,7 @@
          *
          * Yeni işlem idsini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static int GetNewProcessId()
@@ -187,7 +187,7 @@
          *
          * Önbelleğe idleri ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void UniqueIdsToCache(GameObject gameObject)

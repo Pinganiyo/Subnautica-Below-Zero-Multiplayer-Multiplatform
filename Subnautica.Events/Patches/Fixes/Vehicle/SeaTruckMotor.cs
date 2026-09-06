@@ -84,7 +84,7 @@
          *
          * UniqueId değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static WorldDynamicEntity GetEntity(global::SeaTruckMotor __instance)

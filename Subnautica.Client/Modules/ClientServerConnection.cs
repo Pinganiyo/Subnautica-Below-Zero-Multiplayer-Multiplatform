@@ -19,7 +19,7 @@
          *
          * Oyun içi menü açılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnInGameMenuOpened(InGameMenuOpenedEventArgs ev)
@@ -47,7 +47,7 @@
          *
          * Oyun içi menü kapandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnInGameMenuClosed(InGameMenuClosedEventArgs ev)
@@ -62,7 +62,7 @@
          *
          * Arka planda çalışma ayarı değişirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSettingsRunInBackgroundChanging(SettingsRunInBackgroundChangingEventArgs ev)
@@ -77,7 +77,7 @@
          *
          * Ayarlardaki pda oyun duraklatma seçeneği değiştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSettingsPdaGamePauseChanging(SettingsPdaGamePauseChangingEventArgs ev)

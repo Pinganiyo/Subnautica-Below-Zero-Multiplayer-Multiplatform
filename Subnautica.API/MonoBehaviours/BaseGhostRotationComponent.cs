@@ -10,7 +10,7 @@
          *
          * LastRotation değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public int LastRotation { get; private set; } = 0;
@@ -19,7 +19,7 @@
          *
          * LastRotation veriyi günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetLastRotation(int lastRotation)
@@ -31,7 +31,7 @@
          *
          * ClampRotation İşlevini çalıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ClampRotation(BaseGhost baseGhost, int max)
@@ -46,7 +46,7 @@
          *
          * UpdateRotation İşlevini çalıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool UpdateRotation(BaseGhost baseGhost, int max)
@@ -63,7 +63,7 @@
          *
          * GetLastRotation İşlevini çalıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static int GetLastRotation(BaseGhost baseGhost)
@@ -76,7 +76,7 @@
          *
          * Hayalet modelin sahibi ben miyim kontrolü yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static int GetComponentLastRotation(BaseGhost baseGhost)

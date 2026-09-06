@@ -27,7 +27,7 @@
          *
          * Dünya sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WorldStorage.World Storage { get; set; }
@@ -36,7 +36,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void Start(string serverId)
@@ -51,7 +51,7 @@
          *
          * Sunucu dünya verilerini belleğe yükler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void Load()
@@ -89,7 +89,7 @@
          *
          * Verileri diske yazar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void SaveToDisk()
@@ -104,7 +104,7 @@
          *
          * Supply drop nesnesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool TryGetSupplyDrop(out WorldChildrens.SupplyDrop supplyDrop)
@@ -117,7 +117,7 @@
          *
          * SeaTruck bağlantısı ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool AddSeaTruckConnection(string frontModuleId, string backModuleId, bool checkBackModule = true)
@@ -165,7 +165,7 @@
          *
          * SeaTruck bağlantısı koprarır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string RemoveSeaTruckConnection(string frontModuleId, bool checkModule = true)
@@ -201,7 +201,7 @@
          *
          * Üs verisini döner yoksa ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool TryGetBase(string baseId, out Base baseComponent)
@@ -231,7 +231,7 @@
          *
          * Üs verisini siler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void RemoveBase(string baseId)
@@ -246,7 +246,7 @@
          *
          * Üs verisini siler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void RemoveBase(Base baseComp)
@@ -261,7 +261,7 @@
          *
          * Öncül ışınlanma portalını aktif eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool ActivateTeleportPortal(string uniqueId)
@@ -282,7 +282,7 @@
          *
          * Yapıları günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool UpdateConstructions(byte[] constructions)
@@ -298,7 +298,7 @@
          *
          * Dünyada nesne ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool AddWorldDynamicEntity(WorldDynamicEntity entity)
@@ -319,7 +319,7 @@
          *
          * Dünyadaki nesneyi döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WorldDynamicEntity GetDynamicEntity(string uniqueId)
@@ -339,7 +339,7 @@
          *
          * Araç döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WorldDynamicEntity GetVehicle(string uniqueId, bool ignoreMoonpool = false)
@@ -399,7 +399,7 @@
          *
          * Dünya üzerinde kalıcı kozmetik kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool RemoveCosmeticItem(string uniqueId)
@@ -414,7 +414,7 @@
          *
          * Cosmetic Item nesnesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public CosmeticItem GetCosmeticItem(string uniqueId)
@@ -429,7 +429,7 @@
          *
          * Dünya üzerinde kalıcı kozmetik eşyası ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool AddCosmeticItem(string uniqueId, string baseId, TechType techType, ZeroVector3 position, ZeroQuaternion rotation)
@@ -449,7 +449,7 @@
          *
          * Dünya kalıcı nesnesini bileşen olarak döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public T GetDynamicEntityComponent<T>(string uniqueId)
@@ -467,7 +467,7 @@
          *
          * Dünyadaki nesneyi döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WorldDynamicEntity GetDynamicEntity(ushort id)
@@ -482,7 +482,7 @@
          *
          * Dünyadaki nesneyi kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool RemoveDynamicEntity(string uniqueId)
@@ -497,7 +497,7 @@
          *
          * Music diskini ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool AddDiscoveredResource(TechType techType)
@@ -512,7 +512,7 @@
          *
          * Music diskini ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool AddJukeboxDisk(string trackFile)
@@ -535,7 +535,7 @@
          *
          * Dünya kalıcı nesnesini düzenler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool SetPersistentEntity(NetworkWorldEntityComponent entity)
@@ -556,7 +556,7 @@
          *
          * Dünya kalıcı nesnesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public NetworkWorldEntityComponent GetPersistentEntity(string uniqueId)
@@ -576,7 +576,7 @@
          *
          * Dünya kalıcı nesnesini bileşen olarak döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public T GetPersistentEntity<T>(string uniqueId)
@@ -594,7 +594,7 @@
          *
          * Dünya kalıcı nesne varlığını kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsPersistentEntityExists(string uniqueId)
@@ -609,7 +609,7 @@
          *
          * Dünya kalıcı pasif nesne ekler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool AddDisablePersistentEntity(string uniqueId)
@@ -643,7 +643,7 @@
          *
          * Slotu pasif hale getirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool DisableSlot(string uniqueId)
@@ -671,7 +671,7 @@
          *
          * Sonraki doğma zamanını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float GetSlotNextRespawnTime(string uniqueId)

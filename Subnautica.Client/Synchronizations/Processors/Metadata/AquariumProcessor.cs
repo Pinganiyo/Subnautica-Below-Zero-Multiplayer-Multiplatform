@@ -17,7 +17,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(string uniqueId, TechType techType, MetadataComponentArgs packet, bool isSilence)
@@ -50,7 +50,7 @@
          *
          * Depolamaya eşya eklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStorageItemAdding(StorageItemAddingEventArgs ev)
@@ -67,7 +67,7 @@
          *
          * Depolama'dan eşya kaldırıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStorageItemRemoving(StorageItemRemovingEventArgs ev)
@@ -84,7 +84,7 @@
          *
          * Sunucuya Veri Gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SendPacketToServer(string uniqueId, WorldPickupItem pickupItem = null, bool isAdded = false)

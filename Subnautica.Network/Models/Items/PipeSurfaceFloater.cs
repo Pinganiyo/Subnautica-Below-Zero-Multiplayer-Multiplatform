@@ -14,7 +14,7 @@
          *
          * TechType değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -24,7 +24,7 @@
          *
          * ProcessType Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -34,7 +34,7 @@
          *
          * PipeId Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -44,7 +44,7 @@
          *
          * ParentId Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -54,7 +54,7 @@
          *
          * Position Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -64,7 +64,7 @@
          *
          * Rotation Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -74,7 +74,7 @@
          *
          * Entity Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(7)]
@@ -84,7 +84,7 @@
          *
          * PickupItem Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(8)]
@@ -94,7 +94,7 @@
          *
          * IsSurfaceFloaterDeploy kontrolü yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsSurfaceFloaterDeploy()
@@ -106,7 +106,7 @@
          *
          * IsOxygenPipePlace kontrolü yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsOxygenPipePlace()
@@ -118,7 +118,7 @@
          *
          * IsOxygenPipePickup kontrolü yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsOxygenPipePickup()

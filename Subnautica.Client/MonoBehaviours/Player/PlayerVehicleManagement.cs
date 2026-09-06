@@ -19,7 +19,7 @@
          *
          * Oyuncu sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroPlayer Player { get; set; }
@@ -28,7 +28,7 @@
          *
          * Vehicle sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public GameObject Vehicle { get; private set; }
@@ -37,7 +37,7 @@
          *
          * Binilen araç türü.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private TechType VehicleType { get; set; } = TechType.None;
@@ -46,7 +46,7 @@
          *
          * Mevcut araç id değeri.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private ushort VehicleId { get; set; } = 0;
@@ -55,7 +55,7 @@
          *
          * Mevcut araç Unique Id değeri.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string VehicleUniqueId { get; set; }
@@ -64,7 +64,7 @@
          *
          * Araçları barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Dictionary<TechType, VehicleModel.VehicleController> Vehicles { get; private set; } = new Dictionary<TechType, VehicleModel.VehicleController>()
@@ -86,7 +86,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Start()
@@ -101,7 +101,7 @@
          *
          * Mevcut aracı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public VehicleModel.VehicleController GetCurrentVehicle()
@@ -118,7 +118,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Update()
@@ -140,7 +140,7 @@
          *
          * Her Sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void FixedUpdate()
@@ -160,7 +160,7 @@
          *
          * Aracı yeniler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool RefreshVehicle(ushort vehicleId, TechType vehicleType, bool isEnter = true)
@@ -206,7 +206,7 @@
          *
          * Yeni bileşen verisini kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void RefreshComponent(VehicleController vehicle, VehicleUpdateComponent component)
@@ -223,7 +223,7 @@
          *
          * Oyuncu araca bindiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEnterVehicle()
@@ -242,7 +242,7 @@
          *
          * Oyuncu araçtan indiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnExitVehicle()
@@ -270,7 +270,7 @@
          *
          * Sınıf yokedilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnDestroy()

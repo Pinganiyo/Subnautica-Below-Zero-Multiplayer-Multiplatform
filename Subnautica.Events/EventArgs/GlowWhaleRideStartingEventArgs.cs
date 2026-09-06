@@ -10,7 +10,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public GlowWhaleRideStartingEventArgs(string uniqueId, bool isAllowed = true)
@@ -23,7 +23,7 @@
          *
          * UniqueId Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UniqueId { get; set; }
@@ -32,7 +32,7 @@
          *
          * Olayın çalıştırılıp/çalıştırılmayacağı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsAllowed { get; set; }

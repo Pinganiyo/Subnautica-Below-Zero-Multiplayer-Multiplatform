@@ -100,7 +100,7 @@
          *
          * Kapsayıcıya nesneyi eklemeye çalışır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool AddItemToItemsContainer(global::ItemsContainer targetContainer, InventoryItem item)
@@ -165,7 +165,7 @@
          *
          * UniqueId değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UniqueId { get; set; }
@@ -174,7 +174,7 @@
          *
          * TechType değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public TechType TechType { get; set; }
@@ -183,7 +183,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ItemContainer()
@@ -194,7 +194,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ItemContainer(string uniqueId, TechType techType)
@@ -207,7 +207,7 @@
          *
          * TechType değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ItemContainer GetInformation(global::ItemsContainer targetContainer, global::ItemsContainer itemContainer)
@@ -292,7 +292,7 @@
          *
          * Kaldırma işlemi olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsRemoving(ItemsContainer targetContainer)
@@ -310,7 +310,7 @@
          *
          * Container sınıfını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static GameObject GetContainer(global::ItemsContainer targetContainer, global::ItemsContainer itemContainer)

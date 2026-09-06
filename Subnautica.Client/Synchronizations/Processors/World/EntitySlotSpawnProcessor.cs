@@ -26,7 +26,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -58,7 +58,7 @@
          *
          * Nesne doğduğında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnPickupEntitySpawned(ItemQueueProcess item, Pickupable pickupable, GameObject gameObject)
@@ -73,7 +73,7 @@
          *
          * Nesne doğduğında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnBreakableEntitySpawned(ItemQueueProcess item, Pickupable pickupable, GameObject gameObject)
@@ -113,7 +113,7 @@
          *
          * Nesne Slotu doğarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnEntitySlotSpawning(EntitySlotSpawningEventArgs ev)
@@ -137,7 +137,7 @@
          *
          * Nesne spawn olurken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnEntitySpawning(EntitySpawningEventArgs ev)
@@ -152,7 +152,7 @@
          *
          * Nesne spawn olduktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnEntitySpawned(EntitySpawnedEventArgs ev)
@@ -199,7 +199,7 @@
          *
          * Kaynak kırıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBreakableResourceBreaking(BreakableResourceBreakingEventArgs ev)
@@ -216,7 +216,7 @@
          *
          * Oyuncu yerden eşya aldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPlayerItemPickedUp(PlayerItemPickedUpEventArgs ev)
@@ -233,7 +233,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SendPacketToServer(int slotId, bool isBreakable = false, WorldPickupItem worldPickupItem = null, ZeroVector3 position = null)
@@ -256,7 +256,7 @@
          *
          * Yaratık slot id değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static int GetCreatureSlotId(GameObject gameObject)

@@ -11,7 +11,7 @@
          *
          * SpyPenguin aracını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::SpyPenguin Penguin { get; set; }
@@ -20,7 +20,7 @@
          *
          * Araç bileşenini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private SpyPenguinUpdateComponent VehicleComponent { get; set; }
@@ -29,7 +29,7 @@
          *
          * Animasyon kuyruğunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<string> AnimationQueue { get; set; } = new List<string>();
@@ -38,7 +38,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnUpdate()
@@ -52,7 +52,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate()
@@ -78,7 +78,7 @@
          *
          * Bileşen verisi alındığında yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnComponentDataReceived(VehicleUpdateComponent component)
@@ -95,7 +95,7 @@
          *
          * Oyuncu araca bindiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnEnterVehicle()
@@ -113,7 +113,7 @@
          *
          * Oyuncu araçtan indiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnExitVehicle()
@@ -134,7 +134,7 @@
          *
          * Animasyonları oynatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void PlayAnimations()

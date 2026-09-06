@@ -15,7 +15,7 @@
          *
          * Item Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -25,7 +25,7 @@
          *
          * Source Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -35,7 +35,7 @@
          *
          * NextRespawnTime Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -45,7 +45,7 @@
          *
          * NextRespawnTime Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -55,7 +55,7 @@
          *
          * Kaynağı değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetSource(PickupSourceType source)
@@ -67,7 +67,7 @@
          *
          * Yeni özel id üretir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void GenerateCustomId()
@@ -79,7 +79,7 @@
          *
          * Nesne id'sini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string GetItemId()
@@ -96,7 +96,7 @@
          *
          * StorageItem nesnesini döner..
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StorageItem GetStorageItem()
@@ -114,7 +114,7 @@
          *
          * WorldPickupItem Oluşturur. (Client Side)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static WorldPickupItem Create(Pickupable pickupable, PickupSourceType sourceType = PickupSourceType.Automatic, bool resetItem = false)
@@ -126,7 +126,7 @@
          *
          * WorldPickupItem Oluşturur. (Client Side)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static WorldPickupItem Create(string uniqueId, TechType techType, PickupSourceType sourceType = PickupSourceType.Automatic)
@@ -138,7 +138,7 @@
          *
          * WorldPickupItem Oluşturur. (Client/Server Side)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static WorldPickupItem Create(StorageItem storageItem, PickupSourceType sourceType = PickupSourceType.Automatic)
@@ -154,7 +154,7 @@
          *
          * Kaynağı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static PickupSourceType GetPickupSourceType(string uniqueId)

@@ -8,7 +8,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public LilyPaddlerHypnotizeStartingEventArgs(string creatureId, byte targetId, bool isAllowed = true)
@@ -22,7 +22,7 @@
          *
          * CreatureId Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string CreatureId { get; set; }
@@ -31,7 +31,7 @@
          *
          * TargetId Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public byte TargetId { get; set; }
@@ -40,7 +40,7 @@
          *
          * IsAllowed Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsAllowed { get; set; }

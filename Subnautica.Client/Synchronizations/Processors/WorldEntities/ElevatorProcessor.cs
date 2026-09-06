@@ -18,7 +18,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkWorldEntityComponent packet, byte requesterId, bool isSpawning)
@@ -42,7 +42,7 @@
          *
          * Asansörü hareket ettirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool ElevatorMove(string uniqueId, bool isUp, float startTime)
@@ -98,7 +98,7 @@
          *
          * Asansöre tıklandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnElevatorCalling(ElevatorCallingEventArgs ev)

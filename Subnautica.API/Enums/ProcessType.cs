@@ -4,7 +4,7 @@
      *
      * Ağ Paket Türleri
      *
-     * @author Ismail <ismaiil_0234@hotmail.com>
+     
      *
      */
     public enum ProcessType : byte
@@ -131,7 +131,7 @@
      *
      * Nesne Paket Türleri
      *
-     * @author Ismail <ismaiil_0234@hotmail.com>
+     
      *
      */
     public enum EntityProcessType : byte

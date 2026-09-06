@@ -14,7 +14,7 @@
          *
          * Mevcut oyuncunun barındırıcı olup olmadığını tutar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsHost 
@@ -29,7 +29,7 @@
          *
          * Çok oyunculu modunda mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsMultiplayerActive { get; set; }
@@ -38,7 +38,7 @@
          *
          * Üs yüz parçalarını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static BaseFacePiece BaseFacePiece { get; private set; } = new BaseFacePiece();
@@ -47,7 +47,7 @@
          *
          * Dünya üzerindeki dinamik nesneler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static DynamicEntity DynamicEntity { get; private set; } = new DynamicEntity();
@@ -56,7 +56,7 @@
          *
          * Dünya üzerindeki statik nesneler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static StaticEntity StaticEntity { get; private set; } = new StaticEntity();
@@ -65,7 +65,7 @@
          *
          * Kimlik Tanımlayıcı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Identifier Identifier { get; private set; } = new Identifier();
@@ -74,7 +74,7 @@
          *
          * Mevcut Oturum
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Session Session { get; private set; } = new Session();
@@ -83,7 +83,7 @@
          *
          * WorldStreamer Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static WorldStreamer WorldStreamer { get; private set; } = new WorldStreamer();
@@ -92,7 +92,7 @@
          *
          * Story Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Story Story { get; private set; } = new Story();
@@ -101,7 +101,7 @@
          *
          * Storage Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Storage Storage { get; private set; } = new Storage();
@@ -110,7 +110,7 @@
          *
          * HandTarget Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static HandTarget HandTarget { get; private set; } = new HandTarget();
@@ -119,7 +119,7 @@
          *
          * CellManager Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static CellManager CellManager { get; private set; } = new CellManager();
@@ -128,7 +128,7 @@
          *
          * Temporary Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Temporary Temporary { get; private set; } = new Temporary();
@@ -137,7 +137,7 @@
          *
          * EntityDatabase Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static EntityDatabase EntityDatabase { get; private set; } = new EntityDatabase();
@@ -146,7 +146,7 @@
          *
          * Creatures Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static MultiplayerCreatureManager Creatures { get; private set; } = new MultiplayerCreatureManager();
@@ -155,7 +155,7 @@
          *
          * InviteCode Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static InviteCode InviteCode { get; private set; } = new InviteCode();
@@ -164,7 +164,7 @@
          *
          * Tüm veriyi temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Dispose()
@@ -208,7 +208,7 @@
          *
          * Max kanal sayısını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static byte GetChannelCount()
@@ -242,7 +242,7 @@
          *
          * Max kanal sayısını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsExistsConstructionInServer(string unqiueId)
@@ -260,7 +260,7 @@
          *
          * Nesne Id'si döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetWorldEntityId(Vector3 position)
@@ -278,7 +278,7 @@
          *
          * Dünyadaki tüm sabit nesneleri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Dictionary<Vector3, string> PersistentVirtualEntities { get; private set; } = new Dictionary<Vector3, string>();

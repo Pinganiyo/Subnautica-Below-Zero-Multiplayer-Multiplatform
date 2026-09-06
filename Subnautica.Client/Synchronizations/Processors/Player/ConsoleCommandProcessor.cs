@@ -16,7 +16,7 @@
         *
         * Gelen veriyi işler
         *
-        * @author Ismail <ismaiil_0234@hotmail.com>
+        
         *
         */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -28,7 +28,7 @@
          *
          * Komut kullanıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnUsingCommand(PlayerUsingCommandEventArgs ev)
@@ -54,7 +54,7 @@
          *
          * Geliştirici modu aktif mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool IsDeveloperModeOn()
@@ -66,7 +66,7 @@
          *
          * Kullanılabilen komutlar listesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static List<string> AllowedCommands { get; set; } = new List<string>()

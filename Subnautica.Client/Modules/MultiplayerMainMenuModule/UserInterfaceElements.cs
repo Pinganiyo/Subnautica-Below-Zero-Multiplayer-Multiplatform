@@ -17,7 +17,7 @@
          *
          * Tek oyunculu buton kancasını ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SinglePlayerButtonAddEvent(UnityAction btnListener)
@@ -31,7 +31,7 @@
          *
          * Sol menüye buton ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static GameObject CreateSidebarButton(string buttonText, UnityAction btnListener = null)
@@ -55,7 +55,7 @@
          *
          * Multiplayer Ana İçerik Grubunu Oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static GameObject CreateMultiplayerBaseContent(string groupname, string headerText, string hostGameText, string joinGameText, UnityAction hostGameBtnListener, UnityAction joinGameBtnListener)
@@ -80,7 +80,7 @@
          *
          * Multiplayer Host Game İçerik Grubunu Oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static GameObject CreateHostBaseContent(string groupname, string headerText, UnityAction createServerBtnListener)
@@ -102,7 +102,7 @@
          *
          * Multiplayer Join Game İçerik Grubunu Oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static GameObject CreateJoinBaseContent(string groupname, string headerText, string addServerHeaderText, UnityAction addServerBtnListener)
@@ -130,7 +130,7 @@
          *
          * Çok oyunculu sunucu ekle sayfa içeriğini ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static GameObject CreateInviteCodeGroup(GameObject groupContent, UnityAction serverAddListener)
@@ -173,7 +173,7 @@
          *
          * Çok oyunculu sunucu ekle sayfa içeriğini ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static GameObject CreateAddServerGroup(string groupname, UnityAction serverAddListener)
@@ -223,7 +223,7 @@
          *
          * Çok oyunculu sunucu ekle sayfa içeriğini ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static GameObject CreateServerHostGroup(string groupname, UnityAction<GameModePresetId> serverCreateListener)
@@ -257,7 +257,7 @@
          *
          * Grup içinde buton yaratır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static GameObject CreateButtonInGroup(GameObject groupContainer, float positionX, float positionY, string buttonText, UnityAction btnListener)
@@ -280,7 +280,7 @@
          *
          * Input Field Nesnesi Ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void AddInputField(GameObject parentLayer, Vector3 position, string headerText, string placeHolderName, string inputName)
@@ -312,7 +312,7 @@
          *
          * Input metnini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetInputText(string inputName)
@@ -324,7 +324,7 @@
          *
          * Input metnini temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string ClearInputText(string inputName)
@@ -336,7 +336,7 @@
          *
          * Oyun Nesnesini yok eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void DestroyGameObject(GameObject gameObject, string key)
@@ -348,7 +348,7 @@
          *
          * Input detayına hata mesajı yazar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SetInputErrorMessage(string inputName, string errorMessage)
@@ -365,7 +365,7 @@
          *
          *  Buton Nesnesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static GameObject StartButtonPrefab
@@ -385,7 +385,7 @@
          *
          * Kayıtlı oyunlar Şeması 
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static GameObject SavedGamesPrefab
@@ -405,7 +405,7 @@
          *
          * Yeni Oyun Şeması 
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static GameObject NewGamePrefab
@@ -425,7 +425,7 @@
          *
          * Group İçindeki Buton Şeması 
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static GameObject GroupButtonPrefab
@@ -445,7 +445,7 @@
          *
          * InputBox Şeması 
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static GameObject InputBoxPrefab
@@ -465,7 +465,7 @@
          *
          * SmallButton Şeması 
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static GameObject SmallButtonPrefab
@@ -485,7 +485,7 @@
          *
          * Tek oyunculu bölümü aktif mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsSinglePlayerMenuActive
@@ -500,7 +500,7 @@
          *
          * Host
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsHostGroupActive
@@ -521,7 +521,7 @@
          *
          * İç Nesneler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static GameObject _StartButtonPrefab;

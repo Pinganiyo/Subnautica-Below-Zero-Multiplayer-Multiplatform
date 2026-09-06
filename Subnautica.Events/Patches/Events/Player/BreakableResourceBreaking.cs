@@ -14,7 +14,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::BreakableResource __instance)
@@ -57,7 +57,7 @@
          *
          * Rastgele teknoloji döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static TechType ChooseRandomResource(global::BreakableResource __instance)

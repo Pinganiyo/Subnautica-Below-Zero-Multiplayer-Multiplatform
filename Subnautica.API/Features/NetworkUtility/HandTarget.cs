@@ -10,7 +10,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Hedefleri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Dictionary<string, float> Targets = new Dictionary<string, float>();
@@ -19,7 +19,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Gecikmeyi barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float Delay { get; set; } = 0.5f;
@@ -28,7 +28,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Hedef nesnenin kullanımda olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsBlocked(string uniqueId)
@@ -62,7 +62,7 @@ namespace Subnautica.API.Features.NetworkUtility
           *
           * Cinematic üzerinden kullanım durumunu döner.
           *
-          * @author Ismail <ismaiil_0234@hotmail.com>
+          
           *
           */
         private bool IsUsingFromCinematics(string uniqueId)
@@ -87,7 +87,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Önbellekten kullanım durumunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsUsingFromCache(string uniqueId)
@@ -99,7 +99,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Hedef nesnenin kullanımda olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void AddTemporaryBlock(string uniqueId)
@@ -111,7 +111,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Verileri temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Dispose()

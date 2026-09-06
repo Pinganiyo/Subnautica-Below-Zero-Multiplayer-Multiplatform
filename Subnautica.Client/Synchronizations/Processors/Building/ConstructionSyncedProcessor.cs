@@ -22,7 +22,7 @@
          *
          * Zamanlanmış veri gönderim durumu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool IsSending { get; set; } = false;
@@ -31,7 +31,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -43,7 +43,7 @@
          *
          * Hayalet yapı kurulmaya çalışıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnConstructingGhostTryPlacing(ConstructionGhostTryPlacingEventArgs ev)
@@ -55,7 +55,7 @@
          *
          * Yapı inşaası tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnConstructingCompleted(ConstructionCompletedEventArgs ev)
@@ -67,7 +67,7 @@
          *
          * Yapı yıkıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnConstructingRemoved(ConstructionRemovedEventArgs ev)
@@ -79,7 +79,7 @@
          *
          * Yapı inşaa değeri değiştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void UpdateConstructionSync()
@@ -94,7 +94,7 @@
          *
          * Zamanlanmış veriyi işler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator SendDataToServer()

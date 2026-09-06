@@ -16,7 +16,7 @@
          *
          * Animasyon durum önbelleği.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Dictionary<string, bool> AnimationStatusCache { get; set; } = new Dictionary<string, bool>();
@@ -25,7 +25,7 @@
          *
          * Değişen animasyon listesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Dictionary<PlayerAnimationType, bool> ChangedAnimations { get; set; } = new Dictionary<PlayerAnimationType, bool>();
@@ -34,7 +34,7 @@
          *
          * SonEk Yaması
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void Postfix(ArmsController __instance)
@@ -72,7 +72,7 @@
          *
          * Animasyon durumu değişti mi? kontrolü yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool IsAnimationChanged(string animation, bool newStatus)

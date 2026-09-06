@@ -31,7 +31,7 @@
          *
          * Oyuncu Id
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -41,7 +41,7 @@
          *
          * Oyuncu Id
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -51,7 +51,7 @@
          *
          * Benzersiz Oyuncu Id
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -61,7 +61,7 @@
          *
          * Kullanıcı ip adresi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -71,7 +71,7 @@
          *
          * Kullanıcı IP & Port Adresi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -100,7 +100,7 @@
          *
          * Oyuncu barındırıcı mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -110,7 +110,7 @@
          *
          * Doğrulama Başarılı mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -120,7 +120,7 @@
          *
          * Tamamen Giriş Yapıldı mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -130,7 +130,7 @@
          *
          * NetPeer Bağlantısı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -140,7 +140,7 @@
          *
          * Oyuncunun kullandığı mevcut araç.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -150,7 +150,7 @@
          *
          * Mevcut hava durumu profili
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -160,7 +160,7 @@
          *
          * Kullanılan araçları barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -170,7 +170,7 @@
          *
          * Kullanılan odayı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -180,7 +180,7 @@
          *
          * Son Saldırıya uğrama zamanı.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -190,7 +190,7 @@
          *
          * IsInVoidBiome Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -200,7 +200,7 @@
          *
          * Kullanıcı Adı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -210,7 +210,7 @@
          *
          * SubrootId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -220,7 +220,7 @@
          *
          * InteriorId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -230,7 +230,7 @@
          *
          * Mevcut Sağlık
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -240,7 +240,7 @@
          *
          * Su Miktarı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -250,7 +250,7 @@
          *
          * Açlık Miktarı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -260,7 +260,7 @@
          *
          * Oyuncu Konumu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -270,7 +270,7 @@
          *
          * Oyuncu Açısı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(7)]
@@ -280,7 +280,7 @@
          *
          * Envanter eşyaları
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(8)]
@@ -290,7 +290,7 @@
          *
          * Ekipman eşyaları
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(9)]
@@ -300,7 +300,7 @@
          *
          * Ekipman eşyala Id'leri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(10)]
@@ -310,7 +310,7 @@
          *
          * Hızlı slot id'leri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(11)]
@@ -320,7 +320,7 @@
          *
          * Aktif slot değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(12)]
@@ -330,7 +330,7 @@
          *
          * Teknoloji pinlerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(13)]
@@ -340,7 +340,7 @@
          *
          * PDA Bildirimlerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(14)]
@@ -350,7 +350,7 @@
          *
          * Kullanılan araçları barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(15)]
@@ -360,7 +360,7 @@
          *
          * Kişiye özel hedefleri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(16)]
@@ -370,7 +370,7 @@
          *
          * RespawnPointId değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(17)]
@@ -380,7 +380,7 @@
          *
          * IsInitialEquipmentAdded değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(18)]
@@ -390,7 +390,7 @@
          *
          * LastHypnotizeTime değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(19)]
@@ -400,7 +400,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public AuthorizationProfile()
@@ -411,7 +411,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public AuthorizationProfile(NetPeer netPeer)
@@ -425,7 +425,7 @@
          *
          * Doğrulama ve başlatma işlemini yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public AuthorizationProfile Initialize(string playerName, string uniqueId)
@@ -462,7 +462,7 @@
          *
          * Oyuncu tamamen bağlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnFullConnected()
@@ -485,7 +485,7 @@
          *
          * Oyuncu bağlantısı koptuğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnDisconnected()
@@ -528,7 +528,7 @@
          *
          * SubrootId Değerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void AddUsedTool(TechType techType)
@@ -543,7 +543,7 @@
          *
          * Biome döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string GetBiome()
@@ -555,7 +555,7 @@
          *
          * Oyuncunun öle bölgede olma durumunu değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetInVoidBiome(bool isInVoidBiome)
@@ -567,7 +567,7 @@
          *
          * Araç id numarasını değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetVehicle(string vehicleId)
@@ -579,7 +579,7 @@
          *
          * SubrootId Değerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetSubroot(string subrootId)
@@ -591,7 +591,7 @@
          *
          * InteriorId Değerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetInterior(string interiorId)
@@ -603,7 +603,7 @@
          *
          * RespawnPointId Değerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetRespawnPointId(string respawnPointId)
@@ -615,7 +615,7 @@
          *
          * Oyuncu konumunu değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetPosition(ZeroVector3 position, ZeroQuaternion rotation)
@@ -628,7 +628,7 @@
          *
          * En son hipnoz zamanını değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetLastHypnotizeTime(float lastHypnotizeTime)
@@ -640,7 +640,7 @@
          *
          * Envanter eşyalarını değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool AddInventoryItem(StorageItem item)
@@ -654,7 +654,7 @@
          *
          * Envanter idlerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void RemoveInventoryItem(string itemId)
@@ -666,7 +666,7 @@
          *
          * Hedefi tamamlar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool CompleteGoal(string storyKey, GoalType goalType, bool isPlayMuted)
@@ -684,7 +684,7 @@
          *
          * Hipnoz aktif mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsHypnotized()
@@ -696,7 +696,7 @@
          *
          * Envanterde nesne mevcut mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsInventoryItemExists(string uniqueId)
@@ -708,7 +708,7 @@
          *
          * Kullanılan odayı değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetUsingRoomId(string constructionId)
@@ -720,7 +720,7 @@
          *
          * Oyuncu Saldırı altında durumunu değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetUnderAttack(float attackTime)
@@ -732,7 +732,7 @@
          *
          * Oyuncu Saldırı altında mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsUnderAttack()
@@ -744,7 +744,7 @@
          *
          * Envanter eşyalarını değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetStoryCinematicMode(bool isActive)
@@ -756,7 +756,7 @@
          *
          * Ekipman eşyalarını değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetEquipments(byte[] equipments, Dictionary<string, string> equipmentSlots)
@@ -769,7 +769,7 @@
          *
          * Hızlı slot id'lerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetQuickSlots(string[] slots)
@@ -781,7 +781,7 @@
          *
          * Aktif slot değerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetActiveSlot(int activeSlot)
@@ -793,7 +793,7 @@
          *
          * Teknoloji pinlerini değiştir
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetPinItems(List<TechType> itemPins)
@@ -805,7 +805,7 @@
          *
          * Hava durumu profilini değiştirir
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetWeatherProfile(string profileId)
@@ -817,7 +817,7 @@
          *
          * Bildirim siler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void RemoveNotification(string key)
@@ -829,7 +829,7 @@
          *
          * Bildirim ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void AddNotification(NotificationManager.Group group, string key, bool isAdded)
@@ -852,7 +852,7 @@
          *
          * Bildirim ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetNotificationVisible(string uniqueId, bool isVisible)
@@ -874,7 +874,7 @@
          *
          * Bildirim ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetNotificationColorIndex(string uniqueId, sbyte colorIndex)
@@ -896,7 +896,7 @@
          *
          * Sağlığı değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetHealth(float health)
@@ -908,7 +908,7 @@
          *
          * Yiyecek miktarını değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetFood(float food)
@@ -920,7 +920,7 @@
          *
          * Su miktarını değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetWater(float water)
@@ -932,7 +932,7 @@
          *
          * Balığı görebilir miyim?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool CanSeeTheCreature(MultiplayerCreatureItem creature, bool longDistance = false)
@@ -944,7 +944,7 @@
          *
          * Oyuncuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SendPacket(NetworkPacket packet)
@@ -956,7 +956,7 @@
          *
          * Oyuncuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SendPacketToAllClient(NetworkPacket packet, bool checkConnected = false)
@@ -968,7 +968,7 @@
          *
          * Oyuncuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SendPacketToOtherClients(NetworkPacket packet, bool checkConnected = false)
@@ -980,7 +980,7 @@
          *
          * Verileri diske yazar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool SaveToDisk()

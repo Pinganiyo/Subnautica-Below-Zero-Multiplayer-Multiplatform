@@ -11,7 +11,7 @@
          *
          * Bağlantı kurulduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ShowConnectionSuccess()
@@ -23,7 +23,7 @@
          *
          * Bağlantı reddedildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ShowConnectionRejected()
@@ -35,7 +35,7 @@
          *
          * Sunucu dolu olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ShowConnectionServerFull()
@@ -47,7 +47,7 @@
          *
          * Sürüm uyuşmazlığı olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ShowConnectionVersionMismatch()
@@ -59,7 +59,7 @@
          *
          * Anahtar ile hata mesajı gösterir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ShowErrorMessage(string key)
@@ -71,7 +71,7 @@
          *
          * Bağlantı koptuğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ShowConnectionError()
@@ -83,7 +83,7 @@
          *
          * Bağlantı sorun düzeltme mesajını gösterir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ShowConnectionFixErrorMessage()
@@ -113,7 +113,7 @@
          *
          * Normal Hata mesajını gösterir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void ShowNormalErrorMessage(string content)

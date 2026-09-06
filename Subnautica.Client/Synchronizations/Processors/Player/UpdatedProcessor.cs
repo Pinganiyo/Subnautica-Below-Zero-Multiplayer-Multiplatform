@@ -20,7 +20,7 @@ namespace Subnautica.Client.Synchronizations.Processors.Player
          *
          * Default Hand Rotation
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Quaternion DefaultHandRotation { get; set; } = new Quaternion(0f, 0.2f, 0f, 1f);
@@ -29,7 +29,7 @@ namespace Subnautica.Client.Synchronizations.Processors.Player
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -76,7 +76,7 @@ namespace Subnautica.Client.Synchronizations.Processors.Player
          *
          * Oyuncu verileri tetiklendikten sonra çalışır
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
 
@@ -111,7 +111,7 @@ namespace Subnautica.Client.Synchronizations.Processors.Player
          *
          * Eşya açısını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static long GetHandItemRotation(TechType techType, bool isLeft)
@@ -134,7 +134,7 @@ namespace Subnautica.Client.Synchronizations.Processors.Player
          *
          * Eşya bileşenini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static NetworkPlayerItemComponent GetItemComponent(TechType techType)

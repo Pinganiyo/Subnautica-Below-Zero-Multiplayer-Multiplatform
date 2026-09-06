@@ -18,7 +18,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -71,7 +71,7 @@
          *
          * işlem tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnBedSleepProcessCompleted(ItemQueueProcess item)
@@ -111,7 +111,7 @@
          *
          * işlem tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnPictureFrameSelected(ItemQueueProcess item)
@@ -127,7 +127,7 @@
          *
          * SeaTruck Resim çerçevesi açılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSeaTruckPictureFrameOpening(SeaTruckPictureFrameOpeningEventArgs ev)
@@ -141,7 +141,7 @@
          *
          * SeaTruck Resim çerçevesi resim seçilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSeaTruckPictureFrameImageSelecting(SeaTruckPictureFrameImageSelectingEventArgs ev)
@@ -155,7 +155,7 @@
          *
          * Şarkı kutusunda veri değişimi olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnJukeboxUsed(JukeboxUsedEventArgs ev)
@@ -170,7 +170,7 @@
          *
          * Kullanıcı yatağa tıkladığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBedEnterInUseMode(BedEnterInUseModeEventArgs ev)
@@ -190,7 +190,7 @@
          *
          * Kullanıcı yatak'dan kalktığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBedExitInUseMode(BedExitInUseModeEventArgs ev)
@@ -205,7 +205,7 @@
          *
          * SeaTruck modülü başlatılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSeaTruckModuleInitialized(SeaTruckModuleInitializedEventArgs ev)
@@ -220,7 +220,7 @@
          *
          * Sunucuya paketi gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, bool isOpeningPictureFrame = false, bool isSelectingPictureFrame = false, byte[] pictureFrameData = null, CustomProperty jukeboxData = null, global::Bed.BedSide sleepingSide = global::Bed.BedSide.None, bool isSleeping = false)

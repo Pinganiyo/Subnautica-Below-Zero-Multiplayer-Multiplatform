@@ -15,7 +15,7 @@
          *
          * LiveMixin Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -25,7 +25,7 @@
          *
          * Vehicle Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -35,7 +35,7 @@
          *
          * Aracı modüle kenetler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Dock(WorldDynamicEntity entity)
@@ -53,7 +53,7 @@
          *
          * Aracın kenetlenmesini kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Undock(out WorldDynamicEntity vehicle)
@@ -73,7 +73,7 @@
          *
          * Kenetlenme durumunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsDocked()
@@ -85,7 +85,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public SeaTruckDockingModule Initialize(Action<NetworkDynamicEntityComponent> onEntityComponentInitialized)

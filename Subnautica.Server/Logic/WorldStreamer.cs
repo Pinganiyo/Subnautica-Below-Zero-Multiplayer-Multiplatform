@@ -16,7 +16,7 @@
          *
          * Dünya oluşturma başladı mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsWorldGenerateStarting { get; set; } = false;
@@ -25,7 +25,7 @@
          *
          * Dünya oluşturuldu mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool _IsGeneratedWorld = false;
@@ -34,7 +34,7 @@
          *
          * Dünya oluşturma başladı mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<int, ZeroSpawnPointSimple> SpawnPoints { get; set; } = new Dictionary<int, ZeroSpawnPointSimple>();
@@ -43,7 +43,7 @@
          *
          * Varlık dağıtımı yüklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntityDistributionLoaded()
@@ -59,7 +59,7 @@
          *
          * Belirli aralıklarla tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnUnscaledFixedUpdate(float fixedDeltaTime)
@@ -80,7 +80,7 @@
          *
          * Dünyayı oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void GenerateWorld()
@@ -101,7 +101,7 @@
          *
          * Dünya oluşturulunca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnWorldGenerated()
@@ -140,7 +140,7 @@
          *
          * Dünya oluşturuldu mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsGeneratedWorld()
@@ -152,7 +152,7 @@
          *
          * Spawn point miktarı oluşturuldu mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public int GetSpawnPointCount()
@@ -164,7 +164,7 @@
          *
          * Slotu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroSpawnPointSimple GetSpawnPointById(int slotId)
@@ -181,7 +181,7 @@
          *
          * Aktif spawn noktalarını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Dictionary<int, ZeroSpawnPointSimple> GetSpawnPoints()

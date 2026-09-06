@@ -21,7 +21,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnExecute(AuthorizationProfile profile, NetworkPacket networkPacket)
@@ -95,7 +95,7 @@
          *
          * Aracı döner. harita odası kamerasını bulur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private WorldDynamicEntity GetVehicle(string vehicleId)
@@ -150,7 +150,7 @@
          *
          * Yakındaki casus penguen aracını bulur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool TryActivateSpyPenguinFromDistance(ServerModel.VehicleEnterArgs packet, ZeroVector3 playerPosition)
@@ -175,7 +175,7 @@
          *
          * Yakındaki harita odası kamerasını bulur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool TryActivateMapRoomCamera(ServerModel.VehicleEnterArgs packet, ZeroVector3 playerPosition)

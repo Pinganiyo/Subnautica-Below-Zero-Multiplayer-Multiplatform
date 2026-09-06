@@ -13,7 +13,7 @@
          *
          * Eklenti aktifleştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPluginEnabled()
@@ -25,7 +25,7 @@
          *
          * Oyuncu ana menüye gittiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnQuittingToMainMenu(QuittingToMainMenuEventArgs ev)
@@ -37,7 +37,7 @@
          *
          * Sahne yüklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSceneLoaded(SceneLoadedEventArgs ev)
@@ -52,7 +52,7 @@
          *
          * Tüm önbelleği temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ClearAllCache()

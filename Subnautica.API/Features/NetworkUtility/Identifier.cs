@@ -13,7 +13,7 @@
          *
          * Benzersiz ID üretir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string GenerateUniqueId()
@@ -25,7 +25,7 @@
          *
          * Benzersiz ID üretir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string GetWorldEntityId(Vector3 position, string uniqueId, bool hash = false)
@@ -37,7 +37,7 @@
          *
          * Benzersiz ID üretir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string GetWorldEntityId(string uniqueId1, string uniqueId2, bool hash = false)
@@ -54,7 +54,7 @@
          *
          * Idyi döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string GetClimbUniqueId(string uniqueId)
@@ -67,7 +67,7 @@
          *
          * Nesne kimliğini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string GetIdentityId(GameObject gameObject, bool autoAdd = true)
@@ -94,7 +94,7 @@
          *
          * Nesne kimliğini başka nesneye kopyalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void CopyToUniqueIdentifier(GameObject fromGameObject, GameObject toGameObject)
@@ -106,7 +106,7 @@
          *
          * Nesne kimliğini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetIdentityId(GameObject gameObject, string newIdentity)
@@ -125,7 +125,7 @@
          *
          * Oyun nesnesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public GameObject GetGameObject(string uniqueId, bool supressMessage = false)
@@ -147,7 +147,7 @@
          *
          * Oyun nesnesinden komponent döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public T GetComponentByGameObject<T>(string uniqueId, bool supressMessage = false)
@@ -169,7 +169,7 @@
          *
          * Verileri temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Dispose()

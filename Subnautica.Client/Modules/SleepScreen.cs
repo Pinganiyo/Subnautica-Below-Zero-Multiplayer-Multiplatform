@@ -18,7 +18,7 @@
          *
          * Singletion sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static SleepScreen Instance 
@@ -38,7 +38,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Initialize()
@@ -74,7 +74,7 @@
          *
          * Uyuma tetiklemesini başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void StartSleeping()
@@ -86,7 +86,7 @@
          *
          * Yatak id değerini günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetUniqueId(string uniqueId)
@@ -98,7 +98,7 @@
          *
          * Yatak tarafını günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetBedSide(global::Bed.BedSide side)
@@ -110,7 +110,7 @@
          *
          * Nesneleri pasif yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Disable()
@@ -133,7 +133,7 @@
          *
          * Nesneleri aktif yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Enable()
@@ -157,7 +157,7 @@
          *
          * Değerleri sürekli günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public IEnumerator UpdateScreenAsync()
@@ -176,7 +176,7 @@
          *
          * Oyuncu sayılarını günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void UpdatePlayerCount()
@@ -191,7 +191,7 @@
          *
          * Zamanı günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void UpdateTime()
@@ -229,7 +229,7 @@
          *
          * Yataktan kalk uyarısını ve işlevini çalıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void UpdateBedStandUp()
@@ -256,7 +256,7 @@
          *
          * Ebeveyn nesnesini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void UpdateHandReticleParent(bool status)
@@ -281,7 +281,7 @@
          *
          * Yataktan kalkma işlevini başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ExitInUseMode()
@@ -316,7 +316,7 @@
          *
          * Yatağı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public global::Bed GetBed()
@@ -328,7 +328,7 @@
          *
          * Tüm verileri temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Dispose()
@@ -345,7 +345,7 @@
          *
          * Zaman nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private GameObject SleepingTimeObject { get; set; }
@@ -354,7 +354,7 @@
          *
          * Kullanıcı Sayı nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private GameObject SleepingUserCountObject { get; set; }
@@ -363,7 +363,7 @@
          *
          * Zaman bileşenini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private TextMeshProUGUI SleepingUserCountComponent { get; set; }
@@ -372,7 +372,7 @@
          *
          * Kullanıcı Sayı bileşenini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private TextMeshProUGUI SleepingTimeComponent { get; set; }
@@ -381,7 +381,7 @@
          *
          * Yatak Id'yi barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UniqueId { get; set; }
@@ -390,7 +390,7 @@
          *
          * HandReticle Parent nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Transform HandReticleParent { get; set; }
@@ -399,7 +399,7 @@
          *
          * Yatak tarafını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::Bed.BedSide BedSide { get; set;}
@@ -408,7 +408,7 @@
          *
          * Singletion sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static SleepScreen _Instance;
@@ -417,7 +417,7 @@
          *
          * Şuan Aktif mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsEnabled { get; private set; }
@@ -426,7 +426,7 @@
          *
          * Uyuma tetiklendi mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsSleepingStarted { get; private set; }

@@ -6,7 +6,7 @@ namespace Subnautica.API.Enums
          *
          * Hiçbiri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         None,
@@ -15,7 +15,7 @@ namespace Subnautica.API.Enums
          *
          * Görmezden gel
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         Ignore,
@@ -24,7 +24,7 @@ namespace Subnautica.API.Enums
          *
          * Kinematic
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         Kinematic,
@@ -33,7 +33,7 @@ namespace Subnautica.API.Enums
          *
          * Kinematic Değil
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         NonKinematic

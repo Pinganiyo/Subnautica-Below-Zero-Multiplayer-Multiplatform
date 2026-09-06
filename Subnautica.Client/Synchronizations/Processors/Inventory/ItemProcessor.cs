@@ -22,7 +22,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -34,7 +34,7 @@
          *
          * Oyuncu'nun envanterine bir eşya geldiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnInventoryItemAdded(InventoryItemAddedEventArgs ev)
@@ -49,7 +49,7 @@
          *
          * Oyuncu'nun envanterinden bir eşya kaldırıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnInventoryItemRemoved(InventoryItemRemovedEventArgs ev)
@@ -64,7 +64,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator SendPacketToServer(string uniqueId, Pickupable item = null, bool isAdded = false)

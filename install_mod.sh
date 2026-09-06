@@ -48,6 +48,9 @@ BUILD_DIR="$SCRIPT_DIR/bin/Release/netstandard2.0"
 cp -v "$BUILD_DIR"/*.dll "$PLUGIN_DIR/"
 cp -v "$BUILD_DIR"/*.pdb "$PLUGIN_DIR/" 2>/dev/null || true
 
+# Remove System.Reflection.Emit dummy stubs to allow Unity/Mono native Reflection.Emit
+rm -f "$PLUGIN_DIR"/System.Reflection.Emit*.dll 2>/dev/null || true
+
 # Copy Data directory assets
 if [ -d "$SCRIPT_DIR/Data" ]; then
     mkdir -p "$PLUGIN_DIR/Data"

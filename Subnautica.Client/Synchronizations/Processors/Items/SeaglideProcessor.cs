@@ -13,7 +13,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPlayerItemComponent packet, byte playerId)
@@ -25,7 +25,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate()
@@ -43,7 +43,7 @@
          *
          * Fener ışığını açar/kapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool ProcessSeaglide(ZeroPlayer player)

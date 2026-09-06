@@ -14,7 +14,7 @@
          *
          * TargetId değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -24,7 +24,7 @@
          *
          * Type değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -34,7 +34,7 @@
          *
          * IsDead değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -44,7 +44,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroLastTarget()
@@ -56,7 +56,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroLastTarget(string targetId, TechType type)
@@ -69,7 +69,7 @@
          *
          * Ölüm durumunu değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Kill()
@@ -81,7 +81,7 @@
          *
          * Oyun nesnesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public GameObject GetGameObject(bool supressMessage = false)
@@ -93,7 +93,7 @@
          *
          * Oyuncu mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsPlayer()
@@ -105,7 +105,7 @@
          *
          * Yaratık mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsCreature()
@@ -117,7 +117,7 @@
          *
          * Araç mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsVehicle()
@@ -129,7 +129,7 @@
          *
          * Seatruck olup olmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsSeatruck()
@@ -141,7 +141,7 @@
          *
          * Exosuit olup olmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsExosuit()

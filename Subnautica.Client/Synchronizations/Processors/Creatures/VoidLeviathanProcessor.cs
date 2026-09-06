@@ -19,7 +19,7 @@
          *
          * VoidData değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static BaseCreatureData VoidData { get; set; }
@@ -28,7 +28,7 @@
          *
          * Targets değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Dictionary<string, string> Targets = new Dictionary<string, string>();
@@ -37,7 +37,7 @@
         *
         * Gelen veriyi işler
         *
-        * @author Ismail <ismaiil_0234@hotmail.com>
+        
         *
         */
         public override bool OnDataReceived(NetworkCreatureComponent networkPacket, byte requesterId, double processTime, TechType creatureType, ushort creatureId)
@@ -49,7 +49,7 @@
          *
          * Sınıf başlatılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnStart()
@@ -62,7 +62,7 @@
          *
          * VoidLeviathan Update döngüsü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator VoidBehaviourUpdate(global::VoidLeviathan voidLeviathan, string creatureId)
@@ -117,7 +117,7 @@
          *
          * Hedef alınmayan boşta bir oyuncu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static ZeroPlayer GetRandomFreePlayer(string creatureId, Vector3 creaturePosition, float maxDistance)
@@ -162,7 +162,7 @@
          *
          * Yaratık etkinleştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnCreatureEnabled(CreatureEnabledEventArgs ev)
@@ -186,7 +186,7 @@
          *
          * Yaratık pasifleştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnCreatureDisabled(CreatureDisabledEventArgs ev)

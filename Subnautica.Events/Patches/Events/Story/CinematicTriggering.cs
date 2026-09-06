@@ -141,7 +141,7 @@
          *
          * Benzersiz id'yi döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string GetUniqueId(global::CinematicModeTriggerBase __instance)
@@ -164,7 +164,7 @@
          *
          * Cinematic türünü döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static StoryCinematicType GetCinematicType(GameObject gameObject)

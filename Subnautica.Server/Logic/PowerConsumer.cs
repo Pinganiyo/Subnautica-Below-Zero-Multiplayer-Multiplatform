@@ -17,7 +17,7 @@
          *
          * Güç kaynaklarını önbelleğe alır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<string, HashSet<string>> PowerRelays { get; set; } = new Dictionary<string, HashSet<string>>();
@@ -26,7 +26,7 @@
          *
          * Relay içerisine güç kaynağı eklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPowerSourceAdding(PowerSourceAddingEventArgs ev)
@@ -46,7 +46,7 @@
          *
          * Relay içerisinden güç kaynağı kaldırıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPowerSourceRemoving(PowerSourceRemovingEventArgs ev)
@@ -68,7 +68,7 @@
          *
          * Oyun başladığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnGameStart()
@@ -95,7 +95,7 @@
          *
          * Güç kaynaığını önbelleğe ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void AddPowerSourceToCache(string relayId, IPowerInterface powerSource)
@@ -114,7 +114,7 @@
          *
          * Enerji gerekli mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsTechnologyRequiresPower()
@@ -126,7 +126,7 @@
          *
          * Yeterli güç olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool HasPower(global::PowerConsumer powerConsumer, float power)
@@ -138,7 +138,7 @@
          *
          * Yeterli güç olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool HasPower(global::PowerRelay powerRelay, float power)
@@ -155,7 +155,7 @@
          *
          * Güç tüketir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool ConsumePower(global::PowerConsumer powerConsumer, float amount, out float amountConsumed)
@@ -169,7 +169,7 @@
          *
          * Güç tüketir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool ConsumePower(global::PowerRelay powerRelay, float amount, out float amountConsumed)
@@ -183,7 +183,7 @@
          *
          * Güç değerlerini düzenler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool ModifyPower(global::PowerConsumer powerConsumer, float amount, out float modified)
@@ -195,7 +195,7 @@
          *
          * Güç değerlerini düzenler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool ModifyPower(global::PowerRelay powerRelay, float amount, out float modified)
@@ -229,7 +229,7 @@
          *
          * Güç Relay değerlerini düzenler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool ModifyPowerFromInbound(string powerRelayId, float amount, out float modified)
@@ -276,7 +276,7 @@
          *
          * Güç değerlerini düzenler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool InnerModifyPower(string powerSourceId, float amount, out float modified)
@@ -307,7 +307,7 @@
          *
          * Güç kaynağının id'sini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private string GetPowerSourceId(GameObject powerSource)

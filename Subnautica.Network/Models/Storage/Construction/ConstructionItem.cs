@@ -16,7 +16,7 @@
          *
          * Yapı Index Kimliği
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -26,7 +26,7 @@
          *
          * Yapı Kimliği
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -36,7 +36,7 @@
          *
          * Base Kimliği
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -46,7 +46,7 @@
          *
          * Teknoloji Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -56,7 +56,7 @@
          *
          * LastRotation Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -66,7 +66,7 @@
          *
          * Yapı pozisyon barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -76,7 +76,7 @@
          *
          * CellPosition Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -86,7 +86,7 @@
          *
          * FaceLocalPosition Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(7)]
@@ -96,7 +96,7 @@
          *
          * FaceLocalRotation Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(8)]
@@ -106,7 +106,7 @@
          *
          * IsFaceHasValue Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(9)]
@@ -116,7 +116,7 @@
          *
          * FaceDirection Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(10)]
@@ -126,7 +126,7 @@
          *
          * FaceType Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(11)]
@@ -136,7 +136,7 @@
          *
          * Tamamlanma Oranı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(12)]
@@ -146,7 +146,7 @@
          *
          * Base Türü mü?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(13)]
@@ -156,7 +156,7 @@
          *
          * Statik Nesne mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(14)]
@@ -166,7 +166,7 @@
          *
          * Metadata verisi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(15)]
@@ -176,7 +176,7 @@
          *
          * LiveMixin verisi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(16)]
@@ -186,7 +186,7 @@
          *
          * İnşa edilmiş mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsConstructed()
@@ -198,7 +198,7 @@
          *
          * Statik nesne oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ConstructionItem CreateStaticItem(string uniqueId, TechType techType)
@@ -216,7 +216,7 @@
          *
          * Component yok ise ekler, var ise döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public T EnsureComponent<T>()

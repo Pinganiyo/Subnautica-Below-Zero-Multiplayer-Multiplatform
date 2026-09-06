@@ -15,7 +15,7 @@
          *
          * Ağ Paket Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -25,7 +25,7 @@
          *
          * Packet Kanal Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -35,7 +35,7 @@
          *
          * PowerCells değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -49,7 +49,7 @@
          *
          * VehicleId değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -59,7 +59,7 @@
          *
          * Charge değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -69,7 +69,7 @@
          *
          * Position değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -79,7 +79,7 @@
          *
          * Sınıf Ayarlarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public EnergyMixinTransmissionItem()
@@ -91,7 +91,7 @@
          *
          * Sınıf Ayarlarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public EnergyMixinTransmissionItem(ushort itemId, float charge, ZeroVector3 position)

@@ -12,7 +12,7 @@
          *
          * Dünya yüklenip nesne doğduğunda çalışır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public abstract bool OnWorldLoadItemSpawn(NetworkDynamicEntityComponent packet, bool isDeployed, Pickupable pickupable, GameObject gameObject);
@@ -21,7 +21,7 @@
          *
          * İşlemi yönlendirip çalıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool ExecuteItemSpawnProcessor(TechType techType, NetworkDynamicEntityComponent packet, bool isDeployed, Pickupable pickupable, GameObject gameObject, bool isDrop = false)

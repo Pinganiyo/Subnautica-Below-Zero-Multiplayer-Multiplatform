@@ -16,7 +16,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::OxygenPlant __instance)
@@ -57,7 +57,7 @@
          *
          * Eklenecek saniyeyi döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static float GetSeconds(global::OxygenPlant __instance)
@@ -69,7 +69,7 @@
          *
          * Başlangıç zamanını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static float GetStartedTime(float duration, float value)

@@ -17,7 +17,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -35,7 +35,7 @@
          *
          * Kalkan üssüne ilk giriş animasyon ve seslendirmeleri başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private IEnumerator PlayFirstEnterDirector(float leftTime)
@@ -60,7 +60,7 @@
          *
          * Kalkan üssüne girildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnShieldBaseEnterTriggering(ShieldBaseEnterTriggeringEventArgs ev)
@@ -74,7 +74,7 @@
          *
          * Hikaye çağrısı kabul/red edildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(bool isEntering)

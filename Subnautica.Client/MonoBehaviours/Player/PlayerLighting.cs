@@ -13,7 +13,7 @@
          *
          * Oyuncuyu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroPlayer Player { get; set; }
@@ -22,7 +22,7 @@
          *
          * Mevcut SubRoot Id numarasını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private string CurrentSubRootId { get; set; }
@@ -31,7 +31,7 @@
          *
          * LastSky sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Sky LastSky { get; set; }
@@ -40,7 +40,7 @@
          *
          * LastPower değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float LastPower { get; set; } = 0f;
@@ -49,7 +49,7 @@
          *
          * Block değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private MaterialPropertyBlock Block = new MaterialPropertyBlock();
@@ -58,7 +58,7 @@
          *
          * Sınıf başlatıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Start()
@@ -74,7 +74,7 @@
          *
          * Belirli aralıklarla tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void FixedUpdate()
@@ -91,7 +91,7 @@
          *
          * Oyuncu üs değiştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsChangedSubRoot()
@@ -114,7 +114,7 @@
          *
          * Yeni skybox'u uygular.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool ApplySkybox()
@@ -141,7 +141,7 @@
          *
          * Üs -> oyuncu ışıklandırmasını ayarlar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void UpdateBaseLighting()

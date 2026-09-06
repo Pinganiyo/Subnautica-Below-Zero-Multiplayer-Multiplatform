@@ -20,7 +20,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -62,7 +62,7 @@
          *
          * İşlem tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnProcessCompleted(ItemQueueProcess item)
@@ -82,7 +82,7 @@
          *
          * Bir nesne alındığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntityPickupSpawned(ItemQueueProcess item, global::Pickupable pickupable, GameObject gameObject)
@@ -97,7 +97,7 @@
          *
          * Exosuit ile yerden nesne alındığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnExosuitItemPickedUp(ExosuitItemPickedUpEventArgs ev)
@@ -114,7 +114,7 @@
          *
          * Depolamaya eşya eklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStorageItemAdding(StorageItemAddingEventArgs ev)
@@ -131,7 +131,7 @@
          *
          * Depolama'dan eşya kaldırıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStorageItemRemoving(StorageItemRemovingEventArgs ev)
@@ -148,7 +148,7 @@
          *
          * Spy Penguin bırakıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, WorldPickupItem pickupItem = null, bool isPickup = false, bool isAdded = false)

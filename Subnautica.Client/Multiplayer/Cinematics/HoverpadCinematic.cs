@@ -10,7 +10,7 @@
         *
         * Hoverpadi barındırır.
         *
-        * @author Ismail <ismaiil_0234@hotmail.com>
+        
         *
         */
         private global::Hoverpad Hoverpad { get; set; }
@@ -19,7 +19,7 @@
          *
          * Animasyonu resetler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnResetAnimations(PlayerCinematicQueueItem item)
@@ -36,7 +36,7 @@
          *
          * İnme animasyonunu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void DockStartCinematic()
@@ -58,7 +58,7 @@
          *
          * Binme animasyonunu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void UndockStartCinematic()
@@ -79,7 +79,7 @@
          *
          * Binme bittiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void UndockCinematicEndMode()
@@ -107,7 +107,7 @@
          *
          * İnme bittiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void DockCinematicEndMode()

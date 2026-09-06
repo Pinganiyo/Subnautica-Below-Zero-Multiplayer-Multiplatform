@@ -7,7 +7,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ConstructionAmountChangedEventArgs(TechType techType, float constructedAmount, bool isConstruct, string uniqueId)
@@ -22,7 +22,7 @@
          *
          * TechType Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public TechType TechType { get; private set; }
@@ -31,7 +31,7 @@
          *
          * Amount Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float Amount { get; private set; }
@@ -40,7 +40,7 @@
          *
          * IsConstruct Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsConstruct { get; private set; }
@@ -49,7 +49,7 @@
          *
          * Kimlik
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UniqueId { get; private set; }

@@ -18,7 +18,7 @@
          *
          * Modules Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -36,7 +36,7 @@
          *
          * PowerCells Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -50,7 +50,7 @@
          *
          * ColorCustomizer Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -60,7 +60,7 @@
          *
          * StorageContainer Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -70,7 +70,7 @@
          *
          * LiveMixin Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -80,7 +80,7 @@
          *
          * Depolama dolabının boyutunu ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ResizeStorageContainer()
@@ -92,7 +92,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Exosuit Initialize(Action<NetworkDynamicEntityComponent> onEntityComponentInitialized)

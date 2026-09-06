@@ -18,7 +18,7 @@
          *
          * StopwatchItem nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static readonly StopwatchItem StopwatchItem = new StopwatchItem(BroadcastInterval.PlayerUpdated);
@@ -27,7 +27,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Postfix(global::ArmsController __instance)
@@ -67,7 +67,7 @@
          *
          * Oyuncu elindeki eşyayı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static TechType GetTechTypeInHand(global::ArmsController __instance)
@@ -111,7 +111,7 @@
          *
          * Oyuncu ekipmanlarını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static List<TechType> GetPlayerEquipments()
@@ -132,7 +132,7 @@
          *
          * Oyuncu ekipman türünü döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static TechType GetEquipmentType(string slot)

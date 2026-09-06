@@ -16,7 +16,7 @@ namespace Subnautica.Server.Storage
          *
          * Technology sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public TechnologyStorage.Technology Storage { get; set; }
@@ -25,7 +25,7 @@ namespace Subnautica.Server.Storage
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void Start(string serverId)
@@ -40,7 +40,7 @@ namespace Subnautica.Server.Storage
          *
          * Sunucu ansiklopedi verilerini belleğe yükler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void Load()
@@ -81,7 +81,7 @@ namespace Subnautica.Server.Storage
          *
          * Verileri diske yazar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void SaveToDisk()
@@ -96,7 +96,7 @@ namespace Subnautica.Server.Storage
          *
          * Açılmış teknolojileri ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool AddTechnology(TechnologyItem technology)
@@ -123,7 +123,7 @@ namespace Subnautica.Server.Storage
          *
          * Açılmış teknolojileri ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public TechnologyItem GetTechnology(TechType techType, int totalFragment)
@@ -148,7 +148,7 @@ namespace Subnautica.Server.Storage
          *
          * Analiz edilmiş teknolojileri ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool AddAnalyzedTechnology(TechType techType)

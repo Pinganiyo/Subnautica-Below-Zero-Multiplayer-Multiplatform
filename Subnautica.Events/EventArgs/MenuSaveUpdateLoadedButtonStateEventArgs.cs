@@ -8,7 +8,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public MenuSaveUpdateLoadedButtonStateEventArgs(MainMenuLoadButton button)
@@ -20,7 +20,7 @@
          *
          * Button değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public MainMenuLoadButton Button { get; set; }

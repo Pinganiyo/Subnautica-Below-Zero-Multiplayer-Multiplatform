@@ -19,7 +19,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnExecute(AuthorizationProfile profile, NetworkPacket networkPacket)
@@ -62,7 +62,7 @@
          *
          * Resimleri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<string, Metadata.PictureFrame> GetImages(List<string> existImages)
@@ -90,7 +90,7 @@
          *
          * Resim isimlerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<string> GetImageNames()
@@ -111,7 +111,7 @@
          *
          * Bağlı oyuncu listesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<PlayerItem> GetPlayers(AuthorizationProfile myProfile)

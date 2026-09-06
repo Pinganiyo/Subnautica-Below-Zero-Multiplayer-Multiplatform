@@ -19,7 +19,7 @@
          *
          * Animasyon isteklerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static ServerModel.CreatureAnimationArgs AnimationRequest = new ServerModel.CreatureAnimationArgs();
@@ -28,7 +28,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -55,7 +55,7 @@
          *
          * İşlem tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnCreatureProcessCompleted(MultiplayerCreature creature, CreatureQueueItem item)
@@ -77,7 +77,7 @@
          *
          * Ana menüye dönünce tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnDispose()
@@ -89,7 +89,7 @@
          *
          * Her kare sonunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnLateUpdate()
@@ -106,7 +106,7 @@
          *
          * Balık animasyonu değiştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnCreatureAnimationChanged(CreatureAnimationChangedEventArgs ev)

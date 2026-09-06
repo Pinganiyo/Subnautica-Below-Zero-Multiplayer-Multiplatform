@@ -10,7 +10,7 @@
          *
          * Dil verilerini barındırır
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IDictionary<string, string> LanguageData { get; set; } = new Dictionary<string, string>()
@@ -23,7 +23,7 @@
          *
          * Dil verilerini günceller
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool LoadLanguage(string language, bool forceDownload = false)
@@ -64,7 +64,7 @@
          *
          * Metni getirir
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string Get(string languageKey)
@@ -86,7 +86,7 @@
          *
          * Launcher yeni sürüm Mesajı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string LauncherUpdateContentMessage(string newVersion)
@@ -98,7 +98,7 @@
          *
          * Yeni sürüm indiriliyor mesajı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string LauncherDownloadMessage(string version)
@@ -110,7 +110,7 @@
          *
          * Yeni sürüm kuruluyor mesajı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string LauncherInstallMessage(string version)
@@ -122,7 +122,7 @@
          *
          * İndirme mesajı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string LauncherDownloading(string name)
@@ -134,7 +134,7 @@
          *
          * Sunucudaki oyuncu sayısını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetServerPlayerCount()
@@ -146,7 +146,7 @@
          *
          * Hikaye beklenen oyuncu sayısını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetStoryWaitingPlayers(byte playerCount, byte maxPlayer)

@@ -21,7 +21,7 @@ namespace Subnautica.Client.Synchronizations.Processors.Items
          *
          * Oyuncuların tarama hedeflerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<byte, string> PlayerTargetIds { get; set; } = new Dictionary<byte, string>();
@@ -30,7 +30,7 @@ namespace Subnautica.Client.Synchronizations.Processors.Items
          *
          * Oyuncuların tarama hedef zamanlarını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<byte, float> PlayerTargetTimes { get; set; } = new Dictionary<byte, float>();
@@ -39,7 +39,7 @@ namespace Subnautica.Client.Synchronizations.Processors.Items
          *
          * Oyuncuların tarama hedef zamanlarını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<byte> PlayerRemovingIds { get; set; } = new List<byte>();
@@ -48,7 +48,7 @@ namespace Subnautica.Client.Synchronizations.Processors.Items
         *
         * Gelen veriyi işler
         *
-        * @author Ismail <ismaiil_0234@hotmail.com>
+        
         *
         */
         public override bool OnDataReceived(NetworkPlayerItemComponent packet, byte playerId)
@@ -67,7 +67,7 @@ namespace Subnautica.Client.Synchronizations.Processors.Items
          *
          * Sınıf başlatılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnStart()
@@ -81,7 +81,7 @@ namespace Subnautica.Client.Synchronizations.Processors.Items
          *
          * Her Sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate()
@@ -116,7 +116,7 @@ namespace Subnautica.Client.Synchronizations.Processors.Items
          *
          * Taramayı Başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool PlayScanFX(byte playerId, string targetId)
@@ -173,7 +173,7 @@ namespace Subnautica.Client.Synchronizations.Processors.Items
          *
          * Taramayı Durdurur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool StopScanFX(byte playerId)
@@ -212,7 +212,7 @@ namespace Subnautica.Client.Synchronizations.Processors.Items
          *
          * Oyuncu bir nesneyi tararken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnScannerUsing(ScannerUsingEventArgs ev)

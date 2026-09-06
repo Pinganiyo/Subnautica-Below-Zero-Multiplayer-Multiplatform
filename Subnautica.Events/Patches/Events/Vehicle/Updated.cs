@@ -17,7 +17,7 @@
          *
          * StopwatchItem nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static readonly StopwatchItem StopwatchItem = new StopwatchItem(BroadcastInterval.VehicleUpdated);
@@ -26,7 +26,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Postfix(global::ArmsController __instance)
@@ -62,7 +62,7 @@
          *
          * Ebeveyn transform döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Transform GetParentTransform()
@@ -84,7 +84,7 @@
          *
          * LWE Nesnesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static GameObject GetLargeWorldEntity(Transform parentTransform)
@@ -106,7 +106,7 @@
          *
          * Teknoloji türünü döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static TechType GetVehicleType()

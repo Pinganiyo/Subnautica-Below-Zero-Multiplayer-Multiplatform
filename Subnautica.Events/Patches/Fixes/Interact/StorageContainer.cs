@@ -12,7 +12,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::StorageContainer __instance)
@@ -46,7 +46,7 @@
          *
          * Yapı idsini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string GetUniqueId(global::StorageContainer __instance)

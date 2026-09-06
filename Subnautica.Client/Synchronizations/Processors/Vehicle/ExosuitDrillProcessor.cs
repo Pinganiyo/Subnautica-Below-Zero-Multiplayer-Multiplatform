@@ -22,7 +22,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -97,7 +97,7 @@
          *
          * Nesne spawnlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntitySpawned(ItemQueueProcess item, Pickupable pickupable, GameObject gameObject)
@@ -109,7 +109,7 @@
          *
          * Exosuit ile maden kazarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnExosuitDrilling(ExosuitDrillingEventArgs ev)
@@ -123,7 +123,7 @@
          *
          * Spy Penguin bırakıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, string slotId, float maxHealth, TechType dropTechType, List<ZeroVector3> dropPositions, bool isMultipleDrill, bool isStaticWorldEntity)

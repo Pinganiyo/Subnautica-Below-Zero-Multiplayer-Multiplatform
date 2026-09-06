@@ -15,7 +15,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::BaseDeconstructable __instance)
@@ -55,7 +55,7 @@
          *
          * Benzersiz ID numrasını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string GetUniqueId(global::BaseDeconstructable baseDeconstructable)

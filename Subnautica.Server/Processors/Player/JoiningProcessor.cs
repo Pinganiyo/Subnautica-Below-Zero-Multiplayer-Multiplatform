@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Server.Processors.Player
+namespace Subnautica.Server.Processors.Player
 {
     using System.Collections.Generic;
     using System.Linq;
@@ -21,7 +21,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnExecute(AuthorizationProfile profile, NetworkPacket networkPacket)
@@ -34,23 +34,12 @@
 
             if (packet.UserName.IsNull())
             {
-                Log.Info("EMPTY_NAME_ERROR");
-                Server.DisconnectToClient(profile);
-                return false;
-            }
-
-            if (!this.IsActive(packet.UserName))
-            {
-                Log.Info("NETWORK_IS_DOWN");
-                Server.DisconnectToClient(profile);
-                return false;
+                packet.UserName = "Player";
             }
 
             if (packet.UserId.IsNull())
             {
-                Log.Info("EMPTY_USER_ERROR");
-                Server.DisconnectToClient(profile);
-                return false;
+                packet.UserId = "LocalHostPlayer";
             }
 
             packet.UserName = packet.UserName.Trim();
@@ -103,7 +92,7 @@
          *
          * İlk bağlantı paketini gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SendFirstConnectionPacket(AuthorizationProfile profile)
@@ -169,7 +158,7 @@
          *
          * Yeniden bağlantı paketini gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SendReconnectPacket(AuthorizationProfile profile)
@@ -181,7 +170,7 @@
          *
          * IsActive Değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsActive(string key)

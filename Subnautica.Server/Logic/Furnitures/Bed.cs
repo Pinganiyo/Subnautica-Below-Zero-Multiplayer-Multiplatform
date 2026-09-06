@@ -20,7 +20,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StopwatchItem Timing { get; set; } = new StopwatchItem(1000f);
@@ -29,7 +29,7 @@
          *
          * SleepGameTimeDuration Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float SleepGameTimeDuration { get; set; } = 396f;
@@ -38,7 +38,7 @@
          *
          * SleepRealTimeDuration Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float SleepRealTimeDuration { get; set; } = 5f;
@@ -47,7 +47,7 @@
          *
          * Sınıfı başlatır
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnStart()
@@ -65,7 +65,7 @@
          *
          * Zamanlayıcının geri dönüş methodu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate(float fixedDeltaTime)
@@ -91,7 +91,7 @@
          *
          * Oyuncunun yataklarını siler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ClearPlayerBeds(byte playerId)
@@ -109,7 +109,7 @@
          *
          * Oyunculara paketleri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SendPacketToAllClient()
@@ -129,7 +129,7 @@
          *
          * Uyku zamanı üzerinden geçen süreyi kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsTimeLastSleepAvailable()
@@ -141,7 +141,7 @@
          *
          * Zamanı ileri sarar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool SkipTime(float timeAmount, float skipDuration)
@@ -161,7 +161,7 @@
          *
          * Yatakları döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<BedSideItem> GetBeds()

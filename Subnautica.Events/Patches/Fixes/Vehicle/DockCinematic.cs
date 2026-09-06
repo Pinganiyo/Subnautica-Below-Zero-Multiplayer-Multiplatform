@@ -39,7 +39,7 @@
          *
          * Crosshair isteğini otomatikleştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void ToggleRequestCrosshair(bool isHide)

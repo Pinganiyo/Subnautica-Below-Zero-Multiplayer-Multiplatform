@@ -19,7 +19,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -63,7 +63,7 @@
          *
          * Sızıntıları senkronize eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SyncLeaks(global::Leakable leakable, List<ZeroVector3> points)
@@ -95,7 +95,7 @@
          *
          * Bir nesne hasar aldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnTakeDamaging(TakeDamagingEventArgs ev)
@@ -118,7 +118,7 @@
          *
          * Üs dayanıklılığı düştüğünde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBaseHullStrengthCrushing(BaseHullStrengthCrushingEventArgs ev)
@@ -151,7 +151,7 @@
          *
          * Sızıntı noktalarını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static List<ZeroVector3> GetLeakPoints(global::Leakable component)

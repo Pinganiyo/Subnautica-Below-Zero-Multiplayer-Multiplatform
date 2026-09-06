@@ -16,7 +16,7 @@
          *
          * Konumun hücresini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ZeroInt3 GetCellId(this ZeroVector3 position)
@@ -32,7 +32,7 @@
          *
          * Byte'ı flota çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static float ToFloat(this byte value)
@@ -44,7 +44,7 @@
          *
          * Float'ı byte'ye çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static byte ToByte(this float value)
@@ -56,7 +56,7 @@
          *
          * Float'ı shorta çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static short ToShort(this float value)
@@ -68,7 +68,7 @@
          *
          * Short'u flota çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static float ToFloat(this short value)
@@ -80,7 +80,7 @@
          *
          * Quaternion'u sıkıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static long Compress(this ZeroQuaternion quaternion)
@@ -92,7 +92,7 @@
          *
          * Quaternion'u sıkıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static long Compress(this Quaternion quaternion)
@@ -104,7 +104,7 @@
          *
          * long'u vector'e dönüştürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Quaternion ToQuaternion(this long value)
@@ -116,7 +116,7 @@
          *
          * long'u zerovector'e dönüştürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ZeroQuaternion ToZeroQuaternion(this long value)
@@ -128,7 +128,7 @@
          *
          * Vector3'ü sıkıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static long Compress(this ZeroVector3 vector3)
@@ -140,7 +140,7 @@
          *
          * Vector3'ü sıkıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static int CompressToInt(this ZeroVector3 vector3)
@@ -152,7 +152,7 @@
          *
          * Vector3'ü sıkıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static int CompressToInt(this Vector3 vector3)
@@ -164,7 +164,7 @@
          *
          * int'i vector'e dönüştürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Vector3 ToVector3(this int value)
@@ -176,7 +176,7 @@
          *
          * Vector3'ü sıkıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static long Compress(this Vector3 vector3)
@@ -188,7 +188,7 @@
          *
          * long'u vector'e dönüştürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Vector3 ToVector3(this long value)
@@ -200,7 +200,7 @@
          *
          * long'u zerovector'e dönüştürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ZeroVector3 ToZeroVector3(this long value)
@@ -212,7 +212,7 @@
          *
          * ZeroColor'u color'a çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Color ToColor(this ZeroColor zeroColor)
@@ -224,7 +224,7 @@
          *
          * Color'u ZeroColor'a çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ZeroColor ToZeroColor(this Color color)
@@ -236,7 +236,7 @@
          *
          * ZeroVector3'u Vector3'a çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Vector3 ToVector3(this ZeroVector3 zeroVector3, bool isDefault = false)
@@ -253,7 +253,7 @@
          *
          * Vector3'u ZeroVector3'a çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ZeroVector3 ToZeroVector3(this Vector3 vector3)
@@ -265,7 +265,7 @@
          *
          * ZeroInt3'ü Vector3'a çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Int3 ToInt3(this ZeroInt3 zeroInt3)
@@ -277,7 +277,7 @@
          *
          * Vector3'u ZeroInt3'E çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ZeroInt3 ToZeroInt3(this Int3 int3)
@@ -289,7 +289,7 @@
          *
          * ZeroQuaternion'u Quaternion'a çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Quaternion ToQuaternion(this ZeroQuaternion zeroQuaternion, bool isDefault = false)
@@ -306,7 +306,7 @@
          *
          * Quaternion'u ZeroQuaternion'a çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ZeroQuaternion ToZeroQuaternion(this Quaternion quaternion)
@@ -318,7 +318,7 @@
          *
          * Transform'u ZeroTransform'a çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ZeroTransform ToZeroTransform(this Transform transform)
@@ -330,7 +330,7 @@
          *
          * Aradaki yaklaşık değeri hesaplar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool Approximately(this float value, float otherValue, float nearValue)
@@ -342,7 +342,7 @@
          *
          * Oyuncuya komponent ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static T AddComponent<T>(this ZeroPlayer player) where T : MonoBehaviour
@@ -354,7 +354,7 @@
          *
          * Oyuncunun local komponentlerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static T GetLocalComponent<T>(this ZeroPlayer player)
@@ -371,7 +371,7 @@
          *
          * Oyuncunun komponentlerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static T GetComponent<T>(this ZeroPlayer player)
@@ -388,7 +388,7 @@
          *
          * Oyuncunun çocuk komponentlerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static T[] GetComponentsInChildren<T>(this ZeroPlayer player, bool isActive = false)
@@ -400,7 +400,7 @@
          *
          * Transform nesnesinin tam yolunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetPath(this Transform current)
@@ -417,7 +417,7 @@
          *
          * Byte'lerin doğruluğunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsValid(this byte[] datas)
@@ -443,7 +443,7 @@
          *
          * Byte'lerin doğruluğunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool WriteToDisk(this byte[] data, string filePath)

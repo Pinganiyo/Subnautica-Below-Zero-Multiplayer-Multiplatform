@@ -9,7 +9,7 @@
          *
          * Grubu Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -19,7 +19,7 @@
          *
          * Key Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -29,7 +29,7 @@
          *
          * IsViewed Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -39,7 +39,7 @@
          *
          * IsPing Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -49,7 +49,7 @@
          *
          * IsVisibility Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -59,7 +59,7 @@
          *
          * ColorIndex Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -69,7 +69,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public NotificationItem()
@@ -81,7 +81,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public NotificationItem(NotificationManager.Group group, string key, bool isViewed, bool isPing, bool isVisible, sbyte colorIndex)

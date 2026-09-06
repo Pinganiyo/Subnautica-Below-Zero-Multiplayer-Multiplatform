@@ -14,7 +14,7 @@
          *
          * Orijinal metni barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string OriginalText { get; set; }
@@ -23,7 +23,7 @@
          *
          * Metni ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void TogglePresentText()
@@ -52,7 +52,7 @@
          *
          * Orijinal Metni önbelleğe alır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPostfix]

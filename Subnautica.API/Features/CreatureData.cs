@@ -11,7 +11,7 @@
          *
          * Sınıfı barındır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static CreatureData instance;
@@ -20,7 +20,7 @@
          *
          * Sınıf örneğini barındır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static CreatureData Instance
@@ -40,7 +40,7 @@
          *
          * Verileri barındır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<TechType, BaseCreatureData> Datas { get; set; } = new Dictionary<TechType, BaseCreatureData>();
@@ -49,7 +49,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public CreatureData()
@@ -75,7 +75,7 @@
          *
          * Veri kaydı kontrolü yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsExists(TechType type)
@@ -87,7 +87,7 @@
          *
          * Veri kaydını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public BaseCreatureData GetCreatureData(TechType type)
@@ -100,7 +100,7 @@
          *
          * Veri kaydını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Register(BaseCreatureData creatureData)
@@ -119,7 +119,7 @@
          *
          * Veri kaydını siler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void UnRegister(TechType techType)

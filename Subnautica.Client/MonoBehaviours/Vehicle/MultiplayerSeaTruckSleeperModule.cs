@@ -11,7 +11,7 @@
          *
          * Yatağı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::Bed Bed;
@@ -20,7 +20,7 @@
          *
          * Nesne başlatılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Start()
@@ -32,7 +32,7 @@
          *
          * Oyuncu çıktığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnMultiplayerPlayerDisconnected(ZeroPlayer player)
@@ -47,7 +47,7 @@
          *
          * Nesne yok edilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnDestroy()
@@ -66,7 +66,7 @@
          *
          * Aynı oyuncu mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsSamePlayer(ZeroPlayer player1, ZeroPlayer player2)
@@ -78,7 +78,7 @@
          *
          * Yataktaki oyuncuyu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private ZeroPlayer GetPlayer()

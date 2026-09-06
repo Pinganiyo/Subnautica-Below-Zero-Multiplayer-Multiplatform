@@ -13,7 +13,7 @@
          *
          * Araç sağlığını değiştiri.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void AddHealth(global::LiveMixin liveMixin, float newHealth)
@@ -42,7 +42,7 @@
          *
          * Hasar bilgisi gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendDamageInfoNotify(global::LiveMixin liveMixin, float damage, DamageType type = DamageType.Normal)
@@ -60,7 +60,7 @@
          *
          * Hasar verir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool TakeDamage(global::LiveMixin liveMixin, float newHealth, DamageType type = DamageType.Normal, bool isSound = true, Action<string, GameObject> killAction = null)
@@ -204,7 +204,7 @@
          *
          * İşlem tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void OnKillProcessCompleted(ItemQueueProcess item)
@@ -238,7 +238,7 @@
          *
          * Basınç sesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static int GetCrushSoundIndex(float totalStrength)

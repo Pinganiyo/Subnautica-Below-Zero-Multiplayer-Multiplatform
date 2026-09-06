@@ -18,7 +18,7 @@
          *
          * StopwatchItem nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static readonly Dictionary<string, StopwatchItem> StopwatchItems = new Dictionary<string, StopwatchItem>();
@@ -27,7 +27,7 @@
          *
          * Yamalar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPrefix]
@@ -44,7 +44,7 @@
          *
          * Yamalar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPrefix]
@@ -65,7 +65,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPrefix]
@@ -143,7 +143,7 @@
          *
          * Id kontrolü yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool CheckAction(GameObject gameObject, int currentTick)
@@ -155,7 +155,7 @@
          *
          * Id tanımlanınca çalışır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SuccessAction(GameObject gameObject)
@@ -171,7 +171,7 @@
          *
          * UniqueId değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string GetUniqueId(GameObject gameObject)
@@ -194,7 +194,7 @@
          *
          * TechType değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static TechType GetTechType(GameObject gameObject)
@@ -212,7 +212,7 @@
          *
          * End Position değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Vector3 GetBackModulePosition(global::VehicleDockingBay dockingBay, Dockable dockable)
@@ -239,7 +239,7 @@
          *
          * End Position değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Vector3 GetEndPosition(global::VehicleDockingBay dockingBay, Dockable dockable)
@@ -256,7 +256,7 @@
          *
          * End Rotation değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Quaternion GetEndRotation(global::VehicleDockingBay dockingBay, Dockable dockable)

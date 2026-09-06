@@ -9,7 +9,7 @@
          *
          * Hedef sahip id numarasını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static byte GetTargetOwnerId(this ZeroLastTarget lastTarget, byte ownerPlayerId)

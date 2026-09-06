@@ -16,7 +16,7 @@
          *
          * Faces değerini saklar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -26,7 +26,7 @@
          *
          * Cells değerini saklar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -36,7 +36,7 @@
          *
          * Links değerini saklar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -46,7 +46,7 @@
          *
          * Masks değerini saklar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -56,7 +56,7 @@
          *
          * IsGlass değerini saklar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -66,7 +66,7 @@
          *
          * Unpowered değerini saklar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -76,7 +76,7 @@
          *
          * GridShape değerini saklar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -86,7 +86,7 @@
          *
          * CellOffset değerini saklar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(7)]
@@ -96,7 +96,7 @@
          *
          * Anchor değerini saklar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(8)]
@@ -106,7 +106,7 @@
          *
          * FaceLength değerini saklar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(9)]
@@ -116,7 +116,7 @@
          *
          * CellLength değerini saklar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(10)]
@@ -126,7 +126,7 @@
          *
          * LinkLength değerini saklar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(11)]
@@ -136,7 +136,7 @@
          *
          * MaskLength değerini saklar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(12)]
@@ -146,7 +146,7 @@
          *
          * GlassLength değerini saklar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(13)]
@@ -156,7 +156,7 @@
          *
          * PowerLength değerini saklar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(14)]
@@ -166,7 +166,7 @@
          *
          * Bileşenleri ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetComponent(global::Base baseComponent)
@@ -241,7 +241,7 @@
          *
          * Verileri içe aktarır
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ImportToBase(global::Base baseComponent)
@@ -315,7 +315,7 @@
          *
          * Veriyi sıkıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static byte[] Serialize(global::Base baseComponent)
@@ -330,7 +330,7 @@
          *
          * Bilgileri gösterir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ShowDetails()
@@ -342,7 +342,7 @@
          *
          * Dizi uzunluğunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private int GetArrayLength<T>(T[] arrayList)

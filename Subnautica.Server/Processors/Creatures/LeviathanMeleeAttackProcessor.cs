@@ -19,7 +19,7 @@
          *
          * Araçların saldırıya uğrama zamanını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<string, double> VehicleLastAttackTimes = new Dictionary<string, double>();
@@ -28,7 +28,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnExecute(AuthorizationProfile profile, NetworkPacket networkPacket)
@@ -135,7 +135,7 @@
          *
          * Oyuncu animasyon süresini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float GetAttackAnimationTime(TechType attackerType, TechType targetType)
@@ -183,7 +183,7 @@
          *
          * Yaratık tarafından araç yakalanabilir mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool CanGrabVehicle(string vehicleId)
@@ -200,7 +200,7 @@
          *
          * Araç saldırı altında zamanını günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void UpdateVehicleAttackTime(string vehicleId, float animationTime)
@@ -212,7 +212,7 @@
          *
          * Hasarı hesaplar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float CalculateDamage(float damage, ZeroLastTarget target)

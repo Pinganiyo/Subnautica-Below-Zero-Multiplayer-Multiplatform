@@ -11,7 +11,7 @@
          *
          * Yatağı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::Bed Bed { get; set; }
@@ -20,7 +20,7 @@
          *
          * Uyku modülü mü?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsSleeperModule { get; set; }
@@ -29,7 +29,7 @@
          *
          * Animasyon başlamadan önce tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnStart(PlayerCinematicQueueItem item)
@@ -50,7 +50,7 @@
          *
          * Animasyonu resetler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnResetAnimations(PlayerCinematicQueueItem item)
@@ -72,7 +72,7 @@
          *
          * Yatma animasyonunu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void LieDownStartCinematic()
@@ -99,7 +99,7 @@
          *
          * Kalkma animasyonunu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void StandupStartCinematic()
@@ -130,7 +130,7 @@
          *
          * Cinematik bittiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void LieDownEndCinematicMode()
@@ -143,7 +143,7 @@
          *
          * Cinematik bittiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void StandupEndCinematicMode()
@@ -158,7 +158,7 @@
          *
          * Uyuma sinematik hazırlığını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void PrepareLieDownCinematic(global::Bed.BedSide side)
@@ -175,7 +175,7 @@
          *
          * Yatma animasyon yönünü döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::PlayerCinematicController GetLieDownCinematicController(global::Bed.BedSide side)
@@ -187,7 +187,7 @@
          *
          * Kalkma animasyon yönünü döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::PlayerCinematicController GetStandupCinematicController(global::Bed.BedSide side)
@@ -199,7 +199,7 @@
          *
          * Animasyon pozisyonunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Vector3 GetAnimationPosition(global::Bed.BedSide side)

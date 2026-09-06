@@ -11,7 +11,7 @@
          *
          * WaterParkCreature sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::WaterParkCreature WaterParkCreature { get; set; }
@@ -20,7 +20,7 @@
          *
          * IsRegisteredWaterPark sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsRegisteredWaterPark { get; set; }
@@ -29,7 +29,7 @@
          *
          * Sınıf uyanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Awake()
@@ -41,7 +41,7 @@
          *
          * Başlarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Start()
@@ -53,7 +53,7 @@
          *
          * Aktif olurken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEnable()
@@ -65,7 +65,7 @@
          *
          * Her sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void FixedUpdate()
@@ -81,7 +81,7 @@
          *
          * Yaratık waterPark kaydını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void RegisterWaterPark()
@@ -93,7 +93,7 @@
          *
          * Yaratığı gizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void HideCreature()

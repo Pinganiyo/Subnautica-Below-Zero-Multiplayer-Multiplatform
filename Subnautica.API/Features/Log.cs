@@ -13,7 +13,7 @@
          *
          * Log Mesajlarını Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<string> Messages { get; set; } = new List<string>();
@@ -22,7 +22,7 @@
          *
          * Zamanlayıcıyı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static System.Timers.Timer Timer { get; set; } = null;
@@ -31,7 +31,7 @@
          *
          * Zamanlayıcı başlatılma durumunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool IsTimerInitialized { get; set;} = false;
@@ -40,7 +40,7 @@
          *
          * Diske Yazma Durumu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsWritingToDisk { get; set; } = false;
@@ -49,7 +49,7 @@
          *
          * Bilgi mesajı gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Info(object message)
@@ -61,7 +61,7 @@
          *
          * Uyarı mesajı gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Warn(object message)
@@ -73,7 +73,7 @@
          *
          * Hata mesajı gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Error(object message)
@@ -85,7 +85,7 @@
          *
          * Bilgi mesajı gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Info(string message)
@@ -97,7 +97,7 @@
          *
          * Uyarı mesajı gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Warn(string message)
@@ -109,7 +109,7 @@
          *
          * Hata mesajı gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Error(string message)
@@ -121,7 +121,7 @@
          *
          * Hata/Uyarı/Bilgi mesajı gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Send(string message, LogLevel level)
@@ -133,7 +133,7 @@
          *
          * Mesajı dosyaya yazar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendRaw(string message)
@@ -158,7 +158,7 @@
          *
          * Zamanlayıcı tetiklenme olayı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void OnTimerElapsed(object sender, System.Timers.ElapsedEventArgs e)
@@ -191,7 +191,7 @@
          *
          * Hata dosya adını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetErrorFilePath()

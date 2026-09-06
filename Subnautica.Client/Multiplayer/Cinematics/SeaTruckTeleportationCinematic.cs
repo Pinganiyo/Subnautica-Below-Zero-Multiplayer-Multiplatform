@@ -9,7 +9,7 @@
          *
          * Yatağı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::SeaTruckTeleporter Teleporter { get; set; }
@@ -18,7 +18,7 @@
          *
          * Animasyonu resetler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnResetAnimations(PlayerCinematicQueueItem item)
@@ -30,7 +30,7 @@
          *
          * Yatma animasyonunu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SeaTruckTeleportationStartCinematic()
@@ -46,7 +46,7 @@
          *
          * Işınlanma bittiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void TeleportationEnd()

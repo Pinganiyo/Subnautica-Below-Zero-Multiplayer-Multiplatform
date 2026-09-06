@@ -20,7 +20,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(AuthorizationProfile profile, MetadataComponentArgs packet, ConstructionItem construction)
@@ -143,7 +143,7 @@
          *
          * SeaTruck arka modül bağlantısını keser.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private string RemoveSeaTruckBackModule(string vehicleId, string playerUniqueId, ZeroVector3 position)
@@ -170,7 +170,7 @@
          *
          * Color Customizer döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private ZeroColorCustomizer GetColorCustomizer(NetworkDynamicEntityComponent component) 
@@ -192,7 +192,7 @@
          *
          * Demirlemeyi çözer.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void MoonpoolUndock(WorldDynamicEntity vehicle, AuthorizationProfile profile, string moonpoolId)
@@ -224,7 +224,7 @@
          *
          * Kuyruk Demirlemesini çözer.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool MoonpoolUndockTail(ConstructionItem construction, Metadata.BaseMoonpool moonpool)

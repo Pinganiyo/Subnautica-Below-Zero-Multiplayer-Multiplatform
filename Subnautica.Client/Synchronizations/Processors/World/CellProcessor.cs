@@ -12,7 +12,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -24,7 +24,7 @@
          *
          * Cell yüklendikten sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnCellLoading(CellLoadingEventArgs ev)
@@ -36,7 +36,7 @@
          *
          * Cell kaldırılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnCellUnLoading(CellUnLoadingEventArgs ev)

@@ -10,7 +10,7 @@
          *
          * Nesne spawn olurken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnEntitySpawning(EntitySpawningEventArgs ev)
@@ -30,7 +30,7 @@
          *
          * Nesne spawn olduktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnEntitySpawned(EntitySpawnedEventArgs ev)

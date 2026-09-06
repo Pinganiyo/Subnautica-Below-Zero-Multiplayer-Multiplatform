@@ -15,7 +15,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::BulkheadDoor __instance)
@@ -66,7 +66,7 @@
          *
          * UniqueId döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string GetUniqueId(global::BulkheadDoor __instance)
@@ -90,7 +90,7 @@
          *
          * UniqueId döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static StoryCinematicType GetStoryCinematicType(global::BulkheadDoor __instance)

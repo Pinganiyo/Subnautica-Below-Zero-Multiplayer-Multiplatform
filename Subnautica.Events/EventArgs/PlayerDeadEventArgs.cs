@@ -8,7 +8,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public PlayerDeadEventArgs(DamageType damageType)
@@ -20,7 +20,7 @@
          *
          * DamageType değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public DamageType DamageType { get; set; }

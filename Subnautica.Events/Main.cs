@@ -16,7 +16,7 @@ namespace Subnautica.Events
          *
          * Eklenti Adı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override string Name { get; } = "Subnautica Events";
@@ -25,7 +25,7 @@ namespace Subnautica.Events
          *
          * Eklenti önceliği
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override SubnauticaPluginPriority Priority { get; set; } = SubnauticaPluginPriority.First;
@@ -34,7 +34,7 @@ namespace Subnautica.Events
          *
          * Eklenti Aktifleştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnEnabled()

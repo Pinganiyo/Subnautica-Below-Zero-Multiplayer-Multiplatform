@@ -22,7 +22,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StopwatchItem Timing { get; set; } = new StopwatchItem(1000f);
@@ -31,7 +31,7 @@
          *
          * ScannerCache nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<string, Dictionary<int, float>> ScannerCache { get; set; } = new Dictionary<string, Dictionary<int, float>>();
@@ -40,7 +40,7 @@
          *
          * Varsayılan Max Distance nesnesini barındırır. (300 metre)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float DefaultMaxDistance { get; set; } = 300f;
@@ -49,7 +49,7 @@
          *
          * MaxRequestDistance nesnesini barındırır. (ort 11 metre)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float MaxRequestDistance { get; set; } = 125f;
@@ -58,7 +58,7 @@
          *
          * Max Resource Limit nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private int MaxResourceLimit { get; set; } = 20;
@@ -67,7 +67,7 @@
          *
          * IsSendAllPlayers nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsSendAllPlayers { get; set; } = false;
@@ -76,7 +76,7 @@
          *
          * FistRequests nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<string, HashSet<string>> FirstRequests { get; set; } = new Dictionary<string, HashSet<string>>();
@@ -85,7 +85,7 @@
          *
          * Zamanlayıcının geri dönüş methodu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate(float fixedDeltaTime)
@@ -184,7 +184,7 @@
          *
          * Aracı şarj eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool ChargeVehicle(global::MapRoomFunctionality mapRoom, WorldDynamicEntity entity)
@@ -218,7 +218,7 @@
          *
          * İstek türünü değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SetRequestType(bool isAll)
@@ -230,7 +230,7 @@
          *
          * Harita odasını önbelleğe alır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool InitializeMapRoom(ConstructionItem construction, MetadataModel.StorageContainer storageContainer, TechType techType, bool isChanged = false)
@@ -274,7 +274,7 @@
          *
          * Oda tarama genişliğini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void UpdateScanRange(ConstructionItem construction, MetadataModel.BaseMapRoom baseMapRoom)
@@ -286,7 +286,7 @@
          *
          * SpawnPoints değerlerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private IEnumerable<KeyValuePair<int, ZeroSpawnPointSimple>> GetSpawnPoints(TechType techType)
@@ -308,7 +308,7 @@
          *
          * Oyunculara paketi gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SendPacketToPlayers(ConstructionItem construction, MetadataModel.BaseMapRoom mapRoom, bool isAll)
@@ -337,7 +337,7 @@
          *
          * İstek paketini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private BaseMapRoomTransmissionArgs GetRequestPacket(string uniqueId, HashSet<string> resourceNodes)
@@ -389,7 +389,7 @@
          *
          * Paket gönderim durumu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsPacketSendable(ConstructionItem construction, bool isAll)
@@ -414,7 +414,7 @@
          *
          * Kaynakları senkronize eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool SyncResourceNodes(MetadataModel.BaseMapRoom mapRoom)
@@ -458,7 +458,7 @@
          *
          * Nesne arar ve id döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string FindItem(ConstructionItem construction, TechType techType, HashSet<string> ignoreIds)
@@ -498,7 +498,7 @@
          *
          * Oyuncuya çıktığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPlayerDisconnected(string uniqueId)
@@ -513,7 +513,7 @@
          *
          * Enerji tüketir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool ConsumeEnergy(MapRoomFunctionality mapRoom, bool isScanning)
@@ -532,7 +532,7 @@
          *
          * Tarama süresini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float GetScanInterval(MetadataModel.StorageContainer storageContainer)
@@ -549,7 +549,7 @@
          *
          * Max uzaklığı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float GetMaxDistance(MetadataModel.StorageContainer construction)
@@ -567,7 +567,7 @@
          *
          * Hoverpad'leri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<KeyValuePair<string, ConstructionItem>> GetBaseMapRooms()

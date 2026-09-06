@@ -21,7 +21,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPlayerItemComponent packet, byte playerId)
@@ -45,7 +45,7 @@
          *
          * Nesne doğduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntitySpawned(ItemQueueProcess item, global::Pickupable pickupable, GameObject gameObject)
@@ -61,7 +61,7 @@
          *
          * Led ışığı yere konulduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnLEDLightDeploying(LEDLightDeployingEventArgs ev)
@@ -75,7 +75,7 @@
          *
          * Led ışığı yere konulduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, ZeroVector3 position, ZeroQuaternion rotation)

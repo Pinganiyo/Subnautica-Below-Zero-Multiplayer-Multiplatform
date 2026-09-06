@@ -21,7 +21,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public API.Features.StopwatchItem Timing { get; set; } = new API.Features.StopwatchItem(2000f);
@@ -51,7 +51,7 @@
          *
          * Müzik Uzunlukları
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private readonly Dictionary<string, uint> MusicLengths = new Dictionary<string, uint>()
@@ -72,7 +72,7 @@
          *
          * StopwatchMusicTime barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Stopwatch StopwatchMusicTime { get; set; } = new Stopwatch();
@@ -80,7 +80,7 @@
          *
          * MusicData verisini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Network.Models.Metadata.Jukebox CurrentMusic { get; set; }
@@ -89,7 +89,7 @@
          *
          * Kullanıcılara veri gönderme durumnu aktif eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsSendTrigger { get; set; }
@@ -98,7 +98,7 @@
          *
          * CurrentJukeboxId değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private string CurrentJukeboxId { get; set; }
@@ -107,7 +107,7 @@
          *
          * Sınıfı başlatır
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnStart()
@@ -125,7 +125,7 @@
          *
          * Zamanlayıcının geri dönüş methodu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate(float fixedDeltaTime)
@@ -216,7 +216,7 @@
          *
          * Gücü tüketir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool ConsumePower(global::JukeboxInstance jukebox, float requiredPower)
@@ -260,7 +260,7 @@
          *
          * Jukebox kutu idsini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string GetConstructionUniqueId()
@@ -284,7 +284,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnDataReceived(AuthorizationProfile profile, string uniqueId, API.Features.CustomProperty music)
@@ -336,7 +336,7 @@
          *
          * Şarkıyı değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ChangeMusic(bool forward = true, bool isIgnoreRepeat = false)
@@ -360,7 +360,7 @@
          *
          * Şarkıyı duraklatır/devam ettirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetPaused(bool isPaused)
@@ -377,7 +377,7 @@
          *
          * Şarkıyı durdurur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetStoped(bool isStoped)
@@ -395,7 +395,7 @@
          *
          * Şarkıyı ilerletir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetPosition(float position, bool restart = false)
@@ -408,7 +408,7 @@
          *
          * Şarkıyı Çalıyor mu?.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsPlaying()
@@ -420,7 +420,7 @@
          *
          * Oyunculara şarkı verilerini gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SendMusicToClients(AuthorizationProfile profile = null)
@@ -448,7 +448,7 @@
          *
          * Mevcut metadata verisini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Network.Models.Metadata.Jukebox GetCurrentMetadata()
@@ -472,7 +472,7 @@
          *
          * Müzik kutusu değiştiğinde her şeyi sıfırlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void CheckJukeboxChanged(string uniqueId)
@@ -488,7 +488,7 @@
          *
          * Her şeyi sıfırlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void Reset()
@@ -503,7 +503,7 @@
          *
          * Sonraki veya önceki şarkıyı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private string GetNextMusic(global::Jukebox.Repeat repeatMode, string currentTrack, bool forward, bool isIgnoreRepeat = false, bool shuffle = false)
@@ -533,7 +533,7 @@
          *
          * İç Fonksiyon - Sonraki veya önceki şarkıyı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private string GetInternalNextMusic(string currentTrack, bool forward, bool shuffle = false)
@@ -587,7 +587,7 @@
          *
          * Şarkının mevcut süresini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float GetCurrentPosition()
@@ -599,7 +599,7 @@
          *
          * Şarkı uzunluğunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float GetMusicLength()
@@ -616,7 +616,7 @@
          *
          * Şarkı uzunluğunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private uint GetOriginalMusicLength()
@@ -633,7 +633,7 @@
          *
          * Şarkı listesini sıralar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SortPlaylist()
@@ -645,7 +645,7 @@
          *
          * Zamanlayıcının geri dönüş methodu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private int PlaylistComparer(string strA, string strB)

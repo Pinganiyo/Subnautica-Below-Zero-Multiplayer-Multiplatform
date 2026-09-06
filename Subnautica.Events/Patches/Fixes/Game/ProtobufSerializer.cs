@@ -24,7 +24,7 @@
          *
          * Transpiler uygular.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static IEnumerable<CodeInstruction> TranspileSerializeGameObject(IEnumerable<CodeInstruction> instructions)
@@ -60,7 +60,7 @@
          *
          * UniqueId Değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetSerializeGameObjectId(global::ProtobufSerializer serializer, string id)
@@ -84,7 +84,7 @@
          *
          * ParentId Değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetSerializeGameObjectParentId(global::ProtobufSerializer serializer, global::UniqueIdentifier uid, bool useParent)

@@ -22,7 +22,7 @@
          *
          * Dünya yüklenip nesne doğduğunda çalışır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnWorldLoadItemSpawn(NetworkDynamicEntityComponent packet, bool isDeployed, Pickupable pickupable, GameObject gameObject)
@@ -91,7 +91,7 @@
          *
          * Fabricator paketini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private ServerModel.MetadataComponentArgs GetFabricatorPacket(string uniqueId, MetadataComponent component)

@@ -15,7 +15,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(AuthorizationProfile profile, MetadataComponentArgs packet, ConstructionItem construction)
@@ -71,7 +71,7 @@
          *
          * Dolaptaki nesne bileşenini günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Metadata.FridgeItemComponent UpdateFridgeItemComponent(Metadata.Fridge fridge, string itemId, string constructionUniqueId = null, bool isDecomposes = false, float timeDecayStart = 0f, bool isAdded = true)
@@ -114,7 +114,7 @@
          *
          * Depolamayı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Metadata.StorageContainer GetStorageContainer(Metadata.Fridge fridge)

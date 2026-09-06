@@ -15,7 +15,7 @@
          *
          * Dünya yüklenip nesne doğduğunda çalışır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnWorldLoadItemSpawn(NetworkDynamicEntityComponent packet, bool isDeployed, Pickupable pickupable, GameObject gameObject)
@@ -61,7 +61,7 @@
          *
          * Beacon'u ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void InitializeBeaconSignal(global::Pickupable pickupable, Vector3 position, Quaternion rotation, string text, bool isDeployedOnLand)

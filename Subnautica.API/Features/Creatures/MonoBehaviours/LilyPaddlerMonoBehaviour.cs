@@ -8,7 +8,7 @@
          *
          * Balina sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public global::LilyPaddlerHypnotize LilyPaddlerHypnotize { get; set; }
@@ -17,7 +17,7 @@
          *
          * Sınıf uyanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Awake()
@@ -29,7 +29,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Update()
@@ -77,7 +77,7 @@
          *
          * Yaratık öldüğünde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnMultiplayerKill()
@@ -92,7 +92,7 @@
          *
          * Yaratık öldüğünde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnChangedOwnership()
@@ -107,7 +107,7 @@
          *
          * Hipnozu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void StartHypnotize(ZeroPlayer target, float hypnotizeTime)

@@ -14,7 +14,7 @@
          *
          * IsDocking Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -24,7 +24,7 @@
          *
          * IsUndocking Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -34,7 +34,7 @@
          *
          * IsUndockingLeft Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -44,7 +44,7 @@
          *
          * IsCustomizerOpening değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -54,7 +54,7 @@
          *
          * IsDocked Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -64,7 +64,7 @@
          *
          * DockingStartTime Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -74,7 +74,7 @@
          *
          * VehicleId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -84,7 +84,7 @@
          *
          * EndPosition Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(7)]
@@ -94,7 +94,7 @@
          *
          * EndRotation Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(8)]
@@ -104,7 +104,7 @@
          *
          * Vehicle Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(9)]
@@ -114,7 +114,7 @@
          *
          * ColorCustomizer değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(10)]
@@ -124,7 +124,7 @@
          *
          * BackModulePosition Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(11)]
@@ -134,7 +134,7 @@
          *
          * ExpansionManager Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(12)]
@@ -144,7 +144,7 @@
          *
          * Aracı rıhtıma kenetler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Dock(WorldDynamicEntity entity, ZeroVector3 endPosition, ZeroQuaternion endRotation, double currentTime)
@@ -167,7 +167,7 @@
          *
          * Aracın kenetlenmesini kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Undock(out WorldDynamicEntity vehicle)

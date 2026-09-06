@@ -19,7 +19,7 @@
          *
          * Yapı Kimliği değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -29,7 +29,7 @@
          *
          * Item değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -39,7 +39,7 @@
          *
          * Üst Nesne Kimliği değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -49,7 +49,7 @@
          *
          * Item değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -59,7 +59,7 @@
          *
          * TechType değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -69,7 +69,7 @@
          *
          * Position değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -79,7 +79,7 @@
          *
          * Rotation değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -89,7 +89,7 @@
          *
          * AddedTime değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(7)]
@@ -99,7 +99,7 @@
          *
          * OwnershipId değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(8)]
@@ -109,7 +109,7 @@
          *
          * IsDeployed değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(9)]
@@ -119,7 +119,7 @@
          *
          * IsGlobalEntity değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(10)]
@@ -129,7 +129,7 @@
          *
          * Component değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(11)]
@@ -139,7 +139,7 @@
          *
          * IsUsingByPlayer değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -149,7 +149,7 @@
          *
          * Velocity değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -159,7 +159,7 @@
          *
          * RotationVelocity değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -169,7 +169,7 @@
          *
          * GameObject değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -179,7 +179,7 @@
          *
          * Rigidbody değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -189,7 +189,7 @@
          *
          * IsKinematic değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -199,7 +199,7 @@
          *
          * LastPosition değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -209,7 +209,7 @@
          *
          * LastRotation değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -219,7 +219,7 @@
          *
          * CurrentPosition değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -229,7 +229,7 @@
          *
          * CurrentRotation değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -239,7 +239,7 @@
          *
          * TeleportDistance değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -249,7 +249,7 @@
          *
          * LiveMixin nesnesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WorldEntityModel.Shared.LiveMixin GetLiveMixin()
@@ -306,7 +306,7 @@
          *
          * Bana ait olup olmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsMine(string playerId)
@@ -318,7 +318,7 @@
          *
          * Ebeveyni olup olmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsParentExist()
@@ -330,7 +330,7 @@
          *
          * Üst nesne değerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetParent(string parentId)
@@ -342,7 +342,7 @@
          *
          * IsDeployed değerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetDeployed(bool isDeployed)
@@ -354,7 +354,7 @@
          *
          * Position değerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetPosition(ZeroVector3 position)
@@ -366,7 +366,7 @@
          *
          * Position ve Rotation değerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetPositionAndRotation(ZeroVector3 position, ZeroQuaternion rotation)
@@ -379,7 +379,7 @@
          *
          * Sahibi Değiştirir
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetOwnership(string ownershipId)
@@ -391,7 +391,7 @@
          *
          * Kinematic durumunu önbelleğe alır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void CacheKinematicStatus()
@@ -406,7 +406,7 @@
          *
          * Component değerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WorldDynamicEntity SetComponent(NetworkDynamicEntityComponent component)
@@ -419,7 +419,7 @@
          *
          * Nesne görünür mü?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsVisible(ZeroVector3 playerPosition)
@@ -431,7 +431,7 @@
          *
          * Fizik simülasyonu yapılabilir mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsPhysicSimulateable(ZeroVector3 playerPosition)
@@ -443,7 +443,7 @@
          *
          * GameObject'i günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void UpdateGameObject()
@@ -468,7 +468,7 @@
          *
          * Nesneye enterpolasyon yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Interpolate()
@@ -510,7 +510,7 @@
          *
          * Yapı Kimliği değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -520,7 +520,7 @@
          *
          * Position değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -530,7 +530,7 @@
          *
          * Rotation değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]

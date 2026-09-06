@@ -12,7 +12,7 @@
          *
          * Yapı hayalet bileşenini bulur ve döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static BaseGhostComponent GetBaseGhostComponent(this GameObject gameObject)
@@ -79,7 +79,7 @@
          *
          * Yapı hayalet bileşeni döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static BaseGhostComponent GetGhostComponent(this global::BaseAddFaceGhost baseGhost)
@@ -106,7 +106,7 @@
          *
          * Yapı hayalet bileşeni döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static BaseGhostComponent GetGhostComponent(this global::BaseAddLadderGhost baseGhost)
@@ -139,7 +139,7 @@
          *
          * Yapı hayalet bileşeni döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static BaseGhostComponent GetGhostComponent(this global::BaseAddBulkheadGhost baseGhost)
@@ -166,7 +166,7 @@
          *
          * Yapı hayalet bileşeni döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static BaseGhostComponent GetGhostComponent(this global::BaseAddPartitionGhost baseGhost)
@@ -194,7 +194,7 @@
          *
          * Yapı hayalet bileşeni döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static BaseGhostComponent GetGhostComponent(this global::BaseAddPartitionDoorGhost baseGhost)
@@ -222,7 +222,7 @@
          *
          * Yapı hayalet bileşeni döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static BaseGhostComponent GetGhostComponent(this global::BaseAddModuleGhost baseGhost)
@@ -249,7 +249,7 @@
          *
          * Yapı hayalet bileşeni döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static BaseGhostComponent GetGhostComponent(this global::BaseAddCellGhost baseGhost)
@@ -269,7 +269,7 @@
          *
          * Yapı hayalet bileşeni döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static BaseGhostComponent GetGhostComponent(this global::BaseAddCorridorGhost baseGhost)
@@ -287,7 +287,7 @@
          *
          * Yapı hayalet bileşeni döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static BaseGhostComponent GetGhostComponent(this global::BaseAddMapRoomGhost baseGhost)
@@ -305,7 +305,7 @@
          *
          * Yapı hayalet bileşeni döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static BaseGhostComponent GetGhostComponent(this global::BaseAddConnectorGhost baseGhost)
@@ -328,7 +328,7 @@
          *
          * Yapı hayalet bileşeni döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static BaseGhostComponent GetGhostComponent(this global::BaseAddWaterPark baseGhost)

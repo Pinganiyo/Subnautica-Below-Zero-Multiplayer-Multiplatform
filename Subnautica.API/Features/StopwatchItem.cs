@@ -8,7 +8,7 @@
          *
          * Gecikme zamanı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float DelayTime { get; set; }
@@ -17,7 +17,7 @@
          *
          * Veri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public object CustomData { get; set; }
@@ -26,7 +26,7 @@
          *
          * Sınıf ayarlarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StopwatchItem(float delayTime = -1f, object customData = null, bool autoStart = true)
@@ -44,7 +44,7 @@
          *
          * Belirtilen süre doldu mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsFinished()
@@ -56,7 +56,7 @@
          *
          * Geçen zamanı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float ElapsedTime()
@@ -68,7 +68,7 @@
          *
          * Belirtilen süre doldu mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public T GetCustomData<T>()

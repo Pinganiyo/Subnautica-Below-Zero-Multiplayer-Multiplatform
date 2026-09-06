@@ -14,7 +14,7 @@
          *
          * Oyuncu Sınıfı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroPlayer Player { get; set; }
@@ -23,7 +23,7 @@
          *
          * Elindeki Nesne Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private TechType ActiveTechType { get; set; } = TechType.None;
@@ -32,7 +32,7 @@
          *
          * Elindeki Nesne Adı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private string ActiveToolName { get; set; } = null;
@@ -41,7 +41,7 @@
          *
          * Nesne Havuzu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<TechType, Pickupable> ItemPool { get; set; } = new Dictionary<TechType, Pickupable>();
@@ -50,7 +50,7 @@
          *
          * LoadingItems Havuzu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<TechType> LoadingItems { get; set; } = new List<TechType>();
@@ -59,7 +59,7 @@
          *
          * DefaultMask Index Numarası
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private int DefaultMaskIndex { get; set; } = -1;
@@ -68,7 +68,7 @@
          *
          * ViewMask Index Numarası
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private int ViewMaskIndex { get; set; } = -1;
@@ -77,7 +77,7 @@
          *
          * QueueAction Sınıfı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private ItemQueueAction QueueAction { get; set; }
@@ -85,7 +85,7 @@
          *
          * Sınıf başlatılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Awake()
@@ -101,7 +101,7 @@
          *
          * Eldeki eşyayı kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ClearHand()
@@ -113,7 +113,7 @@
          *
          * Eline bir eşya verir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool SetHand(TechType techType)
@@ -172,7 +172,7 @@
          *
          * Havuzdan Eşya nesnesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Pickupable GetItem(TechType techType)
@@ -189,7 +189,7 @@
          *
          * Eldeki eşyayı gösterir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool DrawItem(Pickupable pickupable)
@@ -240,7 +240,7 @@
          *
          * Eldeki eşyayı gizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool HolsterItem(Pickupable pickupable)
@@ -277,7 +277,7 @@
          *
          * Bir eşya oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool CreateItem(TechType techType)
@@ -297,7 +297,7 @@
          *
          * Prefab oluştuğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntitySpawned(ItemQueueProcess item, Pickupable pickupable, GameObject gameObject)
@@ -317,7 +317,7 @@
          *
          * Sol eldeki PDA'yı aktif eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OpenPda()
@@ -330,7 +330,7 @@
          *
          * Sol eldeki PDA'yı pasif yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void ClosePda()
@@ -343,7 +343,7 @@
          *
          * Eldeki eşya değiştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnChangedItem(TechType techType)
@@ -356,7 +356,7 @@
          *
          * Ekipman olaylarını tetikler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SendEquipmentEvent(Pickupable pickupable, bool status)
@@ -371,7 +371,7 @@
          *
          * Havuz'dan ilk eklenen nesneyi siler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnDestroy()

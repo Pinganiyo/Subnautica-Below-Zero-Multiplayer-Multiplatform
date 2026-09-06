@@ -8,7 +8,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ElevatorInitializedEventArgs(Rocket rocket)
@@ -20,7 +20,7 @@
          *
          * Instance Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Rocket Instance { get; set; }

@@ -20,7 +20,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * Kurulum bekleme durumunu depolar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool isWaitingInstallation;
@@ -29,7 +29,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * Giriş bekleme durumunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool isWaitingLogin;
@@ -38,7 +38,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * JSON geçerlilik durumunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool isValidJson;
@@ -47,7 +47,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * Hata Var mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool isHasError;
@@ -56,7 +56,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * peerId değerini durumunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private string peerId;
@@ -65,7 +65,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * peerIp değerini durumunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private string peerIp;
@@ -74,7 +74,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * TextContent değerini durumunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private string TextContent;
@@ -83,7 +83,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * ErrorContent değerini durumunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private string ErrorContent;
@@ -92,7 +92,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * JSON Dynamic verisini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private NetbirdResponseFormat OutputData;
@@ -101,7 +101,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * Management Servisini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public NetbirdContainerItem Management { get; set; } = new NetbirdContainerItem();
@@ -110,7 +110,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * Signal Servisini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public NetbirdContainerItem Signal { get; set; } = new NetbirdContainerItem();
@@ -119,7 +119,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * Relay Servisini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public NetbirdContainerItem Relay { get; set; } = new NetbirdContainerItem();
@@ -128,7 +128,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * Stun Servisini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public NetbirdContainerItem Stun { get; set; } = new NetbirdContainerItem();
@@ -137,7 +137,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * Turn Servisini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public NetbirdContainerItem Turn { get; set; } = new NetbirdContainerItem();
@@ -146,7 +146,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Netbird()
@@ -158,7 +158,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Netbird(string textContent, string errorContent)
@@ -180,7 +180,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * Ayarlamaları yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool Initialize()
@@ -267,7 +267,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * Kurulum bekleniyor mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsWaitingInstallation()
@@ -279,7 +279,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * Giriş yapılmış mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsWaitingLogin()
@@ -291,7 +291,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * JSON Geçerliliğini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsValidJson()
@@ -303,7 +303,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * Hata var mı durumunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsAnyError()
@@ -315,7 +315,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * PeerIP Adresini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string GetPeerIp()
@@ -327,7 +327,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * PeerID değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string GetPeerId()
@@ -339,7 +339,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * PeerIP Değerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SetPeerIp(string ipAddress)
@@ -355,7 +355,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * PeerID Değerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SetPeerId(string peerId)
@@ -367,7 +367,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * OutputData Content'i döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string GetOutputDataContent()
@@ -379,7 +379,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * Error Content'i döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string GetErrorContent()
@@ -391,7 +391,7 @@ namespace Subnautica.API.Features.Netbird
          *
          * JSON Geçerliliğini kopntrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool CheckValidJson(string content)

@@ -25,7 +25,7 @@ namespace Subnautica.Client.Core
          *
          * En son bağlanılan Ip Adresi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string IpAddress { get; set; }
@@ -34,7 +34,7 @@ namespace Subnautica.Client.Core
          *
          * En son bağlanılan Port
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static int PortNumber { get; set; }
@@ -43,7 +43,7 @@ namespace Subnautica.Client.Core
          *
          * Bağlanma durumu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsConnectingToServer { get; set; } = false;
@@ -52,7 +52,7 @@ namespace Subnautica.Client.Core
          *
          * Bağlantı durumu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsConnectedToServer { get; set; } = false;
@@ -61,7 +61,7 @@ namespace Subnautica.Client.Core
          *
          * Güvenli bağlantı kesme durumu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsSafeDisconnecting { get; set; } = false;
@@ -70,7 +70,7 @@ namespace Subnautica.Client.Core
          *
          * Client Bağlantısı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static NetManager Client { get; set; }
@@ -79,7 +79,7 @@ namespace Subnautica.Client.Core
          *
          * Bağlantı Sinyalleri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Queue<ConnectionSignal> ConnectionSignalDataQueues { get; set; } = new Queue<ConnectionSignal>();
@@ -88,7 +88,7 @@ namespace Subnautica.Client.Core
          *
          * Sunucuya Bağlanır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Connect(string ipAddress, int port, bool officialServerConnect = true, bool retryConnect = true)
@@ -150,7 +150,7 @@ namespace Subnautica.Client.Core
          *
          * Sunucuya bağlantı durumunu kontrol eder ve katılma isteği gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void CheckConnectionAndJoinServer(bool officialServerConnect)
@@ -162,7 +162,7 @@ namespace Subnautica.Client.Core
          *
          * Sunucuya bağlantı durumunu kontrol eder ve katılma isteği gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator SubCheckConnectionAndJoinServer(bool officialServerConnect)
@@ -226,7 +226,7 @@ namespace Subnautica.Client.Core
          *
          * Bağlanılıp/Bağlanılmadığını kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsConnected()
@@ -243,7 +243,7 @@ namespace Subnautica.Client.Core
          *
          * Bağlantı tamamen kesildi mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsDisconnected()
@@ -255,7 +255,7 @@ namespace Subnautica.Client.Core
          *
          * Sunucuya Bağlantısını keser.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool Disconnect(bool isEndGame = false)
@@ -280,7 +280,7 @@ namespace Subnautica.Client.Core
          *
          * Sunucu'ya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool SendPacket(NetworkPacket packet)
@@ -298,7 +298,7 @@ namespace Subnautica.Client.Core
          *
          * Sunucuya Katılır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void JoinServer(string username, string userId)
@@ -325,7 +325,7 @@ namespace Subnautica.Client.Core
          *
          * Sinyalleri temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ClearSignals()

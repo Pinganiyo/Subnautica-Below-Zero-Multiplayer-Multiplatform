@@ -29,7 +29,7 @@
          *
          * Animasyonları barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<string> Animations { get; set; }= new List<string>()
@@ -56,7 +56,7 @@
          *
          * Animasyon türünü ada çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string ToEnumString(this PlayerAnimationType type)
@@ -70,7 +70,7 @@
          *
          * Animasyon adını türe çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static PlayerAnimationType ToPlayerAnimationType(this string type)

@@ -16,7 +16,7 @@
          *
          * Tetiklenme durumunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsTriggered { get; set; } = false;
@@ -25,7 +25,7 @@
          *
          * Olayı Tetikler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void TriggerEvent(Constructable __instance, bool isConstruct)
@@ -40,7 +40,7 @@
          *
          * İç Olayı Tetikler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator TriggerEventCallback(Constructable __instance, bool isConstruct)
@@ -85,7 +85,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void Postfix(Constructable __instance)
@@ -101,7 +101,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void Postfix(Constructable __instance)

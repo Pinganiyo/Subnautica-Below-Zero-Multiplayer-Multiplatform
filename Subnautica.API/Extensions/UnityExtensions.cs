@@ -14,7 +14,7 @@
          *
          * Bir nesnenin başlatılmasını bekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
 
@@ -27,7 +27,7 @@
          *
          * Director'u Çok oyunculu için çalıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsPlaying(this VFXController vFXController, int emitterId, bool checkEmission = false)
@@ -49,7 +49,7 @@
          *
          * Hızı sıfırlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ResetForce(this Rigidbody rb)
@@ -62,7 +62,7 @@
          *
          * Director'u Çok oyunculu için çalıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void MultiplayerPlay(this PlayableDirector director)
@@ -76,7 +76,7 @@
          *
          * Çok oyunculu nesne alma sesi.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void MultiplayerPlayPickupSound(this Pickupable pickupable)
@@ -93,7 +93,7 @@
          * Bu oyundaki animasyonlar çok oyunculu için tasarlanmamış.
          * Bu yüzden bazı garip yöntemler kullanmaz isek animasyonlar düzgün çalışmıyor.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ImmediatelyPreparePlay(this Animator animator, string animParam, string prepareParam)
@@ -127,7 +127,7 @@
          * Bu oyundaki animasyonlar çok oyunculu için tasarlanmamış.
          * Bu yüzden bazı garip yöntemler kullanmaz isek animasyonlar düzgün çalışmıyor.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ImmediatelyPlay(this Animator animator, string animParam, bool prepExists = false)
@@ -160,7 +160,7 @@
          *
          * Animasyonu en hızlı mod'da başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void FastPlay(this Animator animator, string animParam)
@@ -180,7 +180,7 @@
          *
          * Bir nesnenin başlatılmasını bekler (Async)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator WaitForInitializeAsync(GameObject gameObject, Func<GameObject, int, bool> checkAction, Action<GameObject> successAction)
@@ -202,7 +202,7 @@
          *
          * Enterpolasyon durumunu değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SetInterpolation(this Rigidbody rigidbody, RigidbodyInterpolation interpolation)
@@ -217,7 +217,7 @@
          *
          * Nesneyi kinematic yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SetKinematic(this Rigidbody rigidbody, bool detectCollision = false)
@@ -232,7 +232,7 @@
          *
          * Nesneyi non kinematic yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SetNonKinematic(this Rigidbody rigidbody, bool detectCollision = false)
@@ -247,7 +247,7 @@
          *
          * Nesneyi yok eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Destroy(this GameObject gameObject)

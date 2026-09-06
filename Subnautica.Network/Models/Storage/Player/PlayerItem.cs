@@ -13,7 +13,7 @@
          *
          * Oyuncu Benzersiz Id Kimliği
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -23,7 +23,7 @@
          *
          * Oyuncu Id Kimliği
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -33,7 +33,7 @@
          *
          * Oyuncu Adı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -43,7 +43,7 @@
          *
          * Nesne Açısı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -53,7 +53,7 @@
          *
          * Nesne Pozisyonu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -63,7 +63,7 @@
          *
          * SubrootId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -73,7 +73,7 @@
          *
          * InteriorId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]

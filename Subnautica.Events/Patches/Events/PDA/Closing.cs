@@ -40,7 +40,7 @@
          *
          * Teknoloji türünü döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static TechType GetTechType(Transform transform)

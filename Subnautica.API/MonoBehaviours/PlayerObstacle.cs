@@ -8,7 +8,7 @@
          *
          * Çarpışma olduğunda yıkılabilsin mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool CanDeconstruct(out string reason)
@@ -21,7 +21,7 @@
          *
          * Çarpışmayı göz ardı edilsin mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsDeconstructionObstacle()

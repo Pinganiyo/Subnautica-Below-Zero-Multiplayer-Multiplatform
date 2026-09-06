@@ -23,7 +23,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnExecute(AuthorizationProfile profile, NetworkPacket networkPacket)
@@ -54,7 +54,7 @@
          *
          * Beacon yumurtlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private WorldDynamicEntity SpawnBeacon(ZeroStorySignal signal, string ownershipId)
@@ -89,7 +89,7 @@
          *
          * Beacon olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsBeacon(SignalType signalType)

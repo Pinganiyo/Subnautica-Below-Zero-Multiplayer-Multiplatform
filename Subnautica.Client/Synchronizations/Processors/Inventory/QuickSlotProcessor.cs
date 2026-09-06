@@ -18,7 +18,7 @@
          *
          * Zamanlanmış veri gönderim durumu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool IsSending { get; set; } = false;
@@ -27,7 +27,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -40,7 +40,7 @@
          * Oyuncu bir eşyayı slotlara atadığında tetiklenir.
          * Oyuncu bir eşyayı slotlardan kaldırdığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnProcessQuickSlot()
@@ -55,7 +55,7 @@
          *
          * Zamanlanmış veriyi sunucuya gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator SendServerData()

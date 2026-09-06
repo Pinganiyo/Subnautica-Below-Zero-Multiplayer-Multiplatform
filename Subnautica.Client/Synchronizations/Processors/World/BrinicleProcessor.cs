@@ -22,7 +22,7 @@
          *
          * WaitingForSending nesnesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static readonly HashSet<Brinicle> WaitingForSending = new HashSet<Brinicle>();
@@ -31,7 +31,7 @@
          *
          * Timing nesnesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private readonly StopwatchItem Timing = new StopwatchItem(1000f);
@@ -40,7 +40,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -62,7 +62,7 @@
          *
          * Her Sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate()
@@ -84,7 +84,7 @@
          *
          * Nesne spawn olduktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnEntitySpawned(EntitySpawnedEventArgs ev)
@@ -104,7 +104,7 @@
          *
          * Bir nesne hasar aldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnTakeDamaging(TakeDamagingEventArgs ev)
@@ -121,7 +121,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId = null, List<Brinicle> waitingForRegistry = null, float damage = 0f)
@@ -140,7 +140,7 @@
          *
          * Brinicle nesnesi döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Brinicle GetBrinicleItem(GameObject gameObject, string uniqueId)
@@ -162,7 +162,7 @@
          *
          * Ana menüye dönünce tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnDispose()

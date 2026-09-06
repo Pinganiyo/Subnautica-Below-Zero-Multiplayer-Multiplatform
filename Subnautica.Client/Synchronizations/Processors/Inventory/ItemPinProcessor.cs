@@ -18,7 +18,7 @@
          *
          * Zamanlanmış veri gönderim durumu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool IsSending { get; set; } = false;
@@ -27,7 +27,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -41,7 +41,7 @@
          * Pin kaldırıldığında tetiklenir.
          * Pin taşındığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnProcessPin()
@@ -56,7 +56,7 @@
          *
          * Zamanlanmış veriyi sunucuya gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator SendServerData()

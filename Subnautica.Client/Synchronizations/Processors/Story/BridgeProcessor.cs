@@ -20,7 +20,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -65,7 +65,7 @@
          *
          * Koprüyü açar/kapatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool BridgeToggle(string uniqueId, float endTime, bool isExtend, bool isFirstExtension)
@@ -144,7 +144,7 @@
          *
          * Koprü spawn olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBridgeInitialized(BridgeInitializedEventArgs ev)
@@ -156,7 +156,7 @@
          *
          * Koprü terminaline tıklanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBridgeTerminalClicking(BridgeTerminalClickingEventArgs ev)
@@ -177,7 +177,7 @@
          *
          * Köprü sol konsola tıklanınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBridgeFluidClicking(BridgeFluidClickingEventArgs ev)
@@ -191,7 +191,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqued, string storyKey = null, float time = 0, bool isClickedFluid = false, bool isClickedExtend = false, bool isClickedRetract = false)

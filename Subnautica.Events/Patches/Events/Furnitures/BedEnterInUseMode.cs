@@ -15,7 +15,7 @@ namespace Subnautica.Events.Patches.Events.Furnitures
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::Bed __instance, global::GUIHand hand)
@@ -65,7 +65,7 @@ namespace Subnautica.Events.Patches.Events.Furnitures
          *
          * TechType barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public TechType TechType { get; set; }
@@ -74,7 +74,7 @@ namespace Subnautica.Events.Patches.Events.Furnitures
          *
          * UniqueId barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UniqueId { get; set; }
@@ -83,7 +83,7 @@ namespace Subnautica.Events.Patches.Events.Furnitures
          *
          * IsSeaTruckModule barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsSeaTruckModule { get; set; }
@@ -92,7 +92,7 @@ namespace Subnautica.Events.Patches.Events.Furnitures
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public BedInformationItem(string uniqueId, TechType techType, bool isSeaTruckModule)
@@ -106,7 +106,7 @@ namespace Subnautica.Events.Patches.Events.Furnitures
          *
          * Bilgileri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static BedInformationItem GetInformation(global::Bed __instance)

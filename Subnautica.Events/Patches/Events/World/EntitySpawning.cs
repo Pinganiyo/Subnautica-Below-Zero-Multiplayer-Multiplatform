@@ -22,7 +22,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator Postfix(IEnumerator values, global::ProtobufSerializer __instance, Stream stream, UniqueIdentifier rootUid, bool forceInactiveRoot, bool forceParent, Transform parent, bool allowSpawnRestrictions, int verbose, IOut<GameObject> result)

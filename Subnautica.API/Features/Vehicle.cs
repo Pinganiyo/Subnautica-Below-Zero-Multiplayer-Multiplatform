@@ -26,7 +26,7 @@
          *
          * Fabrikator yapısında Araç üretir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void CraftVehicle(WorldDynamicEntity entity, global::ConstructorInput constructorInput = null, Action<WorldDynamicEntity, ItemQueueAction, GameObject> onCompleted = null, float finishTime = 0f, bool notify = false, bool isMine = false, object customProperty = null)
@@ -58,7 +58,7 @@
          *
          * Async araç üretimini başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator VehicleCraftCompletedAsync(ItemQueueProcess item)
@@ -125,7 +125,7 @@
          *
          * Hoverbike üretir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void CraftHoverbike(global::HoverpadConstructor hoverpad, string uniqueId, float finishedTime, bool isMine, Action<GameObject> callBackAction = null)
@@ -143,7 +143,7 @@
          *
          * Hoverbike'yi park eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void DockHoverbike(global::Hoverpad hoverpad, global::Hoverbike hoverbike, bool isMine, Func<bool> callback = null)
@@ -155,7 +155,7 @@
          *
          * Async hoverbike üretir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator SpawnHoverbikeAsync(global::HoverpadConstructor hoverpadConstructor, string uniqueId, float finishedTime, float leftTime, Action<GameObject> callBackAction = null)
@@ -215,7 +215,7 @@
          *
          * Async Hoverbike'yi park eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator DockHoverbikeAsync(Hoverpad hoverpad, global::Hoverbike hoverbike, bool isMine, Func<bool> callback = null)
@@ -266,7 +266,7 @@
          *
          * Hoverbike özellikleri uygular.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ApplyHoverbikeComponent(GameObject gameObject, WorldEntityModel.Hoverbike component)
@@ -288,7 +288,7 @@
          *
          * Renkleri uygular.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ApplyColorCustomizer(ZeroColorCustomizer colorCustomizer, ColorNameControl colorNameControl)
@@ -313,7 +313,7 @@
          *
          * Modülleri uygular.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ApplyModules(List<UpgradeConsoleItem> modules, Equipment equipment, TechType techType)
@@ -336,7 +336,7 @@
          *
          * Işıkları açar/kapatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ApplyLights(global::ToggleLights toggleLights, bool isActive)
@@ -348,7 +348,7 @@
          *
          * Işıkları açar/kapatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ApplyLights(global::SeaTruckLights seaTruckLights, bool isActive)
@@ -360,7 +360,7 @@
          *
          * Güç hücrelerini ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ApplyPowerCells(string uniqueId, List<PowerCell> powerCells)
@@ -383,7 +383,7 @@
          *
          * Güç hücrelerini ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ApplyStorageContainer(string uniqueId, Metadata.StorageContainer storageContainer)
@@ -412,7 +412,7 @@
          *
          * Araç sağlığını günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ApplyLiveMixin(global::LiveMixin liveMixin, float health)
@@ -424,7 +424,7 @@
          *
          * Batarya slotlarını ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ApplyBatterySlotIds(GameObject gameObject, TechType techType, string firstPowerCellId, string secondPowerCellId)
@@ -458,7 +458,7 @@
          *
          * Nesne doğduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void OnPowerCellSpawned(ItemQueueProcess item, Pickupable pickupable, GameObject gameObject)
@@ -517,7 +517,7 @@
          *
          * Module Slot numarasını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string GetModuleSlotId(int slotId, TechType techType)
@@ -552,7 +552,7 @@
          *
          * EnergyMixin özellikleri uygular.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ApplyEnergyMixin(global::EnergyMixin energyMixin, float charge, Action callback = null)
@@ -564,7 +564,7 @@
          *
          * EnergyMixin özellikleri ASYNC uygular.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator ApplyEnergyMixinAsync(global::EnergyMixin energyMixin, float charge, Action callback)

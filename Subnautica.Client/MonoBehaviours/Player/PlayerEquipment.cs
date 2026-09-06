@@ -13,7 +13,7 @@
          *
          * Oyuncu gövde modellerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<TechType, List<GameObject>> BodyModels { get; set; } = new Dictionary<TechType, List<GameObject>>();
@@ -22,7 +22,7 @@
          *
          * Oyuncu eldiven modellerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<TechType, List<GameObject>> GlovesModel { get; set; } = new Dictionary<TechType, List<GameObject>>();
@@ -31,7 +31,7 @@
          *
          * Oyuncu kafa modellerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<TechType, List<GameObject>> HeadModels { get; set; } = new Dictionary<TechType, List<GameObject>>();
@@ -40,7 +40,7 @@
          *
          * Oyuncu ayak modelini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private GameObject FootModel { get; set; }
@@ -49,7 +49,7 @@
          *
          * Oyuncu kafa renderlarını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<Renderer> HeadRenderers { get; set; } = new List<Renderer>();
@@ -58,7 +58,7 @@
          *
          * Oyuncu nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroPlayer Player { get; set; }
@@ -67,7 +67,7 @@
          *
          * Oyuncu nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<TechType> OldEquipments { get; set; } = new List<TechType>()
@@ -83,7 +83,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Awake()
@@ -114,7 +114,7 @@
          *
          * Otomatik olarak modelleri ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void FixedUpdate()
@@ -153,7 +153,7 @@
          *
          * Oyuncu modelini sıfırlar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ResetEquipments()
@@ -173,7 +173,7 @@
          *
          * Oyuncu ayak modelini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ChangeFootModel(TechType techType)
@@ -198,7 +198,7 @@
          *
          * Oyuncu kafa modelini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ChangeHeadModel(TechType techType)
@@ -222,7 +222,7 @@
          *
          * Oyuncu gövde modelini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ChangeBodyModel(TechType techType)
@@ -234,7 +234,7 @@
          *
          * Oyuncu eldiven modelini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ChangeHandModel(TechType techType)
@@ -246,7 +246,7 @@
          *
          * Oyuncu modelini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void ChangeModelStatus(Dictionary<TechType, List<GameObject>> models, TechType techType)
@@ -287,7 +287,7 @@
          *
          * Sözlüğe modeli ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void AddModel(Dictionary<TechType, List<GameObject>> models, TechType techType, string path)
@@ -299,7 +299,7 @@
          *
          * Sözlüğe modeli ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void AddModel(Dictionary<TechType, List<GameObject>> models, TechType techType, string[] paths)
@@ -326,7 +326,7 @@
          *
          * Oyun nesnesini bulur ve döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private GameObject GetGameObject(string path)
@@ -344,7 +344,7 @@
          *
          * Model renderlarını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Renderer[] GetModelRenderers(string path)

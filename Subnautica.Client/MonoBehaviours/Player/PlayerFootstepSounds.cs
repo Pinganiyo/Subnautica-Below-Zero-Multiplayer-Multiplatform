@@ -11,7 +11,7 @@
           *
           * FootstepSounds_Player değerini barındırır.
           *
-          * @author Ismail <ismaiil_0234@hotmail.com>
+          
           *
           */
         public global::FootstepSounds FootstepSounds_Player;
@@ -20,7 +20,7 @@
           *
           * FootstepSounds_Exosuit değerini barındırır.
           *
-          * @author Ismail <ismaiil_0234@hotmail.com>
+          
           *
           */
         public global::FootstepSounds FootstepSounds_Exosuit;
@@ -29,7 +29,7 @@
           *
           * CurrentFootstepSounds değerini barındırır.
           *
-          * @author Ismail <ismaiil_0234@hotmail.com>
+          
           *
           */
         public global::FootstepSounds CurrentFootstepSounds;
@@ -38,7 +38,7 @@
          *
          * PlayerAnimation sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public PlayerAnimation PlayerAnimation;
@@ -47,7 +47,7 @@
          *
          * PlayerVehicle sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public PlayerVehicleManagement PlayerVehicle;
@@ -56,7 +56,7 @@
          *
          * PlayerAnimation sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroPlayer Player;
@@ -65,7 +65,7 @@
          *
          * CurrentVelocity değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float CurrentVelocity = 0f;
@@ -74,7 +74,7 @@
          *
          * IsUnderwater değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsUnderwater = false;
@@ -83,7 +83,7 @@
          *
          * PlayerAnimation sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float MaxFootstepRange = 25f;
@@ -92,7 +92,7 @@
          *
          * Sınıf başlatılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Awake()
@@ -121,7 +121,7 @@
          *
          * Ayak seslerini tetikler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void TriggerMultiplayerSounds()
@@ -155,7 +155,7 @@
          *
          * Ayak sesleri çalınabilir mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool ShouldPlayStepSounds()
@@ -215,7 +215,7 @@
          *
          * Adım atıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnStep()
@@ -227,7 +227,7 @@
          *
          * Footstep parametrelerini ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnStepParameters(FMOD.Studio.EventInstance eventInstance)
@@ -242,7 +242,7 @@
          *
          * Player Ayarlarını yeniler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool RefreshPlayerSettings()
@@ -255,7 +255,7 @@
          *
          * Exosuit Ayarlarını yeniler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool RefreshExosuitSettings()
@@ -286,7 +286,7 @@
          *
          * Doğru ayak ses sınıfını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private FootstepSounds GetFootstepSounds()
@@ -298,7 +298,7 @@
          *
          * Footstep ayarlarını kopyalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private FootstepSounds CopyFootstepSettings(FootstepSounds fromFootstepSounds, FootstepSounds toFootstepSounds)
@@ -319,7 +319,7 @@
          *
          * Oyuncu verilerini günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void UpdatePlayerDatas()

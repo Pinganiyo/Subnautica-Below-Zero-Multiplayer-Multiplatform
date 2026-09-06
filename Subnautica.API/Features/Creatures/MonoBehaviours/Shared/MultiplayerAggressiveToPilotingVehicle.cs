@@ -6,7 +6,7 @@
          *
          * AggressiveToPilotingVehicle sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::AggressiveToPilotingVehicle AggressiveToPilotingVehicle { get; set; }
@@ -15,7 +15,7 @@
          *
          * Sınıf uyanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Awake()
@@ -27,7 +27,7 @@
          *
          * Aktifleşirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEnable()
@@ -44,7 +44,7 @@
          *
          * Sahiplik değiştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnChangedOwnership()
@@ -61,7 +61,7 @@
          *
          * Pasif olurken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnDisable()
@@ -73,7 +73,7 @@
          *
          * Agresif güncellemeyi durdurur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void StopUpdateAggression()
@@ -85,7 +85,7 @@
          *
          * Agresif güncellemeyi başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void StartUpdateAggression()
@@ -97,7 +97,7 @@
          *
          * Agresif güncellemeyi uygular.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void MultiplayerUpdateAggression()

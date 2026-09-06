@@ -9,7 +9,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public abstract bool OnDataReceived(NetworkWorldEntityComponent packet, byte requesterId, bool isSpawning);
@@ -18,7 +18,7 @@
          *
          * İşlemi yönlendirip çalıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool ExecuteProcessor(NetworkWorldEntityComponent packet, byte requesterId, bool isSpawning)

@@ -10,7 +10,7 @@
          *
          * Ansiklopedi verileri yüklendikten sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnEncylopediaInitialized()

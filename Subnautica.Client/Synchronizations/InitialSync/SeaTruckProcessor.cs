@@ -15,7 +15,7 @@
          *
          * SeaTruck Bağlantı kontrol sayısı.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static int ConnectionCheckCount { get; set; } = 2 + 1;
@@ -24,7 +24,7 @@
          *
          * SeaTruck bağlantılarını ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnConnectionIntialized()
@@ -77,7 +77,7 @@
          *
          * Moonpool Expansion Kuyruk bağlantılarını ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnMoonpoolExpansionTailsInitialized()

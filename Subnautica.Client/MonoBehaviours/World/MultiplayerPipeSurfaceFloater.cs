@@ -10,7 +10,7 @@
          *
          * Tamamlanma durumu.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsFinished { get; set; } = false;
@@ -19,7 +19,7 @@
          *
          * Zamanlayıcıyı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private StopwatchItem Timing { get; set; } = new StopwatchItem(2000f);
@@ -28,7 +28,7 @@
          *
          * Her sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void FixedUpdate()
@@ -43,7 +43,7 @@
          *
          * Oksijen borularını günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void UpdateOxygenPipes()
@@ -68,7 +68,7 @@
          *
          * Aktif olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEnable()

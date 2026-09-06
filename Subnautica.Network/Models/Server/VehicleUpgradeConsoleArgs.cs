@@ -14,7 +14,7 @@ namespace Subnautica.Network.Models.Server
          *
          * Ağ Paket Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -24,7 +24,7 @@ namespace Subnautica.Network.Models.Server
          *
          * UniqueId değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -34,7 +34,7 @@ namespace Subnautica.Network.Models.Server
          *
          * ItemId değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -44,7 +44,7 @@ namespace Subnautica.Network.Models.Server
          *
          * SlotId değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(7)]
@@ -54,7 +54,7 @@ namespace Subnautica.Network.Models.Server
          *
          * IsOpening değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(8)]
@@ -64,7 +64,7 @@ namespace Subnautica.Network.Models.Server
          *
          * IsAdding değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(9)]
@@ -74,7 +74,7 @@ namespace Subnautica.Network.Models.Server
          *
          * ModuleType değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(10)]

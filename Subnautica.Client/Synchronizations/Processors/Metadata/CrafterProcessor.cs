@@ -19,7 +19,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(string uniqueId, TechType techType, MetadataComponentArgs packet, bool isSilence)
@@ -82,7 +82,7 @@
          *
          * Nesne spawn olduktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnEntitySpawned(EntitySpawnedEventArgs ev)
@@ -101,7 +101,7 @@
          *
          * Fabricator nesnesinden bir eşya alındığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnCrafterItemPickup(CrafterItemPickupEventArgs ev)
@@ -129,7 +129,7 @@
          *
          * Fabricator nesnesinde üretim başladığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnCrafterBegin(CrafterBeginEventArgs ev)
@@ -143,7 +143,7 @@
          *
          * Fabricator nesnesi açıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnCrafterOpening(CrafterOpeningEventArgs ev)
@@ -160,7 +160,7 @@
          *
          * Fabricator nesnesi kapandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnCrafterClosed(CrafterClosedEventArgs ev)
@@ -175,7 +175,7 @@
          *
          * Fabricator nesnesinde üretim sona erdiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnCrafterEnded(CrafterEndedEventArgs ev)
@@ -201,7 +201,7 @@
          *
          * Çok oyunculu crafter döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */  
         public static GameObject GetMultiplayerGameObject(global::GhostCrafter crafter)
@@ -218,7 +218,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SendDataToServer(string uniqueId, bool isOpening = false, bool isPickup = false, TechType techType = TechType.None, float duration = 0.0f)

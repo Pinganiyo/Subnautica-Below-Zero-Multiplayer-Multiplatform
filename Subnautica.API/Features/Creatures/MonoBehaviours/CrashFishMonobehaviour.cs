@@ -13,7 +13,7 @@
          *
          * Crash sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::Crash Crash { get; set; }
@@ -22,7 +22,7 @@
          *
          * CrashHome sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::CrashHome CrashHome { get; set; }
@@ -31,7 +31,7 @@
          *
          * Sınıf uyanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Awake()
@@ -43,7 +43,7 @@
          *
          * Sınıf uyanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEnable()
@@ -65,7 +65,7 @@
          *
          * Sınıf uyanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnDisable()
@@ -77,7 +77,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Update()
@@ -110,7 +110,7 @@
          *
          * Her sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void FixedUpdate()
@@ -125,7 +125,7 @@
          *
          * CrashHome kaydını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void RegisterCrashHome()
@@ -149,7 +149,7 @@
          *
          * CrashHome için nesne yumurtlar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SpawnHomeItem()
@@ -161,7 +161,7 @@
          *
          * ASYNC Nesne yumurtlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private IEnumerator SpawnItemAsync(TechType techType)
@@ -195,7 +195,7 @@
          *
          * Rastgele nesne döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private TechType GetRandomItem()
@@ -212,7 +212,7 @@
          *
          * Ev nesnesi mevcut mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsHomeItemExists()
@@ -244,7 +244,7 @@
          *
          * CrashHome bulur ve döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::CrashHome FindCrashHome()

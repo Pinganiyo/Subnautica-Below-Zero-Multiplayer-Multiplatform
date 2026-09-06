@@ -10,7 +10,7 @@
          *
          * Hücre türünü barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Type CellMode = typeof(ProtobufClass_CellMode);
@@ -19,7 +19,7 @@
          *
          * İnşaat türünü barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Type ConstructionMode = typeof(ProtobufClass_ConstructionMode);
@@ -28,7 +28,7 @@
          *
          * Id değerini boş yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Type EmptyIdMode = typeof(ProtobufClass_EmptyId);
@@ -37,7 +37,7 @@
          *
          * Hücre modunu aktif eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SetCellModeActive(this global::ProtobufSerializer serializer, bool isActive)
@@ -59,7 +59,7 @@
          *
          * Hücre modunu pasif eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void RemoveCellMode(this global::ProtobufSerializer serializer)
@@ -71,7 +71,7 @@
          *
          * Hücre modunu kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsCellModeActive(this global::ProtobufSerializer serializer)
@@ -83,7 +83,7 @@
          *
          * İnşaat modunu aktif eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SetConstructionModeActive(this global::ProtobufSerializer serializer, bool isActive)
@@ -105,7 +105,7 @@
          *
          * İnşaat modunu pasif eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void RemoveConstructionMode(this global::ProtobufSerializer serializer)
@@ -117,7 +117,7 @@
          *
          * İnşaat modunu kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsConstructionModeActive(this global::ProtobufSerializer serializer)
@@ -129,7 +129,7 @@
          *
          * İnşaat modunu aktif eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SetIdIgnoreModeActive(this global::ProtobufSerializer serializer, bool isActive)
@@ -151,7 +151,7 @@
          *
          * İnşaat modunu pasif eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void RemoveIdIgnoreModeActive(this global::ProtobufSerializer serializer)
@@ -163,7 +163,7 @@
          *
          * İnşaat modunu kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsIdIgnoreModeActive(this global::ProtobufSerializer serializer)

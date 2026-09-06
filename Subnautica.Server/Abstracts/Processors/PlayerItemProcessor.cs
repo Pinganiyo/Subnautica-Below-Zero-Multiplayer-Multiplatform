@@ -9,7 +9,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public abstract bool OnDataReceived(AuthorizationProfile profile, PlayerItemActionArgs packet);
@@ -18,7 +18,7 @@
          *
          * veriyi serilize eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool ExecuteProcessor(AuthorizationProfile profile, PlayerItemActionArgs packet)

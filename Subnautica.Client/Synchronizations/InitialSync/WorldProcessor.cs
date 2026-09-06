@@ -24,7 +24,7 @@
         *
         * Gelen veriyi işler
         *
-        * @author Ismail <ismaiil_0234@hotmail.com>
+        
         *
         */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -46,7 +46,7 @@
          *
          * Dünya yüklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnWorldLoaded(WorldLoadedEventArgs ev)
@@ -58,7 +58,7 @@
          *
          * Dünya yüklenirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnWorldLoading(WorldLoadingEventArgs ev)
@@ -71,7 +71,7 @@
          *
          * Kuyruktaki işlemi başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void LoadedWorldAction()
@@ -88,7 +88,7 @@
          *
          * Kuyruktaki işlemi başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void LoadingWorldGlobalRootAction()
@@ -100,7 +100,7 @@
          *
          * Kuyruktaki işlemi başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void LoadingWorldSpawnPointAction()
@@ -119,7 +119,7 @@
          *
          * Dünya yüklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator LoadedWorldSpawnPointAsync(ClientModel.WorldLoadedArgs packet)
@@ -140,7 +140,7 @@
          *
          * Dünya yüklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator LoadedWorldAsync(ClientModel.WorldLoadedArgs packet)
@@ -178,7 +178,7 @@
          *
          * Dünyayı yükler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator LoadingWorldAsync()
@@ -268,7 +268,7 @@
          *
          * Dünya zamanını ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool SetDayNightCycle(double serverTime)

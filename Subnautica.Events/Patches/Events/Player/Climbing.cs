@@ -15,7 +15,7 @@
          *
          * Tırmanma metinleri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */        
         public static List<string> ClimbTexts = new List<string>()
@@ -30,7 +30,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::CinematicModeTriggerBase __instance)
@@ -64,7 +64,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string GetUniqueId(global::CinematicModeTriggerBase __instance)

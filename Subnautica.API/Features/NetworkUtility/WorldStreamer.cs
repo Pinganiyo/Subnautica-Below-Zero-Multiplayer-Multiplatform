@@ -23,7 +23,7 @@
          *
          * Hücre boyutu (Kullanımdan kaldırıldı)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const int CellSize = 64;
@@ -32,7 +32,7 @@
          *
          * Dünyadaki spawn noktalarının hepsini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private ZeroSpawnPointContainer SpawnPointContainer { get; set; } = null;
@@ -41,7 +41,7 @@
          *
          * Yumurtlama ihtimali olan nesneleri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private LootDistributionData LootDistribution { get; set; }
@@ -50,7 +50,7 @@
          *
          * Yumurtlama ihtimali olan nesneleri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static List<CSVEntitySpawner.Data> SpawnerData = new List<CSVEntitySpawner.Data>();
@@ -59,7 +59,7 @@
          *
          * Slotları barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<int, ZeroSpawnPoint> SpawnPoints { get; set; } = new Dictionary<int, ZeroSpawnPoint>(100000);
@@ -68,7 +68,7 @@
          *
          * Gezegen oluşturulurken Fragment detaylarını içerir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<TechType, int> GeneratorFragmentData = new Dictionary<TechType, int>();
@@ -77,7 +77,7 @@
          *
          * Max ortaya çıkabilecek parçalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<TechType, int> FragmentsMax = new Dictionary<TechType, int>()
@@ -98,7 +98,7 @@
          *
          * Sınıf ayarlarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Initialize(HashSet<ZeroSpawnPointSimple> spawnPoints, bool isSpawnPointExists)
@@ -149,7 +149,7 @@
          *
          * Yerel dosyadaki spawn point miktarını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public int GetClientSpawnPointCount()
@@ -176,7 +176,7 @@
          *
          * Dünyayı oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void GenerateWorld()
@@ -219,7 +219,7 @@
          *
          * Yumurtlama noktaları önbelleğe alındı mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsSpawnPointContainerInitialized()
@@ -231,7 +231,7 @@
          *
          * Yumurtlama nokta kapsayıcısını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void CreateSpawnPointContainer()
@@ -249,7 +249,7 @@
          *
          * Yumurtlama nokta kapsayıcısını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private ZeroSpawnPoint CopyDataFromContainer(ZeroSpawnPoint spawnPoint)
@@ -268,7 +268,7 @@
          *
          * Slotu pasif hale getirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool DisableSlot(int slotId, float nextRespawnTime = -1)
@@ -294,7 +294,7 @@
          *
          * Slotu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroSpawnPoint GetSlotById(int slotId)
@@ -311,7 +311,7 @@
          *
          * Aktif spawn noktalarını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Dictionary<int, ZeroSpawnPoint> GetSpawnPoints()
@@ -323,7 +323,7 @@
          *
          * Slotun barındıracağı nesne bilgisini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Filler GetPrefabForSlot(ZeroSpawnPoint slot, bool filterKnown = true)
@@ -484,7 +484,7 @@
          *
          * Hücrenin yüklenip yüklenmediğini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsCellLoaded(Subnautica.Network.Structures.ZeroVector3 position)
@@ -496,7 +496,7 @@
          *
          * Tüm verileri temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Dispose()

@@ -24,7 +24,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPlayerItemComponent packet, byte playerId)
@@ -48,7 +48,7 @@
          *
          * Nesne doğduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntitySpawned(ItemQueueProcess item, global::Pickupable pickupable, GameObject gameObject)
@@ -70,7 +70,7 @@
          *
          * Drone camera denize bırakılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnDroneCameraDeploying(DroneCameraDeployingEventArgs ev)
@@ -84,7 +84,7 @@
          *
          * Sunucuya paket gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SendPacketToServer(string uniqueId, WorldPickupItem pickupItem, ZeroVector3 position, ZeroVector3 forward, ZeroQuaternion rotation, WorldEntityModel.MapRoomCamera component)

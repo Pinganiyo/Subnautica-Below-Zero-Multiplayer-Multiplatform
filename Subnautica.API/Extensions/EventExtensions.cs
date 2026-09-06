@@ -58,7 +58,7 @@
          *
          * Event Yöneticisi Parametre ile
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public delegate void SubnauticaPluginEventHandler<TEventArgs>(TEventArgs ev);
@@ -67,7 +67,7 @@
          *
          * Event Yöneticisi Parametre olmadan
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public delegate void SubnauticaPluginEventHandler();

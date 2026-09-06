@@ -21,7 +21,7 @@
          *
          * StaticFabricators Listesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<string> StaticFabricators = new List<string>()
@@ -35,7 +35,7 @@
          *
          * Sınıfı başlatır
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnStart()
@@ -67,7 +67,7 @@
          *
          * Her sabit tick'den sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnUpdate(float deltaTime)
@@ -82,7 +82,7 @@
          *
          * Sunucu zamanını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float GetServerTime()
@@ -94,7 +94,7 @@
          *
          * Sunucu zamanını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public double GetServerTimeAsDouble()
@@ -106,7 +106,7 @@
          *
          * Zamanı günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void UpdateServerTime(double deltaTime)
@@ -184,7 +184,7 @@
          *
          * Static fabricator olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsStaticFabricator(string uniqueId)
@@ -196,7 +196,7 @@
          *
          * WorldDynamicEntity oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WorldDynamicEntity CreateDynamicEntity(string uniqueId, TechType techType, ZeroVector3 position, ZeroQuaternion rotation, string ownershipId = null, bool isDeployed = true)
@@ -208,7 +208,7 @@
          *
          * WorldDynamicEntity oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WorldDynamicEntity CreateDynamicEntity(string uniqueId, byte[] item, TechType techType, ZeroVector3 position, ZeroQuaternion rotation, string ownershipId = null, bool isDeployed = true)

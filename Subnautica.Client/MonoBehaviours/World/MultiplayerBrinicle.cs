@@ -12,7 +12,7 @@
          *
          * Brinicle nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::Brinicle Brinicle { get; set; }
@@ -21,7 +21,7 @@
          *
          * UniqueId nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private string UniqueId { get; set; }
@@ -30,7 +30,7 @@
          *
          * ScaleAmount nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float ScaleAmount { get; set; }
@@ -39,7 +39,7 @@
          *
          * IsActive nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsActive { get; set; } = true;
@@ -48,7 +48,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Awake()
@@ -66,7 +66,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Update()
@@ -89,7 +89,7 @@
          *
          * Her sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void FixedUpdate()
@@ -106,7 +106,7 @@
          *
          * Brinicle durumunu kontrol eder ve değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void CheckBrinicleState(bool force = false)
@@ -130,7 +130,7 @@
          *
          * Brinicle durumunu değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SetState(bool isActive, Brinicle brinicle = null)
@@ -166,7 +166,7 @@
          *
          * Scale durumunu değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SetScaleAmount(float amount)
@@ -185,7 +185,7 @@
          *
          * Scale tamamlanma durumunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsScaleComplete()
@@ -197,7 +197,7 @@
          *
          * Brinicle döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Brinicle GetBrinicle(string uniqueId)

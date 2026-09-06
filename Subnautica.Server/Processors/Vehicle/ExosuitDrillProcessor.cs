@@ -25,7 +25,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnExecute(AuthorizationProfile profile, NetworkPacket networkPacket)
@@ -159,7 +159,7 @@
          *
          * Rastgele düşecek miktarı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroVector3 GetDropPosition(List<ZeroVector3> positions, int i)
@@ -171,7 +171,7 @@
          *
          * Rastgele düşecek miktarı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public byte GetDropAmount()

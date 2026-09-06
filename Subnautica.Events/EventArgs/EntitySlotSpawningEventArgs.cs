@@ -11,7 +11,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public EntitySlotSpawningEventArgs(int slotId, bool isAllowed = true)
@@ -24,7 +24,7 @@
          *
          * UniqueId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public int SlotId { get; set; }
@@ -33,7 +33,7 @@
          *
          * ClassId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string ClassId { get; set; }
@@ -42,7 +42,7 @@
          *
          * Olayın çalıştırılıp/çalıştırılmayacağı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsAllowed { get; set; }

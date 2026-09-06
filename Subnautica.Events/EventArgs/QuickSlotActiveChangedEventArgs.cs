@@ -8,7 +8,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public QuickSlotActiveChangedEventArgs(int slotId)
@@ -20,7 +20,7 @@
          *
          * SlotId değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public int SlotId { get; private set; }

@@ -9,7 +9,7 @@
          *
          * En Yakın Oyuncu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroPlayer NearestPlayer { get; private set; }
@@ -18,7 +18,7 @@
          *
          * En Yakın Oyuncu Mesafesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float NearestPlayerDistance { get; private set; } = 99999f;
@@ -27,7 +27,7 @@
          *
          * En Uzak Oyuncu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroPlayer FarthestPlayer { get; private set; }
@@ -36,7 +36,7 @@
          *
          * En Uzak Oyuncu Mesafesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float FarthestPlayerDistance { get; private set; } = -99999f;
@@ -45,7 +45,7 @@
          *
          * Rastgele Oyuncu 
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroPlayer RandomPlayer
@@ -65,7 +65,7 @@
          *
          * RandomPlayer değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private ZeroPlayer randomPlayer;
@@ -74,7 +74,7 @@
          *
          * Tüm oyuncular 
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<byte> Players { get; set; } = new List<byte>();
@@ -83,7 +83,7 @@
          *
          * En yakındaki oyuncu günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetNearestPlayer(ZeroPlayer player, float distance)
@@ -96,7 +96,7 @@
          *
          * En uzaktaki oyuncu günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetFarthestPlayer(ZeroPlayer player, float distance)
@@ -109,7 +109,7 @@
          *
          * Oyuncu ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void AddPlayer(ZeroPlayer player, float distance)
@@ -121,7 +121,7 @@
          *
          * Oyuncu var mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsExistsPlayer()

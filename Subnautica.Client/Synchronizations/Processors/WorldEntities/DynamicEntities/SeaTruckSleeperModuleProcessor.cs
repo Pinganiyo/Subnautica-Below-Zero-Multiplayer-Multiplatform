@@ -21,7 +21,7 @@
          *
          * Dünya yüklenip nesne doğduğunda çalışır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnWorldLoadItemSpawn(NetworkDynamicEntityComponent packet, bool isDeployed, Pickupable pickupable, GameObject gameObject)
@@ -51,7 +51,7 @@
          *
          * Uyku paketini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private ServerModel.MetadataComponentArgs GetBedPacket(byte playerId, string uniqueId, BedSideItem bedSide)

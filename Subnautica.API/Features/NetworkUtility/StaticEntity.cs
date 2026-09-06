@@ -10,7 +10,7 @@
          *
          * Dünya üzerinde doğmayacak nesne id'leri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Dictionary<string, NetworkWorldEntityComponent> StaticEntities { get; private set; } = new Dictionary<string, NetworkWorldEntityComponent>();
@@ -19,7 +19,7 @@
          *
          * Kalıcı dünya nesnesi olup olmadığını kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsStaticEntity(string uniqueId)
@@ -31,7 +31,7 @@
          *
          * Dünyadaki kalıcı nesneyi döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public NetworkWorldEntityComponent GetEntity(string uniqueId)
@@ -48,7 +48,7 @@
          *
          * Dünyadaki kalıcı nesneyi döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public T GetEntity<T>(string uniqueId)
@@ -65,7 +65,7 @@
          *
          * Nesne'nin doğma durumunu kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsRestricted(string uniqueId)
@@ -82,7 +82,7 @@
          *
          * Dünya kalıcı nesneyi düzenler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void AddStaticEntity(NetworkWorldEntityComponent entity)
@@ -97,7 +97,7 @@
          *
          * Dünya kalıcı nesneyi slota ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void AddStaticEntitySlot(string uniqueId)
@@ -112,7 +112,7 @@
          *
          * Dünya kalıcı nesneyi düzenler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetStaticEntities(Dictionary<string, NetworkWorldEntityComponent> entities)
@@ -124,7 +124,7 @@
          *
          * Verileri temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Dispose()

@@ -16,7 +16,7 @@
          *
          * Komponent eklendiğinde çalışır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Awake() 
@@ -45,7 +45,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Update()
@@ -92,7 +92,7 @@
          *
          * Her geç güncellemede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void LateUpdate()
@@ -121,7 +121,7 @@
          *
          * Her sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void FixedUpdate()
@@ -139,7 +139,7 @@
          *
          * Yürüme animasyonu uygular
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void UpdateMovementAnimation()
@@ -165,7 +165,7 @@
          *
          * Oyuncu animasyonlarını günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void UpdatePlayerAnimations()
@@ -195,7 +195,7 @@
          *
          * SeaTruck içinde olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool UpdateIsInSeaTruck(bool force = false, bool isKeepPosition = false)
@@ -241,7 +241,7 @@
          *
          * Su altında olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void UpdateIsUnderwater()
@@ -272,7 +272,7 @@
          *
          * Yüzeyde olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void UpdateIsOnSurface()
@@ -292,7 +292,7 @@
          *
          * Hareketi enterpolasyon yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void InterpolateMovement(bool isInSeaTruck)
@@ -331,7 +331,7 @@
          *
          * Döndürmeyi enterpolasyon yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void InterpolateRotation()
@@ -343,7 +343,7 @@
          *
          * Kamera açısını günceller
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void InterpolateCameraViewPitch()
@@ -355,7 +355,7 @@
          *
          * Oyuncu ifadelerini günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool UpdatePlayerEmotes()
@@ -391,7 +391,7 @@
           *
           * Oyuncu hızını döner.
           *
-          * @author Ismail <ismaiil_0234@hotmail.com>
+          
           *
           */
         public Vector3 GetVelocity()
@@ -403,7 +403,7 @@
          *
          * Oyuncu sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroPlayer Player;
@@ -412,7 +412,7 @@
          *
          * Sol kolu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Bone LeftArmBone;
@@ -421,7 +421,7 @@
          *
          * Sağ kolu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Bone RightArmBone;
@@ -430,7 +430,7 @@
          *
          * Animasyon sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Animator Animator;
@@ -439,7 +439,7 @@
          *
          * Katı vücudu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Rigidbody RigidBody;
@@ -448,7 +448,7 @@
          *
          * En sonki hız değerleri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Vector3 SmoothedVelocity = Vector3.zero;
@@ -457,7 +457,7 @@
          *
          * En sonki hız değerleri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Vector3 SmoothedPositionVelocity = Vector3.zero;
@@ -466,7 +466,7 @@
          *
          * En sonki hız değerleri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Quaternion SmoothedRotationVelocity;
@@ -475,7 +475,7 @@
          *
          * RightHandItemVelocity Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Quaternion RightHandItemVelocity;
@@ -484,7 +484,7 @@
          *
          * LeftHandItemVelocity Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Quaternion LeftHandItemVelocity;
@@ -493,7 +493,7 @@
          *
          * CurrentRightArmRotation Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Quaternion CurrentRightArmRotation;
@@ -502,7 +502,7 @@
          *
          * CurrentLeftArmRotation Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Quaternion CurrentLeftArmRotation;
@@ -511,7 +511,7 @@
          *
          * CurrentCameraPitch Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float CurrentCameraPitch;
@@ -520,7 +520,7 @@
          *
          * CameraPitchVelocity Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float CameraPitchVelocity;
@@ -529,7 +529,7 @@
          *
          * LastInteriorId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private string LastInteriorId;
@@ -538,7 +538,7 @@
          *
          * CurrentEmoteIndex Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float CurrentEmoteIndex;
@@ -547,7 +547,7 @@
          *
          * IsTeleported Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsTeleported;

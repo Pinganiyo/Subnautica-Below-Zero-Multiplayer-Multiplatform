@@ -18,7 +18,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StopwatchItem Timing { get; set; } = new StopwatchItem(5000f);
@@ -26,7 +26,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<ServerModel.SeaTruckAquariumModuleArgs> Requests { get; set; } = new List<ServerModel.SeaTruckAquariumModuleArgs>();
@@ -35,7 +35,7 @@
          *
          * Her tick'de tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate(float fixedTime)
@@ -97,7 +97,7 @@
          *
          * Paketi tüm oyunculara gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SendPacketToAllClients()
@@ -117,7 +117,7 @@
          *
          * Depolama sınıfını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private WorldPickupItem GetNewPickupItem()
@@ -129,7 +129,7 @@
          *
          * Rastgele balık döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private TechType GetFishType()
@@ -167,7 +167,7 @@
          *
          * Enerji sağlayan yapıları döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<WorldDynamicEntity> GetSeaTruckAquariumModules()

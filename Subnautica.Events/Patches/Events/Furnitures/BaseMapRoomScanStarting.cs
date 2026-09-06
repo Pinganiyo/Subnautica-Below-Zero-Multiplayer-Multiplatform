@@ -17,7 +17,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::uGUI_MapRoomScanner __instance, int index)
@@ -48,7 +48,7 @@
          *
          * UniqueId döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetUniqueId(global::uGUI_MapRoomScanner __instance)

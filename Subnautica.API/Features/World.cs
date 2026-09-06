@@ -15,7 +15,7 @@
          *
          * BuilderTool.Start - > Yapı tamamlanma sesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static FMODAsset ConstructionCompleteSound { get; set; } = new FMODAsset()
@@ -29,7 +29,7 @@
          *
          * BuilderTool.Start - > Yapı yıkılma sesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static FMODAsset DeconstructCompleteSound { get; set; } = new FMODAsset()
@@ -43,7 +43,7 @@
          *
          * Dünyanın yüklenip yüklenmediği.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsLoaded { get; set; } = false;
@@ -52,7 +52,7 @@
          *
          * Dünyanın yüklenip yüklenmediği.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Func<string, bool> OnGameObjectDestroyingAction { get; set; }
@@ -61,7 +61,7 @@
          *
          * Dünyanın yüklenip yüklenmediğini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SetLoaded(bool isLoaded)
@@ -73,7 +73,7 @@
          *
          * Nesne'yi yok eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool DestroyGameObject(GameObject gameObject)
@@ -104,7 +104,7 @@
          *
          * Nesne'yi yok eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void DestroyItem(string itemId)
@@ -134,7 +134,7 @@
          *
          * Nesne'yi yok eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void DestroyPickupItem(WorldPickupItem pickupItem)
@@ -183,7 +183,7 @@
          *
          * Alınan bir eşyayı spawnlar ve yerine yerleştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SpawnPickupItem(WorldPickupItem worldPickupItem, ItemsContainer container, ItemQueueAction item = null)
@@ -202,7 +202,7 @@
          *
          * Bir eşyayı spawnlar ve oyuncu envanterine yerleştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SpawnPickupItemToInventory(WorldPickupItem worldPickupItem, ItemQueueAction item = null)
@@ -221,7 +221,7 @@
          *
          * Nesne'yi yok eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void DestroyItemFromPlayer(TechType techType)
@@ -237,7 +237,7 @@
          *
          * Nesne'yi yok eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void DestroyItemFromPlayer(string uniqueId, bool resetArm = false)
@@ -268,7 +268,7 @@
          *
          * Tüm verileri siler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Dispose()

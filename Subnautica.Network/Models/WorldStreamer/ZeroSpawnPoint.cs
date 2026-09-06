@@ -18,7 +18,7 @@
          *
          * Slot aktiflik durumunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -28,7 +28,7 @@
          *
          * Slot aktiflik durumunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -38,7 +38,7 @@
          *
          * Biome türünü barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -48,7 +48,7 @@
          *
          * Olasılığı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -58,7 +58,7 @@
          *
          * Slot türünü barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -68,7 +68,7 @@
          *
          * Başlangıç konumunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -78,7 +78,7 @@
          *
          * Başlangıç açısını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -88,7 +88,7 @@
          *
          * Slot teknoloji sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -98,7 +98,7 @@
          *
          * Slot teknoloji türünü barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -108,7 +108,7 @@
          *
          * GameObject değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -118,7 +118,7 @@
          *
          * NextRespawnTime değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -128,7 +128,7 @@
          *
          * Health değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -138,7 +138,7 @@
          *
          * Sınıfı klonlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroSpawnPoint Clone()
@@ -159,7 +159,7 @@
          *
          * Olasılığı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetActive(bool isActive, TechType techType, string classId)
@@ -173,7 +173,7 @@
          *
          * Olasılığı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetHealth(float health)
@@ -185,7 +185,7 @@
          *
          * Olasılığı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float GetDensity()
@@ -197,7 +197,7 @@
          *
          * Tür dumunu kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsTypeAllowed(EntitySlot.Type slotType)
@@ -209,7 +209,7 @@
          *
          * Komponenti döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public SpawnPointComponent GetComponent()
@@ -221,7 +221,7 @@
          *
          * Nesne doğması aktif mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsRespawnActive()
@@ -233,7 +233,7 @@
          *
          * Nesneni spawn olup olamayacağına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsRespawnable(float currentTime)

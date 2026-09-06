@@ -11,7 +11,7 @@
          *
          * Sunucuya bağlanma zaman aşımı süresi.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ModConfigFormatItem ConnectionTimeout { get; set; } = new ModConfigFormatItem(120, "Connection timeout period. (Type: Number/Second, Default: 120, Min: 60, Max: 300)");
@@ -20,7 +20,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Initialize()
@@ -52,7 +52,7 @@
          *
          * Açıklamayı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string Description { get; set; }
@@ -61,7 +61,7 @@
          *
          * Değeri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public object Value { get; set; }
@@ -70,7 +70,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ModConfigFormatItem(object value, string description)
@@ -83,7 +83,7 @@
          *
          * Değeri gğnceller
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetValue(object value)
@@ -95,7 +95,7 @@
          *
          * Int Değeri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public int GetInt(int defaultValue = -1)

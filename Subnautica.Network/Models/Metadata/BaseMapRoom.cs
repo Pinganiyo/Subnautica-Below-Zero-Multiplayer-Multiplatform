@@ -16,7 +16,7 @@
          *
          * ScanTechType değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -26,7 +26,7 @@
          *
          * LastScanDate değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -36,7 +36,7 @@
          *
          * StorageContainer değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -46,7 +46,7 @@
          *
          * Crafter değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -56,7 +56,7 @@
          *
          * ProcessType değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -66,7 +66,7 @@
          *
          * PickupItem değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -76,7 +76,7 @@
          *
          * ResourceNodes değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -86,7 +86,7 @@
          *
          * LeftDock Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(7)]
@@ -96,7 +96,7 @@
          *
          * RightDock Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(8)]
@@ -106,7 +106,7 @@
          *
          * IsNextCamera Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(9)]
@@ -116,7 +116,7 @@
          *
          * IsChanged değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -126,7 +126,7 @@
          *
          * Son tarama zamanını değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool SetLastScanDate(float lastScanDate)
@@ -139,7 +139,7 @@
          *
          * Bulunan kaynakları temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool ResetNodes()
@@ -157,7 +157,7 @@
          *
          * Yeni kaynak ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void AddResourceNode(string itemId)
@@ -169,7 +169,7 @@
          *
          * Taramayı durumu.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsScanning()
@@ -181,7 +181,7 @@
          *
          * Taramayı başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool StartScan(TechType techType)
@@ -201,7 +201,7 @@
          *
          * Taramayı durdurur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool StopScan()
@@ -221,7 +221,7 @@
          *
          * Kamerayı demirler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Dock(WorldDynamicEntity vehicle, bool isLeft, ZeroVector3 endPosition, ZeroQuaternion endRotation, float currentTime)
@@ -238,7 +238,7 @@
          *
          * Kamerayı ayırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Undock(string vehicleId, float currentTime, out WorldDynamicEntity vehicle)
@@ -265,7 +265,7 @@
          *
          * IsDocked Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -275,7 +275,7 @@
          *
          * LastDockTime Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -285,7 +285,7 @@
          *
          * VehicleId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -295,7 +295,7 @@
          *
          * Position Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -305,7 +305,7 @@
          *
          * Rotation Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -315,7 +315,7 @@
          *
          * Vehicle Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -325,7 +325,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public VehicleDockingBayItem()
@@ -337,7 +337,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public VehicleDockingBayItem(bool isDocked, float starTime, string vehicleId, ZeroVector3 position, ZeroQuaternion rotation, WorldDynamicEntity vehicle)
@@ -354,7 +354,7 @@
          *
          * DockTime değerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetLastDockTime(float dockTime)
@@ -366,7 +366,7 @@
          *
          * Aracı rıhtıma kenetler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Dock(WorldDynamicEntity vehicle, ZeroVector3 endPosition, ZeroQuaternion endRotation, float currentTime)
@@ -394,7 +394,7 @@
          *
          * Aracın kenetlenmesini kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Undock(float currentTime, out WorldDynamicEntity vehicle)

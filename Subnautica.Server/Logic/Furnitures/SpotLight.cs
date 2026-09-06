@@ -16,7 +16,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private StopwatchItem Timing { get; set; } = new StopwatchItem(2000f);
@@ -25,7 +25,7 @@
          *
          * RequiredPower nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float RequiredPower { get; set; } = global::BaseSpotLight.powerPerSecond * 2f;
@@ -34,7 +34,7 @@
          *
          * Her tick'de tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate(float fixedDeltaTime)
@@ -72,7 +72,7 @@
          *
          * Tüm kullanıcılara paketi gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SendPacketToAllClient(string uniqueId, bool isPowered)
@@ -94,7 +94,7 @@
          *
          * Enerji sağlayan yapıları döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<KeyValuePair<string, ConstructionItem>> GetConstructions()

@@ -11,7 +11,7 @@
          *
          * UniqueId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -21,7 +21,7 @@
          *
          * UniqueId Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -31,7 +31,7 @@
          *
          * Öldü mü?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -47,7 +47,7 @@
          *
          * Sağlık Full mü?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -63,7 +63,7 @@
          *
          * Tek saldırıda max hasar yüzdesini barındırır
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -73,7 +73,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public LiveMixin()
@@ -85,7 +85,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public LiveMixin(float health, float maxHealth)
@@ -98,7 +98,7 @@
          *
          * Sağlığa ekleme yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool AddHealth(float health)
@@ -116,7 +116,7 @@
          *
          * Sağlığı max yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ResetHealth()
@@ -128,7 +128,7 @@
          *
          * Yeni sağlığı ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetHealth(float health)
@@ -140,7 +140,7 @@
          *
          * Hasarı hesaplar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float CalculateDamage(float damage, DamageType damageType)
@@ -164,7 +164,7 @@
          *
          * Nesneye hasar verir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool TakeDamage(float damage)
@@ -182,7 +182,7 @@
          *
          * Nesneyi öldürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Kill()

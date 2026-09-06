@@ -17,7 +17,7 @@
          *
          * Oyunculara bağlanan kollar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<string> AttachedArms { get; set; } = new List<string>();
@@ -25,7 +25,7 @@
          *
          * Oyun sonu sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private BelowZeroEndGame BelowZeroEndGame { get; set; }
@@ -34,7 +34,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -57,7 +57,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnUpdate()
@@ -72,7 +72,7 @@
          *
          * Her Sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate()
@@ -119,7 +119,7 @@
          *
          * Oyuncu öncü kolunu spawnlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool SpawnPrecursorArm(ZeroPlayer player)
@@ -148,7 +148,7 @@
          *
          * Oyuncu öncü kolunu yok eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */ 
         private bool DestroyPrecursorArm(ZeroPlayer player)
@@ -175,7 +175,7 @@
          *
          * Ana menüye dönünce tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnDispose()

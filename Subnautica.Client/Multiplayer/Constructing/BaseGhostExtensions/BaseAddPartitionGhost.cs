@@ -10,7 +10,7 @@
          *
          * Yapının konumunu ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool UpdateMultiplayerPlacement(this global::BaseAddPartitionGhost baseGhost, bool updatePlacement, out bool positionFound, out bool geometryChanged, BaseAddPartitionGhostComponent component)

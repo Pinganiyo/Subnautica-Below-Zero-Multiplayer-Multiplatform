@@ -14,7 +14,7 @@
         *
         * Gelen veriyi işler
         *
-        * @author Ismail <ismaiil_0234@hotmail.com>
+        
         *
         */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -45,7 +45,7 @@
          *
          * Oyuncu donduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPlayerFreezed(PlayerFreezedEventArgs ev)
@@ -57,7 +57,7 @@
          *
          * Oyuncu donma sona erdiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPlayerUnfreezed()
@@ -69,7 +69,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(bool isFreeze, float endTime = -1f)

@@ -22,7 +22,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(string uniqueId, TechType techType, MetadataComponentArgs packet, bool isSilence)
@@ -85,7 +85,7 @@
          *
          * BaseMapRoom Başlangıç ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void InitializeBaseMapRoom(string uniqueId, Metadata.BaseMapRoom component)
@@ -124,7 +124,7 @@
          *
          * Araç demirlendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnVehicleDocked(ItemQueueProcess item, global::Pickupable pickupable, GameObject gameObject)
@@ -142,7 +142,7 @@
          *
          * Araç demirleme veya ayrılma işlemi yapıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnProcessVehicleDocked(ItemQueueProcess item)
@@ -154,7 +154,7 @@
          *
          * Aracı demirler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool DockVehicle(string uniqueId, string vehicleId, bool isLeft, bool isMine = false)
@@ -192,7 +192,7 @@
          *
          * Depolamaya eşya eklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStorageItemAdding(StorageItemAddingEventArgs ev)
@@ -209,7 +209,7 @@
          *
          * Depolama'dan eşya kaldırıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStorageItemRemoving(StorageItemRemovingEventArgs ev)
@@ -226,7 +226,7 @@
          *
          * Map Room tarama başlatılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBaseMapRoomScanStarting(BaseMapRoomScanStartingEventArgs ev)
@@ -240,7 +240,7 @@
          *
          * Map Room tarama iptal edilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBaseMapRoomScanStopping(BaseMapRoomScanStoppingEventArgs ev)
@@ -254,7 +254,7 @@
          *
          * MapRoomCamera yanaşırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnMapRoomCameraDocking(MapRoomCameraDockingEventArgs ev)
@@ -268,7 +268,7 @@
          *
          * Kamera değiştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBaseMapRoomCameraChanging(MapRoomCameraChangingEventArgs ev)
@@ -282,7 +282,7 @@
          *
          * Oyuncu yerden eşya aldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPlayerItemPickedUp(PlayerItemPickedUpEventArgs ev)
@@ -306,7 +306,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, WorldPickupItem pickupItem = null, TechType scanType = TechType.None, Metadata.VehicleDockingBayItem dockingBay = null, bool isNextCamera = false, byte processType = 0)

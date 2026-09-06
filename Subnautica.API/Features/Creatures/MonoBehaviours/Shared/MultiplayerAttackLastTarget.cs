@@ -11,7 +11,7 @@
          *
          * AttackLastTarget değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public global::AttackLastTarget AttackLastTarget { get; private set; }
@@ -20,7 +20,7 @@
          *
          * Sınıf uyanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Awake()
@@ -32,7 +32,7 @@
          *
          * Yaratığı hedef konuma doğru saldırısını başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ForceAttackTarget(GameObject target)
@@ -59,7 +59,7 @@
          *
          * Sahiplik değiştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnChangedOwnership()
@@ -71,7 +71,7 @@
          *
          * Pasif olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnDisable()
@@ -83,7 +83,7 @@
          *
          * Ses ve animasyonları durdurur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void StopAttackSoundAndAnimation(bool onlyAnimationAndSounds = false)

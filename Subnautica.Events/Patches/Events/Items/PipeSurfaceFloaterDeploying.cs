@@ -17,7 +17,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::PipeSurfaceFloater __instance)
@@ -45,7 +45,7 @@
          *
          * Koordinatı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Vector3 GetDropPosition(global::PipeSurfaceFloater __instance)

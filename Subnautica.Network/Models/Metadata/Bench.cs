@@ -11,7 +11,7 @@
          *
          * Side değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -21,7 +21,7 @@
          *
          * Oturma/Kalkma Durumu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -31,7 +31,7 @@
          *
          * Oturma/Kalkma Durumu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -41,7 +41,7 @@
          *
          * Oyuncu Id
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -51,7 +51,7 @@
          *
          * Sınıf ayarlamarlarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Bench()
@@ -63,7 +63,7 @@
          *
          * Sınıf ayarlamarlarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Bench(global::Bench.BenchSide side, bool isSitdown)
@@ -76,7 +76,7 @@
          *
          * Oyuncuya koltuğa bağlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Sitdown(byte playerId)
@@ -90,7 +90,7 @@
          *
          * Oyuncuya koltuktan kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Standup()

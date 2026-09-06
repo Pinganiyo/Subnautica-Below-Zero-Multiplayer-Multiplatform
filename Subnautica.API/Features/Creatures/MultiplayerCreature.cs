@@ -16,7 +16,7 @@
          *
          * IsActive değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsActive { get; set; }
@@ -25,7 +25,7 @@
          *
          * MultiplayerCreatureItem değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public MultiplayerCreatureItem CreatureItem { get; set; }
@@ -34,7 +34,7 @@
          *
          * MultiplayerCreatureMovement değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public MultiplayerCreatureMovement Movement { get; set; }
@@ -43,7 +43,7 @@
          *
          * GameObject değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public GameObject GameObject { get; set; }
@@ -52,7 +52,7 @@
          *
          * Creature değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public global::Creature Creature { get; set; }
@@ -61,7 +61,7 @@
          *
          * Locomotion değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public global::Locomotion Locomotion { get; set; }
@@ -70,7 +70,7 @@
          *
          * Rigidbody değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Rigidbody Rigidbody { get; set; }
@@ -79,7 +79,7 @@
          *
          * IsWaitingForRegistration değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsWaitingForRegistration { get; set; } = true;
@@ -88,7 +88,7 @@
          *
          * Yaratık bileşenşerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static List<Type> ComponentTypes = new List<Type>()
@@ -125,7 +125,7 @@
          *
          * Bileşenleri önbellekte barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private HashSet<MonoBehaviour> Components = new HashSet<MonoBehaviour>();
@@ -134,7 +134,7 @@
          *
          * Sınıf ayarlarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public MultiplayerCreature(GameObject gameObject)
@@ -152,7 +152,7 @@
          *
          * Yaratığı ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetCreatureItem(MultiplayerCreatureItem creature)
@@ -164,7 +164,7 @@
          *
          * Yaratığı yumurtlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Spawn()
@@ -203,7 +203,7 @@
          *
          * Yaratık sahibini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ChangeOwnership()
@@ -222,7 +222,7 @@
          *
          * Enterpolasyon açar/kapatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void ToggleInterpolate(bool isMine)
@@ -246,7 +246,7 @@
          *
          * İlk olayı başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void StartFirstAction(bool isMine)
@@ -268,7 +268,7 @@
          *
          * Yaratığı pasif hale getirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Disable()
@@ -290,7 +290,7 @@
          *
          * Yaratık değerlerini sıfırlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void ResetCreature()
@@ -355,7 +355,7 @@
          *
          * Bileşenleri önbelleğe alır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void ComponentsToCache()
@@ -377,7 +377,7 @@
          *
          * Komponentleri açar/kapatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void ToggleComponents(bool isEnable)
@@ -395,7 +395,7 @@
          *
          * Yaratık öldüğünde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnKill(MultiplayerCreature creature)

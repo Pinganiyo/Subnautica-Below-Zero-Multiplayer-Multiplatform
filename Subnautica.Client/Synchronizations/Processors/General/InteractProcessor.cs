@@ -15,7 +15,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -42,7 +42,7 @@
          *
          * PDA kapatıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnClosing(PDAClosingEventArgs ev)
@@ -57,7 +57,7 @@
          *
          * Tabela seçimi kaldırıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSignDeselect(SignDeselectEventArgs ev)
@@ -69,7 +69,7 @@
          *
          * Pil yerleştirilme kapatıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnEnergyMixinClosed(EnergyMixinClosedEventArgs ev)
@@ -84,7 +84,7 @@
          *
          * Sunucuya Veri Gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool SendDataToServer(bool isOpening = false)

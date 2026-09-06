@@ -19,7 +19,7 @@
          *
          * Event Blocker nesnesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool IsBlocked;
@@ -28,7 +28,7 @@
          *
          * Event Blocker nesnesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Coroutine CurrentCoroutine;
@@ -37,7 +37,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -65,7 +65,7 @@
          *
          * Sınıf başlatılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnStart()
@@ -77,7 +77,7 @@
          *
          * Mobilya inşaası ilk kaldırma işlemi olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnFurnitureDeconstructionBegin(FurnitureDeconstructionBeginEventArgs ev)
@@ -112,7 +112,7 @@
          *
          * Yıkılıp/Yıkılamayacağı kontrolü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsAllowedDeconstruction(TechType techType, string constructionId)
@@ -141,7 +141,7 @@
          *
          * Bloklanma durumunu serbest bırakır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator ReleaseBlock()
@@ -155,7 +155,7 @@
          *
          * Akitf coroutine'yi öldürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void KillCoroutine(Coroutine coroutine)

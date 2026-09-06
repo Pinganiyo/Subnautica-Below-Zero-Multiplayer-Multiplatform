@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Subnautica.Multiplayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6e8c9756d57758ab16087f81e2fca4d6cf92f04")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+674faa6be2fe5553c57b6b3e3e43fc1bd82a49a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Subnautica.Multiplayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Subnautica.Multiplayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

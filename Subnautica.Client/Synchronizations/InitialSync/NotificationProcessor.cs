@@ -9,7 +9,7 @@
          *
          * Bildirim verileri yüklendikten sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnNotificationInitialized()
@@ -93,7 +93,7 @@
          *
          * Ping işaretini ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void HandlePingInstance(string uniqueId, bool isVisible, sbyte colorIndex)

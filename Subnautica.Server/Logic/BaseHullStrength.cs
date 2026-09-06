@@ -17,7 +17,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StopwatchItem Timing { get; set; } = new StopwatchItem(1000f);
@@ -26,7 +26,7 @@
          *
          * Su seviyelerinin önbelleğini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<int, float> WaterLeveLCache { get; set; } = new Dictionary<int, float>();
@@ -35,7 +35,7 @@
          *
          * İstekleri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Dictionary<string, Dictionary<ushort, byte>> Requests = new Dictionary<string, Dictionary<ushort, byte>>();
@@ -44,7 +44,7 @@
          *
          * Her tick'de tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate(float deltaTime)
@@ -73,7 +73,7 @@
          *
          * Üs dayanıklılığı düştüğünde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCrushing(BaseHullStrengthCrushingEventArgs ev)
@@ -89,7 +89,7 @@
          *
          * Su seviyelerini kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool CheckWaterLevels(string baseId, global::BaseFloodSim baseFloodSim)
@@ -129,7 +129,7 @@
          *
          * Oyunculara veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SendPacketToAllClient()
@@ -161,7 +161,7 @@
          *
          * Su seviyesi değiştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnCellWaterLevelChanged(string uniqueId, ushort index, float waterLevel)
@@ -188,7 +188,7 @@
          *
          * Üsleri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<Base> GetBases()

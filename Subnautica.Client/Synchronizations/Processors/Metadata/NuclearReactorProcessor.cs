@@ -19,7 +19,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(string uniqueId, TechType techType, MetadataComponentArgs packet, bool isSilence)
@@ -67,7 +67,7 @@
          *
          * Nesne spawnlanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool OnEntitySpawning(ItemQueueProcess item)
@@ -90,7 +90,7 @@
          *
          * Nükleer Depolamaya eşya eklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnNuclearReactorItemAdded(NuclearReactorItemAddedEventArgs ev)
@@ -102,7 +102,7 @@
          *
          * Nükleer Depolamadan eşya kaldırıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnNuclearReactorItemRemoved(NuclearReactorItemRemovedEventArgs ev)
@@ -114,7 +114,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SendDataToServer(string uniqueId, TechType techType, string slotId, bool isRemoving)

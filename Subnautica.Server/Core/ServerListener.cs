@@ -18,7 +18,7 @@
          *
          * Oyuncu bağlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPeerConnected(NetPeer peer)
@@ -30,7 +30,7 @@
          *
          * Bağlantı isteği gönderildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnConnectionRequest(ConnectionRequest request)
@@ -58,7 +58,7 @@
          *
          * Oyuncu bağlantısı kesildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPeerDisconnected(NetPeer peer, DisconnectInfo disconnectInfo)
@@ -77,7 +77,7 @@
          *
          * Veri alındığında tetiklenir
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnNetworkReceive(NetPeer peer, NetPacketReader reader, byte channelNumber, DeliveryMethod deliveryMethod)
@@ -138,7 +138,7 @@
          *
          * Ağ hatası olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnNetworkError(IPEndPoint endPoint, SocketError socketError)
@@ -150,7 +150,7 @@
          *
          * Bağlanmamış kullanıcıdan veri geldiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnNetworkReceiveUnconnected(IPEndPoint remoteEndPoint, NetPacketReader reader, UnconnectedMessageType messageType)
@@ -162,7 +162,7 @@
          *
          * Ağ gecikmesi güncelleme durumunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnNetworkLatencyUpdate(NetPeer peer, int latency)
@@ -173,7 +173,7 @@
          *
          * Reddetme paketini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private byte[] GetRejectPacket(ConnectionSignal rejectType)

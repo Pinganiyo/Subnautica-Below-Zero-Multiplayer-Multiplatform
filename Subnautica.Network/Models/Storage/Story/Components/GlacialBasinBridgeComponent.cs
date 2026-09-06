@@ -9,7 +9,7 @@
          *
          * IsExtended Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -19,7 +19,7 @@
          *
          * IsFirstExtension Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -29,7 +29,7 @@
          *
          * IsExtended Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -39,7 +39,7 @@
          *
          * Köprüyü uzatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Extend(float serverTime, float animationTime)
@@ -60,7 +60,7 @@
          *
          * Köprüyü uzatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Retract(float serverTime, float animationTime)

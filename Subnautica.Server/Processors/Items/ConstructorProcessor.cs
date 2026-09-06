@@ -19,7 +19,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(AuthorizationProfile profile, PlayerItemActionArgs packet)
@@ -99,7 +99,7 @@
          *
          * Komponenti döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private NetworkDynamicEntityComponent GetEntityComponent(TechType techType)
@@ -123,7 +123,7 @@
          *
          * Komponent sınıfı oluşturulduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntityComponentInitialized(NetworkDynamicEntityComponent entityComponent)
@@ -148,7 +148,7 @@
          *
          * Araç yapım süresini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float GetDuration(TechType techType)

@@ -11,7 +11,7 @@
          *
          * Balık hareket ediyor mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsDriving = false;
@@ -20,7 +20,7 @@
          *
          * Enterpolasyon Zamanını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float InterpolationTime = 0f;
@@ -29,7 +29,7 @@
          *
          * Hedef Pozisyonu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Vector3 TargetPosition { get; set; }
@@ -38,7 +38,7 @@
          *
          * Hedef Açıyı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Quaternion TargetRotation { get; set; }
@@ -47,7 +47,7 @@
          *
          * Creature değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private MultiplayerCreature Creature { get; set; }
@@ -56,7 +56,7 @@
          *
          * Hızı Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Vector3 Velocity;
@@ -65,7 +65,7 @@
          *
          * Konum Açı Hızını Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Quaternion RotationVelocity;
@@ -74,7 +74,7 @@
          *
          * Sınıf ayarlarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public MultiplayerCreatureMovement(MultiplayerCreature creature)
@@ -86,7 +86,7 @@
          *
          * Verileri temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ResetCreature()
@@ -100,7 +100,7 @@
          *
          * Yaratık hedef konuma yüzmeye başlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SwimTo(Vector3 targetPosition, Quaternion targetRotation)
@@ -115,7 +115,7 @@
          *
          * Yaratığı hareket ettirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool SimpleMoveV2()
@@ -144,7 +144,7 @@
          *
          * Yaratığı hareket ettirir. (OLD/Draft)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool SimpleMove()
@@ -172,7 +172,7 @@
          *
          * Yaratığı döndürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool SimpleRotate()
@@ -191,7 +191,7 @@
          *
          * Hareketi durdurur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void StopMovement(bool movePosition = true)
@@ -213,7 +213,7 @@
          *
          * Hedef Mesafesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float GetTargetDistance()
@@ -225,7 +225,7 @@
          *
          * Hızı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Vector3 GetVelocity()

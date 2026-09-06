@@ -15,7 +15,7 @@
          *
          * Süreleri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Dictionary<string, float> CrafterTimes { get; set; } = new Dictionary<string, float>();
@@ -24,7 +24,7 @@
          *
          * StartConstruction Yaması
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPrefix]
@@ -47,7 +47,7 @@
          *
          * UpdateConstruct Yaması
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPrefix]
@@ -92,7 +92,7 @@
          *
          * Sınıf id'sini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string GetUniqueId(global::VFXConstructing __instance)

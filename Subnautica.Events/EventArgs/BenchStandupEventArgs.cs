@@ -8,7 +8,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public BenchStandupEventArgs(string uniqueId, Bench.BenchSide side, TechType techType)
@@ -22,7 +22,7 @@
          *
          * UniqueId Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UniqueId { get; set; }
@@ -31,7 +31,7 @@
          *
          * Side Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Bench.BenchSide Side { get; set; }
@@ -40,7 +40,7 @@
          *
          * TechType Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public TechType TechType { get; set; }

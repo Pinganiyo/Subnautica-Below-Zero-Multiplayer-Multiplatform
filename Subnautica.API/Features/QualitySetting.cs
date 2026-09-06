@@ -8,7 +8,7 @@
          *
          * Eski FPS Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static int OldFrameRate  = 0;
@@ -17,7 +17,7 @@
          *
          * Eski VSYNC Durumu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool OldVsync = false;
@@ -26,7 +26,7 @@
          *
          * FPS Miktarını değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void EnableFastMode()
@@ -45,7 +45,7 @@
          *
          * FPS Miktarını değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void DisableFastMode()
@@ -57,7 +57,7 @@
          *
          * Ayarları varsayılan yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void Reset()

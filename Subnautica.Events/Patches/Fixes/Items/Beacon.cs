@@ -58,7 +58,7 @@
          *
          * Bloklama işlemini ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool PrefixPostfixBlock(global::Beacon __instance, bool isPrefix = true)
@@ -95,7 +95,7 @@
          *
          * Bloklayıcıları barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Dictionary<string, EventBlocker> Blockers = new Dictionary<string, EventBlocker>();

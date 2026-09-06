@@ -16,7 +16,7 @@
          *
          * Eşyaları barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -26,7 +26,7 @@
          *
          * Depo üzerindeki metni barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -36,7 +36,7 @@
          *
          * Depo Boyutunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -46,7 +46,7 @@
          *
          * Size X değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public byte GetSizeX()
@@ -58,7 +58,7 @@
          *
          * Size Y değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public byte GetSizeY()
@@ -70,7 +70,7 @@
          *
          * Depoyu yeniden boyutlandırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Resize(byte width, byte heigth)
@@ -87,7 +87,7 @@
          *
          * Eşyayı ekler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool AddItem(StorageItem item)
@@ -101,7 +101,7 @@
          *
          * Eşyayı siler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool RemoveItem(StorageItem item)
@@ -113,7 +113,7 @@
          *
          * Eşyayı siler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool RemoveItem(string itemId)
@@ -125,7 +125,7 @@
          *
          * Envanterde nesne mevcut mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsItemExists(string uniqueId)
@@ -137,7 +137,7 @@
          *
          * Envanterde nesne türünden kaç adet olduğunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public int GetCount(TechType techType)
@@ -149,7 +149,7 @@
          *
          * Sınıfı oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static StorageContainer Create(byte width, byte heigth)
@@ -163,7 +163,7 @@
          *
          * Nesne eklenebilir mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool HasRoomFor(StorageItem storageItem)
@@ -215,7 +215,7 @@
          *
          * Envanteri sıralar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool TrySort(List<ItemsContainer.ItemGroup> gr, InventoryItem[,] map)
@@ -262,7 +262,7 @@
          *
          * ItemGroups nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -272,7 +272,7 @@
          *
          * GhostItem nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -282,7 +282,7 @@
          *
          * GhostGroup nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -292,7 +292,7 @@
          *
          * GhostGroup nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -302,7 +302,7 @@
          *
          * Harita listesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]

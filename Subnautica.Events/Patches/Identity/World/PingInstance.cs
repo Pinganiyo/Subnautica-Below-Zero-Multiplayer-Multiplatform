@@ -20,7 +20,7 @@
          *
          * Id kontrolü yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool CheckAction(GameObject gameObject, int currentTick)
@@ -32,7 +32,7 @@
          *
          * Id tanımlanınca çalışır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SuccessAction(GameObject gameObject)

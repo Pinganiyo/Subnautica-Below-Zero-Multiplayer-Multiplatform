@@ -8,7 +8,7 @@
          *
          * Oyuncu paket veri gönderme hızı (50ms)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const float PlayerUpdated = 50f;
@@ -17,7 +17,7 @@
          *
          * Araç paket veri gönderme hızı (50ms)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const float VehicleUpdated = 50f;
@@ -26,7 +26,7 @@
          *
          * Oyuncu istatistikleri veri gönderme hızı (2000ms)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const float PlayerStatsUpdated = 2000f;
@@ -35,7 +35,7 @@
          *
          * Yapı hayalet model veri gönderme hızı (100ms)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const float ConstructingGhostMoved = 100f;
@@ -44,7 +44,7 @@
          *
          * Kontrol Odası harita hareket veri gönderme hızı (100ms)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const float BaseControlRoomMinimapMoving = 100f;
@@ -53,7 +53,7 @@
          *
          * VehicleDocking tetiklenme hızı (500ms)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const float VehicleDocking = 500f;
@@ -62,7 +62,7 @@
          *
          * Yaratık Konum gönderme hızı (min: 100ms, max: 200ms)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const float CreaturePosition = 100f;
@@ -71,7 +71,7 @@
          *
          * Yapı tamamlanma oranı veri gönderme hızı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const float ConstructingAmountChanged = 0.1f;
@@ -80,7 +80,7 @@
          *
          * Tarayıcı tarama veri gönderme hızı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const float ScannerUsing = 0.1f;

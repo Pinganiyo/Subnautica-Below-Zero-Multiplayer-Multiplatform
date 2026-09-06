@@ -14,7 +14,7 @@
          *
          * Zamanlayıcıyı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static StopwatchItem Timing = new StopwatchItem(1000f);
@@ -23,7 +23,7 @@
          *
          * Son profil id'sini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string LastProfileId { get; set; }
@@ -32,7 +32,7 @@
          *
          * Fonkisyonu yamalar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPrefix]
@@ -68,7 +68,7 @@
          *
          * Fonkisyonu yamalar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPrefix]
@@ -98,7 +98,7 @@
          *
          * Fonkisyonu yamalar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPrefix]

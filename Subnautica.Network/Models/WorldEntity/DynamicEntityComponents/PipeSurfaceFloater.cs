@@ -16,7 +16,7 @@
          *
          * Childrens Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -26,7 +26,7 @@
          *
          * Oksijen borusu ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool AddOxygenPipe(string pipeId, string parentId, ZeroVector3 position)

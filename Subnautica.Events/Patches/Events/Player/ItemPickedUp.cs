@@ -15,7 +15,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::Inventory __instance, ref bool __result, global::Pickupable pickupable)

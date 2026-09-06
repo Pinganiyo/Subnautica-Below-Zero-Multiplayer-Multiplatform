@@ -12,7 +12,7 @@
          *
          * X / Y / Z Meta verilerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public enum Metadata
@@ -27,7 +27,7 @@
          *
          * Büyük sayıyı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static int BigNumber = 1000000;
@@ -36,7 +36,7 @@
          *
          * Vector3'ü 12 bayttan 8 bayta sıkıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static int Compress(float x, float y, float z)
@@ -69,7 +69,7 @@
          *
          * Sıkıştırılmış Vector3'ü normal haline getirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Vector3 Decompress(int longNumber)
@@ -105,7 +105,7 @@
          *
          * Sıkıştırılmış ZeroVector3'ü normal haline getirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ZeroVector3 ZeroDecompress(int longNumber)

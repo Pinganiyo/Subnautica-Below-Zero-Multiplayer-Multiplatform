@@ -12,7 +12,7 @@
          *
          * Koordinat (X)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -22,7 +22,7 @@
          *
          * Koordinat (Y)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -32,7 +32,7 @@
          *
          * Koordinat (Z)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -42,7 +42,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroInt3()
@@ -53,7 +53,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroInt3(int x, int y, int z)
@@ -67,7 +67,7 @@
          *
          * Karşılaştırma işlemi yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool operator ==(ZeroInt3 u, ZeroInt3 v)
@@ -84,7 +84,7 @@
          *
          * Karşılaştırma işlemi yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool operator !=(ZeroInt3 u, ZeroInt3 v)
@@ -96,7 +96,7 @@
          *
          * Eşitlik işlemi yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Equals(ZeroInt3 other)
@@ -113,7 +113,7 @@
          *
          * Eşitlik işlemi yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool Equals(object obj)
@@ -125,7 +125,7 @@
          *
          * Sayısal değeri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override int GetHashCode()
@@ -145,7 +145,7 @@
          *
          * Koordinatların komşularını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public IEnumerable<ZeroInt3> GetNeighbors(int max = 1)
@@ -166,7 +166,7 @@
          *
          * Metin olarak bastırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override string ToString()

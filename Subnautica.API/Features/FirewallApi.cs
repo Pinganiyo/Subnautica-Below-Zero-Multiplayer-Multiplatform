@@ -13,7 +13,7 @@ namespace Subnautica.API.Features
          *
          * IsInitialized değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool IsInitialized { get; set; } = true;
@@ -22,7 +22,7 @@ namespace Subnautica.API.Features
          *
          * Son çıktıyı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string LastOutput { get; private set; } = "";
@@ -31,7 +31,7 @@ namespace Subnautica.API.Features
          *
          * Son hatayı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string LastError { get; private set; } = "";
@@ -40,7 +40,7 @@ namespace Subnautica.API.Features
          *
          * SubnauticaBelowZeroDescription değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string SubnauticaBelowZeroDescription { get; set; } = "Subnautica BZ Multiplayer by BOT Benson";
@@ -49,7 +49,7 @@ namespace Subnautica.API.Features
          *
          * SubnauticaBelowZeroId değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string SubnauticaBelowZeroId { get; set; } = "subnauticazero";
@@ -58,7 +58,7 @@ namespace Subnautica.API.Features
          *
          * Subnautica Firewall Kurulumunu yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SetupFirewallWithAdminPerms(string filePath)
@@ -69,7 +69,7 @@ namespace Subnautica.API.Features
          *
          * Subnautica Firewall Kurulumunu yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SetupSubnauticaFirewall(string filePath)
@@ -80,7 +80,7 @@ namespace Subnautica.API.Features
          *
          * Kurallar doğru yapılandırılmış mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsSubnauticaFirewallOk(string path)
@@ -92,7 +92,7 @@ namespace Subnautica.API.Features
          *
          * Subnautica Kuralları döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<FirewallItemFormat> GetSubnauticaRules()
@@ -104,7 +104,7 @@ namespace Subnautica.API.Features
          *
          * Kuralları döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<FirewallItemFormat> GetRules(string name)
@@ -117,7 +117,7 @@ namespace Subnautica.API.Features
          *
          * komut çalıştırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void ExecuteCommand(string command, bool useCorePath = false, bool isNetShCommand = true, bool silence = true)

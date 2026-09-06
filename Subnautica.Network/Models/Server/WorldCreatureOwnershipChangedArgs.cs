@@ -14,7 +14,7 @@
          *
          * Ağ Paket Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -24,7 +24,7 @@
          *
          * Temel Yaratık sahiplerini Değerini Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -38,7 +38,7 @@
          *
          * OwnerId Değerini Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -48,7 +48,7 @@
          *
          * Id Değerini Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -58,7 +58,7 @@
          *
          * Position Değerini Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -68,7 +68,7 @@
          *
          * LeashRotation Değerini Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -78,7 +78,7 @@
          *
          * TechType Değerini Barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -88,7 +88,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WorldCreatureOwnershipItem()
@@ -100,7 +100,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WorldCreatureOwnershipItem(byte ownerId, ushort id, long position, long rotation, TechType techType)
@@ -116,7 +116,7 @@
          *
          * Yaratık sahibi var mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsExistsOwnership()
@@ -128,7 +128,7 @@
          *
          * Kayıt için bekleniyor mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsWaitingRegistation()
@@ -140,7 +140,7 @@
          *
          * Ölme animasyonu başlasın mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsPlayDeathAnimation()

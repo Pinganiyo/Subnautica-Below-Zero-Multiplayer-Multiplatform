@@ -27,7 +27,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(string uniqueId, TechType techType, MetadataComponentArgs packet, bool isSilence)
@@ -60,7 +60,7 @@
          *
          * Nesne spawnlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntitySpawned(ItemQueueProcess item, Pickupable pickupable, GameObject gameObject)
@@ -81,7 +81,7 @@
          *
          * Oyuncu bir nesneyi bırakırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPlayerItemDroping(PlayerItemDropingEventArgs ev)
@@ -102,7 +102,7 @@
          *
          * Depolama'dan eşya kaldırıldırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, string itemId, TechType techType, ZeroVector3 position, ZeroQuaternion rotation, Metadata.BaseWaterParkProcessType processType)

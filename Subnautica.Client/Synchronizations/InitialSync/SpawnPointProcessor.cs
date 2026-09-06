@@ -12,7 +12,7 @@
          *
          * Yumurtlamayacak nesneleri ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool OnSpawnPointsInitialized(HashSet<ZeroSpawnPointSimple> spawnPoints, bool isSpawnPointExists)
@@ -24,7 +24,7 @@
          *
          * Spawn point koordinatlarının kapsayıcısını ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static IEnumerator CreateSpawnPointContainer()

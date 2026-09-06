@@ -11,7 +11,7 @@
          *
          * Yapının konumunu ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool UpdateMultiplayerPlacement(this global::BaseAddMapRoomGhost baseGhost, bool updatePlacement, out bool positionFound, out bool geometryChanged, BaseAddMapRoomGhostComponent component)
@@ -64,7 +64,7 @@
          *
          * Çok oyunculu döndürme işlemini uygular.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void UpdateMultiplayerRotation(this global::BaseAddMapRoomGhost baseGhost, ref bool geometryChanged)
@@ -79,7 +79,7 @@
          *
          * Çok oyunculu döndürme işlemini uygular.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Base.CellType GetMultiplayerCellType(this global::BaseAddMapRoomGhost baseGhost)

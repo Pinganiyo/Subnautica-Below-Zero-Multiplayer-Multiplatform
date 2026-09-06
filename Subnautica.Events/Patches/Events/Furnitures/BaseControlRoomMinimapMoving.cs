@@ -14,7 +14,7 @@
          *
          * Geçen zamanı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static readonly StopwatchItem StopwatchItem = new StopwatchItem(BroadcastInterval.BaseControlRoomMinimapMoving);
@@ -23,7 +23,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void Prefix(global::BaseControlRoom __instance)

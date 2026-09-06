@@ -14,7 +14,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -26,7 +26,7 @@
          *
          * Oyuncu istatistikleri alındığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPingVisibilityChanged(PlayerPingVisibilityChangedEventArgs ev)
@@ -38,7 +38,7 @@
          *
          * Oyuncu istatistikleri alındığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPingColorChanged(PlayerPingColorChangedEventArgs ev)
@@ -50,7 +50,7 @@
          *
          * PDA'dan bildirim kaldırılınca/eklenince tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnNotificationToggle(NotificationToggleEventArgs ev)
@@ -65,7 +65,7 @@
          *
          * PDA'dan bildirim kaldırılınca/eklenince tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string key, NotificationManager.Group group = default, bool isAdded = false, bool isNotification = false, bool isVisible = false, sbyte colorIndex = -1)

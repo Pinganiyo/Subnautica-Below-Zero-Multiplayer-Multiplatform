@@ -15,7 +15,7 @@
          *
          * Encyclopedia sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public PictureFrameStorage.PictureFrame Storage { get; set; }
@@ -24,7 +24,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void Start(string serverId)
@@ -39,7 +39,7 @@
          *
          * Sunucu ansiklopedi verilerini belleğe yükler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void Load()
@@ -77,7 +77,7 @@
          *
          * Verileri diske yazar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void SaveToDisk()
@@ -92,7 +92,7 @@
          *
          * Resim döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Subnautica.Network.Models.Metadata.PictureFrame GetImage(string constructionUniqueId)
@@ -112,7 +112,7 @@
          *
          * Resim ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool AddImage(string constructionUniqueId, string imageName, byte[] imageData)
@@ -128,7 +128,7 @@
          *
          * Resim kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool RemoveImage(string constructionUniqueId)

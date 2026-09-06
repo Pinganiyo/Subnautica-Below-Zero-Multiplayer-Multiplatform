@@ -15,7 +15,7 @@
          *
          * Encyclopedia sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ScannerStorage.Scanner Storage { get; set; }
@@ -24,7 +24,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void Start(string serverId)
@@ -38,7 +38,7 @@
          *
          * Sunucu ansiklopedi verilerini belleğe yükler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void Load()
@@ -79,7 +79,7 @@
          *
          * Verileri diske yazar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void SaveToDisk()
@@ -94,7 +94,7 @@
          *
          * Açılmış teknolojiyi ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool AddScannedTechnology(TechType techType)

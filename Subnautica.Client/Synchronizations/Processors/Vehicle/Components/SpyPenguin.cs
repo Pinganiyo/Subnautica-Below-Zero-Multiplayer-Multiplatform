@@ -10,7 +10,7 @@
          *
          * Araç bileşenini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static SpyPenguinUpdateComponent GetComponent(SpyPenguinUpdateComponent component, global::SpyPenguin spyPenguin, List<string> animations)

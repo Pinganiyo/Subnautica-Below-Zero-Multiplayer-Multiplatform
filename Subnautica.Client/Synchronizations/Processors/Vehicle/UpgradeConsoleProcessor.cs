@@ -14,7 +14,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -60,7 +60,7 @@
          *
          * Yükseltme konsoluna tıklanınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnUpgradeConsoleOpening(UpgradeConsoleOpeningEventArgs ev)
@@ -78,7 +78,7 @@
          *
          * Yükseltme konsoluna modül eklenince tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnUpgradeConsoleModuleAdded(UpgradeConsoleModuleAddedEventArgs ev)
@@ -90,7 +90,7 @@
          *
          * Yükseltme konsolundan modül kaldırılınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnUpgradeConsoleModuleRemoved(UpgradeConsoleModuleRemovedEventArgs ev)
@@ -102,7 +102,7 @@
          *
          * Sunucuya paketi gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, string itemId = null, string slotId = null, TechType moduleType = TechType.None, bool isOpening = false, bool isAdding = false)

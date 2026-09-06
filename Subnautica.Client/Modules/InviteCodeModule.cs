@@ -18,7 +18,7 @@ namespace Subnautica.Client.Modules
          *
          * Eklenti aktifleştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPluginEnabled()
@@ -32,7 +32,7 @@ namespace Subnautica.Client.Modules
          *
          * Sahne yüklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSceneLoaded(SceneLoadedEventArgs ev)
@@ -47,7 +47,7 @@ namespace Subnautica.Client.Modules
          *
          * Ağa bağlanır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ConnectToNetwork()
@@ -81,7 +81,7 @@ namespace Subnautica.Client.Modules
          *
          * Oyuncu oyundan çıkarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool OnWantsToQuit()
@@ -105,7 +105,7 @@ namespace Subnautica.Client.Modules
          *
          * Oyuncu ana menüye gittiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnQuittingToMainMenu(QuittingToMainMenuEventArgs ev)
@@ -120,7 +120,7 @@ namespace Subnautica.Client.Modules
          *
          * Oyun içi menü açılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnInGameMenuOpened(InGameMenuOpenedEventArgs ev)
@@ -150,7 +150,7 @@ namespace Subnautica.Client.Modules
          *
          * Invite code butonunu oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void CreateInviteCodeButtons()

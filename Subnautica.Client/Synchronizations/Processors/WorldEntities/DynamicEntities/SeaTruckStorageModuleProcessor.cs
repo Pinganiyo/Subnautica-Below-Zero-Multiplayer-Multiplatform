@@ -18,7 +18,7 @@
          *
          * ColoredLabelIndex Değerleri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<int> ColoredLabelIndex = new List<int>()
@@ -34,7 +34,7 @@
          *
          * Dünya yüklenip nesne doğduğunda çalışır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnWorldLoadItemSpawn(NetworkDynamicEntityComponent packet, bool isDeployed, Pickupable pickupable, GameObject gameObject)
@@ -92,7 +92,7 @@
          *
          * StorageContainer index değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private int GetStorageContainerIndex(string name)

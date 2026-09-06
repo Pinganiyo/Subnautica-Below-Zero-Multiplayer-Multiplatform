@@ -12,7 +12,7 @@
         *
         * Hoverpadi barındırır.
         *
-        * @author Ismail <ismaiil_0234@hotmail.com>
+        
         *
         */
         private global::VehicleDockingBay DockingBay { get; set; }
@@ -21,7 +21,7 @@
          *
          * Animasyonu resetler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnResetAnimations(PlayerCinematicQueueItem item)
@@ -41,7 +41,7 @@
          *
          * Demirleme animasyonunu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void StartDockingCinematic()
@@ -71,7 +71,7 @@
          *
          * Ayrılma animasyonunu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void StartUnDockingCinematic()
@@ -105,7 +105,7 @@
          *
          * Docking başlarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnDockingComplete()
@@ -117,7 +117,7 @@
          *
          * Undocking başlarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnUndockingStart()
@@ -140,7 +140,7 @@
          *
          * Undocking tamamlanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnUndockingComplete()

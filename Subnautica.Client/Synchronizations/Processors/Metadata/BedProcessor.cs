@@ -22,7 +22,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(string uniqueId, TechType techType, MetadataComponentArgs packet, bool isSilence)
@@ -83,7 +83,7 @@
          *
          * Oyuncu ekranı tamamen karardığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSleepScreenStartingCompleted()
@@ -96,7 +96,7 @@
          *
          * Oyuncu ekranı aydınlanma başlatıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSleepScreenStopingStarted()
@@ -108,7 +108,7 @@
          *
          * Yatağı kullanabilirlik durumunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBedIsCanSleepChecking(BedIsCanSleepCheckingEventArgs ev)
@@ -125,7 +125,7 @@
          *
          * Kullanıcı yatağa tıkladığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBedEnterInUseMode(BedEnterInUseModeEventArgs ev)
@@ -145,7 +145,7 @@
          *
          * Kullanıcı yatak'dan kalktığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBedExitInUseMode(BedExitInUseModeEventArgs ev)
@@ -160,7 +160,7 @@
          *
          * Sunucuya paketi gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, global::Bed.BedSide side = global::Bed.BedSide.None, bool isSleeping = false)

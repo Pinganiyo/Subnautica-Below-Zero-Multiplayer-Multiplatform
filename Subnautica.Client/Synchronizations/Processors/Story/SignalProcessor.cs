@@ -24,7 +24,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -49,7 +49,7 @@
          *
          * Hikaye sinyali oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SpawnSignal(ZeroStorySignal signal)
@@ -69,7 +69,7 @@
          *
          * Nesne spawnlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntitySpawned(ItemQueueProcess item, Pickupable pickupable, GameObject gameObject)
@@ -91,7 +91,7 @@
          *
          * Sinyal oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void AddSignal(ZeroStorySignal signal, GameObject prefab, int colorIndex)
@@ -108,7 +108,7 @@
          *
          * Hikaye sinyali spawnlanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStorySignalSpawning(StorySignalSpawningEventArgs ev)

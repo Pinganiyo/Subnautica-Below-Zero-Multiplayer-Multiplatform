@@ -6,7 +6,7 @@
          *
          * FrozenMixin değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public global::CreatureFrozenMixin FrozenMixin { get; private set; }
@@ -15,7 +15,7 @@
          *
          * Sınıf uyanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Awake()
@@ -27,7 +27,7 @@
          *
          * Sahiplik değiştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnChangedOwnership()

@@ -8,7 +8,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public TeleporterTerminalActivatingEventArgs(string uniqueId, string teleporterId, bool isAllowed = true)
@@ -22,7 +22,7 @@
          *
          * UniqueId değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UniqueId { get; set; }
@@ -31,7 +31,7 @@
          *
          * TeleporterId değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string TeleporterId { get; set; }
@@ -40,7 +40,7 @@
          *
          * Olayın çalıştırılıp/çalıştırılmayacağı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsAllowed { get; set; }

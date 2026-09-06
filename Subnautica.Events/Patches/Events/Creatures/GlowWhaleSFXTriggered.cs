@@ -44,7 +44,7 @@
          *
          * Olayı tetikler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void CallEvent(global::GlowWhaleSFXManager __instance, GlowWhaleSFXType sfxType)

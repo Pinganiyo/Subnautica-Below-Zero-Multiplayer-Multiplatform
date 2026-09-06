@@ -10,7 +10,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public PlayerFullConnectedEventArgs(AuthorizationProfile player)
@@ -22,7 +22,7 @@
          *
          * Player değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public AuthorizationProfile Player { get; set; }

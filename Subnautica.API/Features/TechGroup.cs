@@ -8,7 +8,7 @@
          *
          * Yatakları barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<TechType> Beds { get; set; } = new List<TechType>()
@@ -29,7 +29,7 @@
          *
          * Sandalyeleri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<TechType> Chairs { get; set; } = new List<TechType>()
@@ -44,7 +44,7 @@
          *
          * Planter'leri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<TechType> Planters { get; set; } = new List<TechType>()
@@ -61,7 +61,7 @@
          *
          * Enerji Yapıları'nı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<TechType> EnergyConstructions { get; set; } = new List<TechType>()
@@ -76,7 +76,7 @@
          *
          * Şarj Cihaz Yapıları'nı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<TechType> BatteryChargers { get; set; } = new List<TechType>()
@@ -89,7 +89,7 @@
          *
          * Locker'leri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<TechType> Lockers { get; set; } = new List<TechType>()
@@ -102,7 +102,7 @@
          *
          * Reaktör'leri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<TechType> Reactors { get; set; } = new List<TechType>()
@@ -118,7 +118,7 @@
          * 1. Oyunun her yerinden gözükürler.
          * 2. Fizik alanın'dan çıkınca fizik kapatılır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<TechType> GlobalEntityTypes { get; set; } = new List<TechType>()
@@ -144,7 +144,7 @@
          *
          * BatteryCharger Slotları
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<string> BatteryChargerSlots = new List<string>()
@@ -159,7 +159,7 @@
          *
          * PowerCellCharger Slotları
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<string> PowerCellChargerSlots = new List<string>()
@@ -172,7 +172,7 @@
          *
          * Global nesne olup olmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsGlobalEntity(TechType techType)
@@ -184,7 +184,7 @@
          *
          * Batarya Slot miktarını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static byte GetBatterySlotAmount(TechType techType)
@@ -196,7 +196,7 @@
          *
          * Batarya Slot adını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetBatterySlotId(TechType techType, int index)
@@ -213,7 +213,7 @@
          *
          * Kontrol odasının customizer id değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetBaseControlRoomCustomizerId(string uniqueId)
@@ -225,7 +225,7 @@
          *
          * Kontrol odasının mini harita id değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetBaseControlRoomNavigateId(string uniqueId)

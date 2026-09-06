@@ -14,7 +14,7 @@
          *
          * Değişiklik yapıldı mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsChanged { get; set; }
@@ -23,7 +23,7 @@
          *
          * Harita odasını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private MapRoomFunctionality MapRoom { get; set; }
@@ -32,7 +32,7 @@
          *
          * ResourceTracker barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private uGUI_ResourceTracker ResourceTracker { get; set; }
@@ -41,7 +41,7 @@
          *
          * Nesneleri barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<BaseMapRoomTransmissionItem> Items { get; set; } = new List<BaseMapRoomTransmissionItem>();
@@ -50,7 +50,7 @@
          *
          * Timing barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static StopwatchItem Timing { get; set; } = new StopwatchItem(1000f);
@@ -59,7 +59,7 @@
          *
          * Sınıf başlatılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Awake()
@@ -82,7 +82,7 @@
          *
          * Nesneleri günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetItems(List<BaseMapRoomTransmissionItem> items)
@@ -97,7 +97,7 @@
          *
          * Her sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void FixedUpdate()
@@ -122,7 +122,7 @@
          *
          * Nesne noktalarını günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void UpdateBlips(Vector3 rootPosition)
@@ -154,7 +154,7 @@
          *
          * Kamera noktalarını günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void UpdateCameraAndPlayerBlips(Vector3 rootPosition)
@@ -229,7 +229,7 @@
          *
          * Kaynakları günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void UpdateResourceNodes()

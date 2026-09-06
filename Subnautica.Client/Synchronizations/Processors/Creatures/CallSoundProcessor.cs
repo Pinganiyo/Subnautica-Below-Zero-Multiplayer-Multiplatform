@@ -20,7 +20,7 @@
         *
         * Gelen veriyi işler
         *
-        * @author Ismail <ismaiil_0234@hotmail.com>
+        
         *
         */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -44,7 +44,7 @@
          *
          * İşlem tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCreatureProcessCompleted(MultiplayerCreature creature, CreatureQueueItem item)
@@ -66,7 +66,7 @@
          *
          * Yaratık çağrı sesini tetikler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private IEnumerator TriggerCallAsync(global::CreatureCallSound component, byte callVariant)
@@ -97,7 +97,7 @@
          *
          * Yaratık bazı sesler oynarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnCallSoundTriggering(CreatureCallSoundTriggeringEventArgs ev)
@@ -114,7 +114,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SendPacketToServer(ushort creatureId, byte callId, string animation)

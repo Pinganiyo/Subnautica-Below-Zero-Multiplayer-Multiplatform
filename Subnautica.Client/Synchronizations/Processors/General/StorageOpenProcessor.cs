@@ -19,7 +19,7 @@
          *
          * Açılmış depoları barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private HashSet<string> OpenedStorages = new HashSet<string>();
@@ -28,7 +28,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -47,7 +47,7 @@
          *
          * Her Sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate()
@@ -72,7 +72,7 @@
          *
          * Depoyu açar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool OpenStorage(string uniqueId, TechType techType, bool isMine = false)
@@ -145,7 +145,7 @@
          *
          * Depoyu kapatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void CloseStorage(string uniqueId)
@@ -161,7 +161,7 @@
          *
          * PDA Açılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStorageOpening(StorageOpeningEventArgs ev)
@@ -178,7 +178,7 @@
          *
          * Sunucuya Veri Gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, TechType techType)

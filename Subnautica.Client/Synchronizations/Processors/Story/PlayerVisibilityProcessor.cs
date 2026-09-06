@@ -19,7 +19,7 @@
          *
          * Aktif sinematik
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string CurrentCinematic { get; set; } = null;
@@ -28,7 +28,7 @@
          *
          * Görünürlük kuyruğu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Queue<string> VisibilityQueue { get; set; } = new Queue<string>();
@@ -37,7 +37,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -62,7 +62,7 @@
          *
          * Her Sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate()
@@ -98,7 +98,7 @@
          *
          * Cinematic başladığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStoryCinematicStarted(StoryCinematicStartedEventArgs ev)
@@ -115,7 +115,7 @@
          *
          * Cinematic bittiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStoryCinematicCompleted(StoryCinematicCompletedEventArgs ev)
@@ -132,7 +132,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SendPacketToServer(bool isCinematicActive)
@@ -149,7 +149,7 @@
          *
          * Ana menüye dönünce tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnDispose()

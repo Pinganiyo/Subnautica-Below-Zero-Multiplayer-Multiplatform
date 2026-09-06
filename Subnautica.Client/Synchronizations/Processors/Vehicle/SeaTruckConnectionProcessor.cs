@@ -20,7 +20,7 @@ namespace Subnautica.Client.Synchronizations.Processors.Vehicle
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -55,7 +55,7 @@ namespace Subnautica.Client.Synchronizations.Processors.Vehicle
          *
          * İşlem tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnMoonpoolProcessCompleted(ItemQueueProcess item)
@@ -110,7 +110,7 @@ namespace Subnautica.Client.Synchronizations.Processors.Vehicle
          *
          * İşlem tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnProcessCompleted(ItemQueueProcess item)
@@ -232,7 +232,7 @@ namespace Subnautica.Client.Synchronizations.Processors.Vehicle
          *
          * Seatruck modülü bağlanırken/ayrılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSeaTruckConnecting(SeaTruckConnectingEventArgs ev)
@@ -286,7 +286,7 @@ namespace Subnautica.Client.Synchronizations.Processors.Vehicle
          *
          * SeaTruck modül bağlantı kesme animasyonunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnSeaTruckDetaching(SeaTruckDetachingEventArgs ev)
@@ -300,7 +300,7 @@ namespace Subnautica.Client.Synchronizations.Processors.Vehicle
          *
          * Sunucuya Paket Gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(bool isConnect, bool isEject = false, string frontModuleId = null, string backModuleId = null, string firstModuleId = null, bool isMoonpoolExpansion = false)

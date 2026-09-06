@@ -16,7 +16,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StopwatchItem Timing { get; set; } = new StopwatchItem(200f);
@@ -25,7 +25,7 @@
          *
          * Konumları barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<WorldDynamicEntityPosition> Positions { get; set; } = new List<WorldDynamicEntityPosition>();
@@ -34,7 +34,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Update()
@@ -62,7 +62,7 @@
          *
          * Güncellenmiş nesne konumunu kuyruğa alır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void EntityPositionToQueue(WorldDynamicEntity entity)
@@ -86,7 +86,7 @@
          *
          * Konum verilerini sunucuya gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SendPositionPacketToServer()

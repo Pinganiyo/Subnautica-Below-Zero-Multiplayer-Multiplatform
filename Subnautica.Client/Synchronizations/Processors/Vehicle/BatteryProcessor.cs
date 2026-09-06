@@ -18,7 +18,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -70,7 +70,7 @@
          *
          * işlem tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void OnProcessCompleted(ItemQueueProcess item)
@@ -124,7 +124,7 @@
          *
          * Pil yerleştirilme alanına tıklanınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnEnergyMixinClicking(EnergyMixinClickingEventArgs ev)
@@ -144,7 +144,7 @@
          *
          * Pil yerleştirildiğinde/çıkarıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnEnergyMixinSelecting(EnergyMixinSelectingEventArgs ev)
@@ -162,7 +162,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, string batterySlotId, TechType batteryType = TechType.None, bool isOpening = false, bool isAdding = false, float charge = -1f)

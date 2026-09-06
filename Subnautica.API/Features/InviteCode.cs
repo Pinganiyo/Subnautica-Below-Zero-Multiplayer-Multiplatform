@@ -18,7 +18,7 @@ namespace Subnautica.API.Features
          *
          * Davet kodunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private string Code { get; set; }
@@ -27,7 +27,7 @@ namespace Subnautica.API.Features
          *
          * AccessToken değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private string AccessToken { get; set; }
@@ -36,7 +36,7 @@ namespace Subnautica.API.Features
          *
          * IsClientConnected değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsClientConnected { get; set; } = false;
@@ -45,7 +45,7 @@ namespace Subnautica.API.Features
          *
          * IsHostConnected değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsHostConnected { get; set; } = false;
@@ -54,7 +54,7 @@ namespace Subnautica.API.Features
          *
          * CurrentPeerId değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private string CurrentPeerId { get; set; } = null;
@@ -63,7 +63,7 @@ namespace Subnautica.API.Features
          *
          * Davet kodunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private string ApiUrl { get; set; } = "https://repo.subnauticamultiplayer.com/api/";
@@ -72,7 +72,7 @@ namespace Subnautica.API.Features
          *
          * JoinTiming nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private StopwatchItem ConnectionTiming { get; set; } = new StopwatchItem(20000f);
@@ -81,7 +81,7 @@ namespace Subnautica.API.Features
          *
          * HostConnectionTiming nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private StopwatchItem HostConnectionTiming { get; set; } = new StopwatchItem(30000f);
@@ -90,7 +90,7 @@ namespace Subnautica.API.Features
          *
          * Davet kodunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private LobbyJoinServerResponseFormat JoinResponse { get; set; } = null;
@@ -99,7 +99,7 @@ namespace Subnautica.API.Features
          *
          * Davet kodunu değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetInviteCode(string inviteCode)
@@ -111,7 +111,7 @@ namespace Subnautica.API.Features
          *
          * AccessToken değerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetAccessToken(string accessToken)
@@ -123,7 +123,7 @@ namespace Subnautica.API.Features
          *
          * Davet kodunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string GetInviteCode()
@@ -135,7 +135,7 @@ namespace Subnautica.API.Features
          *
          * AccessToken kodunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string GetAccessToken()
@@ -147,7 +147,7 @@ namespace Subnautica.API.Features
          *
          * Bağlanma kontrolü yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public IEnumerator CheckAndConnect()
@@ -229,7 +229,7 @@ namespace Subnautica.API.Features
          *
          * Host'a bağlanmak için bekleme işlemini yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public IEnumerator WaitForHostConnection(string hostIp)
@@ -285,7 +285,7 @@ namespace Subnautica.API.Features
          *
          * Async olarak sunucuya bağlanır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public IEnumerator JoinServerAsync(string joinCode, Action<LobbyJoinServerResponseFormat> onSuccess)
@@ -348,7 +348,7 @@ namespace Subnautica.API.Features
          *
          * Async olarak sunucu oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public IEnumerator CreateServerAsync(Action<LobbyCreateServerResponse> onSuccess, Action onFinished = null)
@@ -416,7 +416,7 @@ namespace Subnautica.API.Features
          *
          * Async olarak sunucudan ayrılma isteği gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public IEnumerator LeaveFromServerAsync(string peerIp, Action<bool> callback = null)
@@ -475,7 +475,7 @@ namespace Subnautica.API.Features
          *
          * Async olarak sunucuya canlı kalma isteği gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public IEnumerator PingToServerAsync(Action<bool> callback)
@@ -531,7 +531,7 @@ namespace Subnautica.API.Features
          *
          * Hata Mesajı gösterir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void ShowErrorMessage(string errorKey = null, string triggerKey = null)
@@ -557,7 +557,7 @@ namespace Subnautica.API.Features
          *
          * Bütün verileri temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Dispose()

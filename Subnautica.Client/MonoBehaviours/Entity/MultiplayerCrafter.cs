@@ -13,7 +13,7 @@
          *
          * Crafter Sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public global::GhostCrafter Crafter { get; set; }
@@ -22,7 +22,7 @@
          *
          * İşlem sahibi miyim?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsMine { get; private set; }
@@ -31,7 +31,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Awake()
@@ -43,7 +43,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Initialize()
@@ -62,7 +62,7 @@
          *
          * İşlemi sahibini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetIsMine(bool isMine)
@@ -74,7 +74,7 @@
          *
          * Zanaatkarı açar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Open()
@@ -96,7 +96,7 @@
          *
          * Zanaatkarı kapatır
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Close()
@@ -116,7 +116,7 @@
          *
          * Zanaatkar'dan üretilen nesneyi alır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void TryPickup()
@@ -144,7 +144,7 @@
          *
          * Zanaatkar'da nesne üretir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Craft(TechType techType, float startTime, float duration)
@@ -163,7 +163,7 @@
          *
          * Craft tamamlandığında bildirim gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCrafterEnded()
@@ -178,7 +178,7 @@
          *
          * Tamamlanmış eşyayı alıp/alamayacağını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsAllowedPickup(TechType techType, int amount)
@@ -197,7 +197,7 @@
          *
          * Otomatik alma işlemi aktif mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsActiveAutoPickup()

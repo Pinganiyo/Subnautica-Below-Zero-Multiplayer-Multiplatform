@@ -12,7 +12,7 @@
          *
          * Jellyfish sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public global::Jellyfish Jellyfish { get; set; }
@@ -21,7 +21,7 @@
          *
          * MaxDistanceToTarget değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float MaxDistanceToTarget { get; set; }
@@ -30,7 +30,7 @@
          *
          * En yakındaki oyuncuyu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public GameObject NearestPlayer;
@@ -39,7 +39,7 @@
          *
          * Enson en yakındaki oyuncuyu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public GameObject LastNearestPlayer;
@@ -48,7 +48,7 @@
          *
          * Sınıf uyanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Awake()
@@ -61,7 +61,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Update()
@@ -74,7 +74,7 @@
          *
          * Her sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void FixedUpdate()
@@ -86,7 +86,7 @@
          *
          * Hareket ve göz durumunu ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void UpdateEyeState()
@@ -139,7 +139,7 @@
          *
          * Göz animasyonunu ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void UpdateEyeAnimation(float deltaTime)
@@ -177,7 +177,7 @@
          *
          * En yakındaki oyuncuyu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public GameObject GetNearestPlayer()

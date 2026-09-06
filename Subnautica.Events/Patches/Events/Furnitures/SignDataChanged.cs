@@ -17,7 +17,7 @@
          *
          * Tetiklenme durumunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsTriggered { get; set; } = false;
@@ -26,7 +26,7 @@
          *
          * Olayı Tetikler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void TriggerEvent(global::uGUI_SignInput __instance = null)
@@ -41,7 +41,7 @@
          *
          * Olayı Tetikler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void FastTriggerEvent(global::uGUI_SignInput __instance = null)
@@ -56,7 +56,7 @@
          *
          * İç Olayı Tetikler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator TriggerEventCallback(global::uGUI_SignInput __instance, bool isFast = false)

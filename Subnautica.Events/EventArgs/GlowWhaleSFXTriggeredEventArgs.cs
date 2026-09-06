@@ -9,7 +9,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public GlowWhaleSFXTriggeredEventArgs(string uniqueId, GlowWhaleSFXType sfxType)
@@ -22,7 +22,7 @@
          *
          * UniqueId değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UniqueId { get; set; }
@@ -31,7 +31,7 @@
          *
          * sfxType değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public GlowWhaleSFXType SFXType { get; set; }

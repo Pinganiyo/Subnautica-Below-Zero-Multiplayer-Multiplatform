@@ -16,7 +16,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::LiveMixin __instance)
@@ -51,7 +51,7 @@
          *
          * Hızı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Vector3 GetVelocity(global::SpawnOnKill __instance)

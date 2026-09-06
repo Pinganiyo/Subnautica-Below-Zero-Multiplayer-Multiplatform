@@ -9,7 +9,7 @@
          *
          * Yatağı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::BulkheadDoor Door { get; set; }
@@ -18,7 +18,7 @@
          *
          * Animasyonu resetler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnResetAnimations(PlayerCinematicQueueItem item)
@@ -30,7 +30,7 @@
          *
          * Kapıyı açma animasyonunu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OpenDoorStartCinematic()
@@ -49,7 +49,7 @@
          *
          * Kapıyı kapatma animasyonunu başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void CloseDoorStartCinematic()
@@ -68,7 +68,7 @@
          *
          * Sinematik bittiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void CinematicModeEnd()
@@ -80,7 +80,7 @@
          *
          * Sinematiği döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::PlayerCinematicController GetCinematic(bool side, bool isOpen)

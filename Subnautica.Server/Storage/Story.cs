@@ -22,7 +22,7 @@
          *
          * Technology sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StoryStorage.Story Storage { get; set; }
@@ -31,7 +31,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void Start(string serverId)
@@ -46,7 +46,7 @@
          *
          * Sunucu hikayeyi önbelleğe yükler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void Load()
@@ -111,7 +111,7 @@
          *
          * Verileri diske yazar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void SaveToDisk()
@@ -126,7 +126,7 @@
          *
          * Oynanabilir cinematik olup/olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsPlayableCinematic(StoryCinematicType cinematicType)
@@ -141,7 +141,7 @@
          *
          * Yeni bir hedef ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsGoalComplete(string goalKey)
@@ -156,7 +156,7 @@
          *
          * Gelen çağrıyı ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetIncomingCall(string goalKey)
@@ -171,7 +171,7 @@
          *
          * Oynanabilir cinematiği tamamlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool CompleteCinematic(StoryCinematicType cinematicType)
@@ -192,7 +192,7 @@
          *
          * Oynanabilir cinematiği kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void RemoveCinematic(StoryCinematicType cinematicType)
@@ -207,7 +207,7 @@
          *
          * Yeni bir hedef ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool CompleteCall(string callGoalKey)
@@ -230,7 +230,7 @@
          *
          * Yeni bir hedef ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool CompleteGoal(string storyKey, global::Story.GoalType goalType = GoalType.Story, bool isPlayMuted = false)
@@ -256,7 +256,7 @@
          *
          * Hedefi kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void RemoveGoal(string storyKey)
@@ -271,7 +271,7 @@
          *
          * Yeni bir sinyal ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroStorySignal AddSignal(UnlockSignalData.SignalType signalType, ZeroVector3 targetPosition, string targetDescription, bool isRemoved = false)

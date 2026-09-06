@@ -14,7 +14,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -46,7 +46,7 @@
          *
          * Oyuncu üse girdiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPlayerBaseEntered(PlayerBaseEnteredEventArgs ev)
@@ -58,7 +58,7 @@
          *
          * Oyuncu üs'den ayrıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPlayerBaseExited(PlayerBaseExitedEventArgs ev)
@@ -70,7 +70,7 @@
          *
          * Oyuncu öldüğünde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SendDataToServer(string subrootId, bool isEntered = false)

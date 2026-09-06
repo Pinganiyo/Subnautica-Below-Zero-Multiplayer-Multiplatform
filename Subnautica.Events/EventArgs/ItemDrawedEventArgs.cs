@@ -8,7 +8,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ItemDrawedEventArgs(TechType techType, bool isFirstUseAnimationStarted)
@@ -21,7 +21,7 @@
          *
          * TechType Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public TechType TechType { get; private set; }
@@ -30,7 +30,7 @@
          *
          * IsFirstUseAnimationStarted Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsFirstUseAnimationStarted { get; private set; }

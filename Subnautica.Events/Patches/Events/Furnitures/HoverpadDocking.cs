@@ -18,7 +18,7 @@
          *
          * StopwatchItem nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static readonly Dictionary<string, StopwatchItem> StopwatchItems = new Dictionary<string, StopwatchItem>();
@@ -27,7 +27,7 @@
          *
          * Yamalar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPrefix]
@@ -48,7 +48,7 @@
          *
          * Yamalar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPrefix]
@@ -69,7 +69,7 @@
          *
          * Yamalar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPrefix]
@@ -123,7 +123,7 @@
          *
          * UniqueId değerini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string GetUniqueId(GameObject gameObject)

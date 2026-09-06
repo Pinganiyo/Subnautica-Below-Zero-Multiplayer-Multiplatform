@@ -19,7 +19,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Triggers nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<StoryTriggerItem> Triggers { get; set; } = new List<StoryTriggerItem>()
@@ -68,7 +68,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Sinematik listesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<string> StoryCinematics = new List<string>()
@@ -94,7 +94,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Hikaye nesnesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StoryTriggerItem GetTriggerItem(StoryCinematicType cinematicType)
@@ -106,7 +106,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Hikaye nesnesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StoryTriggerItem GetTriggerItem(string itemId)
@@ -118,7 +118,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Beklenen oyuncu sayısını gösterir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ShowWaitingPlayerMessage(byte playerCount, byte maxPlayer)
@@ -139,7 +139,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Beklenen oyuncu sayısını ekran ortasında gösterir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool ShowWaitingForPlayersMessage(StoryCinematicType cinematicType)
@@ -174,7 +174,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Beklenen oyuncu sayısını gizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void HideWaitingPlayerMessage()
@@ -186,7 +186,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Hedef sessiz tamamlandı listesine ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void MuteFutureStoryGoal(string goalKey)
@@ -198,7 +198,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Hedefi tamamlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void GoalExecute(string key, GoalType goalType, bool isStoryGoalMuted = false)
@@ -261,7 +261,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * İlgili cinematiği başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool StartCinematicMode(string uniqueId)
@@ -327,7 +327,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Verileri temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Dispose()
@@ -342,7 +342,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Precondition değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string Precondition { get; set; }
@@ -351,7 +351,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * GoalKey değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string GoalKey { get; set; }
@@ -360,7 +360,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * GoalType değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public global::Story.GoalType GoalType { get; set; }
@@ -369,7 +369,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Position değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroVector3 Position { get; set; }
@@ -378,7 +378,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * IsDoorway değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsDoorway { get; set; }
@@ -387,7 +387,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * TriggerRange değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float TriggerRange { get; set; }
@@ -396,7 +396,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * IsTrigger değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsTrigger { get; set; }
@@ -405,7 +405,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * IsTriggerActive değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsTriggerActive { get; set; }
@@ -414,7 +414,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * IsInBase değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsInBase { get; set; }
@@ -423,7 +423,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * IsActive değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsActive { get; set; }
@@ -432,7 +432,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * IsCustomDoor değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsCustomDoor { get; set; }
@@ -441,7 +441,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * SubTriggers değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<StoryTriggerItem> SubTriggers { get; set; } = new List<StoryTriggerItem>();
@@ -450,7 +450,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StoryTriggerItem()
@@ -461,7 +461,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StoryTriggerItem(string goalKey, global::Story.GoalType goalType, ZeroVector3 position = null, float triggerRange = 0f, bool isDoorway = false, bool isTrigger = false, StoryTriggerItem subTarget = null)
@@ -484,7 +484,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StoryTriggerItem(string goalKey, ZeroVector3 position = null, float triggerRange = 0f, bool isDoorway = false, bool isInBase = false, string precondition = null, bool isCustomDoor = false, bool isTrigger = false, bool isTriggerActive = true)
@@ -505,7 +505,7 @@ namespace Subnautica.API.Features.NetworkUtility
          *
          * Sınıfı klonlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StoryTriggerItem Clone()

@@ -18,7 +18,7 @@
          *
          * Timing verisini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static StopwatchItem Timing = new StopwatchItem(1000f);
@@ -27,7 +27,7 @@
          *
          * Items verisini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Dictionary<string, BatteryEnergyItem> Items = new Dictionary<string, BatteryEnergyItem>();
@@ -36,7 +36,7 @@
          *
          * Sınıfı yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPostfix]
@@ -80,7 +80,7 @@
          *
          * Batarya değerleri değişti mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool IsBatteryValueChanged(BatteryEnergyItem batteryItem, global::EnergyMixin energyMixin)
@@ -104,7 +104,7 @@
          *
          * Enerjiyi barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float Charge { get; set; } = -1f;
@@ -113,7 +113,7 @@
          *
          * Kapasiteyi barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float Capacity { get; set; } = -1f;
@@ -122,7 +122,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetBattery(float charge, float capacity)

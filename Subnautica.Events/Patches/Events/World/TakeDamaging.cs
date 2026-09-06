@@ -16,7 +16,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::LiveMixin __instance, float originalDamage, Vector3 position, DamageType type, GameObject dealer)
@@ -59,7 +59,7 @@
          *
          * TechType döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static TechType GetTechType(GameObject gameObject)

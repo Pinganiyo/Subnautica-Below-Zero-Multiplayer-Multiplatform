@@ -13,7 +13,7 @@
          *
          * Eklenti Adı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override string Name { get; } = "Subnautica Network Debugger";
@@ -22,7 +22,7 @@
          *
          * Eklenti Aktifleştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnEnabled()

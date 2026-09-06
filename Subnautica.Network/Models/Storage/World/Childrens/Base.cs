@@ -14,7 +14,7 @@
          *
          * BaseId değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -24,7 +24,7 @@
          *
          * BaseColor değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -34,7 +34,7 @@
          *
          * StripeColor1 değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -44,7 +44,7 @@
          *
          * StripeColor2 değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -54,7 +54,7 @@
          *
          * NameColor değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -64,7 +64,7 @@
          *
          * Name değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -74,7 +74,7 @@
          *
          * DisablePowers değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -84,7 +84,7 @@
          *
          * MinimapPositions değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(7)]
@@ -94,7 +94,7 @@
          *
          * Leakers değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(8)]
@@ -104,7 +104,7 @@
          *
          * CellWaterLevels değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(9)]
@@ -114,7 +114,7 @@
          *
          * Üs renk ayarlarını değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetColorCustomizer(string name, ZeroColor baseColor, ZeroColor stripeColor1, ZeroColor stripeColor2, ZeroColor nameColor)
@@ -130,7 +130,7 @@
          *
          * Su seviyesini ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetCellWaterLevel(ushort index, float waterLevel)
@@ -167,7 +167,7 @@
          *
          * Sızıntı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool TryGetLeaker(string uniqueId, out Leaker leaker)
@@ -190,7 +190,7 @@
          *
          * Sızıntı yapılan bir yer ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool UpdateLeakPoints(string uniqueId, float currentHealth, float maxHealth, List<ZeroVector3> leakPoints = null, ZeroVector3 playerPosition = null)
@@ -260,7 +260,7 @@
          *
          * UniqueId değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -270,7 +270,7 @@
          *
          * Points değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -280,7 +280,7 @@
          *
          * MaxLeakCount değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -290,7 +290,7 @@
          *
          * Max sızıntı sayısını günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void UpdateMaxLeakCount(int maxLeakCount)
@@ -305,7 +305,7 @@
          *
          * Toplam sızıntı sayısını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public int GetLeakCount()

@@ -23,7 +23,7 @@
          *
          * Dünya yüklenip nesne doğduğunda çalışır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnWorldLoadItemSpawn(NetworkDynamicEntityComponent packet, bool isDeployed, Pickupable pickupable, GameObject gameObject)
@@ -60,7 +60,7 @@
          *
          * Çocuk oksijen borularını yumurtlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SpawnChildrenOxygenPipes(HashSet<OxygenPipeItem> childrens, string parentId)
@@ -77,7 +77,7 @@
          *
          * Oksijen borusu üretir
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SpawnOxygenPipe(string parentId, string pipeId, ZeroVector3 position)
@@ -93,7 +93,7 @@
          *
          * Oksijen borusu spawn olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void OnOxygenPipeSpawned(ItemQueueProcess item, global::Pickupable pickupable, GameObject gameObject)

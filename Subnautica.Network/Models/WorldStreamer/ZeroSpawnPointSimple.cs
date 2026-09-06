@@ -15,7 +15,7 @@
          *
          * Slot Id numarasını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -25,7 +25,7 @@
          *
          * Slot teknoloji sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -35,7 +35,7 @@
          *
          * NextRespawnTime değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -45,7 +45,7 @@
          *
          * Health değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -55,7 +55,7 @@
          *
          * TechType değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -65,7 +65,7 @@
          *
          * Aktiflik durumu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -75,7 +75,7 @@
          *
          * Öldü mü?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [IgnoreMember]
@@ -91,7 +91,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroSpawnPointSimple()
@@ -103,7 +103,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroSpawnPointSimple(int slotId, string classId, float nextRespawnTime)
@@ -117,7 +117,7 @@
          *
          * Yeni sağlığı ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetHealth(float health)
@@ -129,7 +129,7 @@
          *
          * Nesneye hasar verir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool TakeDamage(float damage, float maxHealth)
@@ -152,7 +152,7 @@
          *
          * Nesneyi öldürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool Kill()
@@ -170,7 +170,7 @@
          *
          * Nesneni spawn olup olamayacağına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsRespawnable(float currentTime)
@@ -182,7 +182,7 @@
          *
          * Sonraki yumurtlama zamanını döner
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float GetNextRespawnTime(float currentTime)
@@ -200,7 +200,7 @@
          *
          * Yeniden doğmayı kapatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void DisableRespawn()
@@ -212,7 +212,7 @@
          *
          * ZeroSpawnPoint Sınıfına dönüştürür.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroSpawnPoint ConvertToZeroSpawnPoint()

@@ -17,7 +17,7 @@
          *
          * Görmezden gelinecek teknolojiler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static HashSet<TechType> IgnoreTechs = new HashSet<TechType>();
@@ -26,7 +26,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -59,7 +59,7 @@
          *
          * Yeni kaynak keşfedildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBaseMapRoomResourceDiscovering(BaseMapRoomResourceDiscoveringEventArgs ev)
@@ -76,7 +76,7 @@
          *
          * Harita odası başlatıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBaseMapRoomInitialized(BaseMapRoomInitializedEventArgs ev)
@@ -88,7 +88,7 @@
          *
          * Teknoloji listesini günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void UpdateMapRoomScanner(uGUI_MapRoomScanner scanner)
@@ -104,7 +104,7 @@
          *
          * Sunucuya Veri Gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(TechType techType)
@@ -123,7 +123,7 @@
          *
          * Sınıf başlatılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnStart()
@@ -138,7 +138,7 @@
          *
          * Ana menüye dönünce tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnDispose()

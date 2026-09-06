@@ -22,7 +22,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(string uniqueId, TechType techType, MetadataComponentArgs packet, bool isSilence)
@@ -100,7 +100,7 @@
          *
          * Nesne Olayını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private ItemQueueAction GetItemAction(global::Planter planter, Metadata.PlanterItem item, int processType, bool isMine = false)
@@ -133,7 +133,7 @@
          *
          * PDA Açılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnStorageOpening(StorageOpeningEventArgs ev)
@@ -153,7 +153,7 @@
          *
          * Bir nesne hasar aldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnTakeDamaging(TakeDamagingEventArgs ev)
@@ -176,7 +176,7 @@
          *
          * Bitki hasat değildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnFruitHarvesting(FruitHarvestingEventArgs ev)
@@ -201,7 +201,7 @@
          *
          * Bitki hasat değildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnGrownPlantHarvesting(GrownPlantHarvestingEventArgs ev)
@@ -219,7 +219,7 @@
          *
          * Saksıya bitki eklenince tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPlanterItemAdded(PlanterItemAddedEventArgs ev)
@@ -238,7 +238,7 @@
          *
          * Nesne işlemi tamamlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnItemProcessCompleted(ItemQueueProcess item)
@@ -268,7 +268,7 @@
          *
          * Nesne spawnlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntitySpawned(ItemQueueProcess item, Pickupable pickupable, GameObject gameObject)
@@ -316,7 +316,7 @@
          *
          * Nesne işlemi tamamlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnHealthProcessCompleted(ItemQueueProcess item)
@@ -336,7 +336,7 @@
          *
          * Saksı nesnesi büyüdüğünde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPlanterProgressCompleted(PlanterProgressCompletedEventArgs ev)
@@ -354,7 +354,7 @@
          *
          * Nesne işlemi tamamlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnHarvestingProcessCompleted(ItemQueueProcess item)
@@ -428,7 +428,7 @@
          *
          * Saksı'daki toplanabilir bitki büyüdüğünde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnPlanterGrowned(PlanterGrownedEventArgs ev)
@@ -451,7 +451,7 @@
          *
          * Sunucuya veri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static void SendPacketToServer(string uniqueId, string itemId = null, byte maxSpawnableFruit = 0, float fruitSpawnInterval = -1, Plantable item = null, int slotId = -1, float health = -1f, bool isHarvesting = false, bool isAdding = false, bool isOpening = false)

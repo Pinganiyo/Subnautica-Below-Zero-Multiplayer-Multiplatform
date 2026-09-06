@@ -15,7 +15,7 @@
          *
          * Etkileşim Ping Süresi 
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const float PingTime = 0.15f;
@@ -24,7 +24,7 @@
          *
          * Etkileşim Süreleri (Tahmini)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const float Bench_Standup            = PingTime + 1.4f;
@@ -51,7 +51,7 @@
          *
          * Yaratık Etkileşim Süreleri (Tahmini)
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const float CreatureGlowWhaleEyeInteract     = PingTime + 10f;
@@ -65,7 +65,7 @@
          *
          * Bloklu listeyi barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Dictionary<string, string> List { get; set; } = new Dictionary<string, string>();
@@ -74,7 +74,7 @@
          *
          * Gecikmeli blok kaldırılacak listeyi barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<StopwatchItem> RemovingList { get; set; } = new List<StopwatchItem>();
@@ -83,7 +83,7 @@
          *
          * Her tick'den sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnUpdate(float deltaTime)
@@ -108,7 +108,7 @@
          *
          * Tüm oyunculara yeni listeyi gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SendListToPlayers()
@@ -125,7 +125,7 @@
          *
          * Bloklu listeye ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool AddBlock(string playerUniqueId, string constructionId, bool autoSend = false)
@@ -145,7 +145,7 @@
          *
          * Bloklu listeden kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool RemoveBlockByPlayerId(string playerUniqueId, float delayTime = 0.0f, bool autoSend = true)
@@ -170,7 +170,7 @@
          *
          * Bloklu olup olmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsBlocked(string constructionId, string ignorePlayerUniqueId = null)
@@ -198,7 +198,7 @@
          *
          * Bloklu olup olmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsBlockedByPlayer(string playerUniqueId)
@@ -210,7 +210,7 @@
          *
          * Oyuncu tarafından bloklu olup olmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsBlockedByPlayer(string playerUniqueId, string constructionId)
@@ -222,7 +222,7 @@
          *
          * Bloklu olup olmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsBlockedByConstruction(string constructionId)
@@ -234,7 +234,7 @@
          *
          * Zamanlanmış nesneyi kaldırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void RemoveTimingItem(string playerId)

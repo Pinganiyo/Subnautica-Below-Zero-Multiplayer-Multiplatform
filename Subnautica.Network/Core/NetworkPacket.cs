@@ -133,7 +133,7 @@
          *
          * Packet Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -143,7 +143,7 @@
          *
          * Packet Kanal Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -153,7 +153,7 @@
          *
          * Packet Teslim Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -163,7 +163,7 @@
          *
          * Packet Kanal Id
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -173,7 +173,7 @@
          *
          * Paketin Sahibi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -183,7 +183,7 @@
          *
          * Ağdaki paketi döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetPacketOwnerId(byte ownerId)
@@ -195,7 +195,7 @@
          *
          * Ağdaki paketi döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public byte GetPacketOwnerId()
@@ -207,7 +207,7 @@
          *
          * Ağdaki paketi döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public T GetPacket<T>()

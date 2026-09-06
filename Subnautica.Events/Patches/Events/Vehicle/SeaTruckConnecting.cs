@@ -16,7 +16,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPrefix]
@@ -79,7 +79,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [HarmonyPrefix]
@@ -143,7 +143,7 @@
          *
          * Ön modülü döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string GetFrontModuleId(global::SeaTruckConnection __instance, SeaTruckConnection otherConnection)
@@ -160,7 +160,7 @@
          *
          * Arka modülü döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string GetBackModuleId(global::SeaTruckConnection __instance, SeaTruckConnection otherConnection)

@@ -22,7 +22,7 @@
          *
          * PlayerSignalName Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const string PlayerSignalName = "MultiplayerPlayerSignal";
@@ -31,7 +31,7 @@
          *
          * DontUseThisMethod Değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const string DontUseThisMethod = "You can't use this method if you are the player! This method is only available for other players.";
@@ -40,7 +40,7 @@
          *
          * Oyuncu ben miyim?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsPlayerMine(string uniqueId)
@@ -58,7 +58,7 @@
          *
          * Oyuncu ben miyim?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsPlayerMine(byte playerId)
@@ -71,7 +71,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroPlayer(string uniqueId, bool isLocalPlayer = false)
@@ -93,7 +93,7 @@
          *
          * Oyuncuyu listeye ekler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void AddPlayerToList(ZeroPlayer player)
@@ -105,7 +105,7 @@
          *
          * Mevcut oyuncu yoksa oluşturur ve Unique Id kimliğinden oyuncuyu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ZeroPlayer CreateOrGetPlayerByUniqueId(string uniqueId, byte playerId)
@@ -119,7 +119,7 @@
          *
          * Unique Id kimliğinden oyuncuyu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ZeroPlayer GetPlayerByUniqueId(string uniqueId)
@@ -136,7 +136,7 @@
          *
          * GameObject kimliğinden oyuncuyu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ZeroPlayer GetPlayerByGameObject(GameObject gameObject)
@@ -148,7 +148,7 @@
          *
          * Araç GameObject kimliğinden oyuncuyu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ZeroPlayer GetPlayerByVehicleGameObject(GameObject vehicleGameObject)
@@ -173,7 +173,7 @@
          *
          * Player Id kimliğinden oyuncuyu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ZeroPlayer GetPlayerById(byte playerId)
@@ -190,7 +190,7 @@
          *
          * Unique Id kimliğinden oyuncuyu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ZeroPlayer GetPlayerById(string playerId)
@@ -202,7 +202,7 @@
          *
          * Oyuncuları Döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<ZeroPlayer> GetPlayers()
@@ -214,7 +214,7 @@
          *
          * Tüm Oyuncuları Döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static List<ZeroPlayer> GetAllPlayers()
@@ -226,7 +226,7 @@
          *
          * Aralıktaki oyuncuları Döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static PlayerRange GetPlayersByInRange(Vector3 sourcePosition, float range, bool inVehicle = false)
@@ -266,7 +266,7 @@
          *
          * Mevcut oyuncu ve bilgilerini yok eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void DisposeAll()
@@ -293,7 +293,7 @@
          *
          * Oyuncu hızını değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetVelocity(Vector3 velocity)
@@ -308,7 +308,7 @@
          *
          * Oyuncu UniqueId kimliğini günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetUniqueId(string uniqueId)
@@ -320,7 +320,7 @@
          *
          * Hipnotize durumunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsHypnotized()
@@ -337,7 +337,7 @@
          *
          * Oyuncu Animasyon kuyruğunu günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetAnimationQueue(Dictionary<string, bool> animations)
@@ -367,7 +367,7 @@
          *
          * Selfie modunu değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetSelfieMode(float selfieId)
@@ -388,7 +388,7 @@
          *
          * Oyuncu Animasyon kuyruğunu varsayılana çeker.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SetDefaultAnimationQueue()
@@ -404,7 +404,7 @@
          *
          * Oyuncu hızını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Vector3 GetVelocity()
@@ -421,7 +421,7 @@
          *
          * Oyuncunun aracını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public GameObject GetVehicle()
@@ -486,7 +486,7 @@
          *
          * Oyuncu boşlukta mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsPlayerInVoid()
@@ -508,7 +508,7 @@
          *
          * Oyuncu saldırıya uğrayabilir mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool CanBeAttacked()
@@ -545,7 +545,7 @@
          *
          * Oyuncu hipnotize olabilir mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool CanHypnotizePlayer()
@@ -577,7 +577,7 @@
          *
          * Nesne'ye bakıyor muyum?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool LooksAtMe(GameObject target, bool checkPhysics = true)
@@ -612,7 +612,7 @@
          *
          * Oyuncu modelini oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool CreateModel(Vector3 position, Quaternion rotation)
@@ -694,7 +694,7 @@
          *
          * Mevcut oyuncu yüklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCurrentPlayerLoaded()
@@ -706,7 +706,7 @@
          *
          * Selfie modunu sıfırlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ResetSelfieMode()
@@ -725,7 +725,7 @@
          *
          * Oyuncunun bulunduğu su havuzunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string GetCurrentWaterParkUniqueId()
@@ -773,7 +773,7 @@
          *
          * İfadeleri sıfırlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ResetEmotes()
@@ -790,7 +790,7 @@
          *
          * Oyuncu animasyonlarını temizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ResetAnimations()
@@ -812,7 +812,7 @@
          *
          * LastHypnotizeTime değerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetLastHypnotizeTime(float time)
@@ -824,7 +824,7 @@
          *
          * UsingRoomId değerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetUsingRoomId(string roomId)
@@ -836,7 +836,7 @@
          *
          * Hareket etmeyi aktifleştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void EnableMovement()
@@ -848,7 +848,7 @@
          *
          * Hareket etmeyi pasifleştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void DisableMovement()
@@ -860,7 +860,7 @@
          *
          * Cinematik modu aktifleştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void EnableCinematicMode()
@@ -872,7 +872,7 @@
          *
          * Cinematik modu pasifleştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void DisableCinematicMode()
@@ -884,7 +884,7 @@
          *
          * Donmayı aktifleştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void EnableFreeze(float time = -1f)
@@ -907,7 +907,7 @@
          *
          * Donmayı pasifleştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void DisableFreeze()
@@ -927,7 +927,7 @@
          *
          * Ebeveyne mesaj gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SendMessageToParent(string eventName, object value = null)
@@ -949,7 +949,7 @@
          *
          * Ebeveyni değiştirir
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetParent(Transform parent, bool resetPositions = false)
@@ -970,7 +970,7 @@
          *
          * Oyuncu Animasyon kuyruğunu varsayılana çeker.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void ClearAnimationQueue()
@@ -982,7 +982,7 @@
          *
          * Oyuncu elindeki eşyanın bileşenini günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetHandItemComponent(NetworkPlayerItemComponent component)
@@ -994,7 +994,7 @@
          *
          * Oyuncu kamera açısını günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetCameraPitch(float cameraPitch)
@@ -1006,7 +1006,7 @@
          *
          * Oyuncu kamera açısını günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetCameraForward(Vector3 cameraForward)
@@ -1018,7 +1018,7 @@
          *
          * Animasyon hızını anında yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void InstantyAnimationMode()
@@ -1033,7 +1033,7 @@
          *
          * Animasyon hızını normal yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void NormalAnimationMode()
@@ -1048,7 +1048,7 @@
          *
          * Sınıfı mevcut oyuncu olarak günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetCurrentPlayer(ZeroPlayer player)
@@ -1060,7 +1060,7 @@
          *
          * Oyuncu adını değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetPlayerName(string nickName)
@@ -1072,7 +1072,7 @@
          *
          * Mevcut subroot id değerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetSubRootId(string subrootId)
@@ -1084,7 +1084,7 @@
          *
          * Mevcut interior id değerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetInteriorId(string interiorId)
@@ -1096,7 +1096,7 @@
          *
          * Mevcut yüzey türünü değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetSurfaceType(VFXSurfaceTypes surfaceType)
@@ -1108,7 +1108,7 @@
          *
          * İlk kullanım animasyonunu çalıştırır/pasif hale getirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetUsingToolFirstMode(bool isActive)
@@ -1121,7 +1121,7 @@
          *
          * Animasyonun aktif olup olmadığına bakar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsAnimationActive(string animation)
@@ -1133,7 +1133,7 @@
          *
          * Oyuncuyu gizler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Hide(bool instanty = true)
@@ -1159,7 +1159,7 @@
          *
          * Oyuncuyu gösterir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Show(bool instanty = true)
@@ -1192,7 +1192,7 @@
          *
          * Gizlenmeyi iptal eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void StopFading()
@@ -1209,7 +1209,7 @@
          *
          * Gizlenmeyi başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void StartFading(bool isShow)
@@ -1221,7 +1221,7 @@
          *
          * Gizlenmeyi başlatır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private IEnumerator StartFadingAsync(float fadeTime, bool isShow)
@@ -1257,7 +1257,7 @@
          *
          * Oyuncu saydamlığını değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void SetOpacity(float opacity)
@@ -1283,7 +1283,7 @@
          *
          * Render'ları döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Renderer[] GetRenderers(bool isOnlyPlayer)
@@ -1310,7 +1310,7 @@
          *
          * Bina yıkma oyuncu çarpışmalarını ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool CreateObstacle()
@@ -1323,7 +1323,7 @@
          *
          * Çarpışma detaylarını ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool CreateCapsuleCollider()
@@ -1347,7 +1347,7 @@
          *
          * Oyuncu konum bildirim nesnesi oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void CreatePingInstance()
@@ -1366,7 +1366,7 @@
          *
          * EcoTarget detaylarını ayarlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool CreateEcoTarget()
@@ -1384,7 +1384,7 @@
          *
          * Oyuncu sınıfını yok eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool Destroy(string playerUniqueId)
@@ -1398,7 +1398,7 @@
          *
          * Oyuncu sınıfını yok eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool Destroy(ZeroPlayer player)
@@ -1428,7 +1428,7 @@
          *
          * Oyuncu Modeli
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private GameObject _PlayerModel;
@@ -1437,7 +1437,7 @@
          *
          * Mevcut Oyuncu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private global::Player _Main;
@@ -1446,7 +1446,7 @@
          *
          * FreecamController Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private FreecamController _FreeCamController;
@@ -1455,7 +1455,7 @@
          *
          * Oyuncu Modeli
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public GameObject PlayerModel
@@ -1484,7 +1484,7 @@
          *
          * Mevcut Oyuncu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public global::Player Main 
@@ -1509,7 +1509,7 @@
          *
          * Mevcut Oyuncu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public FreecamController FreecamController
@@ -1534,7 +1534,7 @@
          *
          * Oyuncu Hızını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Vector3 Velocity { private get; set; }
@@ -1573,7 +1573,7 @@
          *
          * Oyuncuların listesini tutar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static HashSet<ZeroPlayer> Players { get; set; } = new HashSet<ZeroPlayer>();
@@ -1582,7 +1582,7 @@
          *
          * Mevcut Oyuncu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ZeroPlayer CurrentPlayer { get; set; } = null;
@@ -1591,7 +1591,7 @@
          *
          * Sağ El Transform Nesnesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Transform RightHandItemTransform { get; set; } = null;
@@ -1600,7 +1600,7 @@
          *
          * Sol Transform Nesnesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Transform LeftHandItemTransform { get; set; } = null;
@@ -1609,7 +1609,7 @@
          *
          * FrozenOverlay Nesnesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private VFXOverlayMaterial FrozenOverlay  { get; set; }
@@ -1618,7 +1618,7 @@
          *
          * Oyuncu Id
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public byte PlayerId { get; set; }
@@ -1627,7 +1627,7 @@
          *
          * Benzersiz Oyuncu Id
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UniqueId { get; set; }
@@ -1636,7 +1636,7 @@
          *
          * EmoteIndex Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float EmoteIndex { get; set; }
@@ -1645,7 +1645,7 @@
          *
          * Kullanıcının Ben olup olmadığını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsMine { get; set; }
@@ -1654,7 +1654,7 @@
          *
          * Oyuncu gizlilik durumu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsVisible { get; set; } = true;
@@ -1663,7 +1663,7 @@
          *
          * Su altında olup olmadığını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsUnderwater { get; set; }
@@ -1672,7 +1672,7 @@
          *
          * Su yüzeyine yakın olup olmadığını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsOnSurface { get; set; }
@@ -1681,7 +1681,7 @@
          *
          * SeaTruck içinde olup olmadığını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsInSeaTruck { get; set; }
@@ -1690,7 +1690,7 @@
          *
          * Oyuncu Id Kimliği
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string CurrentServerId { get; set; }
@@ -1699,7 +1699,7 @@
          *
          * Mevcut SubRoot Id
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string CurrentSubRootId { get; set; }
@@ -1708,7 +1708,7 @@
          *
          * Mevcut Interior Id
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string CurrentInteriorId { get; set; }
@@ -1717,7 +1717,7 @@
          *
          * CurrentSurfaceType Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public VFXSurfaceTypes CurrentSurfaceType { get; set; }
@@ -1726,7 +1726,7 @@
          *
          * Oyuncu donmuş mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsFrozen { get; private set; }
@@ -1735,7 +1735,7 @@
          *
          * Sinematik Mod Aktiflik Durumu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsCinematicModeActive { get; private set; }
@@ -1744,7 +1744,7 @@
          *
          * Hikaye Sinematik Mod Aktiflik Durumu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsStoryCinematicModeActive { get; set; }
@@ -1753,7 +1753,7 @@
          *
          * Oyuncu nesnesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public GameObject PlayerObject { get; set; }
@@ -1762,7 +1762,7 @@
          *
          * Animator Sınıfı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Animator Animator { get; set; }
@@ -1771,7 +1771,7 @@
          *
          * Oyuncu Sinyali
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public PingInstance PingInstance { get; set; }
@@ -1780,7 +1780,7 @@
          *
          * Oyuncu Posizyonu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Vector3 Position { get; set; } = new Vector3();
@@ -1789,7 +1789,7 @@
          *
          * Oyuncu Açısı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Quaternion Rotation { get; set; } = new Quaternion();
@@ -1798,7 +1798,7 @@
          *
          * Eldeki teknoloji türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public TechType TechTypeInHand { get; set; }
@@ -1807,7 +1807,7 @@
          *
          * Model Oluşturuldu mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsCreatedModel { get; set; } = false;
@@ -1816,7 +1816,7 @@
          *
          * Yok edildi mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsDestroyed { get; set; } = false;
@@ -1825,7 +1825,7 @@
          *
          * Oyuncu Adı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string NickName { get; set; }
@@ -1834,7 +1834,7 @@
          *
          * Araç ID numarası
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ushort VehicleId { get; set; }
@@ -1843,7 +1843,7 @@
          *
          * Araç Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public TechType VehicleType { get; set; }
@@ -1852,7 +1852,7 @@
          *
          * Oyuncu Araç Posizyonu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Vector3 VehiclePosition { get; set; } = new Vector3();
@@ -1861,7 +1861,7 @@
          *
          * Oyuncu Araç Açısı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Quaternion VehicleRotation { get; set; } = new Quaternion();
@@ -1870,7 +1870,7 @@
          *
          * Oyuncu Araç Bileşeni
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public VehicleUpdateComponent VehicleComponent { get; set; }
@@ -1879,7 +1879,7 @@
          *
          * Oyuncu elindeki eşya Bileşeni
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public NetworkPlayerItemComponent HandItemComponent { get; set; }
@@ -1888,7 +1888,7 @@
          *
          * Oyuncu Sağ elindeki eşya açısı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Quaternion RightHandItemRotation { get; set; }
@@ -1897,7 +1897,7 @@
          *
          * Oyuncu Sol elindeki eşya açısı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Quaternion LeftHandItemRotation { get; set; }
@@ -1906,7 +1906,7 @@
          *
          * Oyuncu kamera açısını barındırır
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float CameraPitch { get; set; }
@@ -1915,7 +1915,7 @@
          *
          * Oyuncu kamera yönünü barındırır
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Vector3 CameraForward { get; set; }
@@ -1924,7 +1924,7 @@
          *
          * IsPrecursorArm değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsPrecursorArm { get; set; }
@@ -1933,7 +1933,7 @@
          *
          * Araç rıhtıma yanaştırılıyor mu?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsVehicleDocking { get; set; }
@@ -1942,7 +1942,7 @@
          *
          * Şuanki cinematic Id
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string CurrentCinematicUniqueId { get; set; }
@@ -1951,7 +1951,7 @@
          *
          * Kullanılan Oda Numarası
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string UsingRoomId { get; set; }
@@ -1960,7 +1960,7 @@
          *
          * Hareket Etme Aktif mi?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsMovementActive { get; set; } = true;
@@ -1969,7 +1969,7 @@
          *
          * FadeTime değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float FadeTime { get; private set; } = 1f;
@@ -1978,7 +1978,7 @@
          *
          * LastHypnotizeTime değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float LastHypnotizeTime { get; private set; }
@@ -1987,7 +1987,7 @@
          *
          * FadeCoroutine değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Coroutine FadeCoroutine { get; set; }
@@ -1996,7 +1996,7 @@
          *
          * Oyuncu Animasyon durumlarını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Dictionary<string, bool> Animations { get; private set; } = new Dictionary<string, bool>();
@@ -2005,7 +2005,7 @@
          *
          * Oyuncu Animasyon kuyruğunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Queue<Dictionary<string, bool>> AnimationQueue { get; private set; } = new Queue<Dictionary<string, bool>>();
@@ -2014,7 +2014,7 @@
          *
          * Ekipmanları barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public List<TechType> Equipments { get; set; } = new List<TechType>()

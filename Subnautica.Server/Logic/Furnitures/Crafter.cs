@@ -18,7 +18,7 @@
          *
          * Bekleyen İşlemler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private Queue<MetadataComponentArgs> Queue { get; set; } = new Queue<MetadataComponentArgs>();
@@ -27,7 +27,7 @@
          *
          * Tüketilecek enerji miktarı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float EnergyAmount { get; set; } = 5f;
@@ -36,7 +36,7 @@
          *
          * Zamanlayıcının geri dönüş methodu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnUpdate(float deltaTime)
@@ -106,7 +106,7 @@
          *
          * Craft işlemini kuyruğa alır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Craft(MetadataComponentArgs packet)
@@ -118,7 +118,7 @@
          *
          * SeaTruck Crafter Nesnesini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WorldDynamicEntity GetSeaTruckEntity(string uniqueId) 

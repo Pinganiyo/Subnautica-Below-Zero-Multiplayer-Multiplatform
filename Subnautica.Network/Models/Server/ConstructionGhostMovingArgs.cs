@@ -14,7 +14,7 @@ namespace Subnautica.Network.Models.Server
          *
          * Ağ Paket Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -24,7 +24,7 @@ namespace Subnautica.Network.Models.Server
          *
          * Packet Kanal Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -34,7 +34,7 @@ namespace Subnautica.Network.Models.Server
          *
          * Packet Kanal Id
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -44,7 +44,7 @@ namespace Subnautica.Network.Models.Server
          *
          * Nesne Türü
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(5)]
@@ -54,7 +54,7 @@ namespace Subnautica.Network.Models.Server
          *
          * Ağ Kimliği Pozisyonu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(6)]
@@ -64,7 +64,7 @@ namespace Subnautica.Network.Models.Server
          *
          * Nesne Pozisyonu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(7)]
@@ -74,7 +74,7 @@ namespace Subnautica.Network.Models.Server
          *
          * Nesne Açısı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(8)]
@@ -84,7 +84,7 @@ namespace Subnautica.Network.Models.Server
          *
          * ZeroTransform
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(9)]
@@ -94,7 +94,7 @@ namespace Subnautica.Network.Models.Server
          *
          * BaseGhostComponent
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(10)]
@@ -104,7 +104,7 @@ namespace Subnautica.Network.Models.Server
          *
          * IsCanPlace Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(11)]
@@ -114,7 +114,7 @@ namespace Subnautica.Network.Models.Server
          *
          * UpdatePlacement Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(12)]
@@ -124,7 +124,7 @@ namespace Subnautica.Network.Models.Server
          *
          * LastRotation Değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(13)]

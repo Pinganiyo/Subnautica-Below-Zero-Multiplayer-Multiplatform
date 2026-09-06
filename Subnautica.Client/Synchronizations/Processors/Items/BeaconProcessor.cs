@@ -22,7 +22,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPlayerItemComponent packet, byte playerId)
@@ -59,7 +59,7 @@
          *
          * Nesne doğduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntitySpawned(ItemQueueProcess item, global::Pickupable pickupable, GameObject gameObject)
@@ -75,7 +75,7 @@
          *
          * Nesne işlemi tamamlanınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntityProcessCompleted(ItemQueueProcess item)
@@ -97,7 +97,7 @@
          *
          * Beacon adı değişince tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBeaconLabelChanged(BeaconLabelChangedEventArgs ev)
@@ -109,7 +109,7 @@
          *
          * Beacon yere konulduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnBeaconDeploying(BeaconDeployingEventArgs ev)
@@ -123,7 +123,7 @@
          *
          * Sunucuya paket gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(string uniqueId, ZeroVector3 position = null, ZeroQuaternion rotation = null, bool isDeployedOnLand = false, string text = null, bool isTextChanged = false)

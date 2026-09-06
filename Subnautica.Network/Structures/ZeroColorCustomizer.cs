@@ -9,7 +9,7 @@
          *
          * Name değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(0)]
@@ -19,7 +19,7 @@
          *
          * BaseColor değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(1)]
@@ -29,7 +29,7 @@
          *
          * StripeColor1 değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(2)]
@@ -39,7 +39,7 @@
          *
          * StripeColor2 değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(3)]
@@ -49,7 +49,7 @@
          *
          * NameColor değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         [Key(4)]
@@ -59,7 +59,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroColorCustomizer()
@@ -70,7 +70,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public ZeroColorCustomizer(string name, ZeroColor baseColor, ZeroColor stripColor1, ZeroColor stripColor2, ZeroColor nameColor)
@@ -86,7 +86,7 @@
          *
          * Başka sınıftan verileri kopyalar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void CopyFrom(ZeroColorCustomizer colorCustomizer)

@@ -15,7 +15,7 @@
          *
          * Siyah Renk
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static Color BlackColor { get; set; } = new Color(0.0f, 0.0f, 0.0f, 1f);
@@ -24,7 +24,7 @@
          *
          * Fonksiyonu yamalar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static bool Prefix(global::uGUI_PlayerSleep __instance)

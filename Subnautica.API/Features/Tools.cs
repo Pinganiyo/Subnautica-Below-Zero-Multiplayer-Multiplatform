@@ -30,7 +30,7 @@ namespace Subnautica.API.Features
          *
          * Random sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static System.Random Random { get; set; } = new System.Random();
@@ -39,7 +39,7 @@ namespace Subnautica.API.Features
          *
          * Launcher versiyonunu barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static string[] LauncherVersionData { get; set; }
@@ -48,7 +48,7 @@ namespace Subnautica.API.Features
          *
          * Protobuf ile veriyi serilize eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static byte[] SerializeGameObject(UnityEngine.GameObject gameObject)
@@ -67,7 +67,7 @@ namespace Subnautica.API.Features
          *
          * Launcher'ın yeni versiyonunu kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static VersionType CheckCreditsPage()
@@ -105,7 +105,7 @@ namespace Subnautica.API.Features
          *
          * Launcher'ın yeni versiyonunu kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static VersionType CheckLauncherVersion(bool save = false)
@@ -151,37 +151,65 @@ namespace Subnautica.API.Features
          *
          * Oyuncu adını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetLoggedInName()
         {
-            return global::PlatformUtils.main.GetLoggedInUserName();
+            try
+            {
+                var userName = global::PlatformUtils.main?.GetLoggedInUserName();
+                if (!string.IsNullOrEmpty(userName))
+                {
+                    return userName;
+                }
+            }
+            catch (Exception)
+            {
+            }
+
+            if (!string.IsNullOrEmpty(Environment.UserName))
+            {
+                return Environment.UserName;
+            }
+
+            return "Player";
         }
 
         /**
          *
          * Oyuncu idsini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetLoggedId()
         {
-            var userId = global::PlatformUtils.main.GetCurrentUserId();
-            if (userId == "0" || userId.IsNull())
+            try
             {
-                return null;
+                var userId = global::PlatformUtils.main?.GetCurrentUserId();
+                if (userId != "0" && !userId.IsNull())
+                {
+                    return userId;
+                }
+            }
+            catch (Exception)
+            {
             }
 
-            return userId;
+            if (!string.IsNullOrEmpty(SystemInfo.deviceUniqueIdentifier))
+            {
+                return SystemInfo.deviceUniqueIdentifier;
+            }
+
+            return "LocalHostPlayer";
         }
 
         /**
          *
          * Method izleme içinde var mı?
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsInStackTrace(string text)
@@ -203,7 +231,7 @@ namespace Subnautica.API.Features
          *
          * Rastgele sayı üretir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static int GetRandomInt(int min, int max)
@@ -215,7 +243,7 @@ namespace Subnautica.API.Features
          *
          * Launcher yazarın adını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetLauncherAuthor(bool addAuthorString = false)
@@ -232,7 +260,7 @@ namespace Subnautica.API.Features
          *
          * 2 versiyonu kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool CheckVersion(string localVersionNumber, string remoteVersionNumber)
@@ -269,7 +297,7 @@ namespace Subnautica.API.Features
          *
          * Launcher versiyonunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetLauncherVersion(bool addVersionString = false, bool addImplodeDot = true)
@@ -304,7 +332,7 @@ namespace Subnautica.API.Features
          *
          * Base64 şifrelemesi yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string Base64Encode(string plainText, int limit = 1)
@@ -326,7 +354,7 @@ namespace Subnautica.API.Features
          *
          * Kamera ileri yönünü döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static Vector3 GetCameraForward(bool yReset = false, bool isNormalize = false)
@@ -354,7 +382,7 @@ namespace Subnautica.API.Features
          *
          * Base64 şifresi Çözer.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string Base64Decode(string base64EncodedData)
@@ -367,7 +395,7 @@ namespace Subnautica.API.Features
          *
          * İşlem yüzdesi hesaplar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static double CalculatePercent(long one, long two, int max = 100)
@@ -379,7 +407,7 @@ namespace Subnautica.API.Features
          *
          * İşlem bindesi hesaplar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static double CalculateThousandToPercent(int thousand)
@@ -391,7 +419,7 @@ namespace Subnautica.API.Features
          *
          * Api ayarlarını döner. 
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ApiDataFormat GetApiData()
@@ -403,7 +431,7 @@ namespace Subnautica.API.Features
          *
          * Credits Api ayarlarını döner. 
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ApiCreditsDataFormat GetCreditsApiData()
@@ -415,7 +443,7 @@ namespace Subnautica.API.Features
          *
          * Klasör açar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OpenFolder(string folderPath)
@@ -435,7 +463,7 @@ namespace Subnautica.API.Features
          *
          * Alt klasörleri kontrol eder ve oluşturur
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void CreateSubFolders(string localFile)
@@ -459,7 +487,7 @@ namespace Subnautica.API.Features
          *
          * Veriyi MD5 ile şifreler.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string CreateMD5(string input)
@@ -489,7 +517,7 @@ namespace Subnautica.API.Features
          *
          * Kısa Benzersiz Id oluşturur.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetShortUniqueId()
@@ -506,7 +534,7 @@ namespace Subnautica.API.Features
          *
          * Boyutu metine çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetSizeByTextFormat(long size)
@@ -533,7 +561,7 @@ namespace Subnautica.API.Features
          *
          * Tarihi metine çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetDateByTextFormat(int unixTimeStamp)
@@ -550,7 +578,7 @@ namespace Subnautica.API.Features
          *
          * Sayıyı tarihe çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static DateTime UnixTimeStampToDateTime(int unixTimeStamp)
@@ -564,7 +592,7 @@ namespace Subnautica.API.Features
          *
          * Klasör boyutunu döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static long GetFolderSize(string folderPath)
@@ -577,7 +605,7 @@ namespace Subnautica.API.Features
          *
          * Bepinex kontrolü yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static bool IsBepinexInstalled()
@@ -589,7 +617,7 @@ namespace Subnautica.API.Features
          *
          * Mevcut zamanı döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static int GetUnixTime()
@@ -601,7 +629,7 @@ namespace Subnautica.API.Features
          *
          * Bilgisayar dilini uygulama diline çevirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetLanguage()
@@ -645,7 +673,7 @@ namespace Subnautica.API.Features
          *
          * Bilgisayar dilini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static string GetComputerLanguage()

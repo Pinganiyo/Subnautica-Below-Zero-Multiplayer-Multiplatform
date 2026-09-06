@@ -12,7 +12,7 @@
          *
          * Araç bileşenini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static ExosuitUpdateComponent GetComponent(ExosuitUpdateComponent component, global::Exosuit exosuit)
@@ -31,7 +31,7 @@
          *
          * Araç kol bileşenini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static ExosuitArmComponent GetArmComponent(IExosuitArm exosuitArm, TechType armType, bool isLeftArm)

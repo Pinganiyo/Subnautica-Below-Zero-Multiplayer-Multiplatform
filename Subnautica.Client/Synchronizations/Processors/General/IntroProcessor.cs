@@ -22,7 +22,7 @@ namespace Subnautica.Client.Synchronizations.Processors.General
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(NetworkPacket networkPacket)
@@ -53,7 +53,7 @@ namespace Subnautica.Client.Synchronizations.Processors.General
          *
          * Intro kontrolü yapılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void OnIntroChecking(IntroCheckingEventArgs ev)
@@ -78,7 +78,7 @@ namespace Subnautica.Client.Synchronizations.Processors.General
          *
          * Intro kontrolü yapılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator IntroCheckingAsync()
@@ -102,7 +102,7 @@ namespace Subnautica.Client.Synchronizations.Processors.General
          *
          * Introyu hazırlıklarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator InitalizeIntroAsync(ExpansionIntroManager introManager, uGUI_SceneIntro gui)
@@ -187,7 +187,7 @@ namespace Subnautica.Client.Synchronizations.Processors.General
          *
          * Sunucuya Veri Gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void SendPacketToServer(bool isFinished = false)

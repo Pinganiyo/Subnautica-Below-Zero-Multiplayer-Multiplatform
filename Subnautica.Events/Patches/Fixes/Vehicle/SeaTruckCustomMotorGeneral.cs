@@ -218,7 +218,7 @@
          *
          * SeaTruck modunu değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public static void ChangeSeaTruckMode(global::SeaTruckSegment seaTruck, bool isInSeaTruck, bool isKeepParent = false)
@@ -242,7 +242,7 @@
          *
          * Işınlanma tamamlanma durumunu kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private static IEnumerator TeleportationEndCheck(global::SeaTruckSegment seaTruckSegment)
@@ -278,7 +278,7 @@
          *
          * Oyuncu sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public global::Player Player { get; set; }
@@ -287,7 +287,7 @@
          *
          * Ana Kamerayı sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public global::MainCameraControl MainCamera { get; set; }
@@ -296,7 +296,7 @@
          *
          * Mevcut SeaTruckSegment sınıfını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public global::SeaTruckSegment SeaTruckSegment { get; set; }
@@ -305,7 +305,7 @@
          *
          * Mevcut yön.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Vector3 Direction = Vector3.zero;
@@ -314,7 +314,7 @@
          *
          * Yumuşatılmış yön.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Vector3 SmoothedDirection = Vector3.zero;
@@ -323,7 +323,7 @@
          *
          * Yeniden doğma zamanlayıcısını barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StopwatchItem RespawnTiming { get; set; } = new StopwatchItem(2000f);
@@ -332,7 +332,7 @@
          *
          * En son üzerinde bulunan ilk modül id
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string LastFirstSegmentModuleId { get; set; }
@@ -341,7 +341,7 @@
          *
          * Hızı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float Speed { get; set; } = 4f;
@@ -350,7 +350,7 @@
          *
          * Hızı barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float SprintSpeed { get; set; } = 6f;
@@ -359,7 +359,7 @@
          *
          * IsActive durumu.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool IsActive { get; set; } = false;
@@ -368,7 +368,7 @@
          *
          * Sınıf ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Awake()
@@ -384,7 +384,7 @@
          *
          * Araç patlayınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCustomKill(string vehicleId)
@@ -410,7 +410,7 @@
          *
          * Oyuncu doğduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnRespawn(global::Player p)
@@ -422,7 +422,7 @@
          *
          * Cinematik bittiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPlayerCinematicModeEnd(PlayerCinematicController sender)
@@ -437,7 +437,7 @@
          *
          * SeaTruckSegment değerini değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public SeaTruckCustomMotor SetSeaTruckSegment(global::SeaTruckSegment seaTruckSegment)
@@ -450,7 +450,7 @@
          *
          * Her karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Update()
@@ -480,7 +480,7 @@
          *
          * Oyuncuyu hareket ettirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void MovePlayer(Vector3 direction)
@@ -494,7 +494,7 @@
          *
          * Oyuncu Hızını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private float GetSpeed()
@@ -506,7 +506,7 @@
          *
          * Her sabit karede tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void FixedUpdate()
@@ -526,7 +526,7 @@
          *
          * Oyuncunun mevcut modülünü değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool UpdateSeaTruckModule()
@@ -571,7 +571,7 @@
          *
          * Bağlanan araç içerisindeki oyuncu konumunu senkronlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private IEnumerator CheckPlayerSegmentPosition()
@@ -591,7 +591,7 @@
          *
          * Oyuncu kinematic durumunu senkronlar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private IEnumerator CheckPlayerKinematic()
@@ -613,7 +613,7 @@
          *
          * Modülün bağlanma durumunu kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool IsUpdateDocking(global::SeaTruckSegment currentSegment)
@@ -646,7 +646,7 @@
          *
          * YÜrüme/Hız/Açı ayarlamalarını yapar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SetPlayerSpeedParameters()
@@ -681,7 +681,7 @@
          *
          * Araç İç mekan id'sini günceller.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void UpdateVehicleInterior(global::SeaTruckSegment firstSegment, bool callEvent = false)
@@ -709,7 +709,7 @@
          *
          * Async Oyuncu doğduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private IEnumerator OnRespawnAsync()
@@ -737,7 +737,7 @@
          *
          * Aktiflik durumunu değiştirir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool SetActive(bool isActive, bool isForce = false, bool isKeepParent = false, bool isKeepPosition = false)

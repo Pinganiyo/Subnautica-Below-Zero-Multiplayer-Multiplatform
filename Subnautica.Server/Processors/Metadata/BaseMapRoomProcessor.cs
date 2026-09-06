@@ -21,7 +21,7 @@
          *
          * Gelen veriyi işler
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override bool OnDataReceived(AuthorizationProfile profile, MetadataComponentArgs packet, ConstructionItem construction)
@@ -186,7 +186,7 @@
          *
          * Kenetlenmiş kamera arar.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private VehicleDockingBayItem FindDockedVehicle(MetadataModel.BaseMapRoom baseMapRoom, string vehicleId)
@@ -208,7 +208,7 @@
          *
          * Sonraki kamera id'sini döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private string GetNextVehicleId(string currentVehicleId, bool isNext)

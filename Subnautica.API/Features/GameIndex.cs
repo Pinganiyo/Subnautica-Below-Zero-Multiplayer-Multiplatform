@@ -6,7 +6,7 @@
          *
          * Oyuncu gövde anahtarları
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const string PLAYER_MODEL_BODY_DEFAULT         = "female_geo/base/female_base_body_geo";
@@ -18,7 +18,7 @@
          *
          * Oyuncu el/eldiven anahtarları
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const string PLAYER_MODEL_HAND_DEFAULT      = "female_geo/base/female_base_hand_geo";
@@ -30,7 +30,7 @@
          *
          * Oyuncu kafa/maske anahtarları
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const string PLAYER_MODEL_MASK_REBREATHER  = "female_geo/base/female_base_mask_geo";
@@ -43,7 +43,7 @@
          *
          * Oyuncu ayak/yüzgeç anahtarları
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const string PLAYER_MODEL_FLIPPER_FINS = "female_geo/base/female_base_flipper_geo";
@@ -52,7 +52,7 @@
          *
          * Oyuncu sağ ve sol el yapısı
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const string PLAYER_ATTACH_IN_RIGHT_HAND = "export_skeleton/head_rig/neck/chest/clav_R/clav_R_aim/shoulder_R/elbow_R/hand_R/attach1";
@@ -62,7 +62,7 @@
          *
          * Menu şema yolları
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public const string MAIN_MENU_BUTTON          = "Menu canvas/Panel/MainMenu/PrimaryOptions/MenuButtons/ButtonPlay";

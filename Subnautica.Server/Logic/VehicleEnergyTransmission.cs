@@ -22,7 +22,7 @@
          *
          * HoverbikePowerConsumptionPerSecond nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float HoverbikePowerConsumptionPerSecond { get; set; } = 0.07f;
@@ -31,7 +31,7 @@
          *
          * ExosuitPowerConsumptionPerSecond nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float ExosuitPowerConsumptionPerSecond { get; set; } = 0.09f;
@@ -40,7 +40,7 @@
          *
          * SeaTruckPowerConsumptionPerSecond nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float SeaTruckPowerConsumptionPerSecond { get; set; } = 0.12f;
@@ -49,7 +49,7 @@
          *
          * MapRoomCameraConsumptionPerSecond nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float MapRoomCameraConsumptionPerSecond { get; set; } = 0.07f;
@@ -58,7 +58,7 @@
          *
          * ExosuitPowerConsumptionPerSecond nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float ExosuitJumpPowerConsumption { get; set; } = 1.2f;
@@ -67,7 +67,7 @@
          *
          * Timing nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StopwatchItem Timing { get; set; } = new StopwatchItem(1000f);
@@ -76,7 +76,7 @@
          *
          * OldPositions nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public Dictionary<string, ZeroVector3> OldPositions { get; set; } = new Dictionary<string, ZeroVector3>();
@@ -85,7 +85,7 @@
          *
          * Requests nesnesini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private List<VehicleEnergyTransmissionItem> Requests { get; set; } = new List<VehicleEnergyTransmissionItem>();
@@ -94,7 +94,7 @@
          *
          * Zamanlayıcının geri dönüş methodu
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public override void OnFixedUpdate(float deltaTime)
@@ -131,7 +131,7 @@
          *
          * Araç enerjisi üretir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool ProcudeEnergy(WorldDynamicEntity vehicle, float elapsedTime, bool autoSend = false)
@@ -175,7 +175,7 @@
          *
          * Araç enerjisi tüketir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private bool ConsumeEnergy(WorldDynamicEntity vehicle, ZeroVector3 oldPosition)
@@ -230,7 +230,7 @@
          *
          * Mevcut enerji miktarını döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public float GetEnergyAmount(List<PowerCell> powerCells)
@@ -249,7 +249,7 @@
          *
          * Araç enerjisini tüketir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public bool ConsumeEnergy(List<PowerCell> powerCells, float energyAmount)
@@ -276,7 +276,7 @@
          *
          * Araç enerjisini arttırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void AddEnergy(List<PowerCell> powerCells, float energyAmount)
@@ -298,7 +298,7 @@
          *
          * Araç enerjisini istek listesine alır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void VehicleEnergyUpdateQueue(WorldDynamicEntity vehicle, bool autoSend = false)
@@ -334,7 +334,7 @@
          *
          * Yakındaki oyunculara verileri gönderir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void SendPacketToAllClient()
@@ -359,7 +359,7 @@
          *
          * Hoverpad'leri döner.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public WorldDynamicEntity[] GetVehicles()

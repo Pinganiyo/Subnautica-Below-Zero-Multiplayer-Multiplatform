@@ -26,7 +26,7 @@
          *
          * Eklenti aktifleştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPluginEnabled()
@@ -40,7 +40,7 @@
          *
          * Oyun içi menü açılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnInGameMenuOpened(InGameMenuOpenedEventArgs ev)
@@ -53,7 +53,7 @@
          *
          * Oyun içi menü kapandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnInGameMenuClosed(InGameMenuClosedEventArgs ev)
@@ -65,7 +65,7 @@
          *
          * Arka planda çalışma ayarı değişirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSettingsRunInBackgroundChanging(SettingsRunInBackgroundChangingEventArgs ev)
@@ -77,7 +77,7 @@
          *
          * Sahne yüklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSceneLoaded(SceneLoadedEventArgs ev)
@@ -92,7 +92,7 @@
          *
          * Ana menü kayıtlı oyunları sil iptal onay butonu tetiklenmesi.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnMenuSaveCancelDeleteButtonClicking(MenuSaveCancelDeleteButtonClickingEventArgs ev)
@@ -104,7 +104,7 @@
          *
          * Ana menü kayıtlı oyunu başlat tetiklemesi
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnMenuSaveLoadButtonClicking(MenuSaveLoadButtonClickingEventArgs ev)
@@ -116,7 +116,7 @@
          *
          * Ana menü kayıtlı oyunları sil butonu tetiklenmesi.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnMenuSaveDeleteButtonClicking(MenuSaveDeleteButtonClickingEventArgs ev)
@@ -128,7 +128,7 @@
          *
          * Ana menü kayıtlı oyun buton bilgileri tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnMenuSaveUpdateLoadedButtonState(MenuSaveUpdateLoadedButtonStateEventArgs ev)
@@ -140,7 +140,7 @@
          *
          * Ansiklopedi taraması yapıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEncyclopediaAdded(EncyclopediaAddedEventArgs ev)
@@ -152,7 +152,7 @@
          *
          * Bir eşya veya bina eşya taslağı oluşturulduğunda saniyede ortalama 60 kez tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnConstructingGhostMoved(ConstructionGhostMovedEventArgs ev)
@@ -164,7 +164,7 @@
          *
          * Hayalet yapı kurulmaya çalışıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnConstructingGhostTryPlacing(ConstructionGhostTryPlacingEventArgs ev)
@@ -176,7 +176,7 @@
          *
          * Oyuncu verileri tetiklendikten sonra çalışır
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPlayerUpdated(PlayerUpdatedEventArgs ev)
@@ -188,7 +188,7 @@
          *
          * Teknoloji taraması tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnTechnologyAdded(TechnologyAddedEventArgs ev)
@@ -200,7 +200,7 @@
          *
          * Teknoloji parçası taraması tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnTechnologyFragmentAdded(TechnologyFragmentAddedEventArgs ev)
@@ -212,7 +212,7 @@
          *
          * Ayarlardaki pda oyun duraklatma seçeneği değiştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSettingsPdaGamePauseChanging(SettingsPdaGamePauseChangingEventArgs ev)
@@ -224,7 +224,7 @@
          *
          * Yapı inşaa değeri değiştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnConstructingAmountChanged(ConstructionAmountChangedEventArgs ev)
@@ -236,7 +236,7 @@
          *
          * Yapı inşaası tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnConstructingCompleted(ConstructionCompletedEventArgs ev)
@@ -249,7 +249,7 @@
          *
          * Yapı yıkıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnConstructingRemoved(ConstructionRemovedEventArgs ev)
@@ -262,7 +262,7 @@
          *
          * Oyuncu'nun envanterine bir eşya geldiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnInventoryItemAdded(InventoryItemAddedEventArgs ev)
@@ -274,7 +274,7 @@
          *
          * Oyuncu'nun envanterinden bir eşya kaldırıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnInventoryItemRemoved(InventoryItemRemovedEventArgs ev)
@@ -286,7 +286,7 @@
          *
          * Oyuncu istatistikleri alındığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPlayerStatsUpdated(PlayerStatsUpdatedEventArgs ev)
@@ -298,7 +298,7 @@
          *
          * Oyuncu elindeki nesnenin enerjisi değiştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnToolBatteryEnergyChanged(ToolBatteryEnergyChangedEventArgs ev)
@@ -310,7 +310,7 @@
          *
          * Komut kullanıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnUsingCommand(PlayerUsingCommandEventArgs ev)
@@ -322,7 +322,7 @@
          *
          * Oyuncunun yeniden doğma noktası değişince tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPlayerRespawnPointChanged(PlayerRespawnPointChangedEventArgs ev)
@@ -334,7 +334,7 @@
          *
          * Oyuncu istatistikleri alındığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPingVisibilityChanged(PlayerPingVisibilityChangedEventArgs ev)
@@ -346,7 +346,7 @@
          *
          * Oyuncu istatistikleri alındığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPingColorChanged(PlayerPingColorChangedEventArgs ev)
@@ -358,7 +358,7 @@
          *
          * Oyuncu ana menüye gittiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnQuittingToMainMenu(QuittingToMainMenuEventArgs ev)
@@ -371,7 +371,7 @@
          *
          * Oyuncu oyundan çıkarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnQuitting()
@@ -383,7 +383,7 @@
          *
          * Oyuncu bir eşyayı kuşandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEquipmentEquiped()
@@ -395,7 +395,7 @@
          *
          * Oyuncu bir eşyayı üzerinden çıkardığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEquipmentUnequiped()
@@ -407,7 +407,7 @@
          *
          * Oyuncu bir eşyayı slotlara atadığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnQuickSlotBinded()
@@ -419,7 +419,7 @@
          *
          * Oyuncu bir eşyayı slotlardan kaldırdığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnQuickSlotUnbinded()
@@ -431,7 +431,7 @@
          *
          * Oyuncu bir eşyayı slotlardan kaldırdığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnQuickSlotActiveChanged(QuickSlotActiveChangedEventArgs ev)
@@ -443,7 +443,7 @@
          *
          * Tarama tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnScannerCompleted(ScannerCompletedEventArgs ev)
@@ -455,7 +455,7 @@
          *
          * Yeni pin eklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnItemPinAdded()
@@ -467,7 +467,7 @@
          *
          * Pin kaldırıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnItemPinRemoved()
@@ -479,7 +479,7 @@
          *
          * Pin taşındığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnItemPinMoved()
@@ -491,7 +491,7 @@
          *
          * PDA log kaydı eklenince tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPDALogAdded(PDALogAddedEventArgs ev)
@@ -503,7 +503,7 @@
          *
          * PDA'dan bildirim kaldırılınca/eklenince tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnNotificationToggle(NotificationToggleEventArgs ev)
@@ -515,7 +515,7 @@
          *
          * Teknoloji analiz edildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnTechAnalyzeAdded(TechAnalyzeAddedEventArgs ev)
@@ -527,7 +527,7 @@
          *
          * Yapı inşaası ilk kaldırma işlemi olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnDeconstructionBegin(DeconstructionBeginEventArgs ev)
@@ -539,7 +539,7 @@
          *
          * Mobilya inşaası ilk kaldırma işlemi olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnFurnitureDeconstructionBegin(FurnitureDeconstructionBeginEventArgs ev)
@@ -551,7 +551,7 @@
          *
          * Tuvalet kapağı açılıp/kapandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnToiletSwitchToggle(ToiletSwitchToggleEventArgs ev)
@@ -563,7 +563,7 @@
          *
          * Oyuncak aktif/pasif olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEmmanuelPendulumSwitchToggle(EmmanuelPendulumSwitchToggleEventArgs ev)
@@ -575,7 +575,7 @@
          *
          * Terapi nesnesi aktif/pasif olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnAromatherapyLampSwitchToggle(AromatherapyLampSwitchToggleEventArgs ev)
@@ -587,7 +587,7 @@
          *
          * Ocak nesnesi aktif/pasif olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSmallStoveSwitchToggle(SmallStoveSwitchToggleEventArgs ev)
@@ -599,7 +599,7 @@
          *
          * Lavabo nesnesi aktif/pasif olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSinkSwitchToggle(SinkSwitchToggleEventArgs ev)
@@ -611,7 +611,7 @@
          *
          * Banyo nesnesi aktif/pasif olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnShowerSwitchToggle(ShowerSwitchToggleEventArgs ev)
@@ -623,7 +623,7 @@
          *
          * Kardan adam yok edilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSnowmanDestroying(SnowmanDestroyingEventArgs ev)
@@ -636,7 +636,7 @@
          *
          * Tabela da veri değişimi olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSignDataChanged(SignDataChangedEventArgs ev)
@@ -651,7 +651,7 @@
          *
          * Resim çervesine resim eklenirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPictureFrameImageSelecting(PictureFrameImageSelectingEventArgs ev)
@@ -663,7 +663,7 @@
          *
          * Yatağı kullanabilirlik durumunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBedIsCanSleepChecking(BedIsCanSleepCheckingEventArgs ev)
@@ -675,7 +675,7 @@
          *
          * Kullanıcı yatağa tıkladığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBedEnterInUseMode(BedEnterInUseModeEventArgs ev)
@@ -688,7 +688,7 @@
          *
          * Kullanıcı yatak'dan kalktığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBedExitInUseMode(BedExitInUseModeEventArgs ev)
@@ -701,7 +701,7 @@
          *
          * Şarkı kutusunda veri değişimi olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnJukeboxUsed(JukeboxUsedEventArgs ev)
@@ -714,7 +714,7 @@
          *
          * Şarkı diski açıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnJukeboxDiskAdded(JukeboxDiskAddedEventArgs ev)
@@ -726,7 +726,7 @@
          *
          * Fabricator nesnesinden bir eşya alındığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCrafterItemPickup(CrafterItemPickupEventArgs ev)
@@ -738,7 +738,7 @@
          *
          * Fabricator nesnesi kapandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCrafterClosed(CrafterClosedEventArgs ev)
@@ -750,7 +750,7 @@
          *
          * Fabricator nesnesinde üretim başladığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCrafterBegin(CrafterBeginEventArgs ev)
@@ -762,7 +762,7 @@
          *
          * Fabricator nesnesinde üretim sona erdiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCrafterEnded(CrafterEndedEventArgs ev)
@@ -774,7 +774,7 @@
          *
          * Oturma animasyonu başladığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBenchSitdown(BenchSitdownEventArgs ev)
@@ -786,7 +786,7 @@
          *
          * Kalkma animasyonu başladığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBenchStandup(BenchStandupEventArgs ev)
@@ -798,7 +798,7 @@
          *
          * Spotlight oluştuktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSpotLightInitialized(SpotLightInitializedEventArgs ev)
@@ -810,7 +810,7 @@
          *
          * Techlight oluştuktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnTechLightInitialized(TechLightInitializedEventArgs ev)
@@ -822,7 +822,7 @@
          *
          * Map Room tarama başlatılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBaseMapRoomScanStarting(BaseMapRoomScanStartingEventArgs ev)
@@ -834,7 +834,7 @@
          *
          * Map Room tarama iptal edilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBaseMapRoomScanStopping(BaseMapRoomScanStoppingEventArgs ev)
@@ -846,7 +846,7 @@
          *
          * Kamera değiştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBaseMapRoomCameraChanging(MapRoomCameraChangingEventArgs ev)
@@ -858,7 +858,7 @@
          *
          * Yeni kaynak keşfedildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBaseMapRoomResourceDiscovering(BaseMapRoomResourceDiscoveringEventArgs ev)
@@ -870,7 +870,7 @@
          *
          * Harita odası başlatıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBaseMapRoomInitialized(BaseMapRoomInitializedEventArgs ev)
@@ -882,7 +882,7 @@
          *
          * Expansion -> Seatruck ayrılma tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBaseMoonpoolExpansionUndockingTimelineCompleting(BaseMoonpoolExpansionUndockingTimelineCompletingEventArgs ev)
@@ -894,7 +894,7 @@
          *
          * Expansion -> Seatruck yanaşma tamamlanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBaseMoonpoolExpansionDockingTimelineCompleting(BaseMoonpoolExpansionDockingTimelineCompletingEventArgs ev)
@@ -906,7 +906,7 @@
          *
          * Expansion -> Seatruck kuyruk kenetlenme işlemi tamamlanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBaseMoonpoolExpansionDockTail(BaseMoonpoolExpansionDockTailEventArgs ev)
@@ -918,7 +918,7 @@
          *
          * Expansion -> Seatruck kuyruk ayrılma işlemi tamamlanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBaseMoonpoolExpansionUndockTail(BaseMoonpoolExpansionUndockTailEventArgs ev)
@@ -930,7 +930,7 @@
          *
          * Oyuncu üse girdiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPlayerBaseEntered(PlayerBaseEnteredEventArgs ev)
@@ -942,7 +942,7 @@
          *
          * Oyuncu üs'den ayrıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPlayerBaseExited(PlayerBaseExitedEventArgs ev)
@@ -954,7 +954,7 @@
          *
          * Resim çerçevesi tıklanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPictureFrameOpening(PictureFrameOpeningEventArgs ev)
@@ -966,7 +966,7 @@
          *
          * Fabricator nesnesi açıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCrafterOpening(CrafterOpeningEventArgs ev)
@@ -978,7 +978,7 @@
          *
          * Şarj cihazına tıklanınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnChargerOpening(ChargerOpeningEventArgs ev)
@@ -990,7 +990,7 @@
          *
          * Depolama Açılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnStorageOpening(StorageOpeningEventArgs ev)
@@ -1002,7 +1002,7 @@
          *
          * Depolamaya eşya eklenirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnStorageItemAdding(StorageItemAddingEventArgs ev)
@@ -1029,7 +1029,7 @@
          *
          * Depolama'dan eşya kaldırıldırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnStorageItemRemoving(StorageItemRemovingEventArgs ev)
@@ -1055,7 +1055,7 @@
          *
          * Nükleer Depolamaya eşya eklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnNuclearReactorItemAdded(NuclearReactorItemAddedEventArgs ev)
@@ -1067,7 +1067,7 @@
          *
          * Nükleer Depolamadan eşya kaldırıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnNuclearReactorItemRemoved(NuclearReactorItemRemovedEventArgs ev)
@@ -1079,7 +1079,7 @@
          *
          * Tabela seçildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSignSelect(SignSelectEventArgs ev)
@@ -1094,7 +1094,7 @@
          *
          * Tabela seçimi kaldırıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSignDeselect(SignDeselectEventArgs ev)
@@ -1106,7 +1106,7 @@
          *
          * PDA kapatıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnClosing(PDAClosingEventArgs ev)
@@ -1119,7 +1119,7 @@
          *
          * Şarj cihazına pil eklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnChargerItemAdded(ChargerItemAddedEventArgs ev)
@@ -1131,7 +1131,7 @@
          *
          * Şarj cihazın'dan pil kaldırılınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnChargerItemRemoved(ChargerItemRemovedEventArgs ev)
@@ -1143,7 +1143,7 @@
          *
          * Hoverbike inşaa edilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnHoverpadHoverbikeSpawning(HoverpadHoverbikeSpawningEventArgs ev)
@@ -1155,7 +1155,7 @@
          *
          * Bir eşya geri dönüştürüldüğünde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnRecyclotronRecycle(RecyclotronRecycleEventArgs ev)
@@ -1167,7 +1167,7 @@
          *
          * Saksıya bitki eklenince tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPlanterItemAdded(PlanterItemAddedEventArgs ev)
@@ -1179,7 +1179,7 @@
          *
          * Saksı büyüdüğünde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPlanterProgressCompleted(PlanterProgressCompletedEventArgs ev)
@@ -1191,7 +1191,7 @@
          *
          * Saksı'daki toplanabilir bitki büyüdüğünde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPlanterGrowned(PlanterGrownedEventArgs ev)
@@ -1203,7 +1203,7 @@
          *
          * Bölme kapısı açılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBulkheadOpening(BulkheadOpeningEventArgs ev)
@@ -1216,7 +1216,7 @@
          *
          * Bölme kapısı kapanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBulkheadClosing(BulkheadClosingEventArgs ev)
@@ -1229,7 +1229,7 @@
          *
          * Termal zambak alanı kontrol edilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnThermalLilyRangeChecking(ThermalLilyRangeCheckingEventArgs ev)
@@ -1241,7 +1241,7 @@
          *
          * Termal zambak açısı kontrol edilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnThermalLilyAnimationAnglesChecking(ThermalLilyAnimationAnglesCheckingEventArgs ev)
@@ -1253,7 +1253,7 @@
          *
          * Oksijen bitkisine tıklandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnOxygenPlantClicking(OxygenPlantClickingEventArgs ev)
@@ -1265,7 +1265,7 @@
          *
          * Işınlayıcı terminali aktif edilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnTeleporterTerminalActivating(TeleporterTerminalActivatingEventArgs ev)
@@ -1277,7 +1277,7 @@
          *
          * Işınlayıcı başlatılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnTeleporterInitialized(TeleporterInitializedEventArgs ev)
@@ -1289,7 +1289,7 @@
          *
          * Oyuncu ışınlanma başladıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPrecursorTeleporterUsed()
@@ -1301,7 +1301,7 @@
          *
          * Oyuncu ışınlanma tamamlandıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPrecursorTeleportationCompleted()
@@ -1313,7 +1313,7 @@
          *
          * Asansör başlatıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnElevatorInitialized(ElevatorInitializedEventArgs ev)
@@ -1325,7 +1325,7 @@
          *
          * Nesne spawn olurken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntitySpawning(EntitySpawningEventArgs ev)
@@ -1339,7 +1339,7 @@
          *
          * Nesne Slotu doğarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntitySlotSpawning(EntitySlotSpawningEventArgs ev)
@@ -1351,7 +1351,7 @@
          *
          * Nesne spawn olduktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntitySpawned(EntitySpawnedEventArgs ev)
@@ -1366,7 +1366,7 @@
          *
          * Bıçak kullanıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnKnifeUsing(KnifeUsingEventArgs ev)
@@ -1378,7 +1378,7 @@
          *
          * Dünya yüklenirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnWorldLoading(WorldLoadingEventArgs ev)
@@ -1390,7 +1390,7 @@
          *
          * Cell yüklendikten sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCellLoading(CellLoadingEventArgs ev)
@@ -1402,7 +1402,7 @@
          *
          * Cell kaldırılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCellUnLoading(CellUnLoadingEventArgs ev)
@@ -1414,7 +1414,7 @@
          *
          * Dünya yüklendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnWorldLoaded(WorldLoadedEventArgs ev)
@@ -1427,7 +1427,7 @@
          *
          * Oyuncu nesne taraması tamamlandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEntityScannerCompleted(EntityScannerCompletedEventArgs ev)
@@ -1439,7 +1439,7 @@
          *
          * Alterra pda nesnesi aldıktan sonra tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnAlterraPdaPickedUp(AlterraPdaPickedUpEventArgs ev)
@@ -1451,7 +1451,7 @@
          *
          * Müzik nesnesi alındığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnJukeboxDiskPickedUp(JukeboxDiskPickedUpEventArgs ev)
@@ -1463,7 +1463,7 @@
          *
          * Oyuncu yerden eşya aldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPlayerItemPickedUp(PlayerItemPickedUpEventArgs ev)
@@ -1480,7 +1480,7 @@
          *
          * Oyuncu bir nesneyi tararken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnScannerUsing(ScannerUsingEventArgs ev)
@@ -1492,7 +1492,7 @@
          *
          * Drone camera denize bırakılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnDroneCameraDeploying(DroneCameraDeployingEventArgs ev)
@@ -1504,7 +1504,7 @@
          *
          * Boru yüzey yüzdürücü bırakılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPipeSurfaceFloaterDeploying(PipeSurfaceFloaterDeployingEventArgs ev)
@@ -1516,7 +1516,7 @@
          *
          * Boru bırakılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnOxygenPipePlacing(OxygenPipePlacingEventArgs ev)
@@ -1528,7 +1528,7 @@
          *
          * Bir araç veya yapı tamir edilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnWelding(WeldingEventArgs ev)
@@ -1540,7 +1540,7 @@
          *
          * Tedarik sandığı açıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSupplyCrateOpened(SupplyCrateOpenedEventArgs ev)
@@ -1552,7 +1552,7 @@
          *
          * Veri kutusundan tasarım alındığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnDataboxItemPickedUp(DataboxItemPickedUpEventArgs ev)
@@ -1564,7 +1564,7 @@
          *
          * Bir nesne hasar aldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnTakeDamaging(TakeDamagingEventArgs ev)
@@ -1583,7 +1583,7 @@
          *
          * Bitki hasat değildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnFruitHarvesting(FruitHarvestingEventArgs ev)
@@ -1596,7 +1596,7 @@
          *
          * Bitki hasat değildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnGrownPlantHarvesting(GrownPlantHarvestingEventArgs ev)
@@ -1608,7 +1608,7 @@
          *
          * Oyuncu Animasyonu değiştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPlayerAnimationChanged(PlayerAnimationChangedEventArgs ev)
@@ -1620,7 +1620,7 @@
          *
          * Oyuncu bir nesneyi bırakırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPlayerItemDroping(PlayerItemDropingEventArgs ev)
@@ -1633,7 +1633,7 @@
          *
          * Oyuncu ekranı tamamen karardığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSleepScreenStartingCompleted()
@@ -1645,7 +1645,7 @@
          *
          * Oyuncu ekranı aydınlanma başlatıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSleepScreenStopingStarted()
@@ -1657,7 +1657,7 @@
          *
          * Intro kontrolü yapılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnIntroChecking(IntroCheckingEventArgs ev)
@@ -1669,7 +1669,7 @@
          *
          * Lifepod bölgesi seçilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnLifepodZoneSelecting(LifepodZoneSelectingEventArgs ev)
@@ -1681,7 +1681,7 @@
          *
          * Lifepod spawnlanma için kontrol eder.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnLifepodZoneCheck(LifepodZoneCheckEventArgs ev)
@@ -1693,7 +1693,7 @@
          *
          * Lifepod enterpolasyon işleminde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnLifepodInterpolation(LifepodInterpolationEventArgs ev)
@@ -1705,7 +1705,7 @@
          *
          * Oyuncu bir araca binmeye yada inmeye çalıştığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnUseableDiveHatchClicking(UseableDiveHatchClickingEventArgs ev)
@@ -1717,7 +1717,7 @@
          *
          * Oyuncu bir araca bindiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEnteredInterior(PlayerEnteredInteriorEventArgs ev)
@@ -1729,7 +1729,7 @@
          *
          * Oyuncu bir araçtan indiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnExitedInterior(PlayerExitedInteriorEventArgs ev)
@@ -1741,7 +1741,7 @@
          *
          * Üs dayanıklılığı düştüğünde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBaseHullStrengthCrushing(BaseHullStrengthCrushingEventArgs ev)
@@ -1753,7 +1753,7 @@
          *
          * Renk değiştirme paleti seçimden çıktığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSubNameInputDeselected(SubNameInputDeselectedEventArgs ev)
@@ -1767,7 +1767,7 @@
          *
          * Renk değiştirme paleti seçildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSubNameInputSelecting(SubNameInputSelectingEventArgs ev)
@@ -1781,7 +1781,7 @@
          *
          * Kontrol odasındaki mini haritaya tıklanınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBaseControlRoomMinimapUsing(BaseControlRoomMinimapUsingEventArgs ev)
@@ -1793,7 +1793,7 @@
          *
          * Kontrol odasındaki mini haritadan ayrılınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBaseControlRoomMinimapExiting(BaseControlRoomMinimapExitingEventArgs ev)
@@ -1805,7 +1805,7 @@
          *
          * Kontrol odasındaki mini harita hücresine basıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBaseControlRoomCellPowerChanging(BaseControlRoomCellPowerChangingEventArgs ev)
@@ -1817,7 +1817,7 @@
          *
          * Kontrol odasındaki mini harita hareket ettiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBaseControlRoomMinimapMoving(BaseControlRoomMinimapMovingEventArgs ev)
@@ -1829,7 +1829,7 @@
          *
          * Constructor bırakılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnConstructorDeploying(ConstructorDeployingEventArgs ev)
@@ -1841,7 +1841,7 @@
          *
          * Constructor menüyü açtığında/kapattığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnConstructorEngageToggle(ConstructorEngageToggleEventArgs ev)
@@ -1853,7 +1853,7 @@
          *
          * Bir araç yapılmaya çalışıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnConstructorCrafting(ConstructorCraftingEventArgs ev)
@@ -1865,7 +1865,7 @@
          *
          * Oyuncu merdivene tırmanmaya çalışılınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPlayerClimbing(PlayerClimbingEventArgs ev)
@@ -1877,7 +1877,7 @@
          *
          * Yükseltme konsoluna tıklanınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnUpgradeConsoleOpening(UpgradeConsoleOpeningEventArgs ev)
@@ -1889,7 +1889,7 @@
          *
          * Yükseltme konsoluna modül eklenince tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnUpgradeConsoleModuleAdded(UpgradeConsoleModuleAddedEventArgs ev)
@@ -1901,7 +1901,7 @@
          *
          * Yükseltme konsolundan modül kaldırılınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnUpgradeConsoleModuleRemoved(UpgradeConsoleModuleRemovedEventArgs ev)
@@ -1913,7 +1913,7 @@
          *
          * Hoverbike, pad üzerine takılınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnHoverpadDocking(HoverpadDockingEventArgs ev)
@@ -1925,7 +1925,7 @@
          *
          * Hoverbike, pad üzerinden ayrılınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnHoverpadUnDocking(HoverpadUnDockingEventArgs ev)
@@ -1937,7 +1937,7 @@
          *
          * Hoverbike yakınına gelince veya ayrılınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnHoverpadShowroomTriggering(HoverpadShowroomTriggeringEventArgs ev)
@@ -1949,7 +1949,7 @@
          *
          * Araca binerken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnVehicleEntering(VehicleEnteringEventArgs ev)
@@ -1961,7 +1961,7 @@
          *
          * Araçtan inerken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnVehicleExited(VehicleExitedEventArgs ev)
@@ -1973,7 +1973,7 @@
          *
          * Araç konumu güncellendiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnVehicleUpdated(VehicleUpdatedEventArgs ev)
@@ -1985,7 +1985,7 @@
          *
          * Oyuncu öldüğünde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPlayerDead(PlayerDeadEventArgs ev)
@@ -1997,7 +1997,7 @@
          *
          * Oyuncu doğduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPlayerSpawned()
@@ -2009,7 +2009,7 @@
          *
          * Hoverbike bırakıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnHoverbikeDeploying(HoverbikeDeployingEventArgs ev)
@@ -2021,7 +2021,7 @@
          *
          * Pil yerleştirildiğinde/çıkarıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEnergyMixinSelecting(EnergyMixinSelectingEventArgs ev)
@@ -2033,7 +2033,7 @@
          *
          * Pil yerleştirilme alanına tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEnergyMixinClicking(EnergyMixinClickingEventArgs ev)
@@ -2045,7 +2045,7 @@
          *
          * Exosuit ile zıplandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnExosuitJumping(ExosuitJumpingEventArgs ev)
@@ -2057,7 +2057,7 @@
          *
          * Pil yerleştirilme kapatıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEnergyMixinClosed(EnergyMixinClosedEventArgs ev)
@@ -2069,7 +2069,7 @@
          *
          * Su geçirmez depoyu bıraktığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnDeployableStorageDeploying(DeployableStorageDeployingEventArgs ev)
@@ -2081,7 +2081,7 @@
          *
          * Led ışığı yere konulduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnLEDLightDeploying(LEDLightDeployingEventArgs ev)
@@ -2093,7 +2093,7 @@
          *
          * Beacon yere konulduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBeaconDeploying(BeaconDeployingEventArgs ev)
@@ -2105,7 +2105,7 @@
          *
          * Beacon adı değişince tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBeaconLabelChanged(BeaconLabelChangedEventArgs ev)
@@ -2117,7 +2117,7 @@
          *
          * Spy Penguin bırakıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSpyPenguinDeploying(SpyPenguinDeployingEventArgs ev)
@@ -2129,7 +2129,7 @@
          *
          * Spy Penguin bir nesne aldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSpyPenguinItemPickedUp(SpyPenguinItemPickedUpEventArgs ev)
@@ -2141,7 +2141,7 @@
          *
          * Spy Penguin kar avcısından kar kürkü alırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSpyPenguinSnowStalkerInteracting(SpyPenguinSnowStalkerInteractingEventArgs ev)
@@ -2153,7 +2153,7 @@
          *
          * Spy Penguin bir animasyon halinde iken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSpyPenguinItemGrabing(SpyPenguinItemGrabingEventArgs ev)
@@ -2165,7 +2165,7 @@
          *
          * İşaret fişeti yere konulduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnFlareDeploying(FlareDeployingEventArgs ev)
@@ -2177,7 +2177,7 @@
          *
          * Thumper yere konulurken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnThumperDeploying(ThumperDeployingEventArgs ev)
@@ -2189,7 +2189,7 @@
          *
          * Işınlanma işlemi başladığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnTeleportationToolUsed(TeleportationToolUsedEventArgs ev)
@@ -2200,7 +2200,7 @@
          *
          * Araç ışıkları yanıp/söndüğünde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnVehicleLightChanged(LightChangedEventArgs ev)
@@ -2212,7 +2212,7 @@
          *
          * Araca binerken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnVehicleInteriorToggle(VehicleInteriorToggleEventArgs ev)
@@ -2224,7 +2224,7 @@
          *
          * Seatruck modülü bağlanırken/ayrılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSeaTruckConnecting(SeaTruckConnectingEventArgs ev)
@@ -2236,7 +2236,7 @@
          *
          * SeaTruck modül bağlantı kesme animasyonunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSeaTruckDetaching(SeaTruckDetachingEventArgs ev)
@@ -2248,7 +2248,7 @@
          *
          * Exosuit ile yerden nesne alındığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnExosuitItemPickedUp(ExosuitItemPickedUpEventArgs ev)
@@ -2260,7 +2260,7 @@
          *
          * Exosuit ile maden kazarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnExosuitDrilling(ExosuitDrillingEventArgs ev)
@@ -2272,7 +2272,7 @@
          *
          * SeaTruck/Exosuit rıhtıma yanaşırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnVehicleDocking(VehicleDockingEventArgs ev)
@@ -2285,7 +2285,7 @@
          *
          * SeaTruck/Exosuit rıhtımdan ayrılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnVehicleUndocking(VehicleUndockingEventArgs ev)
@@ -2298,7 +2298,7 @@
          *
          * SeaTruck Resim çerçevesi açılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSeaTruckPictureFrameOpening(SeaTruckPictureFrameOpeningEventArgs ev)
@@ -2310,7 +2310,7 @@
          *
          * SeaTruck Resim çerçevesi resim seçilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSeaTruckPictureFrameImageSelecting(SeaTruckPictureFrameImageSelectingEventArgs ev)
@@ -2322,7 +2322,7 @@
          *
          * MapRoomCamera yanaşırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnMapRoomCameraDocking(MapRoomCameraDockingEventArgs ev)
@@ -2334,7 +2334,7 @@
          *
          * SeaTruck modülü başlatılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSeaTruckModuleInitialized(SeaTruckModuleInitializedEventArgs ev)
@@ -2347,7 +2347,7 @@
          *
          * Kaynak kırıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBreakableResourceBreaking(BreakableResourceBreakingEventArgs ev)
@@ -2359,7 +2359,7 @@
          *
          * Köprü sol konsola tıklanınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBridgeFluidClicking(BridgeFluidClickingEventArgs ev)
@@ -2371,7 +2371,7 @@
          *
          * Koprü terminaline tıklanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBridgeTerminalClicking(BridgeTerminalClickingEventArgs ev)
@@ -2383,7 +2383,7 @@
          *
          * Koprü spawn olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnBridgeInitialized(BridgeInitializedEventArgs ev)
@@ -2395,7 +2395,7 @@
          *
          * Radyo kulesi test modülü takılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnRadioTowerTOMUsing(RadioTowerTOMUsingEventArgs ev)
@@ -2407,7 +2407,7 @@
          *
          * Hedef tetiklenirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnStoryGoalTriggering(StoryGoalTriggeringEventArgs ev)
@@ -2419,7 +2419,7 @@
          *
          * Hikaye sinyali spawnlanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnStorySignalSpawning(StorySignalSpawningEventArgs ev)
@@ -2431,7 +2431,7 @@
          *
          * Hikaye cinematic tetiklenirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCinematicTriggering(CinematicTriggeringEventArgs ev)
@@ -2443,7 +2443,7 @@
          *
          * Hikaye çağrısı kabul/red edildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnStoryCalling(StoryCallingEventArgs ev)
@@ -2455,7 +2455,7 @@
          *
          * Terminal tıklanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnStoryHandClicking(StoryHandClickingEventArgs ev)
@@ -2467,7 +2467,7 @@
          *
          * Cinematic başladığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnStoryCinematicStarted(StoryCinematicStartedEventArgs ev)
@@ -2479,7 +2479,7 @@
          *
          * Cinematic bittiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnStoryCinematicCompleted(StoryCinematicCompletedEventArgs ev)
@@ -2491,7 +2491,7 @@
          *
          * MobileExtractorMachine başlatıldığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnMobileExtractorMachineInitialized()
@@ -2503,7 +2503,7 @@
          *
          * anti virüs örneği eklenirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnMobileExtractorMachineSampleAdding(MobileExtractorMachineSampleAddingEventArgs ev)
@@ -2515,7 +2515,7 @@
          *
          * Konsola tıklanınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnMobileExtractorConsoleUsing(MobileExtractorConsoleUsingEventArgs ev)
@@ -2527,7 +2527,7 @@
          *
          * Kalkan üssüne girildiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnShieldBaseEnterTriggering(ShieldBaseEnterTriggeringEventArgs ev)
@@ -2539,7 +2539,7 @@
          *
          * Kesici kullanılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnLaserCutterUsing(LaserCutterEventArgs ev)
@@ -2551,7 +2551,7 @@
          *
          * Mühürlü bir nesne başlatılırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSealedInitialized(SealedInitializedEventArgs ev)
@@ -2563,7 +2563,7 @@
          *
          * Asansöre tıklandığında tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnElevatorCalling(ElevatorCallingEventArgs ev)
@@ -2575,7 +2575,7 @@
          *
          * Bir nesne yok edildiğinde içinden başka nesne çıkarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnSpawnOnKilling(SpawnOnKillingEventArgs ev)
@@ -2587,7 +2587,7 @@
          *
          * Hava durumu profili değiştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnWeatherProfileChanged(WeatherProfileChangedEventArgs ev)
@@ -2599,7 +2599,7 @@
          *
          * Basınç hasarı alınınca tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCrushDamaging(CrushDamagingEventArgs ev)
@@ -2611,7 +2611,7 @@
          *
          * Kozmetik dünyaya yerleştirilirken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCosmeticItemPlacing(CosmeticItemPlacingEventArgs ev)
@@ -2623,7 +2623,7 @@
          *
          * Oyuncu donduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPlayerFreezed(PlayerFreezedEventArgs ev)
@@ -2635,7 +2635,7 @@
          *
          * Oyuncu donma sona erdiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnPlayerUnfreezed()
@@ -2647,7 +2647,7 @@
          *
          * Balık animasyonu değiştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCreatureAnimationChanged(CreatureAnimationChangedEventArgs ev)
@@ -2659,7 +2659,7 @@
          *
          * Balina sürme başlarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnGlowWhaleRideStarting(GlowWhaleRideStartingEventArgs ev)
@@ -2671,7 +2671,7 @@
          *
          * Balina sürme sona erdiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnGlowWhaleRideStoped(GlowWhaleRideStopedEventArgs ev)
@@ -2683,7 +2683,7 @@
          *
          * Balina göz animasyonu başlarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnGlowWhaleEyeCinematicStarting(GlowWhaleEyeCinematicStartingEventArgs ev)
@@ -2695,7 +2695,7 @@
          *
          * Balina SFX tetiklendiğine çalışır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnGlowWhaleSFXTriggered(GlowWhaleSFXTriggeredEventArgs ev)
@@ -2707,7 +2707,7 @@
          *
          * CrashFish patlarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCrashFishInflating(CrashFishInflatingEventArgs ev)
@@ -2719,7 +2719,7 @@
          *
          * Hipnoz başlarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnLilyPaddlerHypnotizeStarting(LilyPaddlerHypnotizeStartingEventArgs ev)
@@ -2731,7 +2731,7 @@
          *
          * Balık donarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnFreezing(CreatureFreezingEventArgs ev)
@@ -2743,7 +2743,7 @@
          *
          * Yaratık bazı sesler oynarken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCallSoundTriggering(CreatureCallSoundTriggeringEventArgs ev)
@@ -2755,7 +2755,7 @@
          *
          * Yaratık en sonki hedefine saldırı başlatırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCreatureAttackLastTargetStarting(CreatureAttackLastTargetStartingEventArgs ev)
@@ -2767,7 +2767,7 @@
          *
          * Yaratık en sonki hedefine saldırı başlatma sona erdiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCreatureAttackLastTargetStopped(CreatureAttackLastTargetStoppedEventArgs ev)
@@ -2779,7 +2779,7 @@
          *
          * Leviathan bir nesne ile temasa geçtiğinde (saldırdığında) tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnLeviathanMeleeAttacking(CreatureLeviathanMeleeAttackingEventArgs ev)
@@ -2791,7 +2791,7 @@
          *
          * Yaratık bir nesne ile temasa geçtiğinde (saldırdığında) tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnMeleeAttacking(CreatureMeleeAttackingEventArgs ev)
@@ -2803,7 +2803,7 @@
          *
          * Yaratık etkinleştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCreatureEnabled(CreatureEnabledEventArgs ev)
@@ -2815,7 +2815,7 @@
          *
          * Yaratık pasifleştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnCreatureDisabled(CreatureDisabledEventArgs ev)

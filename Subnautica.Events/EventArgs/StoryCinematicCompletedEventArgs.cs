@@ -8,7 +8,7 @@
          *
          * Sınıf ayarlamalarını yapar
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public StoryCinematicCompletedEventArgs(string cinematicName)
@@ -20,7 +20,7 @@
          *
          * CinematicName değeri
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public string CinematicName { get; set; }

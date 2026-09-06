@@ -6,7 +6,7 @@
          *
          * CreatureAggressionManager değerini barındırır.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public global::CreatureAggressionManager CreatureAggressionManager { get; private set; }
@@ -15,7 +15,7 @@
          *
          * Sınıf uyanırken tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void Awake()
@@ -27,7 +27,7 @@
          *
          * Aktif olduğunda tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnEnable()
@@ -39,7 +39,7 @@
          *
          * Sahiplik değiştiğinde tetiklenir.
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         public void OnChangedOwnership()
@@ -57,7 +57,7 @@
          *
          * İşlemler iptal ederç
          *
-         * @author Ismail <ismaiil_0234@hotmail.com>
+         
          *
          */
         private void CancelInvokes()
