@@ -1,4 +1,4 @@
-﻿namespace Subnautica.API.Extensions
+namespace Subnautica.API.Extensions
 {
     using System;
     using System.IO;
@@ -450,7 +450,7 @@
         {
             try
             {
-                using (var fileStream = new FileStream(filePath, FileMode.OpenOrCreate, FileAccess.Write))
+                using (var fileStream = new FileStream(filePath, FileMode.Create, FileAccess.Write))
                 {
                     fileStream.Write(data, 0, data.Length);
                     fileStream.Flush(true);

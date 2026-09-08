@@ -1,4 +1,4 @@
-﻿namespace Subnautica.Events.Patches.Fixes.Creatures.MonoBehaviours
+namespace Subnautica.Events.Patches.Fixes.Creatures.MonoBehaviours
 {
     using Subnautica.API.Features;
     using Subnautica.API.Extensions;
@@ -50,18 +50,32 @@
             var codes  = instructions.ToList();
             
             var index  = codes.FindIndex(q => q.opcode == OpCodes.Ldfld && q.operand.ToString().Contains("playerAnimator"));
-            if (index > -1)
+            if (index > -1 && index - 1 >= 0 && index - 1 + 12 <= codes.Count)
             {
+                // Search for the branch target BEFORE removing instructions so both indices are valid
+                var index2 = codes.FindLastIndex(q => q.opcode == OpCodes.Ldfld && q.operand.ToString().Contains("exosuitAttackLoopSfx"));
+
                 codes.RemoveRange(index - 1, 12);
-            }
 
-            var index2 = codes.FindLastIndex(q => q.opcode == OpCodes.Ldfld && q.operand.ToString().Contains("exosuitAttackLoopSfx"));
-            if (index2 > -1)
-            {
-                var label = il.DefineLabel();
+                // After RemoveRange the code list has shifted — recalculate index2 relative to the new list
+                if (index2 > -1)
+                {
+                    // index2 was after the removed block, so shift it back by 12
+                    int adjustedIndex2 = index2 - 12;
+                    if (adjustedIndex2 > -1 && adjustedIndex2 < codes.Count)
+                    {
+                        var label = il.DefineLabel();
+                        codes[adjustedIndex2].labels.Add(label);
 
-                codes[index2 - 1].labels.Add(label);
-                codes[index - 20] = new CodeInstruction(OpCodes.Brfalse_S, label);
+                        // The branch instruction should be placed at index - 1 (now the first instruction after removal)
+                        // Clamp to valid range
+                        int branchIndex = index - 1;
+                        if (branchIndex >= 0 && branchIndex < codes.Count)
+                        {
+                            codes[branchIndex] = new CodeInstruction(OpCodes.Brfalse_S, label);
+                        }
+                    }
+                }
             }
 
             return codes.AsEnumerable();

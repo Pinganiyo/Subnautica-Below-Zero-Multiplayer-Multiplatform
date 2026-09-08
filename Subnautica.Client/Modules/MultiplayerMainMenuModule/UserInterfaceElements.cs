@@ -490,7 +490,7 @@ namespace Subnautica.Client.Modules.MultiplayerMainMenuModule
         {
             get
             {
-                return SavedGamesPrefab.activeSelf;
+                return SavedGamesPrefab.activeSelf && !IsHostGroupActive && !IsJoinGroupActive;
             }
         }
 
@@ -505,13 +505,18 @@ namespace Subnautica.Client.Modules.MultiplayerMainMenuModule
         {
             get
             {
-                GameObject gameObject = GameObject.Find(MultiplayerMainMenu.MULTIPLAYER_HOST_GROUP_NAME);
-                if(gameObject == null)
+                if (MainMenuRightSide.main == null)
                 {
                     return false;
                 }
 
-                return gameObject.activeSelf;
+                var transform = MainMenuRightSide.main.transform.Find(MultiplayerMainMenu.MULTIPLAYER_HOST_GROUP_NAME);
+                if (transform == null)
+                {
+                    return false;
+                }
+
+                return transform.gameObject.activeSelf;
             }
         }
 
@@ -524,13 +529,18 @@ namespace Subnautica.Client.Modules.MultiplayerMainMenuModule
         {
             get
             {
-                GameObject gameObject = GameObject.Find(MultiplayerMainMenu.MULTIPLAYER_JOIN_GROUP_NAME);
-                if (gameObject == null)
+                if (MainMenuRightSide.main == null)
                 {
                     return false;
                 }
 
-                return gameObject.activeSelf;
+                var transform = MainMenuRightSide.main.transform.Find(MultiplayerMainMenu.MULTIPLAYER_JOIN_GROUP_NAME);
+                if (transform == null)
+                {
+                    return false;
+                }
+
+                return transform.gameObject.activeSelf;
             }
         }
 

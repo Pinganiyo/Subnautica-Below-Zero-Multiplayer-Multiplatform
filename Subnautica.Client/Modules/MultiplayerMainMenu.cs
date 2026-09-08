@@ -337,15 +337,10 @@ namespace Subnautica.Client.Modules
          */
         public static bool LoadSave(string sessionId)
         {
-            if (UserInterfaceElements.IsSinglePlayerMenuActive)
+            var hostServer = NetworkServer.GetHostServerList().FirstOrDefault(q => q.Id == sessionId);
+            if (hostServer != null || UserInterfaceElements.IsHostGroupActive)
             {
-                return true;
-            }
-
-            if (UserInterfaceElements.IsHostGroupActive)
-            {
-                var server = NetworkServer.GetHostServerList().Where(q => q.Id == sessionId).FirstOrDefault();
-                if (server == null)
+                if (hostServer == null)
                 {
                     ErrorMessage.AddMessage(ZeroLanguage.Get("GAME_NOT_FOUND_SERVER"));
                     return false;
@@ -372,16 +367,19 @@ namespace Subnautica.Client.Modules
 
                 UWE.CoroutineHost.StartCoroutine(Network.InviteCode.CreateServerAsync((LobbyCreateServerResponse response) =>
                 {
-                    NetworkServer.StartServer(server.Id, Tools.GetLoggedId());
+                    NetworkServer.StartServer(hostServer.Id, Tools.GetLoggedId());
                     NetworkClient.Connect(response.ServerIp, response.ServerPort);
                 }, () => {
                     IsClicked = false;
                 }));
+
+                return false;
             }
-            else if (UserInterfaceElements.IsJoinGroupActive)
+
+            var localServer = NetworkServer.GetLocalServerList().FirstOrDefault(q => q.Id == sessionId);
+            if (localServer != null || UserInterfaceElements.IsJoinGroupActive)
             {
-                var server = NetworkServer.GetLocalServerList().Where(q => q.Id == sessionId).FirstOrDefault();
-                if (server == null)
+                if (localServer == null)
                 {
                     ErrorMessage.AddMessage(ZeroLanguage.Get("GAME_NOT_FOUND_SERVER"));
                     return false;
@@ -394,8 +392,13 @@ namespace Subnautica.Client.Modules
                 }
 
                 LanDiscovery.StopClientDiscovery();
-                NetworkClient.Connect(server.IpAddress, server.Port, false);
+                NetworkClient.Connect(localServer.IpAddress, localServer.Port, false);
                 return false;
+            }
+
+            if (UserInterfaceElements.IsSinglePlayerMenuActive)
+            {
+                return true;
             }
             
             return false;
@@ -427,24 +430,23 @@ namespace Subnautica.Client.Modules
          */
         public static bool DeleteSave(string sessionId)
         {
-            if (UserInterfaceElements.IsSinglePlayerMenuActive)
+            var hostServer = NetworkServer.GetHostServerList().FirstOrDefault(q => q.Id == sessionId);
+            if (hostServer != null || UserInterfaceElements.IsHostGroupActive)
             {
-                return true;
-            }
-
-            if (UserInterfaceElements.IsHostGroupActive)
-            {
-                var server = NetworkServer.GetHostServerList().Where(q => q.Id == sessionId).FirstOrDefault();
-                if (server != null)
+                if (hostServer != null)
                 {
-                    string serverPath = Paths.GetMultiplayerServerSavePath(server.Id);
+                    string serverPath = Paths.GetMultiplayerServerSavePath(hostServer.Id);
                     if (Directory.Exists(serverPath))
                     {
                         Directory.Delete(serverPath, true);
                     }
                 }
+
+                return false;
             }
-            else
+
+            var localServer = NetworkServer.GetLocalServerList().FirstOrDefault(q => q.Id == sessionId);
+            if (localServer != null || UserInterfaceElements.IsJoinGroupActive)
             {
                 var serverList = NetworkServer.GetLocalServerList();
                 if (serverList.Count <= 0)
@@ -452,12 +454,19 @@ namespace Subnautica.Client.Modules
                     return false;
                 }
 
-                var server = serverList.Where(q => q.Id == sessionId).FirstOrDefault();
+                var server = serverList.FirstOrDefault(q => q.Id == sessionId);
                 if (server != null)
                 {
                     serverList.Remove(server);
                     NetworkServer.SaveLocalServerList(serverList);
                 }
+
+                return false;
+            }
+
+            if (UserInterfaceElements.IsSinglePlayerMenuActive)
+            {
+                return true;
             }
 
             return false;
@@ -472,14 +481,20 @@ namespace Subnautica.Client.Modules
          */
         public static void UpdateLoadSaveButtonState(MainMenuLoadButton lb)
         {
-            if (UserInterfaceElements.IsHostGroupActive)
+            var hostServer = NetworkServer.GetHostServerList().FirstOrDefault(q => q.Id == lb.sessionId);
+            if (hostServer != null || UserInterfaceElements.IsHostGroupActive)
             {
-                var server = NetworkServer.GetHostServerList().Where(q => q.Id == lb.sessionId).FirstOrDefault();
-                if (server != null)
+                if (hostServer != null)
                 {
                     if (lb.loadButton != null)
                     {
                         lb.loadButton.SetActive(true);
+
+                        var loadBtnComponent = lb.loadButton.GetComponent<UnityEngine.UI.Button>();
+                        if (loadBtnComponent != null)
+                        {
+                            loadBtnComponent.interactable = true;
+                        }
                     }
 
                     var loadBtn = lb.load?.transform.Find("LoadButton");
@@ -503,24 +518,49 @@ namespace Subnautica.Client.Modules
                         lb.saveGameLengthText.gameObject.SetActive(true);
                     }
 
+                    if (lb.loadCg != null)
+                    {
+                        lb.loadCg.alpha = 1f;
+                        lb.loadCg.interactable = true;
+                        lb.loadCg.blocksRaycasts = true;
+                    }
+
                     var graphic = lb.load?.GetComponent<UnityEngine.UI.Graphic>();
                     if (graphic != null)
                     {
                         graphic.color = UnityEngine.Color.white;
                     }
 
-                    lb.saveGameLengthText.text = Tools.GetSizeByTextFormat(Tools.GetFolderSize(Paths.GetMultiplayerServerSavePath(server.Id)));
-                    lb.saveGameTimeText.text   = Tools.GetDateByTextFormat(server.LastPlayedDate > 0 ? server.LastPlayedDate : server.CreationDate);
+                    if (lb.saveGameLengthText != null)
+                    {
+                        lb.saveGameLengthText.text = Tools.GetSizeByTextFormat(Tools.GetFolderSize(Paths.GetMultiplayerServerSavePath(hostServer.Id)));
+                    }
+
+                    if (lb.saveGameTimeText != null)
+                    {
+                        lb.saveGameTimeText.text = Tools.GetDateByTextFormat(hostServer.LastPlayedDate > 0 ? hostServer.LastPlayedDate : hostServer.CreationDate);
+                    }
+
+                    if (lb.saveGameModeText != null)
+                    {
+                        lb.saveGameModeText.text = hostServer.GetGameMode().ToString();
+                    }
                 }
             }
             else
             {
-                var server = NetworkServer.GetLocalServerList().Where(q => q.Id == lb.sessionId).FirstOrDefault();
+                var server = NetworkServer.GetLocalServerList().FirstOrDefault(q => q.Id == lb.sessionId);
                 if (server != null)
                 {
                     if (lb.loadButton != null)
                     {
                         lb.loadButton.SetActive(true);
+
+                        var loadBtnComponent = lb.loadButton.GetComponent<UnityEngine.UI.Button>();
+                        if (loadBtnComponent != null)
+                        {
+                            loadBtnComponent.interactable = true;
+                        }
                     }
 
                     var loadBtn = lb.load?.transform.Find("LoadButton");
@@ -544,15 +584,33 @@ namespace Subnautica.Client.Modules
                         lb.saveGameLengthText.gameObject.SetActive(true);
                     }
 
+                    if (lb.loadCg != null)
+                    {
+                        lb.loadCg.alpha = 1f;
+                        lb.loadCg.interactable = true;
+                        lb.loadCg.blocksRaycasts = true;
+                    }
+
                     var graphic = lb.load?.GetComponent<UnityEngine.UI.Graphic>();
                     if (graphic != null)
                     {
                         graphic.color = UnityEngine.Color.white;
                     }
 
-                    lb.saveGameLengthText.text = String.Format("{0}:{1}", server.IpAddress, server.Port);
-                    lb.saveGameTimeText.text   = server.Name;
-                    lb.saveGameModeText.text   = "LAN";
+                    if (lb.saveGameLengthText != null)
+                    {
+                        lb.saveGameLengthText.text = String.Format("{0}:{1}", server.IpAddress, server.Port);
+                    }
+
+                    if (lb.saveGameTimeText != null)
+                    {
+                        lb.saveGameTimeText.text = server.Name;
+                    }
+
+                    if (lb.saveGameModeText != null)
+                    {
+                        lb.saveGameModeText.text = "LAN";
+                    }
                 }
             }
         }
